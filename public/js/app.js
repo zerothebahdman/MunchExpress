@@ -1984,6 +1984,215 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/Dashboard.vue?vue&type=script&lang=js&":
+/*!***************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/Dashboard.vue?vue&type=script&lang=js& ***!
+  \***************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  mounted: function mounted() {
+    console.log("Component mounted.");
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/Restaurants.vue?vue&type=script&lang=js&":
+/*!*****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/Restaurants.vue?vue&type=script&lang=js& ***!
+  \*****************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _pages_Popup_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pages/Popup.vue */ "./resources/js/pages/Popup.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  name: "restaurant",
+  components: {
+    Popup: _pages_Popup_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+  },
+  data: function data() {
+    return {
+      search: "",
+      tableHeaders: [{
+        text: "ID",
+        align: "start",
+        sortable: false,
+        value: "name"
+      }, {
+        text: "Owners Name",
+        value: "calories"
+      }, {
+        text: "Restaurant Name",
+        value: "fat"
+      }, {
+        text: "Email",
+        value: "carbs"
+      }, {
+        text: "Date Created",
+        value: "protein"
+      }],
+      desserts: [{
+        name: "Frozen Yogurt",
+        calories: 159,
+        fat: 6.0,
+        carbs: 24,
+        protein: 4.0,
+        iron: "1%"
+      }, {
+        name: "Ice cream sandwich",
+        calories: 237,
+        fat: 9.0,
+        carbs: 37,
+        protein: 4.3,
+        iron: "1%"
+      }, {
+        name: "Eclair",
+        calories: 262,
+        fat: 16.0,
+        carbs: 23,
+        protein: 6.0,
+        iron: "7%"
+      }, {
+        name: "Cupcake",
+        calories: 305,
+        fat: 3.7,
+        carbs: 67,
+        protein: 4.3,
+        iron: "8%"
+      }, {
+        name: "Gingerbread",
+        calories: 356,
+        fat: 16.0,
+        carbs: 49,
+        protein: 3.9,
+        iron: "16%"
+      }, {
+        name: "Jelly bean",
+        calories: 375,
+        fat: 0.0,
+        carbs: 94,
+        protein: 0.0,
+        iron: "0%"
+      }, {
+        name: "Lollipop",
+        calories: 392,
+        fat: 0.2,
+        carbs: 98,
+        protein: 0,
+        iron: "2%"
+      }, {
+        name: "Honeycomb",
+        calories: 408,
+        fat: 3.2,
+        carbs: 87,
+        protein: 6.5,
+        iron: "45%"
+      }, {
+        name: "Donut",
+        calories: 452,
+        fat: 25.0,
+        carbs: 51,
+        protein: 4.9,
+        iron: "22%"
+      }, {
+        name: "KitKat",
+        calories: 518,
+        fat: 26.0,
+        carbs: 65,
+        protein: 7,
+        iron: "6%"
+      }]
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Admin.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Admin.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _pages_Navigation_vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../pages/Navigation.vue */ "./resources/js/pages/Navigation.vue");
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/* harmony default export */ __webpack_exports__["default"] = ({
+  components: {
+    Navigation: _pages_Navigation_vue__WEBPACK_IMPORTED_MODULE_0__["default"]
+  }
+});
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&":
 /*!***************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
@@ -2008,6 +2217,202 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony default export */ __webpack_exports__["default"] = ({
   mounted: function mounted() {
     console.log("Component mounted.");
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Navigation.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Navigation.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      drawers: ["Default (no property)"],
+      navDrawerLinks: [{
+        icon: "dashboard",
+        name: "Dashboard",
+        route: "/admin/dashboard"
+      }, {
+        icon: "mdi-account",
+        name: "Restaurants",
+        route: "/admin/restaurants"
+      }, {
+        icon: "mdi-food",
+        name: "Restuarant Menus",
+        route: "/user/menus"
+      }],
+      primaryDrawer: {
+        model: null,
+        type: "default (no property)",
+        clipped: true,
+        floating: false,
+        mini: false
+      },
+      methods: {},
+      footer: {
+        inset: true
+      }
+    };
+  }
+});
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Popup.vue?vue&type=script&lang=js&":
+/*!***********************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Popup.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+/* harmony default export */ __webpack_exports__["default"] = ({
+  data: function data() {
+    return {
+      dialog: false
+    };
   }
 });
 
@@ -6447,6 +6852,26 @@ exports = module.exports = __webpack_require__(/*! ../../../css-loader/lib/css-b
 
 // module
 exports.push([module.i, "/* MaterialDesignIcons.com */\n@font-face {\n  font-family: \"Material Design Icons\";\n  src: url(" + escape(__webpack_require__(/*! ../fonts/materialdesignicons-webfont.eot?v=5.5.55 */ "./node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot?v=5.5.55")) + ");\n  src: url(" + escape(__webpack_require__(/*! ../fonts/materialdesignicons-webfont.eot */ "./node_modules/@mdi/font/fonts/materialdesignicons-webfont.eot")) + "?#iefix&v=5.5.55) format(\"embedded-opentype\"), url(" + escape(__webpack_require__(/*! ../fonts/materialdesignicons-webfont.woff2?v=5.5.55 */ "./node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff2?v=5.5.55")) + ") format(\"woff2\"), url(" + escape(__webpack_require__(/*! ../fonts/materialdesignicons-webfont.woff?v=5.5.55 */ "./node_modules/@mdi/font/fonts/materialdesignicons-webfont.woff?v=5.5.55")) + ") format(\"woff\"), url(" + escape(__webpack_require__(/*! ../fonts/materialdesignicons-webfont.ttf?v=5.5.55 */ "./node_modules/@mdi/font/fonts/materialdesignicons-webfont.ttf?v=5.5.55")) + ") format(\"truetype\");\n  font-weight: normal;\n  font-style: normal;\n}\n\n.mdi:before,\n.mdi-set {\n  display: inline-block;\n  font: normal normal normal 24px/1 \"Material Design Icons\";\n  font-size: inherit;\n  text-rendering: auto;\n  line-height: inherit;\n  -webkit-font-smoothing: antialiased;\n  -moz-osx-font-smoothing: grayscale;\n}\n\n.mdi-ab-testing::before {\n  content: \"\\F01C9\";\n}\n\n.mdi-abjad-arabic::before {\n  content: \"\\F1328\";\n}\n\n.mdi-abjad-hebrew::before {\n  content: \"\\F1329\";\n}\n\n.mdi-abugida-devanagari::before {\n  content: \"\\F132A\";\n}\n\n.mdi-abugida-thai::before {\n  content: \"\\F132B\";\n}\n\n.mdi-access-point::before {\n  content: \"\\F0003\";\n}\n\n.mdi-access-point-check::before {\n  content: \"\\F1538\";\n}\n\n.mdi-access-point-minus::before {\n  content: \"\\F1539\";\n}\n\n.mdi-access-point-network::before {\n  content: \"\\F0002\";\n}\n\n.mdi-access-point-network-off::before {\n  content: \"\\F0BE1\";\n}\n\n.mdi-access-point-off::before {\n  content: \"\\F1511\";\n}\n\n.mdi-access-point-plus::before {\n  content: \"\\F153A\";\n}\n\n.mdi-access-point-remove::before {\n  content: \"\\F153B\";\n}\n\n.mdi-account::before {\n  content: \"\\F0004\";\n}\n\n.mdi-account-alert::before {\n  content: \"\\F0005\";\n}\n\n.mdi-account-alert-outline::before {\n  content: \"\\F0B50\";\n}\n\n.mdi-account-arrow-left::before {\n  content: \"\\F0B51\";\n}\n\n.mdi-account-arrow-left-outline::before {\n  content: \"\\F0B52\";\n}\n\n.mdi-account-arrow-right::before {\n  content: \"\\F0B53\";\n}\n\n.mdi-account-arrow-right-outline::before {\n  content: \"\\F0B54\";\n}\n\n.mdi-account-box::before {\n  content: \"\\F0006\";\n}\n\n.mdi-account-box-multiple::before {\n  content: \"\\F0934\";\n}\n\n.mdi-account-box-multiple-outline::before {\n  content: \"\\F100A\";\n}\n\n.mdi-account-box-outline::before {\n  content: \"\\F0007\";\n}\n\n.mdi-account-cancel::before {\n  content: \"\\F12DF\";\n}\n\n.mdi-account-cancel-outline::before {\n  content: \"\\F12E0\";\n}\n\n.mdi-account-cash::before {\n  content: \"\\F1097\";\n}\n\n.mdi-account-cash-outline::before {\n  content: \"\\F1098\";\n}\n\n.mdi-account-check::before {\n  content: \"\\F0008\";\n}\n\n.mdi-account-check-outline::before {\n  content: \"\\F0BE2\";\n}\n\n.mdi-account-child::before {\n  content: \"\\F0A89\";\n}\n\n.mdi-account-child-circle::before {\n  content: \"\\F0A8A\";\n}\n\n.mdi-account-child-outline::before {\n  content: \"\\F10C8\";\n}\n\n.mdi-account-circle::before {\n  content: \"\\F0009\";\n}\n\n.mdi-account-circle-outline::before {\n  content: \"\\F0B55\";\n}\n\n.mdi-account-clock::before {\n  content: \"\\F0B56\";\n}\n\n.mdi-account-clock-outline::before {\n  content: \"\\F0B57\";\n}\n\n.mdi-account-cog::before {\n  content: \"\\F1370\";\n}\n\n.mdi-account-cog-outline::before {\n  content: \"\\F1371\";\n}\n\n.mdi-account-convert::before {\n  content: \"\\F000A\";\n}\n\n.mdi-account-convert-outline::before {\n  content: \"\\F1301\";\n}\n\n.mdi-account-cowboy-hat::before {\n  content: \"\\F0E9B\";\n}\n\n.mdi-account-details::before {\n  content: \"\\F0631\";\n}\n\n.mdi-account-details-outline::before {\n  content: \"\\F1372\";\n}\n\n.mdi-account-edit::before {\n  content: \"\\F06BC\";\n}\n\n.mdi-account-edit-outline::before {\n  content: \"\\F0FFB\";\n}\n\n.mdi-account-group::before {\n  content: \"\\F0849\";\n}\n\n.mdi-account-group-outline::before {\n  content: \"\\F0B58\";\n}\n\n.mdi-account-hard-hat::before {\n  content: \"\\F05B5\";\n}\n\n.mdi-account-heart::before {\n  content: \"\\F0899\";\n}\n\n.mdi-account-heart-outline::before {\n  content: \"\\F0BE3\";\n}\n\n.mdi-account-key::before {\n  content: \"\\F000B\";\n}\n\n.mdi-account-key-outline::before {\n  content: \"\\F0BE4\";\n}\n\n.mdi-account-lock::before {\n  content: \"\\F115E\";\n}\n\n.mdi-account-lock-outline::before {\n  content: \"\\F115F\";\n}\n\n.mdi-account-minus::before {\n  content: \"\\F000D\";\n}\n\n.mdi-account-minus-outline::before {\n  content: \"\\F0AEC\";\n}\n\n.mdi-account-multiple::before {\n  content: \"\\F000E\";\n}\n\n.mdi-account-multiple-check::before {\n  content: \"\\F08C5\";\n}\n\n.mdi-account-multiple-check-outline::before {\n  content: \"\\F11FE\";\n}\n\n.mdi-account-multiple-minus::before {\n  content: \"\\F05D3\";\n}\n\n.mdi-account-multiple-minus-outline::before {\n  content: \"\\F0BE5\";\n}\n\n.mdi-account-multiple-outline::before {\n  content: \"\\F000F\";\n}\n\n.mdi-account-multiple-plus::before {\n  content: \"\\F0010\";\n}\n\n.mdi-account-multiple-plus-outline::before {\n  content: \"\\F0800\";\n}\n\n.mdi-account-multiple-remove::before {\n  content: \"\\F120A\";\n}\n\n.mdi-account-multiple-remove-outline::before {\n  content: \"\\F120B\";\n}\n\n.mdi-account-music::before {\n  content: \"\\F0803\";\n}\n\n.mdi-account-music-outline::before {\n  content: \"\\F0CE9\";\n}\n\n.mdi-account-network::before {\n  content: \"\\F0011\";\n}\n\n.mdi-account-network-outline::before {\n  content: \"\\F0BE6\";\n}\n\n.mdi-account-off::before {\n  content: \"\\F0012\";\n}\n\n.mdi-account-off-outline::before {\n  content: \"\\F0BE7\";\n}\n\n.mdi-account-outline::before {\n  content: \"\\F0013\";\n}\n\n.mdi-account-plus::before {\n  content: \"\\F0014\";\n}\n\n.mdi-account-plus-outline::before {\n  content: \"\\F0801\";\n}\n\n.mdi-account-question::before {\n  content: \"\\F0B59\";\n}\n\n.mdi-account-question-outline::before {\n  content: \"\\F0B5A\";\n}\n\n.mdi-account-reactivate::before {\n  content: \"\\F152B\";\n}\n\n.mdi-account-reactivate-outline::before {\n  content: \"\\F152C\";\n}\n\n.mdi-account-remove::before {\n  content: \"\\F0015\";\n}\n\n.mdi-account-remove-outline::before {\n  content: \"\\F0AED\";\n}\n\n.mdi-account-search::before {\n  content: \"\\F0016\";\n}\n\n.mdi-account-search-outline::before {\n  content: \"\\F0935\";\n}\n\n.mdi-account-settings::before {\n  content: \"\\F0630\";\n}\n\n.mdi-account-settings-outline::before {\n  content: \"\\F10C9\";\n}\n\n.mdi-account-star::before {\n  content: \"\\F0017\";\n}\n\n.mdi-account-star-outline::before {\n  content: \"\\F0BE8\";\n}\n\n.mdi-account-supervisor::before {\n  content: \"\\F0A8B\";\n}\n\n.mdi-account-supervisor-circle::before {\n  content: \"\\F0A8C\";\n}\n\n.mdi-account-supervisor-circle-outline::before {\n  content: \"\\F14EC\";\n}\n\n.mdi-account-supervisor-outline::before {\n  content: \"\\F112D\";\n}\n\n.mdi-account-switch::before {\n  content: \"\\F0019\";\n}\n\n.mdi-account-switch-outline::before {\n  content: \"\\F04CB\";\n}\n\n.mdi-account-tie::before {\n  content: \"\\F0CE3\";\n}\n\n.mdi-account-tie-outline::before {\n  content: \"\\F10CA\";\n}\n\n.mdi-account-tie-voice::before {\n  content: \"\\F1308\";\n}\n\n.mdi-account-tie-voice-off::before {\n  content: \"\\F130A\";\n}\n\n.mdi-account-tie-voice-off-outline::before {\n  content: \"\\F130B\";\n}\n\n.mdi-account-tie-voice-outline::before {\n  content: \"\\F1309\";\n}\n\n.mdi-account-voice::before {\n  content: \"\\F05CB\";\n}\n\n.mdi-adjust::before {\n  content: \"\\F001A\";\n}\n\n.mdi-adobe::before {\n  content: \"\\F0936\";\n}\n\n.mdi-adobe-acrobat::before {\n  content: \"\\F0F9D\";\n}\n\n.mdi-air-conditioner::before {\n  content: \"\\F001B\";\n}\n\n.mdi-air-filter::before {\n  content: \"\\F0D43\";\n}\n\n.mdi-air-horn::before {\n  content: \"\\F0DAC\";\n}\n\n.mdi-air-humidifier::before {\n  content: \"\\F1099\";\n}\n\n.mdi-air-humidifier-off::before {\n  content: \"\\F1466\";\n}\n\n.mdi-air-purifier::before {\n  content: \"\\F0D44\";\n}\n\n.mdi-airbag::before {\n  content: \"\\F0BE9\";\n}\n\n.mdi-airballoon::before {\n  content: \"\\F001C\";\n}\n\n.mdi-airballoon-outline::before {\n  content: \"\\F100B\";\n}\n\n.mdi-airplane::before {\n  content: \"\\F001D\";\n}\n\n.mdi-airplane-landing::before {\n  content: \"\\F05D4\";\n}\n\n.mdi-airplane-off::before {\n  content: \"\\F001E\";\n}\n\n.mdi-airplane-takeoff::before {\n  content: \"\\F05D5\";\n}\n\n.mdi-airport::before {\n  content: \"\\F084B\";\n}\n\n.mdi-alarm::before {\n  content: \"\\F0020\";\n}\n\n.mdi-alarm-bell::before {\n  content: \"\\F078E\";\n}\n\n.mdi-alarm-check::before {\n  content: \"\\F0021\";\n}\n\n.mdi-alarm-light::before {\n  content: \"\\F078F\";\n}\n\n.mdi-alarm-light-outline::before {\n  content: \"\\F0BEA\";\n}\n\n.mdi-alarm-multiple::before {\n  content: \"\\F0022\";\n}\n\n.mdi-alarm-note::before {\n  content: \"\\F0E71\";\n}\n\n.mdi-alarm-note-off::before {\n  content: \"\\F0E72\";\n}\n\n.mdi-alarm-off::before {\n  content: \"\\F0023\";\n}\n\n.mdi-alarm-plus::before {\n  content: \"\\F0024\";\n}\n\n.mdi-alarm-snooze::before {\n  content: \"\\F068E\";\n}\n\n.mdi-album::before {\n  content: \"\\F0025\";\n}\n\n.mdi-alert::before {\n  content: \"\\F0026\";\n}\n\n.mdi-alert-box::before {\n  content: \"\\F0027\";\n}\n\n.mdi-alert-box-outline::before {\n  content: \"\\F0CE4\";\n}\n\n.mdi-alert-circle::before {\n  content: \"\\F0028\";\n}\n\n.mdi-alert-circle-check::before {\n  content: \"\\F11ED\";\n}\n\n.mdi-alert-circle-check-outline::before {\n  content: \"\\F11EE\";\n}\n\n.mdi-alert-circle-outline::before {\n  content: \"\\F05D6\";\n}\n\n.mdi-alert-decagram::before {\n  content: \"\\F06BD\";\n}\n\n.mdi-alert-decagram-outline::before {\n  content: \"\\F0CE5\";\n}\n\n.mdi-alert-minus::before {\n  content: \"\\F14BB\";\n}\n\n.mdi-alert-minus-outline::before {\n  content: \"\\F14BE\";\n}\n\n.mdi-alert-octagon::before {\n  content: \"\\F0029\";\n}\n\n.mdi-alert-octagon-outline::before {\n  content: \"\\F0CE6\";\n}\n\n.mdi-alert-octagram::before {\n  content: \"\\F0767\";\n}\n\n.mdi-alert-octagram-outline::before {\n  content: \"\\F0CE7\";\n}\n\n.mdi-alert-outline::before {\n  content: \"\\F002A\";\n}\n\n.mdi-alert-plus::before {\n  content: \"\\F14BA\";\n}\n\n.mdi-alert-plus-outline::before {\n  content: \"\\F14BD\";\n}\n\n.mdi-alert-remove::before {\n  content: \"\\F14BC\";\n}\n\n.mdi-alert-remove-outline::before {\n  content: \"\\F14BF\";\n}\n\n.mdi-alert-rhombus::before {\n  content: \"\\F11CE\";\n}\n\n.mdi-alert-rhombus-outline::before {\n  content: \"\\F11CF\";\n}\n\n.mdi-alien::before {\n  content: \"\\F089A\";\n}\n\n.mdi-alien-outline::before {\n  content: \"\\F10CB\";\n}\n\n.mdi-align-horizontal-center::before {\n  content: \"\\F11C3\";\n}\n\n.mdi-align-horizontal-left::before {\n  content: \"\\F11C2\";\n}\n\n.mdi-align-horizontal-right::before {\n  content: \"\\F11C4\";\n}\n\n.mdi-align-vertical-bottom::before {\n  content: \"\\F11C5\";\n}\n\n.mdi-align-vertical-center::before {\n  content: \"\\F11C6\";\n}\n\n.mdi-align-vertical-top::before {\n  content: \"\\F11C7\";\n}\n\n.mdi-all-inclusive::before {\n  content: \"\\F06BE\";\n}\n\n.mdi-allergy::before {\n  content: \"\\F1258\";\n}\n\n.mdi-alpha::before {\n  content: \"\\F002B\";\n}\n\n.mdi-alpha-a::before {\n  content: \"\\F0AEE\";\n}\n\n.mdi-alpha-a-box::before {\n  content: \"\\F0B08\";\n}\n\n.mdi-alpha-a-box-outline::before {\n  content: \"\\F0BEB\";\n}\n\n.mdi-alpha-a-circle::before {\n  content: \"\\F0BEC\";\n}\n\n.mdi-alpha-a-circle-outline::before {\n  content: \"\\F0BED\";\n}\n\n.mdi-alpha-b::before {\n  content: \"\\F0AEF\";\n}\n\n.mdi-alpha-b-box::before {\n  content: \"\\F0B09\";\n}\n\n.mdi-alpha-b-box-outline::before {\n  content: \"\\F0BEE\";\n}\n\n.mdi-alpha-b-circle::before {\n  content: \"\\F0BEF\";\n}\n\n.mdi-alpha-b-circle-outline::before {\n  content: \"\\F0BF0\";\n}\n\n.mdi-alpha-c::before {\n  content: \"\\F0AF0\";\n}\n\n.mdi-alpha-c-box::before {\n  content: \"\\F0B0A\";\n}\n\n.mdi-alpha-c-box-outline::before {\n  content: \"\\F0BF1\";\n}\n\n.mdi-alpha-c-circle::before {\n  content: \"\\F0BF2\";\n}\n\n.mdi-alpha-c-circle-outline::before {\n  content: \"\\F0BF3\";\n}\n\n.mdi-alpha-d::before {\n  content: \"\\F0AF1\";\n}\n\n.mdi-alpha-d-box::before {\n  content: \"\\F0B0B\";\n}\n\n.mdi-alpha-d-box-outline::before {\n  content: \"\\F0BF4\";\n}\n\n.mdi-alpha-d-circle::before {\n  content: \"\\F0BF5\";\n}\n\n.mdi-alpha-d-circle-outline::before {\n  content: \"\\F0BF6\";\n}\n\n.mdi-alpha-e::before {\n  content: \"\\F0AF2\";\n}\n\n.mdi-alpha-e-box::before {\n  content: \"\\F0B0C\";\n}\n\n.mdi-alpha-e-box-outline::before {\n  content: \"\\F0BF7\";\n}\n\n.mdi-alpha-e-circle::before {\n  content: \"\\F0BF8\";\n}\n\n.mdi-alpha-e-circle-outline::before {\n  content: \"\\F0BF9\";\n}\n\n.mdi-alpha-f::before {\n  content: \"\\F0AF3\";\n}\n\n.mdi-alpha-f-box::before {\n  content: \"\\F0B0D\";\n}\n\n.mdi-alpha-f-box-outline::before {\n  content: \"\\F0BFA\";\n}\n\n.mdi-alpha-f-circle::before {\n  content: \"\\F0BFB\";\n}\n\n.mdi-alpha-f-circle-outline::before {\n  content: \"\\F0BFC\";\n}\n\n.mdi-alpha-g::before {\n  content: \"\\F0AF4\";\n}\n\n.mdi-alpha-g-box::before {\n  content: \"\\F0B0E\";\n}\n\n.mdi-alpha-g-box-outline::before {\n  content: \"\\F0BFD\";\n}\n\n.mdi-alpha-g-circle::before {\n  content: \"\\F0BFE\";\n}\n\n.mdi-alpha-g-circle-outline::before {\n  content: \"\\F0BFF\";\n}\n\n.mdi-alpha-h::before {\n  content: \"\\F0AF5\";\n}\n\n.mdi-alpha-h-box::before {\n  content: \"\\F0B0F\";\n}\n\n.mdi-alpha-h-box-outline::before {\n  content: \"\\F0C00\";\n}\n\n.mdi-alpha-h-circle::before {\n  content: \"\\F0C01\";\n}\n\n.mdi-alpha-h-circle-outline::before {\n  content: \"\\F0C02\";\n}\n\n.mdi-alpha-i::before {\n  content: \"\\F0AF6\";\n}\n\n.mdi-alpha-i-box::before {\n  content: \"\\F0B10\";\n}\n\n.mdi-alpha-i-box-outline::before {\n  content: \"\\F0C03\";\n}\n\n.mdi-alpha-i-circle::before {\n  content: \"\\F0C04\";\n}\n\n.mdi-alpha-i-circle-outline::before {\n  content: \"\\F0C05\";\n}\n\n.mdi-alpha-j::before {\n  content: \"\\F0AF7\";\n}\n\n.mdi-alpha-j-box::before {\n  content: \"\\F0B11\";\n}\n\n.mdi-alpha-j-box-outline::before {\n  content: \"\\F0C06\";\n}\n\n.mdi-alpha-j-circle::before {\n  content: \"\\F0C07\";\n}\n\n.mdi-alpha-j-circle-outline::before {\n  content: \"\\F0C08\";\n}\n\n.mdi-alpha-k::before {\n  content: \"\\F0AF8\";\n}\n\n.mdi-alpha-k-box::before {\n  content: \"\\F0B12\";\n}\n\n.mdi-alpha-k-box-outline::before {\n  content: \"\\F0C09\";\n}\n\n.mdi-alpha-k-circle::before {\n  content: \"\\F0C0A\";\n}\n\n.mdi-alpha-k-circle-outline::before {\n  content: \"\\F0C0B\";\n}\n\n.mdi-alpha-l::before {\n  content: \"\\F0AF9\";\n}\n\n.mdi-alpha-l-box::before {\n  content: \"\\F0B13\";\n}\n\n.mdi-alpha-l-box-outline::before {\n  content: \"\\F0C0C\";\n}\n\n.mdi-alpha-l-circle::before {\n  content: \"\\F0C0D\";\n}\n\n.mdi-alpha-l-circle-outline::before {\n  content: \"\\F0C0E\";\n}\n\n.mdi-alpha-m::before {\n  content: \"\\F0AFA\";\n}\n\n.mdi-alpha-m-box::before {\n  content: \"\\F0B14\";\n}\n\n.mdi-alpha-m-box-outline::before {\n  content: \"\\F0C0F\";\n}\n\n.mdi-alpha-m-circle::before {\n  content: \"\\F0C10\";\n}\n\n.mdi-alpha-m-circle-outline::before {\n  content: \"\\F0C11\";\n}\n\n.mdi-alpha-n::before {\n  content: \"\\F0AFB\";\n}\n\n.mdi-alpha-n-box::before {\n  content: \"\\F0B15\";\n}\n\n.mdi-alpha-n-box-outline::before {\n  content: \"\\F0C12\";\n}\n\n.mdi-alpha-n-circle::before {\n  content: \"\\F0C13\";\n}\n\n.mdi-alpha-n-circle-outline::before {\n  content: \"\\F0C14\";\n}\n\n.mdi-alpha-o::before {\n  content: \"\\F0AFC\";\n}\n\n.mdi-alpha-o-box::before {\n  content: \"\\F0B16\";\n}\n\n.mdi-alpha-o-box-outline::before {\n  content: \"\\F0C15\";\n}\n\n.mdi-alpha-o-circle::before {\n  content: \"\\F0C16\";\n}\n\n.mdi-alpha-o-circle-outline::before {\n  content: \"\\F0C17\";\n}\n\n.mdi-alpha-p::before {\n  content: \"\\F0AFD\";\n}\n\n.mdi-alpha-p-box::before {\n  content: \"\\F0B17\";\n}\n\n.mdi-alpha-p-box-outline::before {\n  content: \"\\F0C18\";\n}\n\n.mdi-alpha-p-circle::before {\n  content: \"\\F0C19\";\n}\n\n.mdi-alpha-p-circle-outline::before {\n  content: \"\\F0C1A\";\n}\n\n.mdi-alpha-q::before {\n  content: \"\\F0AFE\";\n}\n\n.mdi-alpha-q-box::before {\n  content: \"\\F0B18\";\n}\n\n.mdi-alpha-q-box-outline::before {\n  content: \"\\F0C1B\";\n}\n\n.mdi-alpha-q-circle::before {\n  content: \"\\F0C1C\";\n}\n\n.mdi-alpha-q-circle-outline::before {\n  content: \"\\F0C1D\";\n}\n\n.mdi-alpha-r::before {\n  content: \"\\F0AFF\";\n}\n\n.mdi-alpha-r-box::before {\n  content: \"\\F0B19\";\n}\n\n.mdi-alpha-r-box-outline::before {\n  content: \"\\F0C1E\";\n}\n\n.mdi-alpha-r-circle::before {\n  content: \"\\F0C1F\";\n}\n\n.mdi-alpha-r-circle-outline::before {\n  content: \"\\F0C20\";\n}\n\n.mdi-alpha-s::before {\n  content: \"\\F0B00\";\n}\n\n.mdi-alpha-s-box::before {\n  content: \"\\F0B1A\";\n}\n\n.mdi-alpha-s-box-outline::before {\n  content: \"\\F0C21\";\n}\n\n.mdi-alpha-s-circle::before {\n  content: \"\\F0C22\";\n}\n\n.mdi-alpha-s-circle-outline::before {\n  content: \"\\F0C23\";\n}\n\n.mdi-alpha-t::before {\n  content: \"\\F0B01\";\n}\n\n.mdi-alpha-t-box::before {\n  content: \"\\F0B1B\";\n}\n\n.mdi-alpha-t-box-outline::before {\n  content: \"\\F0C24\";\n}\n\n.mdi-alpha-t-circle::before {\n  content: \"\\F0C25\";\n}\n\n.mdi-alpha-t-circle-outline::before {\n  content: \"\\F0C26\";\n}\n\n.mdi-alpha-u::before {\n  content: \"\\F0B02\";\n}\n\n.mdi-alpha-u-box::before {\n  content: \"\\F0B1C\";\n}\n\n.mdi-alpha-u-box-outline::before {\n  content: \"\\F0C27\";\n}\n\n.mdi-alpha-u-circle::before {\n  content: \"\\F0C28\";\n}\n\n.mdi-alpha-u-circle-outline::before {\n  content: \"\\F0C29\";\n}\n\n.mdi-alpha-v::before {\n  content: \"\\F0B03\";\n}\n\n.mdi-alpha-v-box::before {\n  content: \"\\F0B1D\";\n}\n\n.mdi-alpha-v-box-outline::before {\n  content: \"\\F0C2A\";\n}\n\n.mdi-alpha-v-circle::before {\n  content: \"\\F0C2B\";\n}\n\n.mdi-alpha-v-circle-outline::before {\n  content: \"\\F0C2C\";\n}\n\n.mdi-alpha-w::before {\n  content: \"\\F0B04\";\n}\n\n.mdi-alpha-w-box::before {\n  content: \"\\F0B1E\";\n}\n\n.mdi-alpha-w-box-outline::before {\n  content: \"\\F0C2D\";\n}\n\n.mdi-alpha-w-circle::before {\n  content: \"\\F0C2E\";\n}\n\n.mdi-alpha-w-circle-outline::before {\n  content: \"\\F0C2F\";\n}\n\n.mdi-alpha-x::before {\n  content: \"\\F0B05\";\n}\n\n.mdi-alpha-x-box::before {\n  content: \"\\F0B1F\";\n}\n\n.mdi-alpha-x-box-outline::before {\n  content: \"\\F0C30\";\n}\n\n.mdi-alpha-x-circle::before {\n  content: \"\\F0C31\";\n}\n\n.mdi-alpha-x-circle-outline::before {\n  content: \"\\F0C32\";\n}\n\n.mdi-alpha-y::before {\n  content: \"\\F0B06\";\n}\n\n.mdi-alpha-y-box::before {\n  content: \"\\F0B20\";\n}\n\n.mdi-alpha-y-box-outline::before {\n  content: \"\\F0C33\";\n}\n\n.mdi-alpha-y-circle::before {\n  content: \"\\F0C34\";\n}\n\n.mdi-alpha-y-circle-outline::before {\n  content: \"\\F0C35\";\n}\n\n.mdi-alpha-z::before {\n  content: \"\\F0B07\";\n}\n\n.mdi-alpha-z-box::before {\n  content: \"\\F0B21\";\n}\n\n.mdi-alpha-z-box-outline::before {\n  content: \"\\F0C36\";\n}\n\n.mdi-alpha-z-circle::before {\n  content: \"\\F0C37\";\n}\n\n.mdi-alpha-z-circle-outline::before {\n  content: \"\\F0C38\";\n}\n\n.mdi-alphabet-aurebesh::before {\n  content: \"\\F132C\";\n}\n\n.mdi-alphabet-cyrillic::before {\n  content: \"\\F132D\";\n}\n\n.mdi-alphabet-greek::before {\n  content: \"\\F132E\";\n}\n\n.mdi-alphabet-latin::before {\n  content: \"\\F132F\";\n}\n\n.mdi-alphabet-piqad::before {\n  content: \"\\F1330\";\n}\n\n.mdi-alphabet-tengwar::before {\n  content: \"\\F1337\";\n}\n\n.mdi-alphabetical::before {\n  content: \"\\F002C\";\n}\n\n.mdi-alphabetical-off::before {\n  content: \"\\F100C\";\n}\n\n.mdi-alphabetical-variant::before {\n  content: \"\\F100D\";\n}\n\n.mdi-alphabetical-variant-off::before {\n  content: \"\\F100E\";\n}\n\n.mdi-altimeter::before {\n  content: \"\\F05D7\";\n}\n\n.mdi-amazon::before {\n  content: \"\\F002D\";\n}\n\n.mdi-amazon-alexa::before {\n  content: \"\\F08C6\";\n}\n\n.mdi-ambulance::before {\n  content: \"\\F002F\";\n}\n\n.mdi-ammunition::before {\n  content: \"\\F0CE8\";\n}\n\n.mdi-ampersand::before {\n  content: \"\\F0A8D\";\n}\n\n.mdi-amplifier::before {\n  content: \"\\F0030\";\n}\n\n.mdi-amplifier-off::before {\n  content: \"\\F11B5\";\n}\n\n.mdi-anchor::before {\n  content: \"\\F0031\";\n}\n\n.mdi-android::before {\n  content: \"\\F0032\";\n}\n\n.mdi-android-auto::before {\n  content: \"\\F0A8E\";\n}\n\n.mdi-android-debug-bridge::before {\n  content: \"\\F0033\";\n}\n\n.mdi-android-messages::before {\n  content: \"\\F0D45\";\n}\n\n.mdi-android-studio::before {\n  content: \"\\F0034\";\n}\n\n.mdi-angle-acute::before {\n  content: \"\\F0937\";\n}\n\n.mdi-angle-obtuse::before {\n  content: \"\\F0938\";\n}\n\n.mdi-angle-right::before {\n  content: \"\\F0939\";\n}\n\n.mdi-angular::before {\n  content: \"\\F06B2\";\n}\n\n.mdi-angularjs::before {\n  content: \"\\F06BF\";\n}\n\n.mdi-animation::before {\n  content: \"\\F05D8\";\n}\n\n.mdi-animation-outline::before {\n  content: \"\\F0A8F\";\n}\n\n.mdi-animation-play::before {\n  content: \"\\F093A\";\n}\n\n.mdi-animation-play-outline::before {\n  content: \"\\F0A90\";\n}\n\n.mdi-ansible::before {\n  content: \"\\F109A\";\n}\n\n.mdi-antenna::before {\n  content: \"\\F1119\";\n}\n\n.mdi-anvil::before {\n  content: \"\\F089B\";\n}\n\n.mdi-apache-kafka::before {\n  content: \"\\F100F\";\n}\n\n.mdi-api::before {\n  content: \"\\F109B\";\n}\n\n.mdi-api-off::before {\n  content: \"\\F1257\";\n}\n\n.mdi-apple::before {\n  content: \"\\F0035\";\n}\n\n.mdi-apple-airplay::before {\n  content: \"\\F001F\";\n}\n\n.mdi-apple-finder::before {\n  content: \"\\F0036\";\n}\n\n.mdi-apple-icloud::before {\n  content: \"\\F0038\";\n}\n\n.mdi-apple-ios::before {\n  content: \"\\F0037\";\n}\n\n.mdi-apple-keyboard-caps::before {\n  content: \"\\F0632\";\n}\n\n.mdi-apple-keyboard-command::before {\n  content: \"\\F0633\";\n}\n\n.mdi-apple-keyboard-control::before {\n  content: \"\\F0634\";\n}\n\n.mdi-apple-keyboard-option::before {\n  content: \"\\F0635\";\n}\n\n.mdi-apple-keyboard-shift::before {\n  content: \"\\F0636\";\n}\n\n.mdi-apple-safari::before {\n  content: \"\\F0039\";\n}\n\n.mdi-application::before {\n  content: \"\\F0614\";\n}\n\n.mdi-application-cog::before {\n  content: \"\\F1577\";\n}\n\n.mdi-application-export::before {\n  content: \"\\F0DAD\";\n}\n\n.mdi-application-import::before {\n  content: \"\\F0DAE\";\n}\n\n.mdi-application-settings::before {\n  content: \"\\F1555\";\n}\n\n.mdi-approximately-equal::before {\n  content: \"\\F0F9E\";\n}\n\n.mdi-approximately-equal-box::before {\n  content: \"\\F0F9F\";\n}\n\n.mdi-apps::before {\n  content: \"\\F003B\";\n}\n\n.mdi-apps-box::before {\n  content: \"\\F0D46\";\n}\n\n.mdi-arch::before {\n  content: \"\\F08C7\";\n}\n\n.mdi-archive::before {\n  content: \"\\F003C\";\n}\n\n.mdi-archive-alert::before {\n  content: \"\\F14FD\";\n}\n\n.mdi-archive-alert-outline::before {\n  content: \"\\F14FE\";\n}\n\n.mdi-archive-arrow-down::before {\n  content: \"\\F1259\";\n}\n\n.mdi-archive-arrow-down-outline::before {\n  content: \"\\F125A\";\n}\n\n.mdi-archive-arrow-up::before {\n  content: \"\\F125B\";\n}\n\n.mdi-archive-arrow-up-outline::before {\n  content: \"\\F125C\";\n}\n\n.mdi-archive-outline::before {\n  content: \"\\F120E\";\n}\n\n.mdi-arm-flex::before {\n  content: \"\\F0FD7\";\n}\n\n.mdi-arm-flex-outline::before {\n  content: \"\\F0FD6\";\n}\n\n.mdi-arrange-bring-forward::before {\n  content: \"\\F003D\";\n}\n\n.mdi-arrange-bring-to-front::before {\n  content: \"\\F003E\";\n}\n\n.mdi-arrange-send-backward::before {\n  content: \"\\F003F\";\n}\n\n.mdi-arrange-send-to-back::before {\n  content: \"\\F0040\";\n}\n\n.mdi-arrow-all::before {\n  content: \"\\F0041\";\n}\n\n.mdi-arrow-bottom-left::before {\n  content: \"\\F0042\";\n}\n\n.mdi-arrow-bottom-left-bold-outline::before {\n  content: \"\\F09B7\";\n}\n\n.mdi-arrow-bottom-left-thick::before {\n  content: \"\\F09B8\";\n}\n\n.mdi-arrow-bottom-left-thin-circle-outline::before {\n  content: \"\\F1596\";\n}\n\n.mdi-arrow-bottom-right::before {\n  content: \"\\F0043\";\n}\n\n.mdi-arrow-bottom-right-bold-outline::before {\n  content: \"\\F09B9\";\n}\n\n.mdi-arrow-bottom-right-thick::before {\n  content: \"\\F09BA\";\n}\n\n.mdi-arrow-bottom-right-thin-circle-outline::before {\n  content: \"\\F1595\";\n}\n\n.mdi-arrow-collapse::before {\n  content: \"\\F0615\";\n}\n\n.mdi-arrow-collapse-all::before {\n  content: \"\\F0044\";\n}\n\n.mdi-arrow-collapse-down::before {\n  content: \"\\F0792\";\n}\n\n.mdi-arrow-collapse-horizontal::before {\n  content: \"\\F084C\";\n}\n\n.mdi-arrow-collapse-left::before {\n  content: \"\\F0793\";\n}\n\n.mdi-arrow-collapse-right::before {\n  content: \"\\F0794\";\n}\n\n.mdi-arrow-collapse-up::before {\n  content: \"\\F0795\";\n}\n\n.mdi-arrow-collapse-vertical::before {\n  content: \"\\F084D\";\n}\n\n.mdi-arrow-decision::before {\n  content: \"\\F09BB\";\n}\n\n.mdi-arrow-decision-auto::before {\n  content: \"\\F09BC\";\n}\n\n.mdi-arrow-decision-auto-outline::before {\n  content: \"\\F09BD\";\n}\n\n.mdi-arrow-decision-outline::before {\n  content: \"\\F09BE\";\n}\n\n.mdi-arrow-down::before {\n  content: \"\\F0045\";\n}\n\n.mdi-arrow-down-bold::before {\n  content: \"\\F072E\";\n}\n\n.mdi-arrow-down-bold-box::before {\n  content: \"\\F072F\";\n}\n\n.mdi-arrow-down-bold-box-outline::before {\n  content: \"\\F0730\";\n}\n\n.mdi-arrow-down-bold-circle::before {\n  content: \"\\F0047\";\n}\n\n.mdi-arrow-down-bold-circle-outline::before {\n  content: \"\\F0048\";\n}\n\n.mdi-arrow-down-bold-hexagon-outline::before {\n  content: \"\\F0049\";\n}\n\n.mdi-arrow-down-bold-outline::before {\n  content: \"\\F09BF\";\n}\n\n.mdi-arrow-down-box::before {\n  content: \"\\F06C0\";\n}\n\n.mdi-arrow-down-circle::before {\n  content: \"\\F0CDB\";\n}\n\n.mdi-arrow-down-circle-outline::before {\n  content: \"\\F0CDC\";\n}\n\n.mdi-arrow-down-drop-circle::before {\n  content: \"\\F004A\";\n}\n\n.mdi-arrow-down-drop-circle-outline::before {\n  content: \"\\F004B\";\n}\n\n.mdi-arrow-down-thick::before {\n  content: \"\\F0046\";\n}\n\n.mdi-arrow-down-thin-circle-outline::before {\n  content: \"\\F1599\";\n}\n\n.mdi-arrow-expand::before {\n  content: \"\\F0616\";\n}\n\n.mdi-arrow-expand-all::before {\n  content: \"\\F004C\";\n}\n\n.mdi-arrow-expand-down::before {\n  content: \"\\F0796\";\n}\n\n.mdi-arrow-expand-horizontal::before {\n  content: \"\\F084E\";\n}\n\n.mdi-arrow-expand-left::before {\n  content: \"\\F0797\";\n}\n\n.mdi-arrow-expand-right::before {\n  content: \"\\F0798\";\n}\n\n.mdi-arrow-expand-up::before {\n  content: \"\\F0799\";\n}\n\n.mdi-arrow-expand-vertical::before {\n  content: \"\\F084F\";\n}\n\n.mdi-arrow-horizontal-lock::before {\n  content: \"\\F115B\";\n}\n\n.mdi-arrow-left::before {\n  content: \"\\F004D\";\n}\n\n.mdi-arrow-left-bold::before {\n  content: \"\\F0731\";\n}\n\n.mdi-arrow-left-bold-box::before {\n  content: \"\\F0732\";\n}\n\n.mdi-arrow-left-bold-box-outline::before {\n  content: \"\\F0733\";\n}\n\n.mdi-arrow-left-bold-circle::before {\n  content: \"\\F004F\";\n}\n\n.mdi-arrow-left-bold-circle-outline::before {\n  content: \"\\F0050\";\n}\n\n.mdi-arrow-left-bold-hexagon-outline::before {\n  content: \"\\F0051\";\n}\n\n.mdi-arrow-left-bold-outline::before {\n  content: \"\\F09C0\";\n}\n\n.mdi-arrow-left-box::before {\n  content: \"\\F06C1\";\n}\n\n.mdi-arrow-left-circle::before {\n  content: \"\\F0CDD\";\n}\n\n.mdi-arrow-left-circle-outline::before {\n  content: \"\\F0CDE\";\n}\n\n.mdi-arrow-left-drop-circle::before {\n  content: \"\\F0052\";\n}\n\n.mdi-arrow-left-drop-circle-outline::before {\n  content: \"\\F0053\";\n}\n\n.mdi-arrow-left-right::before {\n  content: \"\\F0E73\";\n}\n\n.mdi-arrow-left-right-bold::before {\n  content: \"\\F0E74\";\n}\n\n.mdi-arrow-left-right-bold-outline::before {\n  content: \"\\F09C1\";\n}\n\n.mdi-arrow-left-thick::before {\n  content: \"\\F004E\";\n}\n\n.mdi-arrow-left-thin-circle-outline::before {\n  content: \"\\F159A\";\n}\n\n.mdi-arrow-right::before {\n  content: \"\\F0054\";\n}\n\n.mdi-arrow-right-bold::before {\n  content: \"\\F0734\";\n}\n\n.mdi-arrow-right-bold-box::before {\n  content: \"\\F0735\";\n}\n\n.mdi-arrow-right-bold-box-outline::before {\n  content: \"\\F0736\";\n}\n\n.mdi-arrow-right-bold-circle::before {\n  content: \"\\F0056\";\n}\n\n.mdi-arrow-right-bold-circle-outline::before {\n  content: \"\\F0057\";\n}\n\n.mdi-arrow-right-bold-hexagon-outline::before {\n  content: \"\\F0058\";\n}\n\n.mdi-arrow-right-bold-outline::before {\n  content: \"\\F09C2\";\n}\n\n.mdi-arrow-right-box::before {\n  content: \"\\F06C2\";\n}\n\n.mdi-arrow-right-circle::before {\n  content: \"\\F0CDF\";\n}\n\n.mdi-arrow-right-circle-outline::before {\n  content: \"\\F0CE0\";\n}\n\n.mdi-arrow-right-drop-circle::before {\n  content: \"\\F0059\";\n}\n\n.mdi-arrow-right-drop-circle-outline::before {\n  content: \"\\F005A\";\n}\n\n.mdi-arrow-right-thick::before {\n  content: \"\\F0055\";\n}\n\n.mdi-arrow-right-thin-circle-outline::before {\n  content: \"\\F1598\";\n}\n\n.mdi-arrow-split-horizontal::before {\n  content: \"\\F093B\";\n}\n\n.mdi-arrow-split-vertical::before {\n  content: \"\\F093C\";\n}\n\n.mdi-arrow-top-left::before {\n  content: \"\\F005B\";\n}\n\n.mdi-arrow-top-left-bold-outline::before {\n  content: \"\\F09C3\";\n}\n\n.mdi-arrow-top-left-bottom-right::before {\n  content: \"\\F0E75\";\n}\n\n.mdi-arrow-top-left-bottom-right-bold::before {\n  content: \"\\F0E76\";\n}\n\n.mdi-arrow-top-left-thick::before {\n  content: \"\\F09C4\";\n}\n\n.mdi-arrow-top-left-thin-circle-outline::before {\n  content: \"\\F1593\";\n}\n\n.mdi-arrow-top-right::before {\n  content: \"\\F005C\";\n}\n\n.mdi-arrow-top-right-bold-outline::before {\n  content: \"\\F09C5\";\n}\n\n.mdi-arrow-top-right-bottom-left::before {\n  content: \"\\F0E77\";\n}\n\n.mdi-arrow-top-right-bottom-left-bold::before {\n  content: \"\\F0E78\";\n}\n\n.mdi-arrow-top-right-thick::before {\n  content: \"\\F09C6\";\n}\n\n.mdi-arrow-top-right-thin-circle-outline::before {\n  content: \"\\F1594\";\n}\n\n.mdi-arrow-up::before {\n  content: \"\\F005D\";\n}\n\n.mdi-arrow-up-bold::before {\n  content: \"\\F0737\";\n}\n\n.mdi-arrow-up-bold-box::before {\n  content: \"\\F0738\";\n}\n\n.mdi-arrow-up-bold-box-outline::before {\n  content: \"\\F0739\";\n}\n\n.mdi-arrow-up-bold-circle::before {\n  content: \"\\F005F\";\n}\n\n.mdi-arrow-up-bold-circle-outline::before {\n  content: \"\\F0060\";\n}\n\n.mdi-arrow-up-bold-hexagon-outline::before {\n  content: \"\\F0061\";\n}\n\n.mdi-arrow-up-bold-outline::before {\n  content: \"\\F09C7\";\n}\n\n.mdi-arrow-up-box::before {\n  content: \"\\F06C3\";\n}\n\n.mdi-arrow-up-circle::before {\n  content: \"\\F0CE1\";\n}\n\n.mdi-arrow-up-circle-outline::before {\n  content: \"\\F0CE2\";\n}\n\n.mdi-arrow-up-down::before {\n  content: \"\\F0E79\";\n}\n\n.mdi-arrow-up-down-bold::before {\n  content: \"\\F0E7A\";\n}\n\n.mdi-arrow-up-down-bold-outline::before {\n  content: \"\\F09C8\";\n}\n\n.mdi-arrow-up-drop-circle::before {\n  content: \"\\F0062\";\n}\n\n.mdi-arrow-up-drop-circle-outline::before {\n  content: \"\\F0063\";\n}\n\n.mdi-arrow-up-thick::before {\n  content: \"\\F005E\";\n}\n\n.mdi-arrow-up-thin-circle-outline::before {\n  content: \"\\F1597\";\n}\n\n.mdi-arrow-vertical-lock::before {\n  content: \"\\F115C\";\n}\n\n.mdi-artstation::before {\n  content: \"\\F0B5B\";\n}\n\n.mdi-aspect-ratio::before {\n  content: \"\\F0A24\";\n}\n\n.mdi-assistant::before {\n  content: \"\\F0064\";\n}\n\n.mdi-asterisk::before {\n  content: \"\\F06C4\";\n}\n\n.mdi-at::before {\n  content: \"\\F0065\";\n}\n\n.mdi-atlassian::before {\n  content: \"\\F0804\";\n}\n\n.mdi-atm::before {\n  content: \"\\F0D47\";\n}\n\n.mdi-atom::before {\n  content: \"\\F0768\";\n}\n\n.mdi-atom-variant::before {\n  content: \"\\F0E7B\";\n}\n\n.mdi-attachment::before {\n  content: \"\\F0066\";\n}\n\n.mdi-audio-video::before {\n  content: \"\\F093D\";\n}\n\n.mdi-audio-video-off::before {\n  content: \"\\F11B6\";\n}\n\n.mdi-augmented-reality::before {\n  content: \"\\F0850\";\n}\n\n.mdi-auto-download::before {\n  content: \"\\F137E\";\n}\n\n.mdi-auto-fix::before {\n  content: \"\\F0068\";\n}\n\n.mdi-auto-upload::before {\n  content: \"\\F0069\";\n}\n\n.mdi-autorenew::before {\n  content: \"\\F006A\";\n}\n\n.mdi-av-timer::before {\n  content: \"\\F006B\";\n}\n\n.mdi-aws::before {\n  content: \"\\F0E0F\";\n}\n\n.mdi-axe::before {\n  content: \"\\F08C8\";\n}\n\n.mdi-axis::before {\n  content: \"\\F0D48\";\n}\n\n.mdi-axis-arrow::before {\n  content: \"\\F0D49\";\n}\n\n.mdi-axis-arrow-info::before {\n  content: \"\\F140E\";\n}\n\n.mdi-axis-arrow-lock::before {\n  content: \"\\F0D4A\";\n}\n\n.mdi-axis-lock::before {\n  content: \"\\F0D4B\";\n}\n\n.mdi-axis-x-arrow::before {\n  content: \"\\F0D4C\";\n}\n\n.mdi-axis-x-arrow-lock::before {\n  content: \"\\F0D4D\";\n}\n\n.mdi-axis-x-rotate-clockwise::before {\n  content: \"\\F0D4E\";\n}\n\n.mdi-axis-x-rotate-counterclockwise::before {\n  content: \"\\F0D4F\";\n}\n\n.mdi-axis-x-y-arrow-lock::before {\n  content: \"\\F0D50\";\n}\n\n.mdi-axis-y-arrow::before {\n  content: \"\\F0D51\";\n}\n\n.mdi-axis-y-arrow-lock::before {\n  content: \"\\F0D52\";\n}\n\n.mdi-axis-y-rotate-clockwise::before {\n  content: \"\\F0D53\";\n}\n\n.mdi-axis-y-rotate-counterclockwise::before {\n  content: \"\\F0D54\";\n}\n\n.mdi-axis-z-arrow::before {\n  content: \"\\F0D55\";\n}\n\n.mdi-axis-z-arrow-lock::before {\n  content: \"\\F0D56\";\n}\n\n.mdi-axis-z-rotate-clockwise::before {\n  content: \"\\F0D57\";\n}\n\n.mdi-axis-z-rotate-counterclockwise::before {\n  content: \"\\F0D58\";\n}\n\n.mdi-babel::before {\n  content: \"\\F0A25\";\n}\n\n.mdi-baby::before {\n  content: \"\\F006C\";\n}\n\n.mdi-baby-bottle::before {\n  content: \"\\F0F39\";\n}\n\n.mdi-baby-bottle-outline::before {\n  content: \"\\F0F3A\";\n}\n\n.mdi-baby-buggy::before {\n  content: \"\\F13E0\";\n}\n\n.mdi-baby-carriage::before {\n  content: \"\\F068F\";\n}\n\n.mdi-baby-carriage-off::before {\n  content: \"\\F0FA0\";\n}\n\n.mdi-baby-face::before {\n  content: \"\\F0E7C\";\n}\n\n.mdi-baby-face-outline::before {\n  content: \"\\F0E7D\";\n}\n\n.mdi-backburger::before {\n  content: \"\\F006D\";\n}\n\n.mdi-backspace::before {\n  content: \"\\F006E\";\n}\n\n.mdi-backspace-outline::before {\n  content: \"\\F0B5C\";\n}\n\n.mdi-backspace-reverse::before {\n  content: \"\\F0E7E\";\n}\n\n.mdi-backspace-reverse-outline::before {\n  content: \"\\F0E7F\";\n}\n\n.mdi-backup-restore::before {\n  content: \"\\F006F\";\n}\n\n.mdi-bacteria::before {\n  content: \"\\F0ED5\";\n}\n\n.mdi-bacteria-outline::before {\n  content: \"\\F0ED6\";\n}\n\n.mdi-badge-account::before {\n  content: \"\\F0DA7\";\n}\n\n.mdi-badge-account-alert::before {\n  content: \"\\F0DA8\";\n}\n\n.mdi-badge-account-alert-outline::before {\n  content: \"\\F0DA9\";\n}\n\n.mdi-badge-account-horizontal::before {\n  content: \"\\F0E0D\";\n}\n\n.mdi-badge-account-horizontal-outline::before {\n  content: \"\\F0E0E\";\n}\n\n.mdi-badge-account-outline::before {\n  content: \"\\F0DAA\";\n}\n\n.mdi-badminton::before {\n  content: \"\\F0851\";\n}\n\n.mdi-bag-carry-on::before {\n  content: \"\\F0F3B\";\n}\n\n.mdi-bag-carry-on-check::before {\n  content: \"\\F0D65\";\n}\n\n.mdi-bag-carry-on-off::before {\n  content: \"\\F0F3C\";\n}\n\n.mdi-bag-checked::before {\n  content: \"\\F0F3D\";\n}\n\n.mdi-bag-personal::before {\n  content: \"\\F0E10\";\n}\n\n.mdi-bag-personal-off::before {\n  content: \"\\F0E11\";\n}\n\n.mdi-bag-personal-off-outline::before {\n  content: \"\\F0E12\";\n}\n\n.mdi-bag-personal-outline::before {\n  content: \"\\F0E13\";\n}\n\n.mdi-bag-suitcase::before {\n  content: \"\\F158B\";\n}\n\n.mdi-bag-suitcase-off::before {\n  content: \"\\F158D\";\n}\n\n.mdi-bag-suitcase-off-outline::before {\n  content: \"\\F158E\";\n}\n\n.mdi-bag-suitcase-outline::before {\n  content: \"\\F158C\";\n}\n\n.mdi-baguette::before {\n  content: \"\\F0F3E\";\n}\n\n.mdi-balloon::before {\n  content: \"\\F0A26\";\n}\n\n.mdi-ballot::before {\n  content: \"\\F09C9\";\n}\n\n.mdi-ballot-outline::before {\n  content: \"\\F09CA\";\n}\n\n.mdi-ballot-recount::before {\n  content: \"\\F0C39\";\n}\n\n.mdi-ballot-recount-outline::before {\n  content: \"\\F0C3A\";\n}\n\n.mdi-bandage::before {\n  content: \"\\F0DAF\";\n}\n\n.mdi-bandcamp::before {\n  content: \"\\F0675\";\n}\n\n.mdi-bank::before {\n  content: \"\\F0070\";\n}\n\n.mdi-bank-minus::before {\n  content: \"\\F0DB0\";\n}\n\n.mdi-bank-outline::before {\n  content: \"\\F0E80\";\n}\n\n.mdi-bank-plus::before {\n  content: \"\\F0DB1\";\n}\n\n.mdi-bank-remove::before {\n  content: \"\\F0DB2\";\n}\n\n.mdi-bank-transfer::before {\n  content: \"\\F0A27\";\n}\n\n.mdi-bank-transfer-in::before {\n  content: \"\\F0A28\";\n}\n\n.mdi-bank-transfer-out::before {\n  content: \"\\F0A29\";\n}\n\n.mdi-barcode::before {\n  content: \"\\F0071\";\n}\n\n.mdi-barcode-off::before {\n  content: \"\\F1236\";\n}\n\n.mdi-barcode-scan::before {\n  content: \"\\F0072\";\n}\n\n.mdi-barley::before {\n  content: \"\\F0073\";\n}\n\n.mdi-barley-off::before {\n  content: \"\\F0B5D\";\n}\n\n.mdi-barn::before {\n  content: \"\\F0B5E\";\n}\n\n.mdi-barrel::before {\n  content: \"\\F0074\";\n}\n\n.mdi-baseball::before {\n  content: \"\\F0852\";\n}\n\n.mdi-baseball-bat::before {\n  content: \"\\F0853\";\n}\n\n.mdi-bash::before {\n  content: \"\\F1183\";\n}\n\n.mdi-basket::before {\n  content: \"\\F0076\";\n}\n\n.mdi-basket-fill::before {\n  content: \"\\F0077\";\n}\n\n.mdi-basket-minus::before {\n  content: \"\\F1523\";\n}\n\n.mdi-basket-minus-outline::before {\n  content: \"\\F1524\";\n}\n\n.mdi-basket-off::before {\n  content: \"\\F1525\";\n}\n\n.mdi-basket-off-outline::before {\n  content: \"\\F1526\";\n}\n\n.mdi-basket-outline::before {\n  content: \"\\F1181\";\n}\n\n.mdi-basket-plus::before {\n  content: \"\\F1527\";\n}\n\n.mdi-basket-plus-outline::before {\n  content: \"\\F1528\";\n}\n\n.mdi-basket-remove::before {\n  content: \"\\F1529\";\n}\n\n.mdi-basket-remove-outline::before {\n  content: \"\\F152A\";\n}\n\n.mdi-basket-unfill::before {\n  content: \"\\F0078\";\n}\n\n.mdi-basketball::before {\n  content: \"\\F0806\";\n}\n\n.mdi-basketball-hoop::before {\n  content: \"\\F0C3B\";\n}\n\n.mdi-basketball-hoop-outline::before {\n  content: \"\\F0C3C\";\n}\n\n.mdi-bat::before {\n  content: \"\\F0B5F\";\n}\n\n.mdi-battery::before {\n  content: \"\\F0079\";\n}\n\n.mdi-battery-10::before {\n  content: \"\\F007A\";\n}\n\n.mdi-battery-10-bluetooth::before {\n  content: \"\\F093E\";\n}\n\n.mdi-battery-20::before {\n  content: \"\\F007B\";\n}\n\n.mdi-battery-20-bluetooth::before {\n  content: \"\\F093F\";\n}\n\n.mdi-battery-30::before {\n  content: \"\\F007C\";\n}\n\n.mdi-battery-30-bluetooth::before {\n  content: \"\\F0940\";\n}\n\n.mdi-battery-40::before {\n  content: \"\\F007D\";\n}\n\n.mdi-battery-40-bluetooth::before {\n  content: \"\\F0941\";\n}\n\n.mdi-battery-50::before {\n  content: \"\\F007E\";\n}\n\n.mdi-battery-50-bluetooth::before {\n  content: \"\\F0942\";\n}\n\n.mdi-battery-60::before {\n  content: \"\\F007F\";\n}\n\n.mdi-battery-60-bluetooth::before {\n  content: \"\\F0943\";\n}\n\n.mdi-battery-70::before {\n  content: \"\\F0080\";\n}\n\n.mdi-battery-70-bluetooth::before {\n  content: \"\\F0944\";\n}\n\n.mdi-battery-80::before {\n  content: \"\\F0081\";\n}\n\n.mdi-battery-80-bluetooth::before {\n  content: \"\\F0945\";\n}\n\n.mdi-battery-90::before {\n  content: \"\\F0082\";\n}\n\n.mdi-battery-90-bluetooth::before {\n  content: \"\\F0946\";\n}\n\n.mdi-battery-alert::before {\n  content: \"\\F0083\";\n}\n\n.mdi-battery-alert-bluetooth::before {\n  content: \"\\F0947\";\n}\n\n.mdi-battery-alert-variant::before {\n  content: \"\\F10CC\";\n}\n\n.mdi-battery-alert-variant-outline::before {\n  content: \"\\F10CD\";\n}\n\n.mdi-battery-bluetooth::before {\n  content: \"\\F0948\";\n}\n\n.mdi-battery-bluetooth-variant::before {\n  content: \"\\F0949\";\n}\n\n.mdi-battery-charging::before {\n  content: \"\\F0084\";\n}\n\n.mdi-battery-charging-10::before {\n  content: \"\\F089C\";\n}\n\n.mdi-battery-charging-100::before {\n  content: \"\\F0085\";\n}\n\n.mdi-battery-charging-20::before {\n  content: \"\\F0086\";\n}\n\n.mdi-battery-charging-30::before {\n  content: \"\\F0087\";\n}\n\n.mdi-battery-charging-40::before {\n  content: \"\\F0088\";\n}\n\n.mdi-battery-charging-50::before {\n  content: \"\\F089D\";\n}\n\n.mdi-battery-charging-60::before {\n  content: \"\\F0089\";\n}\n\n.mdi-battery-charging-70::before {\n  content: \"\\F089E\";\n}\n\n.mdi-battery-charging-80::before {\n  content: \"\\F008A\";\n}\n\n.mdi-battery-charging-90::before {\n  content: \"\\F008B\";\n}\n\n.mdi-battery-charging-high::before {\n  content: \"\\F12A6\";\n}\n\n.mdi-battery-charging-low::before {\n  content: \"\\F12A4\";\n}\n\n.mdi-battery-charging-medium::before {\n  content: \"\\F12A5\";\n}\n\n.mdi-battery-charging-outline::before {\n  content: \"\\F089F\";\n}\n\n.mdi-battery-charging-wireless::before {\n  content: \"\\F0807\";\n}\n\n.mdi-battery-charging-wireless-10::before {\n  content: \"\\F0808\";\n}\n\n.mdi-battery-charging-wireless-20::before {\n  content: \"\\F0809\";\n}\n\n.mdi-battery-charging-wireless-30::before {\n  content: \"\\F080A\";\n}\n\n.mdi-battery-charging-wireless-40::before {\n  content: \"\\F080B\";\n}\n\n.mdi-battery-charging-wireless-50::before {\n  content: \"\\F080C\";\n}\n\n.mdi-battery-charging-wireless-60::before {\n  content: \"\\F080D\";\n}\n\n.mdi-battery-charging-wireless-70::before {\n  content: \"\\F080E\";\n}\n\n.mdi-battery-charging-wireless-80::before {\n  content: \"\\F080F\";\n}\n\n.mdi-battery-charging-wireless-90::before {\n  content: \"\\F0810\";\n}\n\n.mdi-battery-charging-wireless-alert::before {\n  content: \"\\F0811\";\n}\n\n.mdi-battery-charging-wireless-outline::before {\n  content: \"\\F0812\";\n}\n\n.mdi-battery-heart::before {\n  content: \"\\F120F\";\n}\n\n.mdi-battery-heart-outline::before {\n  content: \"\\F1210\";\n}\n\n.mdi-battery-heart-variant::before {\n  content: \"\\F1211\";\n}\n\n.mdi-battery-high::before {\n  content: \"\\F12A3\";\n}\n\n.mdi-battery-low::before {\n  content: \"\\F12A1\";\n}\n\n.mdi-battery-medium::before {\n  content: \"\\F12A2\";\n}\n\n.mdi-battery-minus::before {\n  content: \"\\F008C\";\n}\n\n.mdi-battery-negative::before {\n  content: \"\\F008D\";\n}\n\n.mdi-battery-off::before {\n  content: \"\\F125D\";\n}\n\n.mdi-battery-off-outline::before {\n  content: \"\\F125E\";\n}\n\n.mdi-battery-outline::before {\n  content: \"\\F008E\";\n}\n\n.mdi-battery-plus::before {\n  content: \"\\F008F\";\n}\n\n.mdi-battery-positive::before {\n  content: \"\\F0090\";\n}\n\n.mdi-battery-unknown::before {\n  content: \"\\F0091\";\n}\n\n.mdi-battery-unknown-bluetooth::before {\n  content: \"\\F094A\";\n}\n\n.mdi-battlenet::before {\n  content: \"\\F0B60\";\n}\n\n.mdi-beach::before {\n  content: \"\\F0092\";\n}\n\n.mdi-beaker::before {\n  content: \"\\F0CEA\";\n}\n\n.mdi-beaker-alert::before {\n  content: \"\\F1229\";\n}\n\n.mdi-beaker-alert-outline::before {\n  content: \"\\F122A\";\n}\n\n.mdi-beaker-check::before {\n  content: \"\\F122B\";\n}\n\n.mdi-beaker-check-outline::before {\n  content: \"\\F122C\";\n}\n\n.mdi-beaker-minus::before {\n  content: \"\\F122D\";\n}\n\n.mdi-beaker-minus-outline::before {\n  content: \"\\F122E\";\n}\n\n.mdi-beaker-outline::before {\n  content: \"\\F0690\";\n}\n\n.mdi-beaker-plus::before {\n  content: \"\\F122F\";\n}\n\n.mdi-beaker-plus-outline::before {\n  content: \"\\F1230\";\n}\n\n.mdi-beaker-question::before {\n  content: \"\\F1231\";\n}\n\n.mdi-beaker-question-outline::before {\n  content: \"\\F1232\";\n}\n\n.mdi-beaker-remove::before {\n  content: \"\\F1233\";\n}\n\n.mdi-beaker-remove-outline::before {\n  content: \"\\F1234\";\n}\n\n.mdi-bed::before {\n  content: \"\\F02E3\";\n}\n\n.mdi-bed-double::before {\n  content: \"\\F0FD4\";\n}\n\n.mdi-bed-double-outline::before {\n  content: \"\\F0FD3\";\n}\n\n.mdi-bed-empty::before {\n  content: \"\\F08A0\";\n}\n\n.mdi-bed-king::before {\n  content: \"\\F0FD2\";\n}\n\n.mdi-bed-king-outline::before {\n  content: \"\\F0FD1\";\n}\n\n.mdi-bed-outline::before {\n  content: \"\\F0099\";\n}\n\n.mdi-bed-queen::before {\n  content: \"\\F0FD0\";\n}\n\n.mdi-bed-queen-outline::before {\n  content: \"\\F0FDB\";\n}\n\n.mdi-bed-single::before {\n  content: \"\\F106D\";\n}\n\n.mdi-bed-single-outline::before {\n  content: \"\\F106E\";\n}\n\n.mdi-bee::before {\n  content: \"\\F0FA1\";\n}\n\n.mdi-bee-flower::before {\n  content: \"\\F0FA2\";\n}\n\n.mdi-beehive-off-outline::before {\n  content: \"\\F13ED\";\n}\n\n.mdi-beehive-outline::before {\n  content: \"\\F10CE\";\n}\n\n.mdi-beekeeper::before {\n  content: \"\\F14E2\";\n}\n\n.mdi-beer::before {\n  content: \"\\F0098\";\n}\n\n.mdi-beer-outline::before {\n  content: \"\\F130C\";\n}\n\n.mdi-bell::before {\n  content: \"\\F009A\";\n}\n\n.mdi-bell-alert::before {\n  content: \"\\F0D59\";\n}\n\n.mdi-bell-alert-outline::before {\n  content: \"\\F0E81\";\n}\n\n.mdi-bell-cancel::before {\n  content: \"\\F13E7\";\n}\n\n.mdi-bell-cancel-outline::before {\n  content: \"\\F13E8\";\n}\n\n.mdi-bell-check::before {\n  content: \"\\F11E5\";\n}\n\n.mdi-bell-check-outline::before {\n  content: \"\\F11E6\";\n}\n\n.mdi-bell-circle::before {\n  content: \"\\F0D5A\";\n}\n\n.mdi-bell-circle-outline::before {\n  content: \"\\F0D5B\";\n}\n\n.mdi-bell-minus::before {\n  content: \"\\F13E9\";\n}\n\n.mdi-bell-minus-outline::before {\n  content: \"\\F13EA\";\n}\n\n.mdi-bell-off::before {\n  content: \"\\F009B\";\n}\n\n.mdi-bell-off-outline::before {\n  content: \"\\F0A91\";\n}\n\n.mdi-bell-outline::before {\n  content: \"\\F009C\";\n}\n\n.mdi-bell-plus::before {\n  content: \"\\F009D\";\n}\n\n.mdi-bell-plus-outline::before {\n  content: \"\\F0A92\";\n}\n\n.mdi-bell-remove::before {\n  content: \"\\F13EB\";\n}\n\n.mdi-bell-remove-outline::before {\n  content: \"\\F13EC\";\n}\n\n.mdi-bell-ring::before {\n  content: \"\\F009E\";\n}\n\n.mdi-bell-ring-outline::before {\n  content: \"\\F009F\";\n}\n\n.mdi-bell-sleep::before {\n  content: \"\\F00A0\";\n}\n\n.mdi-bell-sleep-outline::before {\n  content: \"\\F0A93\";\n}\n\n.mdi-beta::before {\n  content: \"\\F00A1\";\n}\n\n.mdi-betamax::before {\n  content: \"\\F09CB\";\n}\n\n.mdi-biathlon::before {\n  content: \"\\F0E14\";\n}\n\n.mdi-bicycle::before {\n  content: \"\\F109C\";\n}\n\n.mdi-bicycle-basket::before {\n  content: \"\\F1235\";\n}\n\n.mdi-bike::before {\n  content: \"\\F00A3\";\n}\n\n.mdi-bike-fast::before {\n  content: \"\\F111F\";\n}\n\n.mdi-billboard::before {\n  content: \"\\F1010\";\n}\n\n.mdi-billiards::before {\n  content: \"\\F0B61\";\n}\n\n.mdi-billiards-rack::before {\n  content: \"\\F0B62\";\n}\n\n.mdi-binoculars::before {\n  content: \"\\F00A5\";\n}\n\n.mdi-bio::before {\n  content: \"\\F00A6\";\n}\n\n.mdi-biohazard::before {\n  content: \"\\F00A7\";\n}\n\n.mdi-bitbucket::before {\n  content: \"\\F00A8\";\n}\n\n.mdi-bitcoin::before {\n  content: \"\\F0813\";\n}\n\n.mdi-black-mesa::before {\n  content: \"\\F00A9\";\n}\n\n.mdi-blender::before {\n  content: \"\\F0CEB\";\n}\n\n.mdi-blender-software::before {\n  content: \"\\F00AB\";\n}\n\n.mdi-blinds::before {\n  content: \"\\F00AC\";\n}\n\n.mdi-blinds-open::before {\n  content: \"\\F1011\";\n}\n\n.mdi-block-helper::before {\n  content: \"\\F00AD\";\n}\n\n.mdi-blogger::before {\n  content: \"\\F00AE\";\n}\n\n.mdi-blood-bag::before {\n  content: \"\\F0CEC\";\n}\n\n.mdi-bluetooth::before {\n  content: \"\\F00AF\";\n}\n\n.mdi-bluetooth-audio::before {\n  content: \"\\F00B0\";\n}\n\n.mdi-bluetooth-connect::before {\n  content: \"\\F00B1\";\n}\n\n.mdi-bluetooth-off::before {\n  content: \"\\F00B2\";\n}\n\n.mdi-bluetooth-settings::before {\n  content: \"\\F00B3\";\n}\n\n.mdi-bluetooth-transfer::before {\n  content: \"\\F00B4\";\n}\n\n.mdi-blur::before {\n  content: \"\\F00B5\";\n}\n\n.mdi-blur-linear::before {\n  content: \"\\F00B6\";\n}\n\n.mdi-blur-off::before {\n  content: \"\\F00B7\";\n}\n\n.mdi-blur-radial::before {\n  content: \"\\F00B8\";\n}\n\n.mdi-bolnisi-cross::before {\n  content: \"\\F0CED\";\n}\n\n.mdi-bolt::before {\n  content: \"\\F0DB3\";\n}\n\n.mdi-bomb::before {\n  content: \"\\F0691\";\n}\n\n.mdi-bomb-off::before {\n  content: \"\\F06C5\";\n}\n\n.mdi-bone::before {\n  content: \"\\F00B9\";\n}\n\n.mdi-book::before {\n  content: \"\\F00BA\";\n}\n\n.mdi-book-account::before {\n  content: \"\\F13AD\";\n}\n\n.mdi-book-account-outline::before {\n  content: \"\\F13AE\";\n}\n\n.mdi-book-alphabet::before {\n  content: \"\\F061D\";\n}\n\n.mdi-book-check::before {\n  content: \"\\F14F3\";\n}\n\n.mdi-book-check-outline::before {\n  content: \"\\F14F4\";\n}\n\n.mdi-book-cross::before {\n  content: \"\\F00A2\";\n}\n\n.mdi-book-information-variant::before {\n  content: \"\\F106F\";\n}\n\n.mdi-book-lock::before {\n  content: \"\\F079A\";\n}\n\n.mdi-book-lock-open::before {\n  content: \"\\F079B\";\n}\n\n.mdi-book-minus::before {\n  content: \"\\F05D9\";\n}\n\n.mdi-book-minus-multiple::before {\n  content: \"\\F0A94\";\n}\n\n.mdi-book-minus-multiple-outline::before {\n  content: \"\\F090B\";\n}\n\n.mdi-book-multiple::before {\n  content: \"\\F00BB\";\n}\n\n.mdi-book-multiple-outline::before {\n  content: \"\\F0436\";\n}\n\n.mdi-book-music::before {\n  content: \"\\F0067\";\n}\n\n.mdi-book-open::before {\n  content: \"\\F00BD\";\n}\n\n.mdi-book-open-blank-variant::before {\n  content: \"\\F00BE\";\n}\n\n.mdi-book-open-outline::before {\n  content: \"\\F0B63\";\n}\n\n.mdi-book-open-page-variant::before {\n  content: \"\\F05DA\";\n}\n\n.mdi-book-open-variant::before {\n  content: \"\\F14F7\";\n}\n\n.mdi-book-outline::before {\n  content: \"\\F0B64\";\n}\n\n.mdi-book-play::before {\n  content: \"\\F0E82\";\n}\n\n.mdi-book-play-outline::before {\n  content: \"\\F0E83\";\n}\n\n.mdi-book-plus::before {\n  content: \"\\F05DB\";\n}\n\n.mdi-book-plus-multiple::before {\n  content: \"\\F0A95\";\n}\n\n.mdi-book-plus-multiple-outline::before {\n  content: \"\\F0ADE\";\n}\n\n.mdi-book-remove::before {\n  content: \"\\F0A97\";\n}\n\n.mdi-book-remove-multiple::before {\n  content: \"\\F0A96\";\n}\n\n.mdi-book-remove-multiple-outline::before {\n  content: \"\\F04CA\";\n}\n\n.mdi-book-search::before {\n  content: \"\\F0E84\";\n}\n\n.mdi-book-search-outline::before {\n  content: \"\\F0E85\";\n}\n\n.mdi-book-variant::before {\n  content: \"\\F00BF\";\n}\n\n.mdi-book-variant-multiple::before {\n  content: \"\\F00BC\";\n}\n\n.mdi-bookmark::before {\n  content: \"\\F00C0\";\n}\n\n.mdi-bookmark-check::before {\n  content: \"\\F00C1\";\n}\n\n.mdi-bookmark-check-outline::before {\n  content: \"\\F137B\";\n}\n\n.mdi-bookmark-minus::before {\n  content: \"\\F09CC\";\n}\n\n.mdi-bookmark-minus-outline::before {\n  content: \"\\F09CD\";\n}\n\n.mdi-bookmark-multiple::before {\n  content: \"\\F0E15\";\n}\n\n.mdi-bookmark-multiple-outline::before {\n  content: \"\\F0E16\";\n}\n\n.mdi-bookmark-music::before {\n  content: \"\\F00C2\";\n}\n\n.mdi-bookmark-music-outline::before {\n  content: \"\\F1379\";\n}\n\n.mdi-bookmark-off::before {\n  content: \"\\F09CE\";\n}\n\n.mdi-bookmark-off-outline::before {\n  content: \"\\F09CF\";\n}\n\n.mdi-bookmark-outline::before {\n  content: \"\\F00C3\";\n}\n\n.mdi-bookmark-plus::before {\n  content: \"\\F00C5\";\n}\n\n.mdi-bookmark-plus-outline::before {\n  content: \"\\F00C4\";\n}\n\n.mdi-bookmark-remove::before {\n  content: \"\\F00C6\";\n}\n\n.mdi-bookmark-remove-outline::before {\n  content: \"\\F137A\";\n}\n\n.mdi-bookshelf::before {\n  content: \"\\F125F\";\n}\n\n.mdi-boom-gate::before {\n  content: \"\\F0E86\";\n}\n\n.mdi-boom-gate-alert::before {\n  content: \"\\F0E87\";\n}\n\n.mdi-boom-gate-alert-outline::before {\n  content: \"\\F0E88\";\n}\n\n.mdi-boom-gate-down::before {\n  content: \"\\F0E89\";\n}\n\n.mdi-boom-gate-down-outline::before {\n  content: \"\\F0E8A\";\n}\n\n.mdi-boom-gate-outline::before {\n  content: \"\\F0E8B\";\n}\n\n.mdi-boom-gate-up::before {\n  content: \"\\F0E8C\";\n}\n\n.mdi-boom-gate-up-outline::before {\n  content: \"\\F0E8D\";\n}\n\n.mdi-boombox::before {\n  content: \"\\F05DC\";\n}\n\n.mdi-boomerang::before {\n  content: \"\\F10CF\";\n}\n\n.mdi-bootstrap::before {\n  content: \"\\F06C6\";\n}\n\n.mdi-border-all::before {\n  content: \"\\F00C7\";\n}\n\n.mdi-border-all-variant::before {\n  content: \"\\F08A1\";\n}\n\n.mdi-border-bottom::before {\n  content: \"\\F00C8\";\n}\n\n.mdi-border-bottom-variant::before {\n  content: \"\\F08A2\";\n}\n\n.mdi-border-color::before {\n  content: \"\\F00C9\";\n}\n\n.mdi-border-horizontal::before {\n  content: \"\\F00CA\";\n}\n\n.mdi-border-inside::before {\n  content: \"\\F00CB\";\n}\n\n.mdi-border-left::before {\n  content: \"\\F00CC\";\n}\n\n.mdi-border-left-variant::before {\n  content: \"\\F08A3\";\n}\n\n.mdi-border-none::before {\n  content: \"\\F00CD\";\n}\n\n.mdi-border-none-variant::before {\n  content: \"\\F08A4\";\n}\n\n.mdi-border-outside::before {\n  content: \"\\F00CE\";\n}\n\n.mdi-border-right::before {\n  content: \"\\F00CF\";\n}\n\n.mdi-border-right-variant::before {\n  content: \"\\F08A5\";\n}\n\n.mdi-border-style::before {\n  content: \"\\F00D0\";\n}\n\n.mdi-border-top::before {\n  content: \"\\F00D1\";\n}\n\n.mdi-border-top-variant::before {\n  content: \"\\F08A6\";\n}\n\n.mdi-border-vertical::before {\n  content: \"\\F00D2\";\n}\n\n.mdi-bottle-soda::before {\n  content: \"\\F1070\";\n}\n\n.mdi-bottle-soda-classic::before {\n  content: \"\\F1071\";\n}\n\n.mdi-bottle-soda-classic-outline::before {\n  content: \"\\F1363\";\n}\n\n.mdi-bottle-soda-outline::before {\n  content: \"\\F1072\";\n}\n\n.mdi-bottle-tonic::before {\n  content: \"\\F112E\";\n}\n\n.mdi-bottle-tonic-outline::before {\n  content: \"\\F112F\";\n}\n\n.mdi-bottle-tonic-plus::before {\n  content: \"\\F1130\";\n}\n\n.mdi-bottle-tonic-plus-outline::before {\n  content: \"\\F1131\";\n}\n\n.mdi-bottle-tonic-skull::before {\n  content: \"\\F1132\";\n}\n\n.mdi-bottle-tonic-skull-outline::before {\n  content: \"\\F1133\";\n}\n\n.mdi-bottle-wine::before {\n  content: \"\\F0854\";\n}\n\n.mdi-bottle-wine-outline::before {\n  content: \"\\F1310\";\n}\n\n.mdi-bow-tie::before {\n  content: \"\\F0678\";\n}\n\n.mdi-bowl::before {\n  content: \"\\F028E\";\n}\n\n.mdi-bowl-mix::before {\n  content: \"\\F0617\";\n}\n\n.mdi-bowl-mix-outline::before {\n  content: \"\\F02E4\";\n}\n\n.mdi-bowl-outline::before {\n  content: \"\\F02A9\";\n}\n\n.mdi-bowling::before {\n  content: \"\\F00D3\";\n}\n\n.mdi-box::before {\n  content: \"\\F00D4\";\n}\n\n.mdi-box-cutter::before {\n  content: \"\\F00D5\";\n}\n\n.mdi-box-cutter-off::before {\n  content: \"\\F0B4A\";\n}\n\n.mdi-box-shadow::before {\n  content: \"\\F0637\";\n}\n\n.mdi-boxing-glove::before {\n  content: \"\\F0B65\";\n}\n\n.mdi-braille::before {\n  content: \"\\F09D0\";\n}\n\n.mdi-brain::before {\n  content: \"\\F09D1\";\n}\n\n.mdi-bread-slice::before {\n  content: \"\\F0CEE\";\n}\n\n.mdi-bread-slice-outline::before {\n  content: \"\\F0CEF\";\n}\n\n.mdi-bridge::before {\n  content: \"\\F0618\";\n}\n\n.mdi-briefcase::before {\n  content: \"\\F00D6\";\n}\n\n.mdi-briefcase-account::before {\n  content: \"\\F0CF0\";\n}\n\n.mdi-briefcase-account-outline::before {\n  content: \"\\F0CF1\";\n}\n\n.mdi-briefcase-check::before {\n  content: \"\\F00D7\";\n}\n\n.mdi-briefcase-check-outline::before {\n  content: \"\\F131E\";\n}\n\n.mdi-briefcase-clock::before {\n  content: \"\\F10D0\";\n}\n\n.mdi-briefcase-clock-outline::before {\n  content: \"\\F10D1\";\n}\n\n.mdi-briefcase-download::before {\n  content: \"\\F00D8\";\n}\n\n.mdi-briefcase-download-outline::before {\n  content: \"\\F0C3D\";\n}\n\n.mdi-briefcase-edit::before {\n  content: \"\\F0A98\";\n}\n\n.mdi-briefcase-edit-outline::before {\n  content: \"\\F0C3E\";\n}\n\n.mdi-briefcase-minus::before {\n  content: \"\\F0A2A\";\n}\n\n.mdi-briefcase-minus-outline::before {\n  content: \"\\F0C3F\";\n}\n\n.mdi-briefcase-outline::before {\n  content: \"\\F0814\";\n}\n\n.mdi-briefcase-plus::before {\n  content: \"\\F0A2B\";\n}\n\n.mdi-briefcase-plus-outline::before {\n  content: \"\\F0C40\";\n}\n\n.mdi-briefcase-remove::before {\n  content: \"\\F0A2C\";\n}\n\n.mdi-briefcase-remove-outline::before {\n  content: \"\\F0C41\";\n}\n\n.mdi-briefcase-search::before {\n  content: \"\\F0A2D\";\n}\n\n.mdi-briefcase-search-outline::before {\n  content: \"\\F0C42\";\n}\n\n.mdi-briefcase-upload::before {\n  content: \"\\F00D9\";\n}\n\n.mdi-briefcase-upload-outline::before {\n  content: \"\\F0C43\";\n}\n\n.mdi-briefcase-variant::before {\n  content: \"\\F1494\";\n}\n\n.mdi-briefcase-variant-outline::before {\n  content: \"\\F1495\";\n}\n\n.mdi-brightness-1::before {\n  content: \"\\F00DA\";\n}\n\n.mdi-brightness-2::before {\n  content: \"\\F00DB\";\n}\n\n.mdi-brightness-3::before {\n  content: \"\\F00DC\";\n}\n\n.mdi-brightness-4::before {\n  content: \"\\F00DD\";\n}\n\n.mdi-brightness-5::before {\n  content: \"\\F00DE\";\n}\n\n.mdi-brightness-6::before {\n  content: \"\\F00DF\";\n}\n\n.mdi-brightness-7::before {\n  content: \"\\F00E0\";\n}\n\n.mdi-brightness-auto::before {\n  content: \"\\F00E1\";\n}\n\n.mdi-brightness-percent::before {\n  content: \"\\F0CF2\";\n}\n\n.mdi-broom::before {\n  content: \"\\F00E2\";\n}\n\n.mdi-brush::before {\n  content: \"\\F00E3\";\n}\n\n.mdi-bucket::before {\n  content: \"\\F1415\";\n}\n\n.mdi-bucket-outline::before {\n  content: \"\\F1416\";\n}\n\n.mdi-buddhism::before {\n  content: \"\\F094B\";\n}\n\n.mdi-buffer::before {\n  content: \"\\F0619\";\n}\n\n.mdi-buffet::before {\n  content: \"\\F0578\";\n}\n\n.mdi-bug::before {\n  content: \"\\F00E4\";\n}\n\n.mdi-bug-check::before {\n  content: \"\\F0A2E\";\n}\n\n.mdi-bug-check-outline::before {\n  content: \"\\F0A2F\";\n}\n\n.mdi-bug-outline::before {\n  content: \"\\F0A30\";\n}\n\n.mdi-bugle::before {\n  content: \"\\F0DB4\";\n}\n\n.mdi-bulldozer::before {\n  content: \"\\F0B22\";\n}\n\n.mdi-bullet::before {\n  content: \"\\F0CF3\";\n}\n\n.mdi-bulletin-board::before {\n  content: \"\\F00E5\";\n}\n\n.mdi-bullhorn::before {\n  content: \"\\F00E6\";\n}\n\n.mdi-bullhorn-outline::before {\n  content: \"\\F0B23\";\n}\n\n.mdi-bullseye::before {\n  content: \"\\F05DD\";\n}\n\n.mdi-bullseye-arrow::before {\n  content: \"\\F08C9\";\n}\n\n.mdi-bulma::before {\n  content: \"\\F12E7\";\n}\n\n.mdi-bunk-bed::before {\n  content: \"\\F1302\";\n}\n\n.mdi-bunk-bed-outline::before {\n  content: \"\\F0097\";\n}\n\n.mdi-bus::before {\n  content: \"\\F00E7\";\n}\n\n.mdi-bus-alert::before {\n  content: \"\\F0A99\";\n}\n\n.mdi-bus-articulated-end::before {\n  content: \"\\F079C\";\n}\n\n.mdi-bus-articulated-front::before {\n  content: \"\\F079D\";\n}\n\n.mdi-bus-clock::before {\n  content: \"\\F08CA\";\n}\n\n.mdi-bus-double-decker::before {\n  content: \"\\F079E\";\n}\n\n.mdi-bus-marker::before {\n  content: \"\\F1212\";\n}\n\n.mdi-bus-multiple::before {\n  content: \"\\F0F3F\";\n}\n\n.mdi-bus-school::before {\n  content: \"\\F079F\";\n}\n\n.mdi-bus-side::before {\n  content: \"\\F07A0\";\n}\n\n.mdi-bus-stop::before {\n  content: \"\\F1012\";\n}\n\n.mdi-bus-stop-covered::before {\n  content: \"\\F1013\";\n}\n\n.mdi-bus-stop-uncovered::before {\n  content: \"\\F1014\";\n}\n\n.mdi-butterfly::before {\n  content: \"\\F1589\";\n}\n\n.mdi-butterfly-outline::before {\n  content: \"\\F158A\";\n}\n\n.mdi-cable-data::before {\n  content: \"\\F1394\";\n}\n\n.mdi-cached::before {\n  content: \"\\F00E8\";\n}\n\n.mdi-cactus::before {\n  content: \"\\F0DB5\";\n}\n\n.mdi-cake::before {\n  content: \"\\F00E9\";\n}\n\n.mdi-cake-layered::before {\n  content: \"\\F00EA\";\n}\n\n.mdi-cake-variant::before {\n  content: \"\\F00EB\";\n}\n\n.mdi-calculator::before {\n  content: \"\\F00EC\";\n}\n\n.mdi-calculator-variant::before {\n  content: \"\\F0A9A\";\n}\n\n.mdi-calculator-variant-outline::before {\n  content: \"\\F15A6\";\n}\n\n.mdi-calendar::before {\n  content: \"\\F00ED\";\n}\n\n.mdi-calendar-account::before {\n  content: \"\\F0ED7\";\n}\n\n.mdi-calendar-account-outline::before {\n  content: \"\\F0ED8\";\n}\n\n.mdi-calendar-alert::before {\n  content: \"\\F0A31\";\n}\n\n.mdi-calendar-arrow-left::before {\n  content: \"\\F1134\";\n}\n\n.mdi-calendar-arrow-right::before {\n  content: \"\\F1135\";\n}\n\n.mdi-calendar-blank::before {\n  content: \"\\F00EE\";\n}\n\n.mdi-calendar-blank-multiple::before {\n  content: \"\\F1073\";\n}\n\n.mdi-calendar-blank-outline::before {\n  content: \"\\F0B66\";\n}\n\n.mdi-calendar-check::before {\n  content: \"\\F00EF\";\n}\n\n.mdi-calendar-check-outline::before {\n  content: \"\\F0C44\";\n}\n\n.mdi-calendar-clock::before {\n  content: \"\\F00F0\";\n}\n\n.mdi-calendar-cursor::before {\n  content: \"\\F157B\";\n}\n\n.mdi-calendar-edit::before {\n  content: \"\\F08A7\";\n}\n\n.mdi-calendar-export::before {\n  content: \"\\F0B24\";\n}\n\n.mdi-calendar-heart::before {\n  content: \"\\F09D2\";\n}\n\n.mdi-calendar-import::before {\n  content: \"\\F0B25\";\n}\n\n.mdi-calendar-minus::before {\n  content: \"\\F0D5C\";\n}\n\n.mdi-calendar-month::before {\n  content: \"\\F0E17\";\n}\n\n.mdi-calendar-month-outline::before {\n  content: \"\\F0E18\";\n}\n\n.mdi-calendar-multiple::before {\n  content: \"\\F00F1\";\n}\n\n.mdi-calendar-multiple-check::before {\n  content: \"\\F00F2\";\n}\n\n.mdi-calendar-multiselect::before {\n  content: \"\\F0A32\";\n}\n\n.mdi-calendar-outline::before {\n  content: \"\\F0B67\";\n}\n\n.mdi-calendar-plus::before {\n  content: \"\\F00F3\";\n}\n\n.mdi-calendar-question::before {\n  content: \"\\F0692\";\n}\n\n.mdi-calendar-range::before {\n  content: \"\\F0679\";\n}\n\n.mdi-calendar-range-outline::before {\n  content: \"\\F0B68\";\n}\n\n.mdi-calendar-refresh::before {\n  content: \"\\F01E1\";\n}\n\n.mdi-calendar-refresh-outline::before {\n  content: \"\\F0203\";\n}\n\n.mdi-calendar-remove::before {\n  content: \"\\F00F4\";\n}\n\n.mdi-calendar-remove-outline::before {\n  content: \"\\F0C45\";\n}\n\n.mdi-calendar-search::before {\n  content: \"\\F094C\";\n}\n\n.mdi-calendar-star::before {\n  content: \"\\F09D3\";\n}\n\n.mdi-calendar-sync::before {\n  content: \"\\F0E8E\";\n}\n\n.mdi-calendar-sync-outline::before {\n  content: \"\\F0E8F\";\n}\n\n.mdi-calendar-text::before {\n  content: \"\\F00F5\";\n}\n\n.mdi-calendar-text-outline::before {\n  content: \"\\F0C46\";\n}\n\n.mdi-calendar-today::before {\n  content: \"\\F00F6\";\n}\n\n.mdi-calendar-week::before {\n  content: \"\\F0A33\";\n}\n\n.mdi-calendar-week-begin::before {\n  content: \"\\F0A34\";\n}\n\n.mdi-calendar-weekend::before {\n  content: \"\\F0ED9\";\n}\n\n.mdi-calendar-weekend-outline::before {\n  content: \"\\F0EDA\";\n}\n\n.mdi-call-made::before {\n  content: \"\\F00F7\";\n}\n\n.mdi-call-merge::before {\n  content: \"\\F00F8\";\n}\n\n.mdi-call-missed::before {\n  content: \"\\F00F9\";\n}\n\n.mdi-call-received::before {\n  content: \"\\F00FA\";\n}\n\n.mdi-call-split::before {\n  content: \"\\F00FB\";\n}\n\n.mdi-camcorder::before {\n  content: \"\\F00FC\";\n}\n\n.mdi-camcorder-off::before {\n  content: \"\\F00FF\";\n}\n\n.mdi-camera::before {\n  content: \"\\F0100\";\n}\n\n.mdi-camera-account::before {\n  content: \"\\F08CB\";\n}\n\n.mdi-camera-burst::before {\n  content: \"\\F0693\";\n}\n\n.mdi-camera-control::before {\n  content: \"\\F0B69\";\n}\n\n.mdi-camera-enhance::before {\n  content: \"\\F0101\";\n}\n\n.mdi-camera-enhance-outline::before {\n  content: \"\\F0B6A\";\n}\n\n.mdi-camera-front::before {\n  content: \"\\F0102\";\n}\n\n.mdi-camera-front-variant::before {\n  content: \"\\F0103\";\n}\n\n.mdi-camera-gopro::before {\n  content: \"\\F07A1\";\n}\n\n.mdi-camera-image::before {\n  content: \"\\F08CC\";\n}\n\n.mdi-camera-iris::before {\n  content: \"\\F0104\";\n}\n\n.mdi-camera-metering-center::before {\n  content: \"\\F07A2\";\n}\n\n.mdi-camera-metering-matrix::before {\n  content: \"\\F07A3\";\n}\n\n.mdi-camera-metering-partial::before {\n  content: \"\\F07A4\";\n}\n\n.mdi-camera-metering-spot::before {\n  content: \"\\F07A5\";\n}\n\n.mdi-camera-off::before {\n  content: \"\\F05DF\";\n}\n\n.mdi-camera-outline::before {\n  content: \"\\F0D5D\";\n}\n\n.mdi-camera-party-mode::before {\n  content: \"\\F0105\";\n}\n\n.mdi-camera-plus::before {\n  content: \"\\F0EDB\";\n}\n\n.mdi-camera-plus-outline::before {\n  content: \"\\F0EDC\";\n}\n\n.mdi-camera-rear::before {\n  content: \"\\F0106\";\n}\n\n.mdi-camera-rear-variant::before {\n  content: \"\\F0107\";\n}\n\n.mdi-camera-retake::before {\n  content: \"\\F0E19\";\n}\n\n.mdi-camera-retake-outline::before {\n  content: \"\\F0E1A\";\n}\n\n.mdi-camera-switch::before {\n  content: \"\\F0108\";\n}\n\n.mdi-camera-switch-outline::before {\n  content: \"\\F084A\";\n}\n\n.mdi-camera-timer::before {\n  content: \"\\F0109\";\n}\n\n.mdi-camera-wireless::before {\n  content: \"\\F0DB6\";\n}\n\n.mdi-camera-wireless-outline::before {\n  content: \"\\F0DB7\";\n}\n\n.mdi-campfire::before {\n  content: \"\\F0EDD\";\n}\n\n.mdi-cancel::before {\n  content: \"\\F073A\";\n}\n\n.mdi-candle::before {\n  content: \"\\F05E2\";\n}\n\n.mdi-candycane::before {\n  content: \"\\F010A\";\n}\n\n.mdi-cannabis::before {\n  content: \"\\F07A6\";\n}\n\n.mdi-caps-lock::before {\n  content: \"\\F0A9B\";\n}\n\n.mdi-car::before {\n  content: \"\\F010B\";\n}\n\n.mdi-car-2-plus::before {\n  content: \"\\F1015\";\n}\n\n.mdi-car-3-plus::before {\n  content: \"\\F1016\";\n}\n\n.mdi-car-arrow-left::before {\n  content: \"\\F13B2\";\n}\n\n.mdi-car-arrow-right::before {\n  content: \"\\F13B3\";\n}\n\n.mdi-car-back::before {\n  content: \"\\F0E1B\";\n}\n\n.mdi-car-battery::before {\n  content: \"\\F010C\";\n}\n\n.mdi-car-brake-abs::before {\n  content: \"\\F0C47\";\n}\n\n.mdi-car-brake-alert::before {\n  content: \"\\F0C48\";\n}\n\n.mdi-car-brake-hold::before {\n  content: \"\\F0D5E\";\n}\n\n.mdi-car-brake-parking::before {\n  content: \"\\F0D5F\";\n}\n\n.mdi-car-brake-retarder::before {\n  content: \"\\F1017\";\n}\n\n.mdi-car-child-seat::before {\n  content: \"\\F0FA3\";\n}\n\n.mdi-car-clutch::before {\n  content: \"\\F1018\";\n}\n\n.mdi-car-cog::before {\n  content: \"\\F13CC\";\n}\n\n.mdi-car-connected::before {\n  content: \"\\F010D\";\n}\n\n.mdi-car-convertible::before {\n  content: \"\\F07A7\";\n}\n\n.mdi-car-coolant-level::before {\n  content: \"\\F1019\";\n}\n\n.mdi-car-cruise-control::before {\n  content: \"\\F0D60\";\n}\n\n.mdi-car-defrost-front::before {\n  content: \"\\F0D61\";\n}\n\n.mdi-car-defrost-rear::before {\n  content: \"\\F0D62\";\n}\n\n.mdi-car-door::before {\n  content: \"\\F0B6B\";\n}\n\n.mdi-car-door-lock::before {\n  content: \"\\F109D\";\n}\n\n.mdi-car-electric::before {\n  content: \"\\F0B6C\";\n}\n\n.mdi-car-esp::before {\n  content: \"\\F0C49\";\n}\n\n.mdi-car-estate::before {\n  content: \"\\F07A8\";\n}\n\n.mdi-car-hatchback::before {\n  content: \"\\F07A9\";\n}\n\n.mdi-car-info::before {\n  content: \"\\F11BE\";\n}\n\n.mdi-car-key::before {\n  content: \"\\F0B6D\";\n}\n\n.mdi-car-lifted-pickup::before {\n  content: \"\\F152D\";\n}\n\n.mdi-car-light-dimmed::before {\n  content: \"\\F0C4A\";\n}\n\n.mdi-car-light-fog::before {\n  content: \"\\F0C4B\";\n}\n\n.mdi-car-light-high::before {\n  content: \"\\F0C4C\";\n}\n\n.mdi-car-limousine::before {\n  content: \"\\F08CD\";\n}\n\n.mdi-car-multiple::before {\n  content: \"\\F0B6E\";\n}\n\n.mdi-car-off::before {\n  content: \"\\F0E1C\";\n}\n\n.mdi-car-outline::before {\n  content: \"\\F14ED\";\n}\n\n.mdi-car-parking-lights::before {\n  content: \"\\F0D63\";\n}\n\n.mdi-car-pickup::before {\n  content: \"\\F07AA\";\n}\n\n.mdi-car-seat::before {\n  content: \"\\F0FA4\";\n}\n\n.mdi-car-seat-cooler::before {\n  content: \"\\F0FA5\";\n}\n\n.mdi-car-seat-heater::before {\n  content: \"\\F0FA6\";\n}\n\n.mdi-car-settings::before {\n  content: \"\\F13CD\";\n}\n\n.mdi-car-shift-pattern::before {\n  content: \"\\F0F40\";\n}\n\n.mdi-car-side::before {\n  content: \"\\F07AB\";\n}\n\n.mdi-car-sports::before {\n  content: \"\\F07AC\";\n}\n\n.mdi-car-tire-alert::before {\n  content: \"\\F0C4D\";\n}\n\n.mdi-car-traction-control::before {\n  content: \"\\F0D64\";\n}\n\n.mdi-car-turbocharger::before {\n  content: \"\\F101A\";\n}\n\n.mdi-car-wash::before {\n  content: \"\\F010E\";\n}\n\n.mdi-car-windshield::before {\n  content: \"\\F101B\";\n}\n\n.mdi-car-windshield-outline::before {\n  content: \"\\F101C\";\n}\n\n.mdi-carabiner::before {\n  content: \"\\F14C0\";\n}\n\n.mdi-caravan::before {\n  content: \"\\F07AD\";\n}\n\n.mdi-card::before {\n  content: \"\\F0B6F\";\n}\n\n.mdi-card-account-details::before {\n  content: \"\\F05D2\";\n}\n\n.mdi-card-account-details-outline::before {\n  content: \"\\F0DAB\";\n}\n\n.mdi-card-account-details-star::before {\n  content: \"\\F02A3\";\n}\n\n.mdi-card-account-details-star-outline::before {\n  content: \"\\F06DB\";\n}\n\n.mdi-card-account-mail::before {\n  content: \"\\F018E\";\n}\n\n.mdi-card-account-mail-outline::before {\n  content: \"\\F0E98\";\n}\n\n.mdi-card-account-phone::before {\n  content: \"\\F0E99\";\n}\n\n.mdi-card-account-phone-outline::before {\n  content: \"\\F0E9A\";\n}\n\n.mdi-card-bulleted::before {\n  content: \"\\F0B70\";\n}\n\n.mdi-card-bulleted-off::before {\n  content: \"\\F0B71\";\n}\n\n.mdi-card-bulleted-off-outline::before {\n  content: \"\\F0B72\";\n}\n\n.mdi-card-bulleted-outline::before {\n  content: \"\\F0B73\";\n}\n\n.mdi-card-bulleted-settings::before {\n  content: \"\\F0B74\";\n}\n\n.mdi-card-bulleted-settings-outline::before {\n  content: \"\\F0B75\";\n}\n\n.mdi-card-outline::before {\n  content: \"\\F0B76\";\n}\n\n.mdi-card-plus::before {\n  content: \"\\F11FF\";\n}\n\n.mdi-card-plus-outline::before {\n  content: \"\\F1200\";\n}\n\n.mdi-card-search::before {\n  content: \"\\F1074\";\n}\n\n.mdi-card-search-outline::before {\n  content: \"\\F1075\";\n}\n\n.mdi-card-text::before {\n  content: \"\\F0B77\";\n}\n\n.mdi-card-text-outline::before {\n  content: \"\\F0B78\";\n}\n\n.mdi-cards::before {\n  content: \"\\F0638\";\n}\n\n.mdi-cards-club::before {\n  content: \"\\F08CE\";\n}\n\n.mdi-cards-diamond::before {\n  content: \"\\F08CF\";\n}\n\n.mdi-cards-diamond-outline::before {\n  content: \"\\F101D\";\n}\n\n.mdi-cards-heart::before {\n  content: \"\\F08D0\";\n}\n\n.mdi-cards-outline::before {\n  content: \"\\F0639\";\n}\n\n.mdi-cards-playing-outline::before {\n  content: \"\\F063A\";\n}\n\n.mdi-cards-spade::before {\n  content: \"\\F08D1\";\n}\n\n.mdi-cards-variant::before {\n  content: \"\\F06C7\";\n}\n\n.mdi-carrot::before {\n  content: \"\\F010F\";\n}\n\n.mdi-cart::before {\n  content: \"\\F0110\";\n}\n\n.mdi-cart-arrow-down::before {\n  content: \"\\F0D66\";\n}\n\n.mdi-cart-arrow-right::before {\n  content: \"\\F0C4E\";\n}\n\n.mdi-cart-arrow-up::before {\n  content: \"\\F0D67\";\n}\n\n.mdi-cart-minus::before {\n  content: \"\\F0D68\";\n}\n\n.mdi-cart-off::before {\n  content: \"\\F066B\";\n}\n\n.mdi-cart-outline::before {\n  content: \"\\F0111\";\n}\n\n.mdi-cart-plus::before {\n  content: \"\\F0112\";\n}\n\n.mdi-cart-remove::before {\n  content: \"\\F0D69\";\n}\n\n.mdi-case-sensitive-alt::before {\n  content: \"\\F0113\";\n}\n\n.mdi-cash::before {\n  content: \"\\F0114\";\n}\n\n.mdi-cash-100::before {\n  content: \"\\F0115\";\n}\n\n.mdi-cash-check::before {\n  content: \"\\F14EE\";\n}\n\n.mdi-cash-lock::before {\n  content: \"\\F14EA\";\n}\n\n.mdi-cash-lock-open::before {\n  content: \"\\F14EB\";\n}\n\n.mdi-cash-marker::before {\n  content: \"\\F0DB8\";\n}\n\n.mdi-cash-minus::before {\n  content: \"\\F1260\";\n}\n\n.mdi-cash-multiple::before {\n  content: \"\\F0116\";\n}\n\n.mdi-cash-plus::before {\n  content: \"\\F1261\";\n}\n\n.mdi-cash-refund::before {\n  content: \"\\F0A9C\";\n}\n\n.mdi-cash-register::before {\n  content: \"\\F0CF4\";\n}\n\n.mdi-cash-remove::before {\n  content: \"\\F1262\";\n}\n\n.mdi-cash-usd::before {\n  content: \"\\F1176\";\n}\n\n.mdi-cash-usd-outline::before {\n  content: \"\\F0117\";\n}\n\n.mdi-cassette::before {\n  content: \"\\F09D4\";\n}\n\n.mdi-cast::before {\n  content: \"\\F0118\";\n}\n\n.mdi-cast-audio::before {\n  content: \"\\F101E\";\n}\n\n.mdi-cast-connected::before {\n  content: \"\\F0119\";\n}\n\n.mdi-cast-education::before {\n  content: \"\\F0E1D\";\n}\n\n.mdi-cast-off::before {\n  content: \"\\F078A\";\n}\n\n.mdi-castle::before {\n  content: \"\\F011A\";\n}\n\n.mdi-cat::before {\n  content: \"\\F011B\";\n}\n\n.mdi-cctv::before {\n  content: \"\\F07AE\";\n}\n\n.mdi-ceiling-light::before {\n  content: \"\\F0769\";\n}\n\n.mdi-cellphone::before {\n  content: \"\\F011C\";\n}\n\n.mdi-cellphone-android::before {\n  content: \"\\F011D\";\n}\n\n.mdi-cellphone-arrow-down::before {\n  content: \"\\F09D5\";\n}\n\n.mdi-cellphone-basic::before {\n  content: \"\\F011E\";\n}\n\n.mdi-cellphone-charging::before {\n  content: \"\\F1397\";\n}\n\n.mdi-cellphone-cog::before {\n  content: \"\\F0951\";\n}\n\n.mdi-cellphone-dock::before {\n  content: \"\\F011F\";\n}\n\n.mdi-cellphone-erase::before {\n  content: \"\\F094D\";\n}\n\n.mdi-cellphone-information::before {\n  content: \"\\F0F41\";\n}\n\n.mdi-cellphone-iphone::before {\n  content: \"\\F0120\";\n}\n\n.mdi-cellphone-key::before {\n  content: \"\\F094E\";\n}\n\n.mdi-cellphone-link::before {\n  content: \"\\F0121\";\n}\n\n.mdi-cellphone-link-off::before {\n  content: \"\\F0122\";\n}\n\n.mdi-cellphone-lock::before {\n  content: \"\\F094F\";\n}\n\n.mdi-cellphone-message::before {\n  content: \"\\F08D3\";\n}\n\n.mdi-cellphone-message-off::before {\n  content: \"\\F10D2\";\n}\n\n.mdi-cellphone-nfc::before {\n  content: \"\\F0E90\";\n}\n\n.mdi-cellphone-nfc-off::before {\n  content: \"\\F12D8\";\n}\n\n.mdi-cellphone-off::before {\n  content: \"\\F0950\";\n}\n\n.mdi-cellphone-play::before {\n  content: \"\\F101F\";\n}\n\n.mdi-cellphone-screenshot::before {\n  content: \"\\F0A35\";\n}\n\n.mdi-cellphone-settings::before {\n  content: \"\\F0123\";\n}\n\n.mdi-cellphone-sound::before {\n  content: \"\\F0952\";\n}\n\n.mdi-cellphone-text::before {\n  content: \"\\F08D2\";\n}\n\n.mdi-cellphone-wireless::before {\n  content: \"\\F0815\";\n}\n\n.mdi-celtic-cross::before {\n  content: \"\\F0CF5\";\n}\n\n.mdi-centos::before {\n  content: \"\\F111A\";\n}\n\n.mdi-certificate::before {\n  content: \"\\F0124\";\n}\n\n.mdi-certificate-outline::before {\n  content: \"\\F1188\";\n}\n\n.mdi-chair-rolling::before {\n  content: \"\\F0F48\";\n}\n\n.mdi-chair-school::before {\n  content: \"\\F0125\";\n}\n\n.mdi-charity::before {\n  content: \"\\F0C4F\";\n}\n\n.mdi-chart-arc::before {\n  content: \"\\F0126\";\n}\n\n.mdi-chart-areaspline::before {\n  content: \"\\F0127\";\n}\n\n.mdi-chart-areaspline-variant::before {\n  content: \"\\F0E91\";\n}\n\n.mdi-chart-bar::before {\n  content: \"\\F0128\";\n}\n\n.mdi-chart-bar-stacked::before {\n  content: \"\\F076A\";\n}\n\n.mdi-chart-bell-curve::before {\n  content: \"\\F0C50\";\n}\n\n.mdi-chart-bell-curve-cumulative::before {\n  content: \"\\F0FA7\";\n}\n\n.mdi-chart-box::before {\n  content: \"\\F154D\";\n}\n\n.mdi-chart-box-outline::before {\n  content: \"\\F154E\";\n}\n\n.mdi-chart-box-plus-outline::before {\n  content: \"\\F154F\";\n}\n\n.mdi-chart-bubble::before {\n  content: \"\\F05E3\";\n}\n\n.mdi-chart-donut::before {\n  content: \"\\F07AF\";\n}\n\n.mdi-chart-donut-variant::before {\n  content: \"\\F07B0\";\n}\n\n.mdi-chart-gantt::before {\n  content: \"\\F066C\";\n}\n\n.mdi-chart-histogram::before {\n  content: \"\\F0129\";\n}\n\n.mdi-chart-line::before {\n  content: \"\\F012A\";\n}\n\n.mdi-chart-line-stacked::before {\n  content: \"\\F076B\";\n}\n\n.mdi-chart-line-variant::before {\n  content: \"\\F07B1\";\n}\n\n.mdi-chart-multiline::before {\n  content: \"\\F08D4\";\n}\n\n.mdi-chart-multiple::before {\n  content: \"\\F1213\";\n}\n\n.mdi-chart-pie::before {\n  content: \"\\F012B\";\n}\n\n.mdi-chart-ppf::before {\n  content: \"\\F1380\";\n}\n\n.mdi-chart-sankey::before {\n  content: \"\\F11DF\";\n}\n\n.mdi-chart-sankey-variant::before {\n  content: \"\\F11E0\";\n}\n\n.mdi-chart-scatter-plot::before {\n  content: \"\\F0E92\";\n}\n\n.mdi-chart-scatter-plot-hexbin::before {\n  content: \"\\F066D\";\n}\n\n.mdi-chart-timeline::before {\n  content: \"\\F066E\";\n}\n\n.mdi-chart-timeline-variant::before {\n  content: \"\\F0E93\";\n}\n\n.mdi-chart-tree::before {\n  content: \"\\F0E94\";\n}\n\n.mdi-chat::before {\n  content: \"\\F0B79\";\n}\n\n.mdi-chat-alert::before {\n  content: \"\\F0B7A\";\n}\n\n.mdi-chat-alert-outline::before {\n  content: \"\\F12C9\";\n}\n\n.mdi-chat-minus::before {\n  content: \"\\F1410\";\n}\n\n.mdi-chat-minus-outline::before {\n  content: \"\\F1413\";\n}\n\n.mdi-chat-outline::before {\n  content: \"\\F0EDE\";\n}\n\n.mdi-chat-plus::before {\n  content: \"\\F140F\";\n}\n\n.mdi-chat-plus-outline::before {\n  content: \"\\F1412\";\n}\n\n.mdi-chat-processing::before {\n  content: \"\\F0B7B\";\n}\n\n.mdi-chat-processing-outline::before {\n  content: \"\\F12CA\";\n}\n\n.mdi-chat-remove::before {\n  content: \"\\F1411\";\n}\n\n.mdi-chat-remove-outline::before {\n  content: \"\\F1414\";\n}\n\n.mdi-chat-sleep::before {\n  content: \"\\F12D1\";\n}\n\n.mdi-chat-sleep-outline::before {\n  content: \"\\F12D2\";\n}\n\n.mdi-check::before {\n  content: \"\\F012C\";\n}\n\n.mdi-check-all::before {\n  content: \"\\F012D\";\n}\n\n.mdi-check-bold::before {\n  content: \"\\F0E1E\";\n}\n\n.mdi-check-box-multiple-outline::before {\n  content: \"\\F0C51\";\n}\n\n.mdi-check-box-outline::before {\n  content: \"\\F0C52\";\n}\n\n.mdi-check-circle::before {\n  content: \"\\F05E0\";\n}\n\n.mdi-check-circle-outline::before {\n  content: \"\\F05E1\";\n}\n\n.mdi-check-decagram::before {\n  content: \"\\F0791\";\n}\n\n.mdi-check-network::before {\n  content: \"\\F0C53\";\n}\n\n.mdi-check-network-outline::before {\n  content: \"\\F0C54\";\n}\n\n.mdi-check-outline::before {\n  content: \"\\F0855\";\n}\n\n.mdi-check-underline::before {\n  content: \"\\F0E1F\";\n}\n\n.mdi-check-underline-circle::before {\n  content: \"\\F0E20\";\n}\n\n.mdi-check-underline-circle-outline::before {\n  content: \"\\F0E21\";\n}\n\n.mdi-checkbook::before {\n  content: \"\\F0A9D\";\n}\n\n.mdi-checkbox-blank::before {\n  content: \"\\F012E\";\n}\n\n.mdi-checkbox-blank-circle::before {\n  content: \"\\F012F\";\n}\n\n.mdi-checkbox-blank-circle-outline::before {\n  content: \"\\F0130\";\n}\n\n.mdi-checkbox-blank-off::before {\n  content: \"\\F12EC\";\n}\n\n.mdi-checkbox-blank-off-outline::before {\n  content: \"\\F12ED\";\n}\n\n.mdi-checkbox-blank-outline::before {\n  content: \"\\F0131\";\n}\n\n.mdi-checkbox-intermediate::before {\n  content: \"\\F0856\";\n}\n\n.mdi-checkbox-marked::before {\n  content: \"\\F0132\";\n}\n\n.mdi-checkbox-marked-circle::before {\n  content: \"\\F0133\";\n}\n\n.mdi-checkbox-marked-circle-outline::before {\n  content: \"\\F0134\";\n}\n\n.mdi-checkbox-marked-outline::before {\n  content: \"\\F0135\";\n}\n\n.mdi-checkbox-multiple-blank::before {\n  content: \"\\F0136\";\n}\n\n.mdi-checkbox-multiple-blank-circle::before {\n  content: \"\\F063B\";\n}\n\n.mdi-checkbox-multiple-blank-circle-outline::before {\n  content: \"\\F063C\";\n}\n\n.mdi-checkbox-multiple-blank-outline::before {\n  content: \"\\F0137\";\n}\n\n.mdi-checkbox-multiple-marked::before {\n  content: \"\\F0138\";\n}\n\n.mdi-checkbox-multiple-marked-circle::before {\n  content: \"\\F063D\";\n}\n\n.mdi-checkbox-multiple-marked-circle-outline::before {\n  content: \"\\F063E\";\n}\n\n.mdi-checkbox-multiple-marked-outline::before {\n  content: \"\\F0139\";\n}\n\n.mdi-checkerboard::before {\n  content: \"\\F013A\";\n}\n\n.mdi-checkerboard-minus::before {\n  content: \"\\F1202\";\n}\n\n.mdi-checkerboard-plus::before {\n  content: \"\\F1201\";\n}\n\n.mdi-checkerboard-remove::before {\n  content: \"\\F1203\";\n}\n\n.mdi-cheese::before {\n  content: \"\\F12B9\";\n}\n\n.mdi-cheese-off::before {\n  content: \"\\F13EE\";\n}\n\n.mdi-chef-hat::before {\n  content: \"\\F0B7C\";\n}\n\n.mdi-chemical-weapon::before {\n  content: \"\\F013B\";\n}\n\n.mdi-chess-bishop::before {\n  content: \"\\F085C\";\n}\n\n.mdi-chess-king::before {\n  content: \"\\F0857\";\n}\n\n.mdi-chess-knight::before {\n  content: \"\\F0858\";\n}\n\n.mdi-chess-pawn::before {\n  content: \"\\F0859\";\n}\n\n.mdi-chess-queen::before {\n  content: \"\\F085A\";\n}\n\n.mdi-chess-rook::before {\n  content: \"\\F085B\";\n}\n\n.mdi-chevron-double-down::before {\n  content: \"\\F013C\";\n}\n\n.mdi-chevron-double-left::before {\n  content: \"\\F013D\";\n}\n\n.mdi-chevron-double-right::before {\n  content: \"\\F013E\";\n}\n\n.mdi-chevron-double-up::before {\n  content: \"\\F013F\";\n}\n\n.mdi-chevron-down::before {\n  content: \"\\F0140\";\n}\n\n.mdi-chevron-down-box::before {\n  content: \"\\F09D6\";\n}\n\n.mdi-chevron-down-box-outline::before {\n  content: \"\\F09D7\";\n}\n\n.mdi-chevron-down-circle::before {\n  content: \"\\F0B26\";\n}\n\n.mdi-chevron-down-circle-outline::before {\n  content: \"\\F0B27\";\n}\n\n.mdi-chevron-left::before {\n  content: \"\\F0141\";\n}\n\n.mdi-chevron-left-box::before {\n  content: \"\\F09D8\";\n}\n\n.mdi-chevron-left-box-outline::before {\n  content: \"\\F09D9\";\n}\n\n.mdi-chevron-left-circle::before {\n  content: \"\\F0B28\";\n}\n\n.mdi-chevron-left-circle-outline::before {\n  content: \"\\F0B29\";\n}\n\n.mdi-chevron-right::before {\n  content: \"\\F0142\";\n}\n\n.mdi-chevron-right-box::before {\n  content: \"\\F09DA\";\n}\n\n.mdi-chevron-right-box-outline::before {\n  content: \"\\F09DB\";\n}\n\n.mdi-chevron-right-circle::before {\n  content: \"\\F0B2A\";\n}\n\n.mdi-chevron-right-circle-outline::before {\n  content: \"\\F0B2B\";\n}\n\n.mdi-chevron-triple-down::before {\n  content: \"\\F0DB9\";\n}\n\n.mdi-chevron-triple-left::before {\n  content: \"\\F0DBA\";\n}\n\n.mdi-chevron-triple-right::before {\n  content: \"\\F0DBB\";\n}\n\n.mdi-chevron-triple-up::before {\n  content: \"\\F0DBC\";\n}\n\n.mdi-chevron-up::before {\n  content: \"\\F0143\";\n}\n\n.mdi-chevron-up-box::before {\n  content: \"\\F09DC\";\n}\n\n.mdi-chevron-up-box-outline::before {\n  content: \"\\F09DD\";\n}\n\n.mdi-chevron-up-circle::before {\n  content: \"\\F0B2C\";\n}\n\n.mdi-chevron-up-circle-outline::before {\n  content: \"\\F0B2D\";\n}\n\n.mdi-chili-hot::before {\n  content: \"\\F07B2\";\n}\n\n.mdi-chili-medium::before {\n  content: \"\\F07B3\";\n}\n\n.mdi-chili-mild::before {\n  content: \"\\F07B4\";\n}\n\n.mdi-chili-off::before {\n  content: \"\\F1467\";\n}\n\n.mdi-chip::before {\n  content: \"\\F061A\";\n}\n\n.mdi-christianity::before {\n  content: \"\\F0953\";\n}\n\n.mdi-christianity-outline::before {\n  content: \"\\F0CF6\";\n}\n\n.mdi-church::before {\n  content: \"\\F0144\";\n}\n\n.mdi-cigar::before {\n  content: \"\\F1189\";\n}\n\n.mdi-cigar-off::before {\n  content: \"\\F141B\";\n}\n\n.mdi-circle::before {\n  content: \"\\F0765\";\n}\n\n.mdi-circle-double::before {\n  content: \"\\F0E95\";\n}\n\n.mdi-circle-edit-outline::before {\n  content: \"\\F08D5\";\n}\n\n.mdi-circle-expand::before {\n  content: \"\\F0E96\";\n}\n\n.mdi-circle-half::before {\n  content: \"\\F1395\";\n}\n\n.mdi-circle-half-full::before {\n  content: \"\\F1396\";\n}\n\n.mdi-circle-medium::before {\n  content: \"\\F09DE\";\n}\n\n.mdi-circle-multiple::before {\n  content: \"\\F0B38\";\n}\n\n.mdi-circle-multiple-outline::before {\n  content: \"\\F0695\";\n}\n\n.mdi-circle-off-outline::before {\n  content: \"\\F10D3\";\n}\n\n.mdi-circle-outline::before {\n  content: \"\\F0766\";\n}\n\n.mdi-circle-slice-1::before {\n  content: \"\\F0A9E\";\n}\n\n.mdi-circle-slice-2::before {\n  content: \"\\F0A9F\";\n}\n\n.mdi-circle-slice-3::before {\n  content: \"\\F0AA0\";\n}\n\n.mdi-circle-slice-4::before {\n  content: \"\\F0AA1\";\n}\n\n.mdi-circle-slice-5::before {\n  content: \"\\F0AA2\";\n}\n\n.mdi-circle-slice-6::before {\n  content: \"\\F0AA3\";\n}\n\n.mdi-circle-slice-7::before {\n  content: \"\\F0AA4\";\n}\n\n.mdi-circle-slice-8::before {\n  content: \"\\F0AA5\";\n}\n\n.mdi-circle-small::before {\n  content: \"\\F09DF\";\n}\n\n.mdi-circular-saw::before {\n  content: \"\\F0E22\";\n}\n\n.mdi-city::before {\n  content: \"\\F0146\";\n}\n\n.mdi-city-variant::before {\n  content: \"\\F0A36\";\n}\n\n.mdi-city-variant-outline::before {\n  content: \"\\F0A37\";\n}\n\n.mdi-clipboard::before {\n  content: \"\\F0147\";\n}\n\n.mdi-clipboard-account::before {\n  content: \"\\F0148\";\n}\n\n.mdi-clipboard-account-outline::before {\n  content: \"\\F0C55\";\n}\n\n.mdi-clipboard-alert::before {\n  content: \"\\F0149\";\n}\n\n.mdi-clipboard-alert-outline::before {\n  content: \"\\F0CF7\";\n}\n\n.mdi-clipboard-arrow-down::before {\n  content: \"\\F014A\";\n}\n\n.mdi-clipboard-arrow-down-outline::before {\n  content: \"\\F0C56\";\n}\n\n.mdi-clipboard-arrow-left::before {\n  content: \"\\F014B\";\n}\n\n.mdi-clipboard-arrow-left-outline::before {\n  content: \"\\F0CF8\";\n}\n\n.mdi-clipboard-arrow-right::before {\n  content: \"\\F0CF9\";\n}\n\n.mdi-clipboard-arrow-right-outline::before {\n  content: \"\\F0CFA\";\n}\n\n.mdi-clipboard-arrow-up::before {\n  content: \"\\F0C57\";\n}\n\n.mdi-clipboard-arrow-up-outline::before {\n  content: \"\\F0C58\";\n}\n\n.mdi-clipboard-check::before {\n  content: \"\\F014E\";\n}\n\n.mdi-clipboard-check-multiple::before {\n  content: \"\\F1263\";\n}\n\n.mdi-clipboard-check-multiple-outline::before {\n  content: \"\\F1264\";\n}\n\n.mdi-clipboard-check-outline::before {\n  content: \"\\F08A8\";\n}\n\n.mdi-clipboard-edit::before {\n  content: \"\\F14E5\";\n}\n\n.mdi-clipboard-edit-outline::before {\n  content: \"\\F14E6\";\n}\n\n.mdi-clipboard-file::before {\n  content: \"\\F1265\";\n}\n\n.mdi-clipboard-file-outline::before {\n  content: \"\\F1266\";\n}\n\n.mdi-clipboard-flow::before {\n  content: \"\\F06C8\";\n}\n\n.mdi-clipboard-flow-outline::before {\n  content: \"\\F1117\";\n}\n\n.mdi-clipboard-list::before {\n  content: \"\\F10D4\";\n}\n\n.mdi-clipboard-list-outline::before {\n  content: \"\\F10D5\";\n}\n\n.mdi-clipboard-multiple::before {\n  content: \"\\F1267\";\n}\n\n.mdi-clipboard-multiple-outline::before {\n  content: \"\\F1268\";\n}\n\n.mdi-clipboard-outline::before {\n  content: \"\\F014C\";\n}\n\n.mdi-clipboard-play::before {\n  content: \"\\F0C59\";\n}\n\n.mdi-clipboard-play-multiple::before {\n  content: \"\\F1269\";\n}\n\n.mdi-clipboard-play-multiple-outline::before {\n  content: \"\\F126A\";\n}\n\n.mdi-clipboard-play-outline::before {\n  content: \"\\F0C5A\";\n}\n\n.mdi-clipboard-plus::before {\n  content: \"\\F0751\";\n}\n\n.mdi-clipboard-plus-outline::before {\n  content: \"\\F131F\";\n}\n\n.mdi-clipboard-pulse::before {\n  content: \"\\F085D\";\n}\n\n.mdi-clipboard-pulse-outline::before {\n  content: \"\\F085E\";\n}\n\n.mdi-clipboard-text::before {\n  content: \"\\F014D\";\n}\n\n.mdi-clipboard-text-multiple::before {\n  content: \"\\F126B\";\n}\n\n.mdi-clipboard-text-multiple-outline::before {\n  content: \"\\F126C\";\n}\n\n.mdi-clipboard-text-outline::before {\n  content: \"\\F0A38\";\n}\n\n.mdi-clipboard-text-play::before {\n  content: \"\\F0C5B\";\n}\n\n.mdi-clipboard-text-play-outline::before {\n  content: \"\\F0C5C\";\n}\n\n.mdi-clippy::before {\n  content: \"\\F014F\";\n}\n\n.mdi-clock::before {\n  content: \"\\F0954\";\n}\n\n.mdi-clock-alert::before {\n  content: \"\\F0955\";\n}\n\n.mdi-clock-alert-outline::before {\n  content: \"\\F05CE\";\n}\n\n.mdi-clock-check::before {\n  content: \"\\F0FA8\";\n}\n\n.mdi-clock-check-outline::before {\n  content: \"\\F0FA9\";\n}\n\n.mdi-clock-digital::before {\n  content: \"\\F0E97\";\n}\n\n.mdi-clock-end::before {\n  content: \"\\F0151\";\n}\n\n.mdi-clock-fast::before {\n  content: \"\\F0152\";\n}\n\n.mdi-clock-in::before {\n  content: \"\\F0153\";\n}\n\n.mdi-clock-out::before {\n  content: \"\\F0154\";\n}\n\n.mdi-clock-outline::before {\n  content: \"\\F0150\";\n}\n\n.mdi-clock-start::before {\n  content: \"\\F0155\";\n}\n\n.mdi-clock-time-eight::before {\n  content: \"\\F1446\";\n}\n\n.mdi-clock-time-eight-outline::before {\n  content: \"\\F1452\";\n}\n\n.mdi-clock-time-eleven::before {\n  content: \"\\F1449\";\n}\n\n.mdi-clock-time-eleven-outline::before {\n  content: \"\\F1455\";\n}\n\n.mdi-clock-time-five::before {\n  content: \"\\F1443\";\n}\n\n.mdi-clock-time-five-outline::before {\n  content: \"\\F144F\";\n}\n\n.mdi-clock-time-four::before {\n  content: \"\\F1442\";\n}\n\n.mdi-clock-time-four-outline::before {\n  content: \"\\F144E\";\n}\n\n.mdi-clock-time-nine::before {\n  content: \"\\F1447\";\n}\n\n.mdi-clock-time-nine-outline::before {\n  content: \"\\F1453\";\n}\n\n.mdi-clock-time-one::before {\n  content: \"\\F143F\";\n}\n\n.mdi-clock-time-one-outline::before {\n  content: \"\\F144B\";\n}\n\n.mdi-clock-time-seven::before {\n  content: \"\\F1445\";\n}\n\n.mdi-clock-time-seven-outline::before {\n  content: \"\\F1451\";\n}\n\n.mdi-clock-time-six::before {\n  content: \"\\F1444\";\n}\n\n.mdi-clock-time-six-outline::before {\n  content: \"\\F1450\";\n}\n\n.mdi-clock-time-ten::before {\n  content: \"\\F1448\";\n}\n\n.mdi-clock-time-ten-outline::before {\n  content: \"\\F1454\";\n}\n\n.mdi-clock-time-three::before {\n  content: \"\\F1441\";\n}\n\n.mdi-clock-time-three-outline::before {\n  content: \"\\F144D\";\n}\n\n.mdi-clock-time-twelve::before {\n  content: \"\\F144A\";\n}\n\n.mdi-clock-time-twelve-outline::before {\n  content: \"\\F1456\";\n}\n\n.mdi-clock-time-two::before {\n  content: \"\\F1440\";\n}\n\n.mdi-clock-time-two-outline::before {\n  content: \"\\F144C\";\n}\n\n.mdi-close::before {\n  content: \"\\F0156\";\n}\n\n.mdi-close-box::before {\n  content: \"\\F0157\";\n}\n\n.mdi-close-box-multiple::before {\n  content: \"\\F0C5D\";\n}\n\n.mdi-close-box-multiple-outline::before {\n  content: \"\\F0C5E\";\n}\n\n.mdi-close-box-outline::before {\n  content: \"\\F0158\";\n}\n\n.mdi-close-circle::before {\n  content: \"\\F0159\";\n}\n\n.mdi-close-circle-multiple::before {\n  content: \"\\F062A\";\n}\n\n.mdi-close-circle-multiple-outline::before {\n  content: \"\\F0883\";\n}\n\n.mdi-close-circle-outline::before {\n  content: \"\\F015A\";\n}\n\n.mdi-close-network::before {\n  content: \"\\F015B\";\n}\n\n.mdi-close-network-outline::before {\n  content: \"\\F0C5F\";\n}\n\n.mdi-close-octagon::before {\n  content: \"\\F015C\";\n}\n\n.mdi-close-octagon-outline::before {\n  content: \"\\F015D\";\n}\n\n.mdi-close-outline::before {\n  content: \"\\F06C9\";\n}\n\n.mdi-close-thick::before {\n  content: \"\\F1398\";\n}\n\n.mdi-closed-caption::before {\n  content: \"\\F015E\";\n}\n\n.mdi-closed-caption-outline::before {\n  content: \"\\F0DBD\";\n}\n\n.mdi-cloud::before {\n  content: \"\\F015F\";\n}\n\n.mdi-cloud-alert::before {\n  content: \"\\F09E0\";\n}\n\n.mdi-cloud-braces::before {\n  content: \"\\F07B5\";\n}\n\n.mdi-cloud-check::before {\n  content: \"\\F0160\";\n}\n\n.mdi-cloud-check-outline::before {\n  content: \"\\F12CC\";\n}\n\n.mdi-cloud-circle::before {\n  content: \"\\F0161\";\n}\n\n.mdi-cloud-download::before {\n  content: \"\\F0162\";\n}\n\n.mdi-cloud-download-outline::before {\n  content: \"\\F0B7D\";\n}\n\n.mdi-cloud-lock::before {\n  content: \"\\F11F1\";\n}\n\n.mdi-cloud-lock-outline::before {\n  content: \"\\F11F2\";\n}\n\n.mdi-cloud-off-outline::before {\n  content: \"\\F0164\";\n}\n\n.mdi-cloud-outline::before {\n  content: \"\\F0163\";\n}\n\n.mdi-cloud-print::before {\n  content: \"\\F0165\";\n}\n\n.mdi-cloud-print-outline::before {\n  content: \"\\F0166\";\n}\n\n.mdi-cloud-question::before {\n  content: \"\\F0A39\";\n}\n\n.mdi-cloud-refresh::before {\n  content: \"\\F052A\";\n}\n\n.mdi-cloud-search::before {\n  content: \"\\F0956\";\n}\n\n.mdi-cloud-search-outline::before {\n  content: \"\\F0957\";\n}\n\n.mdi-cloud-sync::before {\n  content: \"\\F063F\";\n}\n\n.mdi-cloud-sync-outline::before {\n  content: \"\\F12D6\";\n}\n\n.mdi-cloud-tags::before {\n  content: \"\\F07B6\";\n}\n\n.mdi-cloud-upload::before {\n  content: \"\\F0167\";\n}\n\n.mdi-cloud-upload-outline::before {\n  content: \"\\F0B7E\";\n}\n\n.mdi-clover::before {\n  content: \"\\F0816\";\n}\n\n.mdi-coach-lamp::before {\n  content: \"\\F1020\";\n}\n\n.mdi-coat-rack::before {\n  content: \"\\F109E\";\n}\n\n.mdi-code-array::before {\n  content: \"\\F0168\";\n}\n\n.mdi-code-braces::before {\n  content: \"\\F0169\";\n}\n\n.mdi-code-braces-box::before {\n  content: \"\\F10D6\";\n}\n\n.mdi-code-brackets::before {\n  content: \"\\F016A\";\n}\n\n.mdi-code-equal::before {\n  content: \"\\F016B\";\n}\n\n.mdi-code-greater-than::before {\n  content: \"\\F016C\";\n}\n\n.mdi-code-greater-than-or-equal::before {\n  content: \"\\F016D\";\n}\n\n.mdi-code-json::before {\n  content: \"\\F0626\";\n}\n\n.mdi-code-less-than::before {\n  content: \"\\F016E\";\n}\n\n.mdi-code-less-than-or-equal::before {\n  content: \"\\F016F\";\n}\n\n.mdi-code-not-equal::before {\n  content: \"\\F0170\";\n}\n\n.mdi-code-not-equal-variant::before {\n  content: \"\\F0171\";\n}\n\n.mdi-code-parentheses::before {\n  content: \"\\F0172\";\n}\n\n.mdi-code-parentheses-box::before {\n  content: \"\\F10D7\";\n}\n\n.mdi-code-string::before {\n  content: \"\\F0173\";\n}\n\n.mdi-code-tags::before {\n  content: \"\\F0174\";\n}\n\n.mdi-code-tags-check::before {\n  content: \"\\F0694\";\n}\n\n.mdi-codepen::before {\n  content: \"\\F0175\";\n}\n\n.mdi-coffee::before {\n  content: \"\\F0176\";\n}\n\n.mdi-coffee-maker::before {\n  content: \"\\F109F\";\n}\n\n.mdi-coffee-off::before {\n  content: \"\\F0FAA\";\n}\n\n.mdi-coffee-off-outline::before {\n  content: \"\\F0FAB\";\n}\n\n.mdi-coffee-outline::before {\n  content: \"\\F06CA\";\n}\n\n.mdi-coffee-to-go::before {\n  content: \"\\F0177\";\n}\n\n.mdi-coffee-to-go-outline::before {\n  content: \"\\F130E\";\n}\n\n.mdi-coffin::before {\n  content: \"\\F0B7F\";\n}\n\n.mdi-cog::before {\n  content: \"\\F0493\";\n}\n\n.mdi-cog-box::before {\n  content: \"\\F0494\";\n}\n\n.mdi-cog-clockwise::before {\n  content: \"\\F11DD\";\n}\n\n.mdi-cog-counterclockwise::before {\n  content: \"\\F11DE\";\n}\n\n.mdi-cog-off::before {\n  content: \"\\F13CE\";\n}\n\n.mdi-cog-off-outline::before {\n  content: \"\\F13CF\";\n}\n\n.mdi-cog-outline::before {\n  content: \"\\F08BB\";\n}\n\n.mdi-cog-refresh::before {\n  content: \"\\F145E\";\n}\n\n.mdi-cog-refresh-outline::before {\n  content: \"\\F145F\";\n}\n\n.mdi-cog-sync::before {\n  content: \"\\F1460\";\n}\n\n.mdi-cog-sync-outline::before {\n  content: \"\\F1461\";\n}\n\n.mdi-cog-transfer::before {\n  content: \"\\F105B\";\n}\n\n.mdi-cog-transfer-outline::before {\n  content: \"\\F105C\";\n}\n\n.mdi-cogs::before {\n  content: \"\\F08D6\";\n}\n\n.mdi-collage::before {\n  content: \"\\F0640\";\n}\n\n.mdi-collapse-all::before {\n  content: \"\\F0AA6\";\n}\n\n.mdi-collapse-all-outline::before {\n  content: \"\\F0AA7\";\n}\n\n.mdi-color-helper::before {\n  content: \"\\F0179\";\n}\n\n.mdi-comma::before {\n  content: \"\\F0E23\";\n}\n\n.mdi-comma-box::before {\n  content: \"\\F0E2B\";\n}\n\n.mdi-comma-box-outline::before {\n  content: \"\\F0E24\";\n}\n\n.mdi-comma-circle::before {\n  content: \"\\F0E25\";\n}\n\n.mdi-comma-circle-outline::before {\n  content: \"\\F0E26\";\n}\n\n.mdi-comment::before {\n  content: \"\\F017A\";\n}\n\n.mdi-comment-account::before {\n  content: \"\\F017B\";\n}\n\n.mdi-comment-account-outline::before {\n  content: \"\\F017C\";\n}\n\n.mdi-comment-alert::before {\n  content: \"\\F017D\";\n}\n\n.mdi-comment-alert-outline::before {\n  content: \"\\F017E\";\n}\n\n.mdi-comment-arrow-left::before {\n  content: \"\\F09E1\";\n}\n\n.mdi-comment-arrow-left-outline::before {\n  content: \"\\F09E2\";\n}\n\n.mdi-comment-arrow-right::before {\n  content: \"\\F09E3\";\n}\n\n.mdi-comment-arrow-right-outline::before {\n  content: \"\\F09E4\";\n}\n\n.mdi-comment-bookmark::before {\n  content: \"\\F15AE\";\n}\n\n.mdi-comment-bookmark-outline::before {\n  content: \"\\F15AF\";\n}\n\n.mdi-comment-check::before {\n  content: \"\\F017F\";\n}\n\n.mdi-comment-check-outline::before {\n  content: \"\\F0180\";\n}\n\n.mdi-comment-edit::before {\n  content: \"\\F11BF\";\n}\n\n.mdi-comment-edit-outline::before {\n  content: \"\\F12C4\";\n}\n\n.mdi-comment-eye::before {\n  content: \"\\F0A3A\";\n}\n\n.mdi-comment-eye-outline::before {\n  content: \"\\F0A3B\";\n}\n\n.mdi-comment-flash::before {\n  content: \"\\F15B0\";\n}\n\n.mdi-comment-flash-outline::before {\n  content: \"\\F15B1\";\n}\n\n.mdi-comment-multiple::before {\n  content: \"\\F085F\";\n}\n\n.mdi-comment-multiple-outline::before {\n  content: \"\\F0181\";\n}\n\n.mdi-comment-outline::before {\n  content: \"\\F0182\";\n}\n\n.mdi-comment-plus::before {\n  content: \"\\F09E5\";\n}\n\n.mdi-comment-plus-outline::before {\n  content: \"\\F0183\";\n}\n\n.mdi-comment-processing::before {\n  content: \"\\F0184\";\n}\n\n.mdi-comment-processing-outline::before {\n  content: \"\\F0185\";\n}\n\n.mdi-comment-question::before {\n  content: \"\\F0817\";\n}\n\n.mdi-comment-question-outline::before {\n  content: \"\\F0186\";\n}\n\n.mdi-comment-quote::before {\n  content: \"\\F1021\";\n}\n\n.mdi-comment-quote-outline::before {\n  content: \"\\F1022\";\n}\n\n.mdi-comment-remove::before {\n  content: \"\\F05DE\";\n}\n\n.mdi-comment-remove-outline::before {\n  content: \"\\F0187\";\n}\n\n.mdi-comment-search::before {\n  content: \"\\F0A3C\";\n}\n\n.mdi-comment-search-outline::before {\n  content: \"\\F0A3D\";\n}\n\n.mdi-comment-text::before {\n  content: \"\\F0188\";\n}\n\n.mdi-comment-text-multiple::before {\n  content: \"\\F0860\";\n}\n\n.mdi-comment-text-multiple-outline::before {\n  content: \"\\F0861\";\n}\n\n.mdi-comment-text-outline::before {\n  content: \"\\F0189\";\n}\n\n.mdi-compare::before {\n  content: \"\\F018A\";\n}\n\n.mdi-compare-horizontal::before {\n  content: \"\\F1492\";\n}\n\n.mdi-compare-vertical::before {\n  content: \"\\F1493\";\n}\n\n.mdi-compass::before {\n  content: \"\\F018B\";\n}\n\n.mdi-compass-off::before {\n  content: \"\\F0B80\";\n}\n\n.mdi-compass-off-outline::before {\n  content: \"\\F0B81\";\n}\n\n.mdi-compass-outline::before {\n  content: \"\\F018C\";\n}\n\n.mdi-compass-rose::before {\n  content: \"\\F1382\";\n}\n\n.mdi-concourse-ci::before {\n  content: \"\\F10A0\";\n}\n\n.mdi-console::before {\n  content: \"\\F018D\";\n}\n\n.mdi-console-line::before {\n  content: \"\\F07B7\";\n}\n\n.mdi-console-network::before {\n  content: \"\\F08A9\";\n}\n\n.mdi-console-network-outline::before {\n  content: \"\\F0C60\";\n}\n\n.mdi-consolidate::before {\n  content: \"\\F10D8\";\n}\n\n.mdi-contactless-payment::before {\n  content: \"\\F0D6A\";\n}\n\n.mdi-contactless-payment-circle::before {\n  content: \"\\F0321\";\n}\n\n.mdi-contactless-payment-circle-outline::before {\n  content: \"\\F0408\";\n}\n\n.mdi-contacts::before {\n  content: \"\\F06CB\";\n}\n\n.mdi-contacts-outline::before {\n  content: \"\\F05B8\";\n}\n\n.mdi-contain::before {\n  content: \"\\F0A3E\";\n}\n\n.mdi-contain-end::before {\n  content: \"\\F0A3F\";\n}\n\n.mdi-contain-start::before {\n  content: \"\\F0A40\";\n}\n\n.mdi-content-copy::before {\n  content: \"\\F018F\";\n}\n\n.mdi-content-cut::before {\n  content: \"\\F0190\";\n}\n\n.mdi-content-duplicate::before {\n  content: \"\\F0191\";\n}\n\n.mdi-content-paste::before {\n  content: \"\\F0192\";\n}\n\n.mdi-content-save::before {\n  content: \"\\F0193\";\n}\n\n.mdi-content-save-alert::before {\n  content: \"\\F0F42\";\n}\n\n.mdi-content-save-alert-outline::before {\n  content: \"\\F0F43\";\n}\n\n.mdi-content-save-all::before {\n  content: \"\\F0194\";\n}\n\n.mdi-content-save-all-outline::before {\n  content: \"\\F0F44\";\n}\n\n.mdi-content-save-cog::before {\n  content: \"\\F145B\";\n}\n\n.mdi-content-save-cog-outline::before {\n  content: \"\\F145C\";\n}\n\n.mdi-content-save-edit::before {\n  content: \"\\F0CFB\";\n}\n\n.mdi-content-save-edit-outline::before {\n  content: \"\\F0CFC\";\n}\n\n.mdi-content-save-move::before {\n  content: \"\\F0E27\";\n}\n\n.mdi-content-save-move-outline::before {\n  content: \"\\F0E28\";\n}\n\n.mdi-content-save-outline::before {\n  content: \"\\F0818\";\n}\n\n.mdi-content-save-settings::before {\n  content: \"\\F061B\";\n}\n\n.mdi-content-save-settings-outline::before {\n  content: \"\\F0B2E\";\n}\n\n.mdi-contrast::before {\n  content: \"\\F0195\";\n}\n\n.mdi-contrast-box::before {\n  content: \"\\F0196\";\n}\n\n.mdi-contrast-circle::before {\n  content: \"\\F0197\";\n}\n\n.mdi-controller-classic::before {\n  content: \"\\F0B82\";\n}\n\n.mdi-controller-classic-outline::before {\n  content: \"\\F0B83\";\n}\n\n.mdi-cookie::before {\n  content: \"\\F0198\";\n}\n\n.mdi-coolant-temperature::before {\n  content: \"\\F03C8\";\n}\n\n.mdi-copyright::before {\n  content: \"\\F05E6\";\n}\n\n.mdi-cordova::before {\n  content: \"\\F0958\";\n}\n\n.mdi-corn::before {\n  content: \"\\F07B8\";\n}\n\n.mdi-corn-off::before {\n  content: \"\\F13EF\";\n}\n\n.mdi-cosine-wave::before {\n  content: \"\\F1479\";\n}\n\n.mdi-counter::before {\n  content: \"\\F0199\";\n}\n\n.mdi-cow::before {\n  content: \"\\F019A\";\n}\n\n.mdi-cpu-32-bit::before {\n  content: \"\\F0EDF\";\n}\n\n.mdi-cpu-64-bit::before {\n  content: \"\\F0EE0\";\n}\n\n.mdi-crane::before {\n  content: \"\\F0862\";\n}\n\n.mdi-creation::before {\n  content: \"\\F0674\";\n}\n\n.mdi-creative-commons::before {\n  content: \"\\F0D6B\";\n}\n\n.mdi-credit-card::before {\n  content: \"\\F0FEF\";\n}\n\n.mdi-credit-card-check::before {\n  content: \"\\F13D0\";\n}\n\n.mdi-credit-card-check-outline::before {\n  content: \"\\F13D1\";\n}\n\n.mdi-credit-card-clock::before {\n  content: \"\\F0EE1\";\n}\n\n.mdi-credit-card-clock-outline::before {\n  content: \"\\F0EE2\";\n}\n\n.mdi-credit-card-marker::before {\n  content: \"\\F06A8\";\n}\n\n.mdi-credit-card-marker-outline::before {\n  content: \"\\F0DBE\";\n}\n\n.mdi-credit-card-minus::before {\n  content: \"\\F0FAC\";\n}\n\n.mdi-credit-card-minus-outline::before {\n  content: \"\\F0FAD\";\n}\n\n.mdi-credit-card-multiple::before {\n  content: \"\\F0FF0\";\n}\n\n.mdi-credit-card-multiple-outline::before {\n  content: \"\\F019C\";\n}\n\n.mdi-credit-card-off::before {\n  content: \"\\F0FF1\";\n}\n\n.mdi-credit-card-off-outline::before {\n  content: \"\\F05E4\";\n}\n\n.mdi-credit-card-outline::before {\n  content: \"\\F019B\";\n}\n\n.mdi-credit-card-plus::before {\n  content: \"\\F0FF2\";\n}\n\n.mdi-credit-card-plus-outline::before {\n  content: \"\\F0676\";\n}\n\n.mdi-credit-card-refund::before {\n  content: \"\\F0FF3\";\n}\n\n.mdi-credit-card-refund-outline::before {\n  content: \"\\F0AA8\";\n}\n\n.mdi-credit-card-remove::before {\n  content: \"\\F0FAE\";\n}\n\n.mdi-credit-card-remove-outline::before {\n  content: \"\\F0FAF\";\n}\n\n.mdi-credit-card-scan::before {\n  content: \"\\F0FF4\";\n}\n\n.mdi-credit-card-scan-outline::before {\n  content: \"\\F019D\";\n}\n\n.mdi-credit-card-settings::before {\n  content: \"\\F0FF5\";\n}\n\n.mdi-credit-card-settings-outline::before {\n  content: \"\\F08D7\";\n}\n\n.mdi-credit-card-wireless::before {\n  content: \"\\F0802\";\n}\n\n.mdi-credit-card-wireless-off::before {\n  content: \"\\F057A\";\n}\n\n.mdi-credit-card-wireless-off-outline::before {\n  content: \"\\F057B\";\n}\n\n.mdi-credit-card-wireless-outline::before {\n  content: \"\\F0D6C\";\n}\n\n.mdi-cricket::before {\n  content: \"\\F0D6D\";\n}\n\n.mdi-crop::before {\n  content: \"\\F019E\";\n}\n\n.mdi-crop-free::before {\n  content: \"\\F019F\";\n}\n\n.mdi-crop-landscape::before {\n  content: \"\\F01A0\";\n}\n\n.mdi-crop-portrait::before {\n  content: \"\\F01A1\";\n}\n\n.mdi-crop-rotate::before {\n  content: \"\\F0696\";\n}\n\n.mdi-crop-square::before {\n  content: \"\\F01A2\";\n}\n\n.mdi-crosshairs::before {\n  content: \"\\F01A3\";\n}\n\n.mdi-crosshairs-gps::before {\n  content: \"\\F01A4\";\n}\n\n.mdi-crosshairs-off::before {\n  content: \"\\F0F45\";\n}\n\n.mdi-crosshairs-question::before {\n  content: \"\\F1136\";\n}\n\n.mdi-crown::before {\n  content: \"\\F01A5\";\n}\n\n.mdi-crown-outline::before {\n  content: \"\\F11D0\";\n}\n\n.mdi-cryengine::before {\n  content: \"\\F0959\";\n}\n\n.mdi-crystal-ball::before {\n  content: \"\\F0B2F\";\n}\n\n.mdi-cube::before {\n  content: \"\\F01A6\";\n}\n\n.mdi-cube-off::before {\n  content: \"\\F141C\";\n}\n\n.mdi-cube-off-outline::before {\n  content: \"\\F141D\";\n}\n\n.mdi-cube-outline::before {\n  content: \"\\F01A7\";\n}\n\n.mdi-cube-scan::before {\n  content: \"\\F0B84\";\n}\n\n.mdi-cube-send::before {\n  content: \"\\F01A8\";\n}\n\n.mdi-cube-unfolded::before {\n  content: \"\\F01A9\";\n}\n\n.mdi-cup::before {\n  content: \"\\F01AA\";\n}\n\n.mdi-cup-off::before {\n  content: \"\\F05E5\";\n}\n\n.mdi-cup-off-outline::before {\n  content: \"\\F137D\";\n}\n\n.mdi-cup-outline::before {\n  content: \"\\F130F\";\n}\n\n.mdi-cup-water::before {\n  content: \"\\F01AB\";\n}\n\n.mdi-cupboard::before {\n  content: \"\\F0F46\";\n}\n\n.mdi-cupboard-outline::before {\n  content: \"\\F0F47\";\n}\n\n.mdi-cupcake::before {\n  content: \"\\F095A\";\n}\n\n.mdi-curling::before {\n  content: \"\\F0863\";\n}\n\n.mdi-currency-bdt::before {\n  content: \"\\F0864\";\n}\n\n.mdi-currency-brl::before {\n  content: \"\\F0B85\";\n}\n\n.mdi-currency-btc::before {\n  content: \"\\F01AC\";\n}\n\n.mdi-currency-cny::before {\n  content: \"\\F07BA\";\n}\n\n.mdi-currency-eth::before {\n  content: \"\\F07BB\";\n}\n\n.mdi-currency-eur::before {\n  content: \"\\F01AD\";\n}\n\n.mdi-currency-eur-off::before {\n  content: \"\\F1315\";\n}\n\n.mdi-currency-gbp::before {\n  content: \"\\F01AE\";\n}\n\n.mdi-currency-ils::before {\n  content: \"\\F0C61\";\n}\n\n.mdi-currency-inr::before {\n  content: \"\\F01AF\";\n}\n\n.mdi-currency-jpy::before {\n  content: \"\\F07BC\";\n}\n\n.mdi-currency-krw::before {\n  content: \"\\F07BD\";\n}\n\n.mdi-currency-kzt::before {\n  content: \"\\F0865\";\n}\n\n.mdi-currency-mnt::before {\n  content: \"\\F1512\";\n}\n\n.mdi-currency-ngn::before {\n  content: \"\\F01B0\";\n}\n\n.mdi-currency-php::before {\n  content: \"\\F09E6\";\n}\n\n.mdi-currency-rial::before {\n  content: \"\\F0E9C\";\n}\n\n.mdi-currency-rub::before {\n  content: \"\\F01B1\";\n}\n\n.mdi-currency-sign::before {\n  content: \"\\F07BE\";\n}\n\n.mdi-currency-try::before {\n  content: \"\\F01B2\";\n}\n\n.mdi-currency-twd::before {\n  content: \"\\F07BF\";\n}\n\n.mdi-currency-usd::before {\n  content: \"\\F01C1\";\n}\n\n.mdi-currency-usd-circle::before {\n  content: \"\\F116B\";\n}\n\n.mdi-currency-usd-circle-outline::before {\n  content: \"\\F0178\";\n}\n\n.mdi-currency-usd-off::before {\n  content: \"\\F067A\";\n}\n\n.mdi-current-ac::before {\n  content: \"\\F1480\";\n}\n\n.mdi-current-dc::before {\n  content: \"\\F095C\";\n}\n\n.mdi-cursor-default::before {\n  content: \"\\F01C0\";\n}\n\n.mdi-cursor-default-click::before {\n  content: \"\\F0CFD\";\n}\n\n.mdi-cursor-default-click-outline::before {\n  content: \"\\F0CFE\";\n}\n\n.mdi-cursor-default-gesture::before {\n  content: \"\\F1127\";\n}\n\n.mdi-cursor-default-gesture-outline::before {\n  content: \"\\F1128\";\n}\n\n.mdi-cursor-default-outline::before {\n  content: \"\\F01BF\";\n}\n\n.mdi-cursor-move::before {\n  content: \"\\F01BE\";\n}\n\n.mdi-cursor-pointer::before {\n  content: \"\\F01BD\";\n}\n\n.mdi-cursor-text::before {\n  content: \"\\F05E7\";\n}\n\n.mdi-dance-pole::before {\n  content: \"\\F1578\";\n}\n\n.mdi-data-matrix::before {\n  content: \"\\F153C\";\n}\n\n.mdi-data-matrix-edit::before {\n  content: \"\\F153D\";\n}\n\n.mdi-data-matrix-minus::before {\n  content: \"\\F153E\";\n}\n\n.mdi-data-matrix-plus::before {\n  content: \"\\F153F\";\n}\n\n.mdi-data-matrix-remove::before {\n  content: \"\\F1540\";\n}\n\n.mdi-data-matrix-scan::before {\n  content: \"\\F1541\";\n}\n\n.mdi-database::before {\n  content: \"\\F01BC\";\n}\n\n.mdi-database-check::before {\n  content: \"\\F0AA9\";\n}\n\n.mdi-database-edit::before {\n  content: \"\\F0B86\";\n}\n\n.mdi-database-export::before {\n  content: \"\\F095E\";\n}\n\n.mdi-database-import::before {\n  content: \"\\F095D\";\n}\n\n.mdi-database-lock::before {\n  content: \"\\F0AAA\";\n}\n\n.mdi-database-marker::before {\n  content: \"\\F12F6\";\n}\n\n.mdi-database-minus::before {\n  content: \"\\F01BB\";\n}\n\n.mdi-database-plus::before {\n  content: \"\\F01BA\";\n}\n\n.mdi-database-refresh::before {\n  content: \"\\F05C2\";\n}\n\n.mdi-database-remove::before {\n  content: \"\\F0D00\";\n}\n\n.mdi-database-search::before {\n  content: \"\\F0866\";\n}\n\n.mdi-database-settings::before {\n  content: \"\\F0D01\";\n}\n\n.mdi-database-sync::before {\n  content: \"\\F0CFF\";\n}\n\n.mdi-death-star::before {\n  content: \"\\F08D8\";\n}\n\n.mdi-death-star-variant::before {\n  content: \"\\F08D9\";\n}\n\n.mdi-deathly-hallows::before {\n  content: \"\\F0B87\";\n}\n\n.mdi-debian::before {\n  content: \"\\F08DA\";\n}\n\n.mdi-debug-step-into::before {\n  content: \"\\F01B9\";\n}\n\n.mdi-debug-step-out::before {\n  content: \"\\F01B8\";\n}\n\n.mdi-debug-step-over::before {\n  content: \"\\F01B7\";\n}\n\n.mdi-decagram::before {\n  content: \"\\F076C\";\n}\n\n.mdi-decagram-outline::before {\n  content: \"\\F076D\";\n}\n\n.mdi-decimal::before {\n  content: \"\\F10A1\";\n}\n\n.mdi-decimal-comma::before {\n  content: \"\\F10A2\";\n}\n\n.mdi-decimal-comma-decrease::before {\n  content: \"\\F10A3\";\n}\n\n.mdi-decimal-comma-increase::before {\n  content: \"\\F10A4\";\n}\n\n.mdi-decimal-decrease::before {\n  content: \"\\F01B6\";\n}\n\n.mdi-decimal-increase::before {\n  content: \"\\F01B5\";\n}\n\n.mdi-delete::before {\n  content: \"\\F01B4\";\n}\n\n.mdi-delete-alert::before {\n  content: \"\\F10A5\";\n}\n\n.mdi-delete-alert-outline::before {\n  content: \"\\F10A6\";\n}\n\n.mdi-delete-circle::before {\n  content: \"\\F0683\";\n}\n\n.mdi-delete-circle-outline::before {\n  content: \"\\F0B88\";\n}\n\n.mdi-delete-clock::before {\n  content: \"\\F1556\";\n}\n\n.mdi-delete-clock-outline::before {\n  content: \"\\F1557\";\n}\n\n.mdi-delete-empty::before {\n  content: \"\\F06CC\";\n}\n\n.mdi-delete-empty-outline::before {\n  content: \"\\F0E9D\";\n}\n\n.mdi-delete-forever::before {\n  content: \"\\F05E8\";\n}\n\n.mdi-delete-forever-outline::before {\n  content: \"\\F0B89\";\n}\n\n.mdi-delete-off::before {\n  content: \"\\F10A7\";\n}\n\n.mdi-delete-off-outline::before {\n  content: \"\\F10A8\";\n}\n\n.mdi-delete-outline::before {\n  content: \"\\F09E7\";\n}\n\n.mdi-delete-restore::before {\n  content: \"\\F0819\";\n}\n\n.mdi-delete-sweep::before {\n  content: \"\\F05E9\";\n}\n\n.mdi-delete-sweep-outline::before {\n  content: \"\\F0C62\";\n}\n\n.mdi-delete-variant::before {\n  content: \"\\F01B3\";\n}\n\n.mdi-delta::before {\n  content: \"\\F01C2\";\n}\n\n.mdi-desk::before {\n  content: \"\\F1239\";\n}\n\n.mdi-desk-lamp::before {\n  content: \"\\F095F\";\n}\n\n.mdi-deskphone::before {\n  content: \"\\F01C3\";\n}\n\n.mdi-desktop-classic::before {\n  content: \"\\F07C0\";\n}\n\n.mdi-desktop-mac::before {\n  content: \"\\F01C4\";\n}\n\n.mdi-desktop-mac-dashboard::before {\n  content: \"\\F09E8\";\n}\n\n.mdi-desktop-tower::before {\n  content: \"\\F01C5\";\n}\n\n.mdi-desktop-tower-monitor::before {\n  content: \"\\F0AAB\";\n}\n\n.mdi-details::before {\n  content: \"\\F01C6\";\n}\n\n.mdi-dev-to::before {\n  content: \"\\F0D6E\";\n}\n\n.mdi-developer-board::before {\n  content: \"\\F0697\";\n}\n\n.mdi-deviantart::before {\n  content: \"\\F01C7\";\n}\n\n.mdi-devices::before {\n  content: \"\\F0FB0\";\n}\n\n.mdi-diabetes::before {\n  content: \"\\F1126\";\n}\n\n.mdi-dialpad::before {\n  content: \"\\F061C\";\n}\n\n.mdi-diameter::before {\n  content: \"\\F0C63\";\n}\n\n.mdi-diameter-outline::before {\n  content: \"\\F0C64\";\n}\n\n.mdi-diameter-variant::before {\n  content: \"\\F0C65\";\n}\n\n.mdi-diamond::before {\n  content: \"\\F0B8A\";\n}\n\n.mdi-diamond-outline::before {\n  content: \"\\F0B8B\";\n}\n\n.mdi-diamond-stone::before {\n  content: \"\\F01C8\";\n}\n\n.mdi-dice-1::before {\n  content: \"\\F01CA\";\n}\n\n.mdi-dice-1-outline::before {\n  content: \"\\F114A\";\n}\n\n.mdi-dice-2::before {\n  content: \"\\F01CB\";\n}\n\n.mdi-dice-2-outline::before {\n  content: \"\\F114B\";\n}\n\n.mdi-dice-3::before {\n  content: \"\\F01CC\";\n}\n\n.mdi-dice-3-outline::before {\n  content: \"\\F114C\";\n}\n\n.mdi-dice-4::before {\n  content: \"\\F01CD\";\n}\n\n.mdi-dice-4-outline::before {\n  content: \"\\F114D\";\n}\n\n.mdi-dice-5::before {\n  content: \"\\F01CE\";\n}\n\n.mdi-dice-5-outline::before {\n  content: \"\\F114E\";\n}\n\n.mdi-dice-6::before {\n  content: \"\\F01CF\";\n}\n\n.mdi-dice-6-outline::before {\n  content: \"\\F114F\";\n}\n\n.mdi-dice-d10::before {\n  content: \"\\F1153\";\n}\n\n.mdi-dice-d10-outline::before {\n  content: \"\\F076F\";\n}\n\n.mdi-dice-d12::before {\n  content: \"\\F1154\";\n}\n\n.mdi-dice-d12-outline::before {\n  content: \"\\F0867\";\n}\n\n.mdi-dice-d20::before {\n  content: \"\\F1155\";\n}\n\n.mdi-dice-d20-outline::before {\n  content: \"\\F05EA\";\n}\n\n.mdi-dice-d4::before {\n  content: \"\\F1150\";\n}\n\n.mdi-dice-d4-outline::before {\n  content: \"\\F05EB\";\n}\n\n.mdi-dice-d6::before {\n  content: \"\\F1151\";\n}\n\n.mdi-dice-d6-outline::before {\n  content: \"\\F05ED\";\n}\n\n.mdi-dice-d8::before {\n  content: \"\\F1152\";\n}\n\n.mdi-dice-d8-outline::before {\n  content: \"\\F05EC\";\n}\n\n.mdi-dice-multiple::before {\n  content: \"\\F076E\";\n}\n\n.mdi-dice-multiple-outline::before {\n  content: \"\\F1156\";\n}\n\n.mdi-digital-ocean::before {\n  content: \"\\F1237\";\n}\n\n.mdi-dip-switch::before {\n  content: \"\\F07C1\";\n}\n\n.mdi-directions::before {\n  content: \"\\F01D0\";\n}\n\n.mdi-directions-fork::before {\n  content: \"\\F0641\";\n}\n\n.mdi-disc::before {\n  content: \"\\F05EE\";\n}\n\n.mdi-disc-alert::before {\n  content: \"\\F01D1\";\n}\n\n.mdi-disc-player::before {\n  content: \"\\F0960\";\n}\n\n.mdi-discord::before {\n  content: \"\\F066F\";\n}\n\n.mdi-dishwasher::before {\n  content: \"\\F0AAC\";\n}\n\n.mdi-dishwasher-alert::before {\n  content: \"\\F11B8\";\n}\n\n.mdi-dishwasher-off::before {\n  content: \"\\F11B9\";\n}\n\n.mdi-disqus::before {\n  content: \"\\F01D2\";\n}\n\n.mdi-distribute-horizontal-center::before {\n  content: \"\\F11C9\";\n}\n\n.mdi-distribute-horizontal-left::before {\n  content: \"\\F11C8\";\n}\n\n.mdi-distribute-horizontal-right::before {\n  content: \"\\F11CA\";\n}\n\n.mdi-distribute-vertical-bottom::before {\n  content: \"\\F11CB\";\n}\n\n.mdi-distribute-vertical-center::before {\n  content: \"\\F11CC\";\n}\n\n.mdi-distribute-vertical-top::before {\n  content: \"\\F11CD\";\n}\n\n.mdi-diving-flippers::before {\n  content: \"\\F0DBF\";\n}\n\n.mdi-diving-helmet::before {\n  content: \"\\F0DC0\";\n}\n\n.mdi-diving-scuba::before {\n  content: \"\\F0DC1\";\n}\n\n.mdi-diving-scuba-flag::before {\n  content: \"\\F0DC2\";\n}\n\n.mdi-diving-scuba-tank::before {\n  content: \"\\F0DC3\";\n}\n\n.mdi-diving-scuba-tank-multiple::before {\n  content: \"\\F0DC4\";\n}\n\n.mdi-diving-snorkel::before {\n  content: \"\\F0DC5\";\n}\n\n.mdi-division::before {\n  content: \"\\F01D4\";\n}\n\n.mdi-division-box::before {\n  content: \"\\F01D5\";\n}\n\n.mdi-dlna::before {\n  content: \"\\F0A41\";\n}\n\n.mdi-dna::before {\n  content: \"\\F0684\";\n}\n\n.mdi-dns::before {\n  content: \"\\F01D6\";\n}\n\n.mdi-dns-outline::before {\n  content: \"\\F0B8C\";\n}\n\n.mdi-do-not-disturb::before {\n  content: \"\\F0698\";\n}\n\n.mdi-do-not-disturb-off::before {\n  content: \"\\F0699\";\n}\n\n.mdi-dock-bottom::before {\n  content: \"\\F10A9\";\n}\n\n.mdi-dock-left::before {\n  content: \"\\F10AA\";\n}\n\n.mdi-dock-right::before {\n  content: \"\\F10AB\";\n}\n\n.mdi-dock-top::before {\n  content: \"\\F1513\";\n}\n\n.mdi-dock-window::before {\n  content: \"\\F10AC\";\n}\n\n.mdi-docker::before {\n  content: \"\\F0868\";\n}\n\n.mdi-doctor::before {\n  content: \"\\F0A42\";\n}\n\n.mdi-dog::before {\n  content: \"\\F0A43\";\n}\n\n.mdi-dog-service::before {\n  content: \"\\F0AAD\";\n}\n\n.mdi-dog-side::before {\n  content: \"\\F0A44\";\n}\n\n.mdi-dolby::before {\n  content: \"\\F06B3\";\n}\n\n.mdi-dolly::before {\n  content: \"\\F0E9E\";\n}\n\n.mdi-domain::before {\n  content: \"\\F01D7\";\n}\n\n.mdi-domain-off::before {\n  content: \"\\F0D6F\";\n}\n\n.mdi-domain-plus::before {\n  content: \"\\F10AD\";\n}\n\n.mdi-domain-remove::before {\n  content: \"\\F10AE\";\n}\n\n.mdi-dome-light::before {\n  content: \"\\F141E\";\n}\n\n.mdi-domino-mask::before {\n  content: \"\\F1023\";\n}\n\n.mdi-donkey::before {\n  content: \"\\F07C2\";\n}\n\n.mdi-door::before {\n  content: \"\\F081A\";\n}\n\n.mdi-door-closed::before {\n  content: \"\\F081B\";\n}\n\n.mdi-door-closed-lock::before {\n  content: \"\\F10AF\";\n}\n\n.mdi-door-open::before {\n  content: \"\\F081C\";\n}\n\n.mdi-doorbell::before {\n  content: \"\\F12E6\";\n}\n\n.mdi-doorbell-video::before {\n  content: \"\\F0869\";\n}\n\n.mdi-dot-net::before {\n  content: \"\\F0AAE\";\n}\n\n.mdi-dots-horizontal::before {\n  content: \"\\F01D8\";\n}\n\n.mdi-dots-horizontal-circle::before {\n  content: \"\\F07C3\";\n}\n\n.mdi-dots-horizontal-circle-outline::before {\n  content: \"\\F0B8D\";\n}\n\n.mdi-dots-vertical::before {\n  content: \"\\F01D9\";\n}\n\n.mdi-dots-vertical-circle::before {\n  content: \"\\F07C4\";\n}\n\n.mdi-dots-vertical-circle-outline::before {\n  content: \"\\F0B8E\";\n}\n\n.mdi-douban::before {\n  content: \"\\F069A\";\n}\n\n.mdi-download::before {\n  content: \"\\F01DA\";\n}\n\n.mdi-download-box::before {\n  content: \"\\F1462\";\n}\n\n.mdi-download-box-outline::before {\n  content: \"\\F1463\";\n}\n\n.mdi-download-circle::before {\n  content: \"\\F1464\";\n}\n\n.mdi-download-circle-outline::before {\n  content: \"\\F1465\";\n}\n\n.mdi-download-lock::before {\n  content: \"\\F1320\";\n}\n\n.mdi-download-lock-outline::before {\n  content: \"\\F1321\";\n}\n\n.mdi-download-multiple::before {\n  content: \"\\F09E9\";\n}\n\n.mdi-download-network::before {\n  content: \"\\F06F4\";\n}\n\n.mdi-download-network-outline::before {\n  content: \"\\F0C66\";\n}\n\n.mdi-download-off::before {\n  content: \"\\F10B0\";\n}\n\n.mdi-download-off-outline::before {\n  content: \"\\F10B1\";\n}\n\n.mdi-download-outline::before {\n  content: \"\\F0B8F\";\n}\n\n.mdi-drag::before {\n  content: \"\\F01DB\";\n}\n\n.mdi-drag-horizontal::before {\n  content: \"\\F01DC\";\n}\n\n.mdi-drag-horizontal-variant::before {\n  content: \"\\F12F0\";\n}\n\n.mdi-drag-variant::before {\n  content: \"\\F0B90\";\n}\n\n.mdi-drag-vertical::before {\n  content: \"\\F01DD\";\n}\n\n.mdi-drag-vertical-variant::before {\n  content: \"\\F12F1\";\n}\n\n.mdi-drama-masks::before {\n  content: \"\\F0D02\";\n}\n\n.mdi-draw::before {\n  content: \"\\F0F49\";\n}\n\n.mdi-drawing::before {\n  content: \"\\F01DE\";\n}\n\n.mdi-drawing-box::before {\n  content: \"\\F01DF\";\n}\n\n.mdi-dresser::before {\n  content: \"\\F0F4A\";\n}\n\n.mdi-dresser-outline::before {\n  content: \"\\F0F4B\";\n}\n\n.mdi-drone::before {\n  content: \"\\F01E2\";\n}\n\n.mdi-dropbox::before {\n  content: \"\\F01E3\";\n}\n\n.mdi-drupal::before {\n  content: \"\\F01E4\";\n}\n\n.mdi-duck::before {\n  content: \"\\F01E5\";\n}\n\n.mdi-dumbbell::before {\n  content: \"\\F01E6\";\n}\n\n.mdi-dump-truck::before {\n  content: \"\\F0C67\";\n}\n\n.mdi-ear-hearing::before {\n  content: \"\\F07C5\";\n}\n\n.mdi-ear-hearing-off::before {\n  content: \"\\F0A45\";\n}\n\n.mdi-earth::before {\n  content: \"\\F01E7\";\n}\n\n.mdi-earth-arrow-right::before {\n  content: \"\\F1311\";\n}\n\n.mdi-earth-box::before {\n  content: \"\\F06CD\";\n}\n\n.mdi-earth-box-minus::before {\n  content: \"\\F1407\";\n}\n\n.mdi-earth-box-off::before {\n  content: \"\\F06CE\";\n}\n\n.mdi-earth-box-plus::before {\n  content: \"\\F1406\";\n}\n\n.mdi-earth-box-remove::before {\n  content: \"\\F1408\";\n}\n\n.mdi-earth-minus::before {\n  content: \"\\F1404\";\n}\n\n.mdi-earth-off::before {\n  content: \"\\F01E8\";\n}\n\n.mdi-earth-plus::before {\n  content: \"\\F1403\";\n}\n\n.mdi-earth-remove::before {\n  content: \"\\F1405\";\n}\n\n.mdi-egg::before {\n  content: \"\\F0AAF\";\n}\n\n.mdi-egg-easter::before {\n  content: \"\\F0AB0\";\n}\n\n.mdi-egg-off::before {\n  content: \"\\F13F0\";\n}\n\n.mdi-egg-off-outline::before {\n  content: \"\\F13F1\";\n}\n\n.mdi-egg-outline::before {\n  content: \"\\F13F2\";\n}\n\n.mdi-eiffel-tower::before {\n  content: \"\\F156B\";\n}\n\n.mdi-eight-track::before {\n  content: \"\\F09EA\";\n}\n\n.mdi-eject::before {\n  content: \"\\F01EA\";\n}\n\n.mdi-eject-outline::before {\n  content: \"\\F0B91\";\n}\n\n.mdi-electric-switch::before {\n  content: \"\\F0E9F\";\n}\n\n.mdi-electric-switch-closed::before {\n  content: \"\\F10D9\";\n}\n\n.mdi-electron-framework::before {\n  content: \"\\F1024\";\n}\n\n.mdi-elephant::before {\n  content: \"\\F07C6\";\n}\n\n.mdi-elevation-decline::before {\n  content: \"\\F01EB\";\n}\n\n.mdi-elevation-rise::before {\n  content: \"\\F01EC\";\n}\n\n.mdi-elevator::before {\n  content: \"\\F01ED\";\n}\n\n.mdi-elevator-down::before {\n  content: \"\\F12C2\";\n}\n\n.mdi-elevator-passenger::before {\n  content: \"\\F1381\";\n}\n\n.mdi-elevator-up::before {\n  content: \"\\F12C1\";\n}\n\n.mdi-ellipse::before {\n  content: \"\\F0EA0\";\n}\n\n.mdi-ellipse-outline::before {\n  content: \"\\F0EA1\";\n}\n\n.mdi-email::before {\n  content: \"\\F01EE\";\n}\n\n.mdi-email-alert::before {\n  content: \"\\F06CF\";\n}\n\n.mdi-email-alert-outline::before {\n  content: \"\\F0D42\";\n}\n\n.mdi-email-box::before {\n  content: \"\\F0D03\";\n}\n\n.mdi-email-check::before {\n  content: \"\\F0AB1\";\n}\n\n.mdi-email-check-outline::before {\n  content: \"\\F0AB2\";\n}\n\n.mdi-email-edit::before {\n  content: \"\\F0EE3\";\n}\n\n.mdi-email-edit-outline::before {\n  content: \"\\F0EE4\";\n}\n\n.mdi-email-lock::before {\n  content: \"\\F01F1\";\n}\n\n.mdi-email-mark-as-unread::before {\n  content: \"\\F0B92\";\n}\n\n.mdi-email-minus::before {\n  content: \"\\F0EE5\";\n}\n\n.mdi-email-minus-outline::before {\n  content: \"\\F0EE6\";\n}\n\n.mdi-email-multiple::before {\n  content: \"\\F0EE7\";\n}\n\n.mdi-email-multiple-outline::before {\n  content: \"\\F0EE8\";\n}\n\n.mdi-email-newsletter::before {\n  content: \"\\F0FB1\";\n}\n\n.mdi-email-off::before {\n  content: \"\\F13E3\";\n}\n\n.mdi-email-off-outline::before {\n  content: \"\\F13E4\";\n}\n\n.mdi-email-open::before {\n  content: \"\\F01EF\";\n}\n\n.mdi-email-open-multiple::before {\n  content: \"\\F0EE9\";\n}\n\n.mdi-email-open-multiple-outline::before {\n  content: \"\\F0EEA\";\n}\n\n.mdi-email-open-outline::before {\n  content: \"\\F05EF\";\n}\n\n.mdi-email-outline::before {\n  content: \"\\F01F0\";\n}\n\n.mdi-email-plus::before {\n  content: \"\\F09EB\";\n}\n\n.mdi-email-plus-outline::before {\n  content: \"\\F09EC\";\n}\n\n.mdi-email-receive::before {\n  content: \"\\F10DA\";\n}\n\n.mdi-email-receive-outline::before {\n  content: \"\\F10DB\";\n}\n\n.mdi-email-search::before {\n  content: \"\\F0961\";\n}\n\n.mdi-email-search-outline::before {\n  content: \"\\F0962\";\n}\n\n.mdi-email-send::before {\n  content: \"\\F10DC\";\n}\n\n.mdi-email-send-outline::before {\n  content: \"\\F10DD\";\n}\n\n.mdi-email-sync::before {\n  content: \"\\F12C7\";\n}\n\n.mdi-email-sync-outline::before {\n  content: \"\\F12C8\";\n}\n\n.mdi-email-variant::before {\n  content: \"\\F05F0\";\n}\n\n.mdi-ember::before {\n  content: \"\\F0B30\";\n}\n\n.mdi-emby::before {\n  content: \"\\F06B4\";\n}\n\n.mdi-emoticon::before {\n  content: \"\\F0C68\";\n}\n\n.mdi-emoticon-angry::before {\n  content: \"\\F0C69\";\n}\n\n.mdi-emoticon-angry-outline::before {\n  content: \"\\F0C6A\";\n}\n\n.mdi-emoticon-confused::before {\n  content: \"\\F10DE\";\n}\n\n.mdi-emoticon-confused-outline::before {\n  content: \"\\F10DF\";\n}\n\n.mdi-emoticon-cool::before {\n  content: \"\\F0C6B\";\n}\n\n.mdi-emoticon-cool-outline::before {\n  content: \"\\F01F3\";\n}\n\n.mdi-emoticon-cry::before {\n  content: \"\\F0C6C\";\n}\n\n.mdi-emoticon-cry-outline::before {\n  content: \"\\F0C6D\";\n}\n\n.mdi-emoticon-dead::before {\n  content: \"\\F0C6E\";\n}\n\n.mdi-emoticon-dead-outline::before {\n  content: \"\\F069B\";\n}\n\n.mdi-emoticon-devil::before {\n  content: \"\\F0C6F\";\n}\n\n.mdi-emoticon-devil-outline::before {\n  content: \"\\F01F4\";\n}\n\n.mdi-emoticon-excited::before {\n  content: \"\\F0C70\";\n}\n\n.mdi-emoticon-excited-outline::before {\n  content: \"\\F069C\";\n}\n\n.mdi-emoticon-frown::before {\n  content: \"\\F0F4C\";\n}\n\n.mdi-emoticon-frown-outline::before {\n  content: \"\\F0F4D\";\n}\n\n.mdi-emoticon-happy::before {\n  content: \"\\F0C71\";\n}\n\n.mdi-emoticon-happy-outline::before {\n  content: \"\\F01F5\";\n}\n\n.mdi-emoticon-kiss::before {\n  content: \"\\F0C72\";\n}\n\n.mdi-emoticon-kiss-outline::before {\n  content: \"\\F0C73\";\n}\n\n.mdi-emoticon-lol::before {\n  content: \"\\F1214\";\n}\n\n.mdi-emoticon-lol-outline::before {\n  content: \"\\F1215\";\n}\n\n.mdi-emoticon-neutral::before {\n  content: \"\\F0C74\";\n}\n\n.mdi-emoticon-neutral-outline::before {\n  content: \"\\F01F6\";\n}\n\n.mdi-emoticon-outline::before {\n  content: \"\\F01F2\";\n}\n\n.mdi-emoticon-poop::before {\n  content: \"\\F01F7\";\n}\n\n.mdi-emoticon-poop-outline::before {\n  content: \"\\F0C75\";\n}\n\n.mdi-emoticon-sad::before {\n  content: \"\\F0C76\";\n}\n\n.mdi-emoticon-sad-outline::before {\n  content: \"\\F01F8\";\n}\n\n.mdi-emoticon-sick::before {\n  content: \"\\F157C\";\n}\n\n.mdi-emoticon-sick-outline::before {\n  content: \"\\F157D\";\n}\n\n.mdi-emoticon-tongue::before {\n  content: \"\\F01F9\";\n}\n\n.mdi-emoticon-tongue-outline::before {\n  content: \"\\F0C77\";\n}\n\n.mdi-emoticon-wink::before {\n  content: \"\\F0C78\";\n}\n\n.mdi-emoticon-wink-outline::before {\n  content: \"\\F0C79\";\n}\n\n.mdi-engine::before {\n  content: \"\\F01FA\";\n}\n\n.mdi-engine-off::before {\n  content: \"\\F0A46\";\n}\n\n.mdi-engine-off-outline::before {\n  content: \"\\F0A47\";\n}\n\n.mdi-engine-outline::before {\n  content: \"\\F01FB\";\n}\n\n.mdi-epsilon::before {\n  content: \"\\F10E0\";\n}\n\n.mdi-equal::before {\n  content: \"\\F01FC\";\n}\n\n.mdi-equal-box::before {\n  content: \"\\F01FD\";\n}\n\n.mdi-equalizer::before {\n  content: \"\\F0EA2\";\n}\n\n.mdi-equalizer-outline::before {\n  content: \"\\F0EA3\";\n}\n\n.mdi-eraser::before {\n  content: \"\\F01FE\";\n}\n\n.mdi-eraser-variant::before {\n  content: \"\\F0642\";\n}\n\n.mdi-escalator::before {\n  content: \"\\F01FF\";\n}\n\n.mdi-escalator-box::before {\n  content: \"\\F1399\";\n}\n\n.mdi-escalator-down::before {\n  content: \"\\F12C0\";\n}\n\n.mdi-escalator-up::before {\n  content: \"\\F12BF\";\n}\n\n.mdi-eslint::before {\n  content: \"\\F0C7A\";\n}\n\n.mdi-et::before {\n  content: \"\\F0AB3\";\n}\n\n.mdi-ethereum::before {\n  content: \"\\F086A\";\n}\n\n.mdi-ethernet::before {\n  content: \"\\F0200\";\n}\n\n.mdi-ethernet-cable::before {\n  content: \"\\F0201\";\n}\n\n.mdi-ethernet-cable-off::before {\n  content: \"\\F0202\";\n}\n\n.mdi-ev-plug-ccs1::before {\n  content: \"\\F1519\";\n}\n\n.mdi-ev-plug-ccs2::before {\n  content: \"\\F151A\";\n}\n\n.mdi-ev-plug-chademo::before {\n  content: \"\\F151B\";\n}\n\n.mdi-ev-plug-tesla::before {\n  content: \"\\F151C\";\n}\n\n.mdi-ev-plug-type1::before {\n  content: \"\\F151D\";\n}\n\n.mdi-ev-plug-type2::before {\n  content: \"\\F151E\";\n}\n\n.mdi-ev-station::before {\n  content: \"\\F05F1\";\n}\n\n.mdi-evernote::before {\n  content: \"\\F0204\";\n}\n\n.mdi-excavator::before {\n  content: \"\\F1025\";\n}\n\n.mdi-exclamation::before {\n  content: \"\\F0205\";\n}\n\n.mdi-exclamation-thick::before {\n  content: \"\\F1238\";\n}\n\n.mdi-exit-run::before {\n  content: \"\\F0A48\";\n}\n\n.mdi-exit-to-app::before {\n  content: \"\\F0206\";\n}\n\n.mdi-expand-all::before {\n  content: \"\\F0AB4\";\n}\n\n.mdi-expand-all-outline::before {\n  content: \"\\F0AB5\";\n}\n\n.mdi-expansion-card::before {\n  content: \"\\F08AE\";\n}\n\n.mdi-expansion-card-variant::before {\n  content: \"\\F0FB2\";\n}\n\n.mdi-exponent::before {\n  content: \"\\F0963\";\n}\n\n.mdi-exponent-box::before {\n  content: \"\\F0964\";\n}\n\n.mdi-export::before {\n  content: \"\\F0207\";\n}\n\n.mdi-export-variant::before {\n  content: \"\\F0B93\";\n}\n\n.mdi-eye::before {\n  content: \"\\F0208\";\n}\n\n.mdi-eye-check::before {\n  content: \"\\F0D04\";\n}\n\n.mdi-eye-check-outline::before {\n  content: \"\\F0D05\";\n}\n\n.mdi-eye-circle::before {\n  content: \"\\F0B94\";\n}\n\n.mdi-eye-circle-outline::before {\n  content: \"\\F0B95\";\n}\n\n.mdi-eye-minus::before {\n  content: \"\\F1026\";\n}\n\n.mdi-eye-minus-outline::before {\n  content: \"\\F1027\";\n}\n\n.mdi-eye-off::before {\n  content: \"\\F0209\";\n}\n\n.mdi-eye-off-outline::before {\n  content: \"\\F06D1\";\n}\n\n.mdi-eye-outline::before {\n  content: \"\\F06D0\";\n}\n\n.mdi-eye-plus::before {\n  content: \"\\F086B\";\n}\n\n.mdi-eye-plus-outline::before {\n  content: \"\\F086C\";\n}\n\n.mdi-eye-settings::before {\n  content: \"\\F086D\";\n}\n\n.mdi-eye-settings-outline::before {\n  content: \"\\F086E\";\n}\n\n.mdi-eyedropper::before {\n  content: \"\\F020A\";\n}\n\n.mdi-eyedropper-minus::before {\n  content: \"\\F13DD\";\n}\n\n.mdi-eyedropper-off::before {\n  content: \"\\F13DF\";\n}\n\n.mdi-eyedropper-plus::before {\n  content: \"\\F13DC\";\n}\n\n.mdi-eyedropper-remove::before {\n  content: \"\\F13DE\";\n}\n\n.mdi-eyedropper-variant::before {\n  content: \"\\F020B\";\n}\n\n.mdi-face::before {\n  content: \"\\F0643\";\n}\n\n.mdi-face-agent::before {\n  content: \"\\F0D70\";\n}\n\n.mdi-face-mask::before {\n  content: \"\\F1586\";\n}\n\n.mdi-face-mask-outline::before {\n  content: \"\\F1587\";\n}\n\n.mdi-face-outline::before {\n  content: \"\\F0B96\";\n}\n\n.mdi-face-profile::before {\n  content: \"\\F0644\";\n}\n\n.mdi-face-profile-woman::before {\n  content: \"\\F1076\";\n}\n\n.mdi-face-recognition::before {\n  content: \"\\F0C7B\";\n}\n\n.mdi-face-woman::before {\n  content: \"\\F1077\";\n}\n\n.mdi-face-woman-outline::before {\n  content: \"\\F1078\";\n}\n\n.mdi-facebook::before {\n  content: \"\\F020C\";\n}\n\n.mdi-facebook-gaming::before {\n  content: \"\\F07DD\";\n}\n\n.mdi-facebook-messenger::before {\n  content: \"\\F020E\";\n}\n\n.mdi-facebook-workplace::before {\n  content: \"\\F0B31\";\n}\n\n.mdi-factory::before {\n  content: \"\\F020F\";\n}\n\n.mdi-fan::before {\n  content: \"\\F0210\";\n}\n\n.mdi-fan-alert::before {\n  content: \"\\F146C\";\n}\n\n.mdi-fan-chevron-down::before {\n  content: \"\\F146D\";\n}\n\n.mdi-fan-chevron-up::before {\n  content: \"\\F146E\";\n}\n\n.mdi-fan-minus::before {\n  content: \"\\F1470\";\n}\n\n.mdi-fan-off::before {\n  content: \"\\F081D\";\n}\n\n.mdi-fan-plus::before {\n  content: \"\\F146F\";\n}\n\n.mdi-fan-remove::before {\n  content: \"\\F1471\";\n}\n\n.mdi-fan-speed-1::before {\n  content: \"\\F1472\";\n}\n\n.mdi-fan-speed-2::before {\n  content: \"\\F1473\";\n}\n\n.mdi-fan-speed-3::before {\n  content: \"\\F1474\";\n}\n\n.mdi-fast-forward::before {\n  content: \"\\F0211\";\n}\n\n.mdi-fast-forward-10::before {\n  content: \"\\F0D71\";\n}\n\n.mdi-fast-forward-30::before {\n  content: \"\\F0D06\";\n}\n\n.mdi-fast-forward-5::before {\n  content: \"\\F11F8\";\n}\n\n.mdi-fast-forward-outline::before {\n  content: \"\\F06D2\";\n}\n\n.mdi-fax::before {\n  content: \"\\F0212\";\n}\n\n.mdi-feather::before {\n  content: \"\\F06D3\";\n}\n\n.mdi-feature-search::before {\n  content: \"\\F0A49\";\n}\n\n.mdi-feature-search-outline::before {\n  content: \"\\F0A4A\";\n}\n\n.mdi-fedora::before {\n  content: \"\\F08DB\";\n}\n\n.mdi-fencing::before {\n  content: \"\\F14C1\";\n}\n\n.mdi-ferris-wheel::before {\n  content: \"\\F0EA4\";\n}\n\n.mdi-ferry::before {\n  content: \"\\F0213\";\n}\n\n.mdi-file::before {\n  content: \"\\F0214\";\n}\n\n.mdi-file-account::before {\n  content: \"\\F073B\";\n}\n\n.mdi-file-account-outline::before {\n  content: \"\\F1028\";\n}\n\n.mdi-file-alert::before {\n  content: \"\\F0A4B\";\n}\n\n.mdi-file-alert-outline::before {\n  content: \"\\F0A4C\";\n}\n\n.mdi-file-cabinet::before {\n  content: \"\\F0AB6\";\n}\n\n.mdi-file-cad::before {\n  content: \"\\F0EEB\";\n}\n\n.mdi-file-cad-box::before {\n  content: \"\\F0EEC\";\n}\n\n.mdi-file-cancel::before {\n  content: \"\\F0DC6\";\n}\n\n.mdi-file-cancel-outline::before {\n  content: \"\\F0DC7\";\n}\n\n.mdi-file-certificate::before {\n  content: \"\\F1186\";\n}\n\n.mdi-file-certificate-outline::before {\n  content: \"\\F1187\";\n}\n\n.mdi-file-chart::before {\n  content: \"\\F0215\";\n}\n\n.mdi-file-chart-outline::before {\n  content: \"\\F1029\";\n}\n\n.mdi-file-check::before {\n  content: \"\\F0216\";\n}\n\n.mdi-file-check-outline::before {\n  content: \"\\F0E29\";\n}\n\n.mdi-file-clock::before {\n  content: \"\\F12E1\";\n}\n\n.mdi-file-clock-outline::before {\n  content: \"\\F12E2\";\n}\n\n.mdi-file-cloud::before {\n  content: \"\\F0217\";\n}\n\n.mdi-file-cloud-outline::before {\n  content: \"\\F102A\";\n}\n\n.mdi-file-code::before {\n  content: \"\\F022E\";\n}\n\n.mdi-file-code-outline::before {\n  content: \"\\F102B\";\n}\n\n.mdi-file-cog::before {\n  content: \"\\F107B\";\n}\n\n.mdi-file-cog-outline::before {\n  content: \"\\F107C\";\n}\n\n.mdi-file-compare::before {\n  content: \"\\F08AA\";\n}\n\n.mdi-file-delimited::before {\n  content: \"\\F0218\";\n}\n\n.mdi-file-delimited-outline::before {\n  content: \"\\F0EA5\";\n}\n\n.mdi-file-document::before {\n  content: \"\\F0219\";\n}\n\n.mdi-file-document-edit::before {\n  content: \"\\F0DC8\";\n}\n\n.mdi-file-document-edit-outline::before {\n  content: \"\\F0DC9\";\n}\n\n.mdi-file-document-multiple::before {\n  content: \"\\F1517\";\n}\n\n.mdi-file-document-multiple-outline::before {\n  content: \"\\F1518\";\n}\n\n.mdi-file-document-outline::before {\n  content: \"\\F09EE\";\n}\n\n.mdi-file-download::before {\n  content: \"\\F0965\";\n}\n\n.mdi-file-download-outline::before {\n  content: \"\\F0966\";\n}\n\n.mdi-file-edit::before {\n  content: \"\\F11E7\";\n}\n\n.mdi-file-edit-outline::before {\n  content: \"\\F11E8\";\n}\n\n.mdi-file-excel::before {\n  content: \"\\F021B\";\n}\n\n.mdi-file-excel-box::before {\n  content: \"\\F021C\";\n}\n\n.mdi-file-excel-box-outline::before {\n  content: \"\\F102C\";\n}\n\n.mdi-file-excel-outline::before {\n  content: \"\\F102D\";\n}\n\n.mdi-file-export::before {\n  content: \"\\F021D\";\n}\n\n.mdi-file-export-outline::before {\n  content: \"\\F102E\";\n}\n\n.mdi-file-eye::before {\n  content: \"\\F0DCA\";\n}\n\n.mdi-file-eye-outline::before {\n  content: \"\\F0DCB\";\n}\n\n.mdi-file-find::before {\n  content: \"\\F021E\";\n}\n\n.mdi-file-find-outline::before {\n  content: \"\\F0B97\";\n}\n\n.mdi-file-hidden::before {\n  content: \"\\F0613\";\n}\n\n.mdi-file-image::before {\n  content: \"\\F021F\";\n}\n\n.mdi-file-image-outline::before {\n  content: \"\\F0EB0\";\n}\n\n.mdi-file-import::before {\n  content: \"\\F0220\";\n}\n\n.mdi-file-import-outline::before {\n  content: \"\\F102F\";\n}\n\n.mdi-file-key::before {\n  content: \"\\F1184\";\n}\n\n.mdi-file-key-outline::before {\n  content: \"\\F1185\";\n}\n\n.mdi-file-link::before {\n  content: \"\\F1177\";\n}\n\n.mdi-file-link-outline::before {\n  content: \"\\F1178\";\n}\n\n.mdi-file-lock::before {\n  content: \"\\F0221\";\n}\n\n.mdi-file-lock-outline::before {\n  content: \"\\F1030\";\n}\n\n.mdi-file-move::before {\n  content: \"\\F0AB9\";\n}\n\n.mdi-file-move-outline::before {\n  content: \"\\F1031\";\n}\n\n.mdi-file-multiple::before {\n  content: \"\\F0222\";\n}\n\n.mdi-file-multiple-outline::before {\n  content: \"\\F1032\";\n}\n\n.mdi-file-music::before {\n  content: \"\\F0223\";\n}\n\n.mdi-file-music-outline::before {\n  content: \"\\F0E2A\";\n}\n\n.mdi-file-outline::before {\n  content: \"\\F0224\";\n}\n\n.mdi-file-pdf::before {\n  content: \"\\F0225\";\n}\n\n.mdi-file-pdf-box::before {\n  content: \"\\F0226\";\n}\n\n.mdi-file-pdf-box-outline::before {\n  content: \"\\F0FB3\";\n}\n\n.mdi-file-pdf-outline::before {\n  content: \"\\F0E2D\";\n}\n\n.mdi-file-percent::before {\n  content: \"\\F081E\";\n}\n\n.mdi-file-percent-outline::before {\n  content: \"\\F1033\";\n}\n\n.mdi-file-phone::before {\n  content: \"\\F1179\";\n}\n\n.mdi-file-phone-outline::before {\n  content: \"\\F117A\";\n}\n\n.mdi-file-plus::before {\n  content: \"\\F0752\";\n}\n\n.mdi-file-plus-outline::before {\n  content: \"\\F0EED\";\n}\n\n.mdi-file-powerpoint::before {\n  content: \"\\F0227\";\n}\n\n.mdi-file-powerpoint-box::before {\n  content: \"\\F0228\";\n}\n\n.mdi-file-powerpoint-box-outline::before {\n  content: \"\\F1034\";\n}\n\n.mdi-file-powerpoint-outline::before {\n  content: \"\\F1035\";\n}\n\n.mdi-file-presentation-box::before {\n  content: \"\\F0229\";\n}\n\n.mdi-file-question::before {\n  content: \"\\F086F\";\n}\n\n.mdi-file-question-outline::before {\n  content: \"\\F1036\";\n}\n\n.mdi-file-refresh::before {\n  content: \"\\F0918\";\n}\n\n.mdi-file-refresh-outline::before {\n  content: \"\\F0541\";\n}\n\n.mdi-file-remove::before {\n  content: \"\\F0B98\";\n}\n\n.mdi-file-remove-outline::before {\n  content: \"\\F1037\";\n}\n\n.mdi-file-replace::before {\n  content: \"\\F0B32\";\n}\n\n.mdi-file-replace-outline::before {\n  content: \"\\F0B33\";\n}\n\n.mdi-file-restore::before {\n  content: \"\\F0670\";\n}\n\n.mdi-file-restore-outline::before {\n  content: \"\\F1038\";\n}\n\n.mdi-file-search::before {\n  content: \"\\F0C7C\";\n}\n\n.mdi-file-search-outline::before {\n  content: \"\\F0C7D\";\n}\n\n.mdi-file-send::before {\n  content: \"\\F022A\";\n}\n\n.mdi-file-send-outline::before {\n  content: \"\\F1039\";\n}\n\n.mdi-file-settings::before {\n  content: \"\\F1079\";\n}\n\n.mdi-file-settings-outline::before {\n  content: \"\\F107A\";\n}\n\n.mdi-file-star::before {\n  content: \"\\F103A\";\n}\n\n.mdi-file-star-outline::before {\n  content: \"\\F103B\";\n}\n\n.mdi-file-swap::before {\n  content: \"\\F0FB4\";\n}\n\n.mdi-file-swap-outline::before {\n  content: \"\\F0FB5\";\n}\n\n.mdi-file-sync::before {\n  content: \"\\F1216\";\n}\n\n.mdi-file-sync-outline::before {\n  content: \"\\F1217\";\n}\n\n.mdi-file-table::before {\n  content: \"\\F0C7E\";\n}\n\n.mdi-file-table-box::before {\n  content: \"\\F10E1\";\n}\n\n.mdi-file-table-box-multiple::before {\n  content: \"\\F10E2\";\n}\n\n.mdi-file-table-box-multiple-outline::before {\n  content: \"\\F10E3\";\n}\n\n.mdi-file-table-box-outline::before {\n  content: \"\\F10E4\";\n}\n\n.mdi-file-table-outline::before {\n  content: \"\\F0C7F\";\n}\n\n.mdi-file-tree::before {\n  content: \"\\F0645\";\n}\n\n.mdi-file-tree-outline::before {\n  content: \"\\F13D2\";\n}\n\n.mdi-file-undo::before {\n  content: \"\\F08DC\";\n}\n\n.mdi-file-undo-outline::before {\n  content: \"\\F103C\";\n}\n\n.mdi-file-upload::before {\n  content: \"\\F0A4D\";\n}\n\n.mdi-file-upload-outline::before {\n  content: \"\\F0A4E\";\n}\n\n.mdi-file-video::before {\n  content: \"\\F022B\";\n}\n\n.mdi-file-video-outline::before {\n  content: \"\\F0E2C\";\n}\n\n.mdi-file-word::before {\n  content: \"\\F022C\";\n}\n\n.mdi-file-word-box::before {\n  content: \"\\F022D\";\n}\n\n.mdi-file-word-box-outline::before {\n  content: \"\\F103D\";\n}\n\n.mdi-file-word-outline::before {\n  content: \"\\F103E\";\n}\n\n.mdi-film::before {\n  content: \"\\F022F\";\n}\n\n.mdi-filmstrip::before {\n  content: \"\\F0230\";\n}\n\n.mdi-filmstrip-box::before {\n  content: \"\\F0332\";\n}\n\n.mdi-filmstrip-box-multiple::before {\n  content: \"\\F0D18\";\n}\n\n.mdi-filmstrip-off::before {\n  content: \"\\F0231\";\n}\n\n.mdi-filter::before {\n  content: \"\\F0232\";\n}\n\n.mdi-filter-menu::before {\n  content: \"\\F10E5\";\n}\n\n.mdi-filter-menu-outline::before {\n  content: \"\\F10E6\";\n}\n\n.mdi-filter-minus::before {\n  content: \"\\F0EEE\";\n}\n\n.mdi-filter-minus-outline::before {\n  content: \"\\F0EEF\";\n}\n\n.mdi-filter-off::before {\n  content: \"\\F14EF\";\n}\n\n.mdi-filter-off-outline::before {\n  content: \"\\F14F0\";\n}\n\n.mdi-filter-outline::before {\n  content: \"\\F0233\";\n}\n\n.mdi-filter-plus::before {\n  content: \"\\F0EF0\";\n}\n\n.mdi-filter-plus-outline::before {\n  content: \"\\F0EF1\";\n}\n\n.mdi-filter-remove::before {\n  content: \"\\F0234\";\n}\n\n.mdi-filter-remove-outline::before {\n  content: \"\\F0235\";\n}\n\n.mdi-filter-variant::before {\n  content: \"\\F0236\";\n}\n\n.mdi-filter-variant-minus::before {\n  content: \"\\F1112\";\n}\n\n.mdi-filter-variant-plus::before {\n  content: \"\\F1113\";\n}\n\n.mdi-filter-variant-remove::before {\n  content: \"\\F103F\";\n}\n\n.mdi-finance::before {\n  content: \"\\F081F\";\n}\n\n.mdi-find-replace::before {\n  content: \"\\F06D4\";\n}\n\n.mdi-fingerprint::before {\n  content: \"\\F0237\";\n}\n\n.mdi-fingerprint-off::before {\n  content: \"\\F0EB1\";\n}\n\n.mdi-fire::before {\n  content: \"\\F0238\";\n}\n\n.mdi-fire-extinguisher::before {\n  content: \"\\F0EF2\";\n}\n\n.mdi-fire-hydrant::before {\n  content: \"\\F1137\";\n}\n\n.mdi-fire-hydrant-alert::before {\n  content: \"\\F1138\";\n}\n\n.mdi-fire-hydrant-off::before {\n  content: \"\\F1139\";\n}\n\n.mdi-fire-truck::before {\n  content: \"\\F08AB\";\n}\n\n.mdi-firebase::before {\n  content: \"\\F0967\";\n}\n\n.mdi-firefox::before {\n  content: \"\\F0239\";\n}\n\n.mdi-fireplace::before {\n  content: \"\\F0E2E\";\n}\n\n.mdi-fireplace-off::before {\n  content: \"\\F0E2F\";\n}\n\n.mdi-firework::before {\n  content: \"\\F0E30\";\n}\n\n.mdi-fish::before {\n  content: \"\\F023A\";\n}\n\n.mdi-fish-off::before {\n  content: \"\\F13F3\";\n}\n\n.mdi-fishbowl::before {\n  content: \"\\F0EF3\";\n}\n\n.mdi-fishbowl-outline::before {\n  content: \"\\F0EF4\";\n}\n\n.mdi-fit-to-page::before {\n  content: \"\\F0EF5\";\n}\n\n.mdi-fit-to-page-outline::before {\n  content: \"\\F0EF6\";\n}\n\n.mdi-flag::before {\n  content: \"\\F023B\";\n}\n\n.mdi-flag-checkered::before {\n  content: \"\\F023C\";\n}\n\n.mdi-flag-minus::before {\n  content: \"\\F0B99\";\n}\n\n.mdi-flag-minus-outline::before {\n  content: \"\\F10B2\";\n}\n\n.mdi-flag-outline::before {\n  content: \"\\F023D\";\n}\n\n.mdi-flag-plus::before {\n  content: \"\\F0B9A\";\n}\n\n.mdi-flag-plus-outline::before {\n  content: \"\\F10B3\";\n}\n\n.mdi-flag-remove::before {\n  content: \"\\F0B9B\";\n}\n\n.mdi-flag-remove-outline::before {\n  content: \"\\F10B4\";\n}\n\n.mdi-flag-triangle::before {\n  content: \"\\F023F\";\n}\n\n.mdi-flag-variant::before {\n  content: \"\\F0240\";\n}\n\n.mdi-flag-variant-outline::before {\n  content: \"\\F023E\";\n}\n\n.mdi-flare::before {\n  content: \"\\F0D72\";\n}\n\n.mdi-flash::before {\n  content: \"\\F0241\";\n}\n\n.mdi-flash-alert::before {\n  content: \"\\F0EF7\";\n}\n\n.mdi-flash-alert-outline::before {\n  content: \"\\F0EF8\";\n}\n\n.mdi-flash-auto::before {\n  content: \"\\F0242\";\n}\n\n.mdi-flash-circle::before {\n  content: \"\\F0820\";\n}\n\n.mdi-flash-off::before {\n  content: \"\\F0243\";\n}\n\n.mdi-flash-outline::before {\n  content: \"\\F06D5\";\n}\n\n.mdi-flash-red-eye::before {\n  content: \"\\F067B\";\n}\n\n.mdi-flashlight::before {\n  content: \"\\F0244\";\n}\n\n.mdi-flashlight-off::before {\n  content: \"\\F0245\";\n}\n\n.mdi-flask::before {\n  content: \"\\F0093\";\n}\n\n.mdi-flask-empty::before {\n  content: \"\\F0094\";\n}\n\n.mdi-flask-empty-minus::before {\n  content: \"\\F123A\";\n}\n\n.mdi-flask-empty-minus-outline::before {\n  content: \"\\F123B\";\n}\n\n.mdi-flask-empty-off::before {\n  content: \"\\F13F4\";\n}\n\n.mdi-flask-empty-off-outline::before {\n  content: \"\\F13F5\";\n}\n\n.mdi-flask-empty-outline::before {\n  content: \"\\F0095\";\n}\n\n.mdi-flask-empty-plus::before {\n  content: \"\\F123C\";\n}\n\n.mdi-flask-empty-plus-outline::before {\n  content: \"\\F123D\";\n}\n\n.mdi-flask-empty-remove::before {\n  content: \"\\F123E\";\n}\n\n.mdi-flask-empty-remove-outline::before {\n  content: \"\\F123F\";\n}\n\n.mdi-flask-minus::before {\n  content: \"\\F1240\";\n}\n\n.mdi-flask-minus-outline::before {\n  content: \"\\F1241\";\n}\n\n.mdi-flask-off::before {\n  content: \"\\F13F6\";\n}\n\n.mdi-flask-off-outline::before {\n  content: \"\\F13F7\";\n}\n\n.mdi-flask-outline::before {\n  content: \"\\F0096\";\n}\n\n.mdi-flask-plus::before {\n  content: \"\\F1242\";\n}\n\n.mdi-flask-plus-outline::before {\n  content: \"\\F1243\";\n}\n\n.mdi-flask-remove::before {\n  content: \"\\F1244\";\n}\n\n.mdi-flask-remove-outline::before {\n  content: \"\\F1245\";\n}\n\n.mdi-flask-round-bottom::before {\n  content: \"\\F124B\";\n}\n\n.mdi-flask-round-bottom-empty::before {\n  content: \"\\F124C\";\n}\n\n.mdi-flask-round-bottom-empty-outline::before {\n  content: \"\\F124D\";\n}\n\n.mdi-flask-round-bottom-outline::before {\n  content: \"\\F124E\";\n}\n\n.mdi-fleur-de-lis::before {\n  content: \"\\F1303\";\n}\n\n.mdi-flip-horizontal::before {\n  content: \"\\F10E7\";\n}\n\n.mdi-flip-to-back::before {\n  content: \"\\F0247\";\n}\n\n.mdi-flip-to-front::before {\n  content: \"\\F0248\";\n}\n\n.mdi-flip-vertical::before {\n  content: \"\\F10E8\";\n}\n\n.mdi-floor-lamp::before {\n  content: \"\\F08DD\";\n}\n\n.mdi-floor-lamp-dual::before {\n  content: \"\\F1040\";\n}\n\n.mdi-floor-lamp-variant::before {\n  content: \"\\F1041\";\n}\n\n.mdi-floor-plan::before {\n  content: \"\\F0821\";\n}\n\n.mdi-floppy::before {\n  content: \"\\F0249\";\n}\n\n.mdi-floppy-variant::before {\n  content: \"\\F09EF\";\n}\n\n.mdi-flower::before {\n  content: \"\\F024A\";\n}\n\n.mdi-flower-outline::before {\n  content: \"\\F09F0\";\n}\n\n.mdi-flower-poppy::before {\n  content: \"\\F0D08\";\n}\n\n.mdi-flower-tulip::before {\n  content: \"\\F09F1\";\n}\n\n.mdi-flower-tulip-outline::before {\n  content: \"\\F09F2\";\n}\n\n.mdi-focus-auto::before {\n  content: \"\\F0F4E\";\n}\n\n.mdi-focus-field::before {\n  content: \"\\F0F4F\";\n}\n\n.mdi-focus-field-horizontal::before {\n  content: \"\\F0F50\";\n}\n\n.mdi-focus-field-vertical::before {\n  content: \"\\F0F51\";\n}\n\n.mdi-folder::before {\n  content: \"\\F024B\";\n}\n\n.mdi-folder-account::before {\n  content: \"\\F024C\";\n}\n\n.mdi-folder-account-outline::before {\n  content: \"\\F0B9C\";\n}\n\n.mdi-folder-alert::before {\n  content: \"\\F0DCC\";\n}\n\n.mdi-folder-alert-outline::before {\n  content: \"\\F0DCD\";\n}\n\n.mdi-folder-clock::before {\n  content: \"\\F0ABA\";\n}\n\n.mdi-folder-clock-outline::before {\n  content: \"\\F0ABB\";\n}\n\n.mdi-folder-cog::before {\n  content: \"\\F107F\";\n}\n\n.mdi-folder-cog-outline::before {\n  content: \"\\F1080\";\n}\n\n.mdi-folder-download::before {\n  content: \"\\F024D\";\n}\n\n.mdi-folder-download-outline::before {\n  content: \"\\F10E9\";\n}\n\n.mdi-folder-edit::before {\n  content: \"\\F08DE\";\n}\n\n.mdi-folder-edit-outline::before {\n  content: \"\\F0DCE\";\n}\n\n.mdi-folder-google-drive::before {\n  content: \"\\F024E\";\n}\n\n.mdi-folder-heart::before {\n  content: \"\\F10EA\";\n}\n\n.mdi-folder-heart-outline::before {\n  content: \"\\F10EB\";\n}\n\n.mdi-folder-home::before {\n  content: \"\\F10B5\";\n}\n\n.mdi-folder-home-outline::before {\n  content: \"\\F10B6\";\n}\n\n.mdi-folder-image::before {\n  content: \"\\F024F\";\n}\n\n.mdi-folder-information::before {\n  content: \"\\F10B7\";\n}\n\n.mdi-folder-information-outline::before {\n  content: \"\\F10B8\";\n}\n\n.mdi-folder-key::before {\n  content: \"\\F08AC\";\n}\n\n.mdi-folder-key-network::before {\n  content: \"\\F08AD\";\n}\n\n.mdi-folder-key-network-outline::before {\n  content: \"\\F0C80\";\n}\n\n.mdi-folder-key-outline::before {\n  content: \"\\F10EC\";\n}\n\n.mdi-folder-lock::before {\n  content: \"\\F0250\";\n}\n\n.mdi-folder-lock-open::before {\n  content: \"\\F0251\";\n}\n\n.mdi-folder-marker::before {\n  content: \"\\F126D\";\n}\n\n.mdi-folder-marker-outline::before {\n  content: \"\\F126E\";\n}\n\n.mdi-folder-move::before {\n  content: \"\\F0252\";\n}\n\n.mdi-folder-move-outline::before {\n  content: \"\\F1246\";\n}\n\n.mdi-folder-multiple::before {\n  content: \"\\F0253\";\n}\n\n.mdi-folder-multiple-image::before {\n  content: \"\\F0254\";\n}\n\n.mdi-folder-multiple-outline::before {\n  content: \"\\F0255\";\n}\n\n.mdi-folder-multiple-plus::before {\n  content: \"\\F147E\";\n}\n\n.mdi-folder-multiple-plus-outline::before {\n  content: \"\\F147F\";\n}\n\n.mdi-folder-music::before {\n  content: \"\\F1359\";\n}\n\n.mdi-folder-music-outline::before {\n  content: \"\\F135A\";\n}\n\n.mdi-folder-network::before {\n  content: \"\\F0870\";\n}\n\n.mdi-folder-network-outline::before {\n  content: \"\\F0C81\";\n}\n\n.mdi-folder-open::before {\n  content: \"\\F0770\";\n}\n\n.mdi-folder-open-outline::before {\n  content: \"\\F0DCF\";\n}\n\n.mdi-folder-outline::before {\n  content: \"\\F0256\";\n}\n\n.mdi-folder-plus::before {\n  content: \"\\F0257\";\n}\n\n.mdi-folder-plus-outline::before {\n  content: \"\\F0B9D\";\n}\n\n.mdi-folder-pound::before {\n  content: \"\\F0D09\";\n}\n\n.mdi-folder-pound-outline::before {\n  content: \"\\F0D0A\";\n}\n\n.mdi-folder-refresh::before {\n  content: \"\\F0749\";\n}\n\n.mdi-folder-refresh-outline::before {\n  content: \"\\F0542\";\n}\n\n.mdi-folder-remove::before {\n  content: \"\\F0258\";\n}\n\n.mdi-folder-remove-outline::before {\n  content: \"\\F0B9E\";\n}\n\n.mdi-folder-search::before {\n  content: \"\\F0968\";\n}\n\n.mdi-folder-search-outline::before {\n  content: \"\\F0969\";\n}\n\n.mdi-folder-settings::before {\n  content: \"\\F107D\";\n}\n\n.mdi-folder-settings-outline::before {\n  content: \"\\F107E\";\n}\n\n.mdi-folder-star::before {\n  content: \"\\F069D\";\n}\n\n.mdi-folder-star-multiple::before {\n  content: \"\\F13D3\";\n}\n\n.mdi-folder-star-multiple-outline::before {\n  content: \"\\F13D4\";\n}\n\n.mdi-folder-star-outline::before {\n  content: \"\\F0B9F\";\n}\n\n.mdi-folder-swap::before {\n  content: \"\\F0FB6\";\n}\n\n.mdi-folder-swap-outline::before {\n  content: \"\\F0FB7\";\n}\n\n.mdi-folder-sync::before {\n  content: \"\\F0D0B\";\n}\n\n.mdi-folder-sync-outline::before {\n  content: \"\\F0D0C\";\n}\n\n.mdi-folder-table::before {\n  content: \"\\F12E3\";\n}\n\n.mdi-folder-table-outline::before {\n  content: \"\\F12E4\";\n}\n\n.mdi-folder-text::before {\n  content: \"\\F0C82\";\n}\n\n.mdi-folder-text-outline::before {\n  content: \"\\F0C83\";\n}\n\n.mdi-folder-upload::before {\n  content: \"\\F0259\";\n}\n\n.mdi-folder-upload-outline::before {\n  content: \"\\F10ED\";\n}\n\n.mdi-folder-zip::before {\n  content: \"\\F06EB\";\n}\n\n.mdi-folder-zip-outline::before {\n  content: \"\\F07B9\";\n}\n\n.mdi-font-awesome::before {\n  content: \"\\F003A\";\n}\n\n.mdi-food::before {\n  content: \"\\F025A\";\n}\n\n.mdi-food-apple::before {\n  content: \"\\F025B\";\n}\n\n.mdi-food-apple-outline::before {\n  content: \"\\F0C84\";\n}\n\n.mdi-food-croissant::before {\n  content: \"\\F07C8\";\n}\n\n.mdi-food-drumstick::before {\n  content: \"\\F141F\";\n}\n\n.mdi-food-drumstick-off::before {\n  content: \"\\F1468\";\n}\n\n.mdi-food-drumstick-off-outline::before {\n  content: \"\\F1469\";\n}\n\n.mdi-food-drumstick-outline::before {\n  content: \"\\F1420\";\n}\n\n.mdi-food-fork-drink::before {\n  content: \"\\F05F2\";\n}\n\n.mdi-food-halal::before {\n  content: \"\\F1572\";\n}\n\n.mdi-food-kosher::before {\n  content: \"\\F1573\";\n}\n\n.mdi-food-off::before {\n  content: \"\\F05F3\";\n}\n\n.mdi-food-steak::before {\n  content: \"\\F146A\";\n}\n\n.mdi-food-steak-off::before {\n  content: \"\\F146B\";\n}\n\n.mdi-food-variant::before {\n  content: \"\\F025C\";\n}\n\n.mdi-food-variant-off::before {\n  content: \"\\F13E5\";\n}\n\n.mdi-foot-print::before {\n  content: \"\\F0F52\";\n}\n\n.mdi-football::before {\n  content: \"\\F025D\";\n}\n\n.mdi-football-australian::before {\n  content: \"\\F025E\";\n}\n\n.mdi-football-helmet::before {\n  content: \"\\F025F\";\n}\n\n.mdi-forklift::before {\n  content: \"\\F07C9\";\n}\n\n.mdi-form-dropdown::before {\n  content: \"\\F1400\";\n}\n\n.mdi-form-select::before {\n  content: \"\\F1401\";\n}\n\n.mdi-form-textarea::before {\n  content: \"\\F1095\";\n}\n\n.mdi-form-textbox::before {\n  content: \"\\F060E\";\n}\n\n.mdi-form-textbox-lock::before {\n  content: \"\\F135D\";\n}\n\n.mdi-form-textbox-password::before {\n  content: \"\\F07F5\";\n}\n\n.mdi-format-align-bottom::before {\n  content: \"\\F0753\";\n}\n\n.mdi-format-align-center::before {\n  content: \"\\F0260\";\n}\n\n.mdi-format-align-justify::before {\n  content: \"\\F0261\";\n}\n\n.mdi-format-align-left::before {\n  content: \"\\F0262\";\n}\n\n.mdi-format-align-middle::before {\n  content: \"\\F0754\";\n}\n\n.mdi-format-align-right::before {\n  content: \"\\F0263\";\n}\n\n.mdi-format-align-top::before {\n  content: \"\\F0755\";\n}\n\n.mdi-format-annotation-minus::before {\n  content: \"\\F0ABC\";\n}\n\n.mdi-format-annotation-plus::before {\n  content: \"\\F0646\";\n}\n\n.mdi-format-bold::before {\n  content: \"\\F0264\";\n}\n\n.mdi-format-clear::before {\n  content: \"\\F0265\";\n}\n\n.mdi-format-color-fill::before {\n  content: \"\\F0266\";\n}\n\n.mdi-format-color-highlight::before {\n  content: \"\\F0E31\";\n}\n\n.mdi-format-color-marker-cancel::before {\n  content: \"\\F1313\";\n}\n\n.mdi-format-color-text::before {\n  content: \"\\F069E\";\n}\n\n.mdi-format-columns::before {\n  content: \"\\F08DF\";\n}\n\n.mdi-format-float-center::before {\n  content: \"\\F0267\";\n}\n\n.mdi-format-float-left::before {\n  content: \"\\F0268\";\n}\n\n.mdi-format-float-none::before {\n  content: \"\\F0269\";\n}\n\n.mdi-format-float-right::before {\n  content: \"\\F026A\";\n}\n\n.mdi-format-font::before {\n  content: \"\\F06D6\";\n}\n\n.mdi-format-font-size-decrease::before {\n  content: \"\\F09F3\";\n}\n\n.mdi-format-font-size-increase::before {\n  content: \"\\F09F4\";\n}\n\n.mdi-format-header-1::before {\n  content: \"\\F026B\";\n}\n\n.mdi-format-header-2::before {\n  content: \"\\F026C\";\n}\n\n.mdi-format-header-3::before {\n  content: \"\\F026D\";\n}\n\n.mdi-format-header-4::before {\n  content: \"\\F026E\";\n}\n\n.mdi-format-header-5::before {\n  content: \"\\F026F\";\n}\n\n.mdi-format-header-6::before {\n  content: \"\\F0270\";\n}\n\n.mdi-format-header-decrease::before {\n  content: \"\\F0271\";\n}\n\n.mdi-format-header-equal::before {\n  content: \"\\F0272\";\n}\n\n.mdi-format-header-increase::before {\n  content: \"\\F0273\";\n}\n\n.mdi-format-header-pound::before {\n  content: \"\\F0274\";\n}\n\n.mdi-format-horizontal-align-center::before {\n  content: \"\\F061E\";\n}\n\n.mdi-format-horizontal-align-left::before {\n  content: \"\\F061F\";\n}\n\n.mdi-format-horizontal-align-right::before {\n  content: \"\\F0620\";\n}\n\n.mdi-format-indent-decrease::before {\n  content: \"\\F0275\";\n}\n\n.mdi-format-indent-increase::before {\n  content: \"\\F0276\";\n}\n\n.mdi-format-italic::before {\n  content: \"\\F0277\";\n}\n\n.mdi-format-letter-case::before {\n  content: \"\\F0B34\";\n}\n\n.mdi-format-letter-case-lower::before {\n  content: \"\\F0B35\";\n}\n\n.mdi-format-letter-case-upper::before {\n  content: \"\\F0B36\";\n}\n\n.mdi-format-letter-ends-with::before {\n  content: \"\\F0FB8\";\n}\n\n.mdi-format-letter-matches::before {\n  content: \"\\F0FB9\";\n}\n\n.mdi-format-letter-starts-with::before {\n  content: \"\\F0FBA\";\n}\n\n.mdi-format-line-spacing::before {\n  content: \"\\F0278\";\n}\n\n.mdi-format-line-style::before {\n  content: \"\\F05C8\";\n}\n\n.mdi-format-line-weight::before {\n  content: \"\\F05C9\";\n}\n\n.mdi-format-list-bulleted::before {\n  content: \"\\F0279\";\n}\n\n.mdi-format-list-bulleted-square::before {\n  content: \"\\F0DD0\";\n}\n\n.mdi-format-list-bulleted-triangle::before {\n  content: \"\\F0EB2\";\n}\n\n.mdi-format-list-bulleted-type::before {\n  content: \"\\F027A\";\n}\n\n.mdi-format-list-checkbox::before {\n  content: \"\\F096A\";\n}\n\n.mdi-format-list-checks::before {\n  content: \"\\F0756\";\n}\n\n.mdi-format-list-numbered::before {\n  content: \"\\F027B\";\n}\n\n.mdi-format-list-numbered-rtl::before {\n  content: \"\\F0D0D\";\n}\n\n.mdi-format-list-text::before {\n  content: \"\\F126F\";\n}\n\n.mdi-format-overline::before {\n  content: \"\\F0EB3\";\n}\n\n.mdi-format-page-break::before {\n  content: \"\\F06D7\";\n}\n\n.mdi-format-paint::before {\n  content: \"\\F027C\";\n}\n\n.mdi-format-paragraph::before {\n  content: \"\\F027D\";\n}\n\n.mdi-format-pilcrow::before {\n  content: \"\\F06D8\";\n}\n\n.mdi-format-quote-close::before {\n  content: \"\\F027E\";\n}\n\n.mdi-format-quote-close-outline::before {\n  content: \"\\F11A8\";\n}\n\n.mdi-format-quote-open::before {\n  content: \"\\F0757\";\n}\n\n.mdi-format-quote-open-outline::before {\n  content: \"\\F11A7\";\n}\n\n.mdi-format-rotate-90::before {\n  content: \"\\F06AA\";\n}\n\n.mdi-format-section::before {\n  content: \"\\F069F\";\n}\n\n.mdi-format-size::before {\n  content: \"\\F027F\";\n}\n\n.mdi-format-strikethrough::before {\n  content: \"\\F0280\";\n}\n\n.mdi-format-strikethrough-variant::before {\n  content: \"\\F0281\";\n}\n\n.mdi-format-subscript::before {\n  content: \"\\F0282\";\n}\n\n.mdi-format-superscript::before {\n  content: \"\\F0283\";\n}\n\n.mdi-format-text::before {\n  content: \"\\F0284\";\n}\n\n.mdi-format-text-rotation-angle-down::before {\n  content: \"\\F0FBB\";\n}\n\n.mdi-format-text-rotation-angle-up::before {\n  content: \"\\F0FBC\";\n}\n\n.mdi-format-text-rotation-down::before {\n  content: \"\\F0D73\";\n}\n\n.mdi-format-text-rotation-down-vertical::before {\n  content: \"\\F0FBD\";\n}\n\n.mdi-format-text-rotation-none::before {\n  content: \"\\F0D74\";\n}\n\n.mdi-format-text-rotation-up::before {\n  content: \"\\F0FBE\";\n}\n\n.mdi-format-text-rotation-vertical::before {\n  content: \"\\F0FBF\";\n}\n\n.mdi-format-text-variant::before {\n  content: \"\\F0E32\";\n}\n\n.mdi-format-text-variant-outline::before {\n  content: \"\\F150F\";\n}\n\n.mdi-format-text-wrapping-clip::before {\n  content: \"\\F0D0E\";\n}\n\n.mdi-format-text-wrapping-overflow::before {\n  content: \"\\F0D0F\";\n}\n\n.mdi-format-text-wrapping-wrap::before {\n  content: \"\\F0D10\";\n}\n\n.mdi-format-textbox::before {\n  content: \"\\F0D11\";\n}\n\n.mdi-format-textdirection-l-to-r::before {\n  content: \"\\F0285\";\n}\n\n.mdi-format-textdirection-r-to-l::before {\n  content: \"\\F0286\";\n}\n\n.mdi-format-title::before {\n  content: \"\\F05F4\";\n}\n\n.mdi-format-underline::before {\n  content: \"\\F0287\";\n}\n\n.mdi-format-vertical-align-bottom::before {\n  content: \"\\F0621\";\n}\n\n.mdi-format-vertical-align-center::before {\n  content: \"\\F0622\";\n}\n\n.mdi-format-vertical-align-top::before {\n  content: \"\\F0623\";\n}\n\n.mdi-format-wrap-inline::before {\n  content: \"\\F0288\";\n}\n\n.mdi-format-wrap-square::before {\n  content: \"\\F0289\";\n}\n\n.mdi-format-wrap-tight::before {\n  content: \"\\F028A\";\n}\n\n.mdi-format-wrap-top-bottom::before {\n  content: \"\\F028B\";\n}\n\n.mdi-forum::before {\n  content: \"\\F028C\";\n}\n\n.mdi-forum-outline::before {\n  content: \"\\F0822\";\n}\n\n.mdi-forward::before {\n  content: \"\\F028D\";\n}\n\n.mdi-forwardburger::before {\n  content: \"\\F0D75\";\n}\n\n.mdi-fountain::before {\n  content: \"\\F096B\";\n}\n\n.mdi-fountain-pen::before {\n  content: \"\\F0D12\";\n}\n\n.mdi-fountain-pen-tip::before {\n  content: \"\\F0D13\";\n}\n\n.mdi-freebsd::before {\n  content: \"\\F08E0\";\n}\n\n.mdi-frequently-asked-questions::before {\n  content: \"\\F0EB4\";\n}\n\n.mdi-fridge::before {\n  content: \"\\F0290\";\n}\n\n.mdi-fridge-alert::before {\n  content: \"\\F11B1\";\n}\n\n.mdi-fridge-alert-outline::before {\n  content: \"\\F11B2\";\n}\n\n.mdi-fridge-bottom::before {\n  content: \"\\F0292\";\n}\n\n.mdi-fridge-off::before {\n  content: \"\\F11AF\";\n}\n\n.mdi-fridge-off-outline::before {\n  content: \"\\F11B0\";\n}\n\n.mdi-fridge-outline::before {\n  content: \"\\F028F\";\n}\n\n.mdi-fridge-top::before {\n  content: \"\\F0291\";\n}\n\n.mdi-fruit-cherries::before {\n  content: \"\\F1042\";\n}\n\n.mdi-fruit-cherries-off::before {\n  content: \"\\F13F8\";\n}\n\n.mdi-fruit-citrus::before {\n  content: \"\\F1043\";\n}\n\n.mdi-fruit-citrus-off::before {\n  content: \"\\F13F9\";\n}\n\n.mdi-fruit-grapes::before {\n  content: \"\\F1044\";\n}\n\n.mdi-fruit-grapes-outline::before {\n  content: \"\\F1045\";\n}\n\n.mdi-fruit-pineapple::before {\n  content: \"\\F1046\";\n}\n\n.mdi-fruit-watermelon::before {\n  content: \"\\F1047\";\n}\n\n.mdi-fuel::before {\n  content: \"\\F07CA\";\n}\n\n.mdi-fullscreen::before {\n  content: \"\\F0293\";\n}\n\n.mdi-fullscreen-exit::before {\n  content: \"\\F0294\";\n}\n\n.mdi-function::before {\n  content: \"\\F0295\";\n}\n\n.mdi-function-variant::before {\n  content: \"\\F0871\";\n}\n\n.mdi-furigana-horizontal::before {\n  content: \"\\F1081\";\n}\n\n.mdi-furigana-vertical::before {\n  content: \"\\F1082\";\n}\n\n.mdi-fuse::before {\n  content: \"\\F0C85\";\n}\n\n.mdi-fuse-alert::before {\n  content: \"\\F142D\";\n}\n\n.mdi-fuse-blade::before {\n  content: \"\\F0C86\";\n}\n\n.mdi-fuse-off::before {\n  content: \"\\F142C\";\n}\n\n.mdi-gamepad::before {\n  content: \"\\F0296\";\n}\n\n.mdi-gamepad-circle::before {\n  content: \"\\F0E33\";\n}\n\n.mdi-gamepad-circle-down::before {\n  content: \"\\F0E34\";\n}\n\n.mdi-gamepad-circle-left::before {\n  content: \"\\F0E35\";\n}\n\n.mdi-gamepad-circle-outline::before {\n  content: \"\\F0E36\";\n}\n\n.mdi-gamepad-circle-right::before {\n  content: \"\\F0E37\";\n}\n\n.mdi-gamepad-circle-up::before {\n  content: \"\\F0E38\";\n}\n\n.mdi-gamepad-down::before {\n  content: \"\\F0E39\";\n}\n\n.mdi-gamepad-left::before {\n  content: \"\\F0E3A\";\n}\n\n.mdi-gamepad-right::before {\n  content: \"\\F0E3B\";\n}\n\n.mdi-gamepad-round::before {\n  content: \"\\F0E3C\";\n}\n\n.mdi-gamepad-round-down::before {\n  content: \"\\F0E3D\";\n}\n\n.mdi-gamepad-round-left::before {\n  content: \"\\F0E3E\";\n}\n\n.mdi-gamepad-round-outline::before {\n  content: \"\\F0E3F\";\n}\n\n.mdi-gamepad-round-right::before {\n  content: \"\\F0E40\";\n}\n\n.mdi-gamepad-round-up::before {\n  content: \"\\F0E41\";\n}\n\n.mdi-gamepad-square::before {\n  content: \"\\F0EB5\";\n}\n\n.mdi-gamepad-square-outline::before {\n  content: \"\\F0EB6\";\n}\n\n.mdi-gamepad-up::before {\n  content: \"\\F0E42\";\n}\n\n.mdi-gamepad-variant::before {\n  content: \"\\F0297\";\n}\n\n.mdi-gamepad-variant-outline::before {\n  content: \"\\F0EB7\";\n}\n\n.mdi-gamma::before {\n  content: \"\\F10EE\";\n}\n\n.mdi-gantry-crane::before {\n  content: \"\\F0DD1\";\n}\n\n.mdi-garage::before {\n  content: \"\\F06D9\";\n}\n\n.mdi-garage-alert::before {\n  content: \"\\F0872\";\n}\n\n.mdi-garage-alert-variant::before {\n  content: \"\\F12D5\";\n}\n\n.mdi-garage-open::before {\n  content: \"\\F06DA\";\n}\n\n.mdi-garage-open-variant::before {\n  content: \"\\F12D4\";\n}\n\n.mdi-garage-variant::before {\n  content: \"\\F12D3\";\n}\n\n.mdi-gas-cylinder::before {\n  content: \"\\F0647\";\n}\n\n.mdi-gas-station::before {\n  content: \"\\F0298\";\n}\n\n.mdi-gas-station-off::before {\n  content: \"\\F1409\";\n}\n\n.mdi-gas-station-off-outline::before {\n  content: \"\\F140A\";\n}\n\n.mdi-gas-station-outline::before {\n  content: \"\\F0EB8\";\n}\n\n.mdi-gate::before {\n  content: \"\\F0299\";\n}\n\n.mdi-gate-and::before {\n  content: \"\\F08E1\";\n}\n\n.mdi-gate-arrow-right::before {\n  content: \"\\F1169\";\n}\n\n.mdi-gate-nand::before {\n  content: \"\\F08E2\";\n}\n\n.mdi-gate-nor::before {\n  content: \"\\F08E3\";\n}\n\n.mdi-gate-not::before {\n  content: \"\\F08E4\";\n}\n\n.mdi-gate-open::before {\n  content: \"\\F116A\";\n}\n\n.mdi-gate-or::before {\n  content: \"\\F08E5\";\n}\n\n.mdi-gate-xnor::before {\n  content: \"\\F08E6\";\n}\n\n.mdi-gate-xor::before {\n  content: \"\\F08E7\";\n}\n\n.mdi-gatsby::before {\n  content: \"\\F0E43\";\n}\n\n.mdi-gauge::before {\n  content: \"\\F029A\";\n}\n\n.mdi-gauge-empty::before {\n  content: \"\\F0873\";\n}\n\n.mdi-gauge-full::before {\n  content: \"\\F0874\";\n}\n\n.mdi-gauge-low::before {\n  content: \"\\F0875\";\n}\n\n.mdi-gavel::before {\n  content: \"\\F029B\";\n}\n\n.mdi-gender-female::before {\n  content: \"\\F029C\";\n}\n\n.mdi-gender-male::before {\n  content: \"\\F029D\";\n}\n\n.mdi-gender-male-female::before {\n  content: \"\\F029E\";\n}\n\n.mdi-gender-male-female-variant::before {\n  content: \"\\F113F\";\n}\n\n.mdi-gender-non-binary::before {\n  content: \"\\F1140\";\n}\n\n.mdi-gender-transgender::before {\n  content: \"\\F029F\";\n}\n\n.mdi-gentoo::before {\n  content: \"\\F08E8\";\n}\n\n.mdi-gesture::before {\n  content: \"\\F07CB\";\n}\n\n.mdi-gesture-double-tap::before {\n  content: \"\\F073C\";\n}\n\n.mdi-gesture-pinch::before {\n  content: \"\\F0ABD\";\n}\n\n.mdi-gesture-spread::before {\n  content: \"\\F0ABE\";\n}\n\n.mdi-gesture-swipe::before {\n  content: \"\\F0D76\";\n}\n\n.mdi-gesture-swipe-down::before {\n  content: \"\\F073D\";\n}\n\n.mdi-gesture-swipe-horizontal::before {\n  content: \"\\F0ABF\";\n}\n\n.mdi-gesture-swipe-left::before {\n  content: \"\\F073E\";\n}\n\n.mdi-gesture-swipe-right::before {\n  content: \"\\F073F\";\n}\n\n.mdi-gesture-swipe-up::before {\n  content: \"\\F0740\";\n}\n\n.mdi-gesture-swipe-vertical::before {\n  content: \"\\F0AC0\";\n}\n\n.mdi-gesture-tap::before {\n  content: \"\\F0741\";\n}\n\n.mdi-gesture-tap-box::before {\n  content: \"\\F12A9\";\n}\n\n.mdi-gesture-tap-button::before {\n  content: \"\\F12A8\";\n}\n\n.mdi-gesture-tap-hold::before {\n  content: \"\\F0D77\";\n}\n\n.mdi-gesture-two-double-tap::before {\n  content: \"\\F0742\";\n}\n\n.mdi-gesture-two-tap::before {\n  content: \"\\F0743\";\n}\n\n.mdi-ghost::before {\n  content: \"\\F02A0\";\n}\n\n.mdi-ghost-off::before {\n  content: \"\\F09F5\";\n}\n\n.mdi-gif::before {\n  content: \"\\F0D78\";\n}\n\n.mdi-gift::before {\n  content: \"\\F0E44\";\n}\n\n.mdi-gift-outline::before {\n  content: \"\\F02A1\";\n}\n\n.mdi-git::before {\n  content: \"\\F02A2\";\n}\n\n.mdi-github::before {\n  content: \"\\F02A4\";\n}\n\n.mdi-gitlab::before {\n  content: \"\\F0BA0\";\n}\n\n.mdi-glass-cocktail::before {\n  content: \"\\F0356\";\n}\n\n.mdi-glass-flute::before {\n  content: \"\\F02A5\";\n}\n\n.mdi-glass-mug::before {\n  content: \"\\F02A6\";\n}\n\n.mdi-glass-mug-variant::before {\n  content: \"\\F1116\";\n}\n\n.mdi-glass-pint-outline::before {\n  content: \"\\F130D\";\n}\n\n.mdi-glass-stange::before {\n  content: \"\\F02A7\";\n}\n\n.mdi-glass-tulip::before {\n  content: \"\\F02A8\";\n}\n\n.mdi-glass-wine::before {\n  content: \"\\F0876\";\n}\n\n.mdi-glasses::before {\n  content: \"\\F02AA\";\n}\n\n.mdi-globe-light::before {\n  content: \"\\F12D7\";\n}\n\n.mdi-globe-model::before {\n  content: \"\\F08E9\";\n}\n\n.mdi-gmail::before {\n  content: \"\\F02AB\";\n}\n\n.mdi-gnome::before {\n  content: \"\\F02AC\";\n}\n\n.mdi-go-kart::before {\n  content: \"\\F0D79\";\n}\n\n.mdi-go-kart-track::before {\n  content: \"\\F0D7A\";\n}\n\n.mdi-gog::before {\n  content: \"\\F0BA1\";\n}\n\n.mdi-gold::before {\n  content: \"\\F124F\";\n}\n\n.mdi-golf::before {\n  content: \"\\F0823\";\n}\n\n.mdi-golf-cart::before {\n  content: \"\\F11A4\";\n}\n\n.mdi-golf-tee::before {\n  content: \"\\F1083\";\n}\n\n.mdi-gondola::before {\n  content: \"\\F0686\";\n}\n\n.mdi-goodreads::before {\n  content: \"\\F0D7B\";\n}\n\n.mdi-google::before {\n  content: \"\\F02AD\";\n}\n\n.mdi-google-ads::before {\n  content: \"\\F0C87\";\n}\n\n.mdi-google-analytics::before {\n  content: \"\\F07CC\";\n}\n\n.mdi-google-assistant::before {\n  content: \"\\F07CD\";\n}\n\n.mdi-google-cardboard::before {\n  content: \"\\F02AE\";\n}\n\n.mdi-google-chrome::before {\n  content: \"\\F02AF\";\n}\n\n.mdi-google-circles::before {\n  content: \"\\F02B0\";\n}\n\n.mdi-google-circles-communities::before {\n  content: \"\\F02B1\";\n}\n\n.mdi-google-circles-extended::before {\n  content: \"\\F02B2\";\n}\n\n.mdi-google-circles-group::before {\n  content: \"\\F02B3\";\n}\n\n.mdi-google-classroom::before {\n  content: \"\\F02C0\";\n}\n\n.mdi-google-cloud::before {\n  content: \"\\F11F6\";\n}\n\n.mdi-google-controller::before {\n  content: \"\\F02B4\";\n}\n\n.mdi-google-controller-off::before {\n  content: \"\\F02B5\";\n}\n\n.mdi-google-downasaur::before {\n  content: \"\\F1362\";\n}\n\n.mdi-google-drive::before {\n  content: \"\\F02B6\";\n}\n\n.mdi-google-earth::before {\n  content: \"\\F02B7\";\n}\n\n.mdi-google-fit::before {\n  content: \"\\F096C\";\n}\n\n.mdi-google-glass::before {\n  content: \"\\F02B8\";\n}\n\n.mdi-google-hangouts::before {\n  content: \"\\F02C9\";\n}\n\n.mdi-google-home::before {\n  content: \"\\F0824\";\n}\n\n.mdi-google-keep::before {\n  content: \"\\F06DC\";\n}\n\n.mdi-google-lens::before {\n  content: \"\\F09F6\";\n}\n\n.mdi-google-maps::before {\n  content: \"\\F05F5\";\n}\n\n.mdi-google-my-business::before {\n  content: \"\\F1048\";\n}\n\n.mdi-google-nearby::before {\n  content: \"\\F02B9\";\n}\n\n.mdi-google-photos::before {\n  content: \"\\F06DD\";\n}\n\n.mdi-google-play::before {\n  content: \"\\F02BC\";\n}\n\n.mdi-google-plus::before {\n  content: \"\\F02BD\";\n}\n\n.mdi-google-podcast::before {\n  content: \"\\F0EB9\";\n}\n\n.mdi-google-spreadsheet::before {\n  content: \"\\F09F7\";\n}\n\n.mdi-google-street-view::before {\n  content: \"\\F0C88\";\n}\n\n.mdi-google-translate::before {\n  content: \"\\F02BF\";\n}\n\n.mdi-gradient::before {\n  content: \"\\F06A0\";\n}\n\n.mdi-grain::before {\n  content: \"\\F0D7C\";\n}\n\n.mdi-graph::before {\n  content: \"\\F1049\";\n}\n\n.mdi-graph-outline::before {\n  content: \"\\F104A\";\n}\n\n.mdi-graphql::before {\n  content: \"\\F0877\";\n}\n\n.mdi-grass::before {\n  content: \"\\F1510\";\n}\n\n.mdi-grave-stone::before {\n  content: \"\\F0BA2\";\n}\n\n.mdi-grease-pencil::before {\n  content: \"\\F0648\";\n}\n\n.mdi-greater-than::before {\n  content: \"\\F096D\";\n}\n\n.mdi-greater-than-or-equal::before {\n  content: \"\\F096E\";\n}\n\n.mdi-grid::before {\n  content: \"\\F02C1\";\n}\n\n.mdi-grid-large::before {\n  content: \"\\F0758\";\n}\n\n.mdi-grid-off::before {\n  content: \"\\F02C2\";\n}\n\n.mdi-grill::before {\n  content: \"\\F0E45\";\n}\n\n.mdi-grill-outline::before {\n  content: \"\\F118A\";\n}\n\n.mdi-group::before {\n  content: \"\\F02C3\";\n}\n\n.mdi-guitar-acoustic::before {\n  content: \"\\F0771\";\n}\n\n.mdi-guitar-electric::before {\n  content: \"\\F02C4\";\n}\n\n.mdi-guitar-pick::before {\n  content: \"\\F02C5\";\n}\n\n.mdi-guitar-pick-outline::before {\n  content: \"\\F02C6\";\n}\n\n.mdi-guy-fawkes-mask::before {\n  content: \"\\F0825\";\n}\n\n.mdi-hail::before {\n  content: \"\\F0AC1\";\n}\n\n.mdi-hair-dryer::before {\n  content: \"\\F10EF\";\n}\n\n.mdi-hair-dryer-outline::before {\n  content: \"\\F10F0\";\n}\n\n.mdi-halloween::before {\n  content: \"\\F0BA3\";\n}\n\n.mdi-hamburger::before {\n  content: \"\\F0685\";\n}\n\n.mdi-hammer::before {\n  content: \"\\F08EA\";\n}\n\n.mdi-hammer-screwdriver::before {\n  content: \"\\F1322\";\n}\n\n.mdi-hammer-wrench::before {\n  content: \"\\F1323\";\n}\n\n.mdi-hand::before {\n  content: \"\\F0A4F\";\n}\n\n.mdi-hand-heart::before {\n  content: \"\\F10F1\";\n}\n\n.mdi-hand-heart-outline::before {\n  content: \"\\F157E\";\n}\n\n.mdi-hand-left::before {\n  content: \"\\F0E46\";\n}\n\n.mdi-hand-okay::before {\n  content: \"\\F0A50\";\n}\n\n.mdi-hand-peace::before {\n  content: \"\\F0A51\";\n}\n\n.mdi-hand-peace-variant::before {\n  content: \"\\F0A52\";\n}\n\n.mdi-hand-pointing-down::before {\n  content: \"\\F0A53\";\n}\n\n.mdi-hand-pointing-left::before {\n  content: \"\\F0A54\";\n}\n\n.mdi-hand-pointing-right::before {\n  content: \"\\F02C7\";\n}\n\n.mdi-hand-pointing-up::before {\n  content: \"\\F0A55\";\n}\n\n.mdi-hand-right::before {\n  content: \"\\F0E47\";\n}\n\n.mdi-hand-saw::before {\n  content: \"\\F0E48\";\n}\n\n.mdi-hand-wash::before {\n  content: \"\\F157F\";\n}\n\n.mdi-hand-wash-outline::before {\n  content: \"\\F1580\";\n}\n\n.mdi-hand-water::before {\n  content: \"\\F139F\";\n}\n\n.mdi-handball::before {\n  content: \"\\F0F53\";\n}\n\n.mdi-handcuffs::before {\n  content: \"\\F113E\";\n}\n\n.mdi-handshake::before {\n  content: \"\\F1218\";\n}\n\n.mdi-handshake-outline::before {\n  content: \"\\F15A1\";\n}\n\n.mdi-hanger::before {\n  content: \"\\F02C8\";\n}\n\n.mdi-hard-hat::before {\n  content: \"\\F096F\";\n}\n\n.mdi-harddisk::before {\n  content: \"\\F02CA\";\n}\n\n.mdi-harddisk-plus::before {\n  content: \"\\F104B\";\n}\n\n.mdi-harddisk-remove::before {\n  content: \"\\F104C\";\n}\n\n.mdi-hat-fedora::before {\n  content: \"\\F0BA4\";\n}\n\n.mdi-hazard-lights::before {\n  content: \"\\F0C89\";\n}\n\n.mdi-hdr::before {\n  content: \"\\F0D7D\";\n}\n\n.mdi-hdr-off::before {\n  content: \"\\F0D7E\";\n}\n\n.mdi-head::before {\n  content: \"\\F135E\";\n}\n\n.mdi-head-alert::before {\n  content: \"\\F1338\";\n}\n\n.mdi-head-alert-outline::before {\n  content: \"\\F1339\";\n}\n\n.mdi-head-check::before {\n  content: \"\\F133A\";\n}\n\n.mdi-head-check-outline::before {\n  content: \"\\F133B\";\n}\n\n.mdi-head-cog::before {\n  content: \"\\F133C\";\n}\n\n.mdi-head-cog-outline::before {\n  content: \"\\F133D\";\n}\n\n.mdi-head-dots-horizontal::before {\n  content: \"\\F133E\";\n}\n\n.mdi-head-dots-horizontal-outline::before {\n  content: \"\\F133F\";\n}\n\n.mdi-head-flash::before {\n  content: \"\\F1340\";\n}\n\n.mdi-head-flash-outline::before {\n  content: \"\\F1341\";\n}\n\n.mdi-head-heart::before {\n  content: \"\\F1342\";\n}\n\n.mdi-head-heart-outline::before {\n  content: \"\\F1343\";\n}\n\n.mdi-head-lightbulb::before {\n  content: \"\\F1344\";\n}\n\n.mdi-head-lightbulb-outline::before {\n  content: \"\\F1345\";\n}\n\n.mdi-head-minus::before {\n  content: \"\\F1346\";\n}\n\n.mdi-head-minus-outline::before {\n  content: \"\\F1347\";\n}\n\n.mdi-head-outline::before {\n  content: \"\\F135F\";\n}\n\n.mdi-head-plus::before {\n  content: \"\\F1348\";\n}\n\n.mdi-head-plus-outline::before {\n  content: \"\\F1349\";\n}\n\n.mdi-head-question::before {\n  content: \"\\F134A\";\n}\n\n.mdi-head-question-outline::before {\n  content: \"\\F134B\";\n}\n\n.mdi-head-remove::before {\n  content: \"\\F134C\";\n}\n\n.mdi-head-remove-outline::before {\n  content: \"\\F134D\";\n}\n\n.mdi-head-snowflake::before {\n  content: \"\\F134E\";\n}\n\n.mdi-head-snowflake-outline::before {\n  content: \"\\F134F\";\n}\n\n.mdi-head-sync::before {\n  content: \"\\F1350\";\n}\n\n.mdi-head-sync-outline::before {\n  content: \"\\F1351\";\n}\n\n.mdi-headphones::before {\n  content: \"\\F02CB\";\n}\n\n.mdi-headphones-bluetooth::before {\n  content: \"\\F0970\";\n}\n\n.mdi-headphones-box::before {\n  content: \"\\F02CC\";\n}\n\n.mdi-headphones-off::before {\n  content: \"\\F07CE\";\n}\n\n.mdi-headphones-settings::before {\n  content: \"\\F02CD\";\n}\n\n.mdi-headset::before {\n  content: \"\\F02CE\";\n}\n\n.mdi-headset-dock::before {\n  content: \"\\F02CF\";\n}\n\n.mdi-headset-off::before {\n  content: \"\\F02D0\";\n}\n\n.mdi-heart::before {\n  content: \"\\F02D1\";\n}\n\n.mdi-heart-box::before {\n  content: \"\\F02D2\";\n}\n\n.mdi-heart-box-outline::before {\n  content: \"\\F02D3\";\n}\n\n.mdi-heart-broken::before {\n  content: \"\\F02D4\";\n}\n\n.mdi-heart-broken-outline::before {\n  content: \"\\F0D14\";\n}\n\n.mdi-heart-circle::before {\n  content: \"\\F0971\";\n}\n\n.mdi-heart-circle-outline::before {\n  content: \"\\F0972\";\n}\n\n.mdi-heart-flash::before {\n  content: \"\\F0EF9\";\n}\n\n.mdi-heart-half::before {\n  content: \"\\F06DF\";\n}\n\n.mdi-heart-half-full::before {\n  content: \"\\F06DE\";\n}\n\n.mdi-heart-half-outline::before {\n  content: \"\\F06E0\";\n}\n\n.mdi-heart-minus::before {\n  content: \"\\F142F\";\n}\n\n.mdi-heart-minus-outline::before {\n  content: \"\\F1432\";\n}\n\n.mdi-heart-multiple::before {\n  content: \"\\F0A56\";\n}\n\n.mdi-heart-multiple-outline::before {\n  content: \"\\F0A57\";\n}\n\n.mdi-heart-off::before {\n  content: \"\\F0759\";\n}\n\n.mdi-heart-off-outline::before {\n  content: \"\\F1434\";\n}\n\n.mdi-heart-outline::before {\n  content: \"\\F02D5\";\n}\n\n.mdi-heart-plus::before {\n  content: \"\\F142E\";\n}\n\n.mdi-heart-plus-outline::before {\n  content: \"\\F1431\";\n}\n\n.mdi-heart-pulse::before {\n  content: \"\\F05F6\";\n}\n\n.mdi-heart-remove::before {\n  content: \"\\F1430\";\n}\n\n.mdi-heart-remove-outline::before {\n  content: \"\\F1433\";\n}\n\n.mdi-helicopter::before {\n  content: \"\\F0AC2\";\n}\n\n.mdi-help::before {\n  content: \"\\F02D6\";\n}\n\n.mdi-help-box::before {\n  content: \"\\F078B\";\n}\n\n.mdi-help-circle::before {\n  content: \"\\F02D7\";\n}\n\n.mdi-help-circle-outline::before {\n  content: \"\\F0625\";\n}\n\n.mdi-help-network::before {\n  content: \"\\F06F5\";\n}\n\n.mdi-help-network-outline::before {\n  content: \"\\F0C8A\";\n}\n\n.mdi-help-rhombus::before {\n  content: \"\\F0BA5\";\n}\n\n.mdi-help-rhombus-outline::before {\n  content: \"\\F0BA6\";\n}\n\n.mdi-hexadecimal::before {\n  content: \"\\F12A7\";\n}\n\n.mdi-hexagon::before {\n  content: \"\\F02D8\";\n}\n\n.mdi-hexagon-multiple::before {\n  content: \"\\F06E1\";\n}\n\n.mdi-hexagon-multiple-outline::before {\n  content: \"\\F10F2\";\n}\n\n.mdi-hexagon-outline::before {\n  content: \"\\F02D9\";\n}\n\n.mdi-hexagon-slice-1::before {\n  content: \"\\F0AC3\";\n}\n\n.mdi-hexagon-slice-2::before {\n  content: \"\\F0AC4\";\n}\n\n.mdi-hexagon-slice-3::before {\n  content: \"\\F0AC5\";\n}\n\n.mdi-hexagon-slice-4::before {\n  content: \"\\F0AC6\";\n}\n\n.mdi-hexagon-slice-5::before {\n  content: \"\\F0AC7\";\n}\n\n.mdi-hexagon-slice-6::before {\n  content: \"\\F0AC8\";\n}\n\n.mdi-hexagram::before {\n  content: \"\\F0AC9\";\n}\n\n.mdi-hexagram-outline::before {\n  content: \"\\F0ACA\";\n}\n\n.mdi-high-definition::before {\n  content: \"\\F07CF\";\n}\n\n.mdi-high-definition-box::before {\n  content: \"\\F0878\";\n}\n\n.mdi-highway::before {\n  content: \"\\F05F7\";\n}\n\n.mdi-hiking::before {\n  content: \"\\F0D7F\";\n}\n\n.mdi-hinduism::before {\n  content: \"\\F0973\";\n}\n\n.mdi-history::before {\n  content: \"\\F02DA\";\n}\n\n.mdi-hockey-puck::before {\n  content: \"\\F0879\";\n}\n\n.mdi-hockey-sticks::before {\n  content: \"\\F087A\";\n}\n\n.mdi-hololens::before {\n  content: \"\\F02DB\";\n}\n\n.mdi-home::before {\n  content: \"\\F02DC\";\n}\n\n.mdi-home-account::before {\n  content: \"\\F0826\";\n}\n\n.mdi-home-alert::before {\n  content: \"\\F087B\";\n}\n\n.mdi-home-analytics::before {\n  content: \"\\F0EBA\";\n}\n\n.mdi-home-assistant::before {\n  content: \"\\F07D0\";\n}\n\n.mdi-home-automation::before {\n  content: \"\\F07D1\";\n}\n\n.mdi-home-circle::before {\n  content: \"\\F07D2\";\n}\n\n.mdi-home-circle-outline::before {\n  content: \"\\F104D\";\n}\n\n.mdi-home-city::before {\n  content: \"\\F0D15\";\n}\n\n.mdi-home-city-outline::before {\n  content: \"\\F0D16\";\n}\n\n.mdi-home-currency-usd::before {\n  content: \"\\F08AF\";\n}\n\n.mdi-home-edit::before {\n  content: \"\\F1159\";\n}\n\n.mdi-home-edit-outline::before {\n  content: \"\\F115A\";\n}\n\n.mdi-home-export-outline::before {\n  content: \"\\F0F9B\";\n}\n\n.mdi-home-flood::before {\n  content: \"\\F0EFA\";\n}\n\n.mdi-home-floor-0::before {\n  content: \"\\F0DD2\";\n}\n\n.mdi-home-floor-1::before {\n  content: \"\\F0D80\";\n}\n\n.mdi-home-floor-2::before {\n  content: \"\\F0D81\";\n}\n\n.mdi-home-floor-3::before {\n  content: \"\\F0D82\";\n}\n\n.mdi-home-floor-a::before {\n  content: \"\\F0D83\";\n}\n\n.mdi-home-floor-b::before {\n  content: \"\\F0D84\";\n}\n\n.mdi-home-floor-g::before {\n  content: \"\\F0D85\";\n}\n\n.mdi-home-floor-l::before {\n  content: \"\\F0D86\";\n}\n\n.mdi-home-floor-negative-1::before {\n  content: \"\\F0DD3\";\n}\n\n.mdi-home-group::before {\n  content: \"\\F0DD4\";\n}\n\n.mdi-home-heart::before {\n  content: \"\\F0827\";\n}\n\n.mdi-home-import-outline::before {\n  content: \"\\F0F9C\";\n}\n\n.mdi-home-lightbulb::before {\n  content: \"\\F1251\";\n}\n\n.mdi-home-lightbulb-outline::before {\n  content: \"\\F1252\";\n}\n\n.mdi-home-lock::before {\n  content: \"\\F08EB\";\n}\n\n.mdi-home-lock-open::before {\n  content: \"\\F08EC\";\n}\n\n.mdi-home-map-marker::before {\n  content: \"\\F05F8\";\n}\n\n.mdi-home-minus::before {\n  content: \"\\F0974\";\n}\n\n.mdi-home-minus-outline::before {\n  content: \"\\F13D5\";\n}\n\n.mdi-home-modern::before {\n  content: \"\\F02DD\";\n}\n\n.mdi-home-outline::before {\n  content: \"\\F06A1\";\n}\n\n.mdi-home-plus::before {\n  content: \"\\F0975\";\n}\n\n.mdi-home-plus-outline::before {\n  content: \"\\F13D6\";\n}\n\n.mdi-home-remove::before {\n  content: \"\\F1247\";\n}\n\n.mdi-home-remove-outline::before {\n  content: \"\\F13D7\";\n}\n\n.mdi-home-roof::before {\n  content: \"\\F112B\";\n}\n\n.mdi-home-search::before {\n  content: \"\\F13B0\";\n}\n\n.mdi-home-search-outline::before {\n  content: \"\\F13B1\";\n}\n\n.mdi-home-thermometer::before {\n  content: \"\\F0F54\";\n}\n\n.mdi-home-thermometer-outline::before {\n  content: \"\\F0F55\";\n}\n\n.mdi-home-variant::before {\n  content: \"\\F02DE\";\n}\n\n.mdi-home-variant-outline::before {\n  content: \"\\F0BA7\";\n}\n\n.mdi-hook::before {\n  content: \"\\F06E2\";\n}\n\n.mdi-hook-off::before {\n  content: \"\\F06E3\";\n}\n\n.mdi-hops::before {\n  content: \"\\F02DF\";\n}\n\n.mdi-horizontal-rotate-clockwise::before {\n  content: \"\\F10F3\";\n}\n\n.mdi-horizontal-rotate-counterclockwise::before {\n  content: \"\\F10F4\";\n}\n\n.mdi-horseshoe::before {\n  content: \"\\F0A58\";\n}\n\n.mdi-hospital::before {\n  content: \"\\F0FF6\";\n}\n\n.mdi-hospital-box::before {\n  content: \"\\F02E0\";\n}\n\n.mdi-hospital-box-outline::before {\n  content: \"\\F0FF7\";\n}\n\n.mdi-hospital-building::before {\n  content: \"\\F02E1\";\n}\n\n.mdi-hospital-marker::before {\n  content: \"\\F02E2\";\n}\n\n.mdi-hot-tub::before {\n  content: \"\\F0828\";\n}\n\n.mdi-hours-24::before {\n  content: \"\\F1478\";\n}\n\n.mdi-hubspot::before {\n  content: \"\\F0D17\";\n}\n\n.mdi-hulu::before {\n  content: \"\\F0829\";\n}\n\n.mdi-human::before {\n  content: \"\\F02E6\";\n}\n\n.mdi-human-baby-changing-table::before {\n  content: \"\\F138B\";\n}\n\n.mdi-human-cane::before {\n  content: \"\\F1581\";\n}\n\n.mdi-human-capacity-decrease::before {\n  content: \"\\F159B\";\n}\n\n.mdi-human-capacity-increase::before {\n  content: \"\\F159C\";\n}\n\n.mdi-human-child::before {\n  content: \"\\F02E7\";\n}\n\n.mdi-human-edit::before {\n  content: \"\\F14E8\";\n}\n\n.mdi-human-female::before {\n  content: \"\\F0649\";\n}\n\n.mdi-human-female-boy::before {\n  content: \"\\F0A59\";\n}\n\n.mdi-human-female-female::before {\n  content: \"\\F0A5A\";\n}\n\n.mdi-human-female-girl::before {\n  content: \"\\F0A5B\";\n}\n\n.mdi-human-greeting::before {\n  content: \"\\F064A\";\n}\n\n.mdi-human-greeting-proximity::before {\n  content: \"\\F159D\";\n}\n\n.mdi-human-handsdown::before {\n  content: \"\\F064B\";\n}\n\n.mdi-human-handsup::before {\n  content: \"\\F064C\";\n}\n\n.mdi-human-male::before {\n  content: \"\\F064D\";\n}\n\n.mdi-human-male-boy::before {\n  content: \"\\F0A5C\";\n}\n\n.mdi-human-male-child::before {\n  content: \"\\F138C\";\n}\n\n.mdi-human-male-female::before {\n  content: \"\\F02E8\";\n}\n\n.mdi-human-male-girl::before {\n  content: \"\\F0A5D\";\n}\n\n.mdi-human-male-height::before {\n  content: \"\\F0EFB\";\n}\n\n.mdi-human-male-height-variant::before {\n  content: \"\\F0EFC\";\n}\n\n.mdi-human-male-male::before {\n  content: \"\\F0A5E\";\n}\n\n.mdi-human-pregnant::before {\n  content: \"\\F05CF\";\n}\n\n.mdi-human-queue::before {\n  content: \"\\F1571\";\n}\n\n.mdi-human-scooter::before {\n  content: \"\\F11E9\";\n}\n\n.mdi-human-wheelchair::before {\n  content: \"\\F138D\";\n}\n\n.mdi-humble-bundle::before {\n  content: \"\\F0744\";\n}\n\n.mdi-hvac::before {\n  content: \"\\F1352\";\n}\n\n.mdi-hvac-off::before {\n  content: \"\\F159E\";\n}\n\n.mdi-hydraulic-oil-level::before {\n  content: \"\\F1324\";\n}\n\n.mdi-hydraulic-oil-temperature::before {\n  content: \"\\F1325\";\n}\n\n.mdi-hydro-power::before {\n  content: \"\\F12E5\";\n}\n\n.mdi-ice-cream::before {\n  content: \"\\F082A\";\n}\n\n.mdi-ice-cream-off::before {\n  content: \"\\F0E52\";\n}\n\n.mdi-ice-pop::before {\n  content: \"\\F0EFD\";\n}\n\n.mdi-id-card::before {\n  content: \"\\F0FC0\";\n}\n\n.mdi-identifier::before {\n  content: \"\\F0EFE\";\n}\n\n.mdi-ideogram-cjk::before {\n  content: \"\\F1331\";\n}\n\n.mdi-ideogram-cjk-variant::before {\n  content: \"\\F1332\";\n}\n\n.mdi-iframe::before {\n  content: \"\\F0C8B\";\n}\n\n.mdi-iframe-array::before {\n  content: \"\\F10F5\";\n}\n\n.mdi-iframe-array-outline::before {\n  content: \"\\F10F6\";\n}\n\n.mdi-iframe-braces::before {\n  content: \"\\F10F7\";\n}\n\n.mdi-iframe-braces-outline::before {\n  content: \"\\F10F8\";\n}\n\n.mdi-iframe-outline::before {\n  content: \"\\F0C8C\";\n}\n\n.mdi-iframe-parentheses::before {\n  content: \"\\F10F9\";\n}\n\n.mdi-iframe-parentheses-outline::before {\n  content: \"\\F10FA\";\n}\n\n.mdi-iframe-variable::before {\n  content: \"\\F10FB\";\n}\n\n.mdi-iframe-variable-outline::before {\n  content: \"\\F10FC\";\n}\n\n.mdi-image::before {\n  content: \"\\F02E9\";\n}\n\n.mdi-image-album::before {\n  content: \"\\F02EA\";\n}\n\n.mdi-image-area::before {\n  content: \"\\F02EB\";\n}\n\n.mdi-image-area-close::before {\n  content: \"\\F02EC\";\n}\n\n.mdi-image-auto-adjust::before {\n  content: \"\\F0FC1\";\n}\n\n.mdi-image-broken::before {\n  content: \"\\F02ED\";\n}\n\n.mdi-image-broken-variant::before {\n  content: \"\\F02EE\";\n}\n\n.mdi-image-edit::before {\n  content: \"\\F11E3\";\n}\n\n.mdi-image-edit-outline::before {\n  content: \"\\F11E4\";\n}\n\n.mdi-image-filter-black-white::before {\n  content: \"\\F02F0\";\n}\n\n.mdi-image-filter-center-focus::before {\n  content: \"\\F02F1\";\n}\n\n.mdi-image-filter-center-focus-strong::before {\n  content: \"\\F0EFF\";\n}\n\n.mdi-image-filter-center-focus-strong-outline::before {\n  content: \"\\F0F00\";\n}\n\n.mdi-image-filter-center-focus-weak::before {\n  content: \"\\F02F2\";\n}\n\n.mdi-image-filter-drama::before {\n  content: \"\\F02F3\";\n}\n\n.mdi-image-filter-frames::before {\n  content: \"\\F02F4\";\n}\n\n.mdi-image-filter-hdr::before {\n  content: \"\\F02F5\";\n}\n\n.mdi-image-filter-none::before {\n  content: \"\\F02F6\";\n}\n\n.mdi-image-filter-tilt-shift::before {\n  content: \"\\F02F7\";\n}\n\n.mdi-image-filter-vintage::before {\n  content: \"\\F02F8\";\n}\n\n.mdi-image-frame::before {\n  content: \"\\F0E49\";\n}\n\n.mdi-image-minus::before {\n  content: \"\\F1419\";\n}\n\n.mdi-image-move::before {\n  content: \"\\F09F8\";\n}\n\n.mdi-image-multiple::before {\n  content: \"\\F02F9\";\n}\n\n.mdi-image-multiple-outline::before {\n  content: \"\\F02EF\";\n}\n\n.mdi-image-off::before {\n  content: \"\\F082B\";\n}\n\n.mdi-image-off-outline::before {\n  content: \"\\F11D1\";\n}\n\n.mdi-image-outline::before {\n  content: \"\\F0976\";\n}\n\n.mdi-image-plus::before {\n  content: \"\\F087C\";\n}\n\n.mdi-image-remove::before {\n  content: \"\\F1418\";\n}\n\n.mdi-image-search::before {\n  content: \"\\F0977\";\n}\n\n.mdi-image-search-outline::before {\n  content: \"\\F0978\";\n}\n\n.mdi-image-size-select-actual::before {\n  content: \"\\F0C8D\";\n}\n\n.mdi-image-size-select-large::before {\n  content: \"\\F0C8E\";\n}\n\n.mdi-image-size-select-small::before {\n  content: \"\\F0C8F\";\n}\n\n.mdi-import::before {\n  content: \"\\F02FA\";\n}\n\n.mdi-inbox::before {\n  content: \"\\F0687\";\n}\n\n.mdi-inbox-arrow-down::before {\n  content: \"\\F02FB\";\n}\n\n.mdi-inbox-arrow-down-outline::before {\n  content: \"\\F1270\";\n}\n\n.mdi-inbox-arrow-up::before {\n  content: \"\\F03D1\";\n}\n\n.mdi-inbox-arrow-up-outline::before {\n  content: \"\\F1271\";\n}\n\n.mdi-inbox-full::before {\n  content: \"\\F1272\";\n}\n\n.mdi-inbox-full-outline::before {\n  content: \"\\F1273\";\n}\n\n.mdi-inbox-multiple::before {\n  content: \"\\F08B0\";\n}\n\n.mdi-inbox-multiple-outline::before {\n  content: \"\\F0BA8\";\n}\n\n.mdi-inbox-outline::before {\n  content: \"\\F1274\";\n}\n\n.mdi-inbox-remove::before {\n  content: \"\\F159F\";\n}\n\n.mdi-inbox-remove-outline::before {\n  content: \"\\F15A0\";\n}\n\n.mdi-incognito::before {\n  content: \"\\F05F9\";\n}\n\n.mdi-incognito-circle::before {\n  content: \"\\F1421\";\n}\n\n.mdi-incognito-circle-off::before {\n  content: \"\\F1422\";\n}\n\n.mdi-incognito-off::before {\n  content: \"\\F0075\";\n}\n\n.mdi-infinity::before {\n  content: \"\\F06E4\";\n}\n\n.mdi-information::before {\n  content: \"\\F02FC\";\n}\n\n.mdi-information-outline::before {\n  content: \"\\F02FD\";\n}\n\n.mdi-information-variant::before {\n  content: \"\\F064E\";\n}\n\n.mdi-instagram::before {\n  content: \"\\F02FE\";\n}\n\n.mdi-instrument-triangle::before {\n  content: \"\\F104E\";\n}\n\n.mdi-invert-colors::before {\n  content: \"\\F0301\";\n}\n\n.mdi-invert-colors-off::before {\n  content: \"\\F0E4A\";\n}\n\n.mdi-iobroker::before {\n  content: \"\\F12E8\";\n}\n\n.mdi-ip::before {\n  content: \"\\F0A5F\";\n}\n\n.mdi-ip-network::before {\n  content: \"\\F0A60\";\n}\n\n.mdi-ip-network-outline::before {\n  content: \"\\F0C90\";\n}\n\n.mdi-ipod::before {\n  content: \"\\F0C91\";\n}\n\n.mdi-islam::before {\n  content: \"\\F0979\";\n}\n\n.mdi-island::before {\n  content: \"\\F104F\";\n}\n\n.mdi-iv-bag::before {\n  content: \"\\F10B9\";\n}\n\n.mdi-jabber::before {\n  content: \"\\F0DD5\";\n}\n\n.mdi-jeepney::before {\n  content: \"\\F0302\";\n}\n\n.mdi-jellyfish::before {\n  content: \"\\F0F01\";\n}\n\n.mdi-jellyfish-outline::before {\n  content: \"\\F0F02\";\n}\n\n.mdi-jira::before {\n  content: \"\\F0303\";\n}\n\n.mdi-jquery::before {\n  content: \"\\F087D\";\n}\n\n.mdi-jsfiddle::before {\n  content: \"\\F0304\";\n}\n\n.mdi-judaism::before {\n  content: \"\\F097A\";\n}\n\n.mdi-jump-rope::before {\n  content: \"\\F12FF\";\n}\n\n.mdi-kabaddi::before {\n  content: \"\\F0D87\";\n}\n\n.mdi-kangaroo::before {\n  content: \"\\F1558\";\n}\n\n.mdi-karate::before {\n  content: \"\\F082C\";\n}\n\n.mdi-keg::before {\n  content: \"\\F0305\";\n}\n\n.mdi-kettle::before {\n  content: \"\\F05FA\";\n}\n\n.mdi-kettle-alert::before {\n  content: \"\\F1317\";\n}\n\n.mdi-kettle-alert-outline::before {\n  content: \"\\F1318\";\n}\n\n.mdi-kettle-off::before {\n  content: \"\\F131B\";\n}\n\n.mdi-kettle-off-outline::before {\n  content: \"\\F131C\";\n}\n\n.mdi-kettle-outline::before {\n  content: \"\\F0F56\";\n}\n\n.mdi-kettle-steam::before {\n  content: \"\\F1319\";\n}\n\n.mdi-kettle-steam-outline::before {\n  content: \"\\F131A\";\n}\n\n.mdi-kettlebell::before {\n  content: \"\\F1300\";\n}\n\n.mdi-key::before {\n  content: \"\\F0306\";\n}\n\n.mdi-key-arrow-right::before {\n  content: \"\\F1312\";\n}\n\n.mdi-key-chain::before {\n  content: \"\\F1574\";\n}\n\n.mdi-key-chain-variant::before {\n  content: \"\\F1575\";\n}\n\n.mdi-key-change::before {\n  content: \"\\F0307\";\n}\n\n.mdi-key-link::before {\n  content: \"\\F119F\";\n}\n\n.mdi-key-minus::before {\n  content: \"\\F0308\";\n}\n\n.mdi-key-outline::before {\n  content: \"\\F0DD6\";\n}\n\n.mdi-key-plus::before {\n  content: \"\\F0309\";\n}\n\n.mdi-key-remove::before {\n  content: \"\\F030A\";\n}\n\n.mdi-key-star::before {\n  content: \"\\F119E\";\n}\n\n.mdi-key-variant::before {\n  content: \"\\F030B\";\n}\n\n.mdi-key-wireless::before {\n  content: \"\\F0FC2\";\n}\n\n.mdi-keyboard::before {\n  content: \"\\F030C\";\n}\n\n.mdi-keyboard-backspace::before {\n  content: \"\\F030D\";\n}\n\n.mdi-keyboard-caps::before {\n  content: \"\\F030E\";\n}\n\n.mdi-keyboard-close::before {\n  content: \"\\F030F\";\n}\n\n.mdi-keyboard-esc::before {\n  content: \"\\F12B7\";\n}\n\n.mdi-keyboard-f1::before {\n  content: \"\\F12AB\";\n}\n\n.mdi-keyboard-f10::before {\n  content: \"\\F12B4\";\n}\n\n.mdi-keyboard-f11::before {\n  content: \"\\F12B5\";\n}\n\n.mdi-keyboard-f12::before {\n  content: \"\\F12B6\";\n}\n\n.mdi-keyboard-f2::before {\n  content: \"\\F12AC\";\n}\n\n.mdi-keyboard-f3::before {\n  content: \"\\F12AD\";\n}\n\n.mdi-keyboard-f4::before {\n  content: \"\\F12AE\";\n}\n\n.mdi-keyboard-f5::before {\n  content: \"\\F12AF\";\n}\n\n.mdi-keyboard-f6::before {\n  content: \"\\F12B0\";\n}\n\n.mdi-keyboard-f7::before {\n  content: \"\\F12B1\";\n}\n\n.mdi-keyboard-f8::before {\n  content: \"\\F12B2\";\n}\n\n.mdi-keyboard-f9::before {\n  content: \"\\F12B3\";\n}\n\n.mdi-keyboard-off::before {\n  content: \"\\F0310\";\n}\n\n.mdi-keyboard-off-outline::before {\n  content: \"\\F0E4B\";\n}\n\n.mdi-keyboard-outline::before {\n  content: \"\\F097B\";\n}\n\n.mdi-keyboard-return::before {\n  content: \"\\F0311\";\n}\n\n.mdi-keyboard-settings::before {\n  content: \"\\F09F9\";\n}\n\n.mdi-keyboard-settings-outline::before {\n  content: \"\\F09FA\";\n}\n\n.mdi-keyboard-space::before {\n  content: \"\\F1050\";\n}\n\n.mdi-keyboard-tab::before {\n  content: \"\\F0312\";\n}\n\n.mdi-keyboard-variant::before {\n  content: \"\\F0313\";\n}\n\n.mdi-khanda::before {\n  content: \"\\F10FD\";\n}\n\n.mdi-kickstarter::before {\n  content: \"\\F0745\";\n}\n\n.mdi-klingon::before {\n  content: \"\\F135B\";\n}\n\n.mdi-knife::before {\n  content: \"\\F09FB\";\n}\n\n.mdi-knife-military::before {\n  content: \"\\F09FC\";\n}\n\n.mdi-kodi::before {\n  content: \"\\F0314\";\n}\n\n.mdi-kubernetes::before {\n  content: \"\\F10FE\";\n}\n\n.mdi-label::before {\n  content: \"\\F0315\";\n}\n\n.mdi-label-multiple::before {\n  content: \"\\F1375\";\n}\n\n.mdi-label-multiple-outline::before {\n  content: \"\\F1376\";\n}\n\n.mdi-label-off::before {\n  content: \"\\F0ACB\";\n}\n\n.mdi-label-off-outline::before {\n  content: \"\\F0ACC\";\n}\n\n.mdi-label-outline::before {\n  content: \"\\F0316\";\n}\n\n.mdi-label-percent::before {\n  content: \"\\F12EA\";\n}\n\n.mdi-label-percent-outline::before {\n  content: \"\\F12EB\";\n}\n\n.mdi-label-variant::before {\n  content: \"\\F0ACD\";\n}\n\n.mdi-label-variant-outline::before {\n  content: \"\\F0ACE\";\n}\n\n.mdi-ladder::before {\n  content: \"\\F15A2\";\n}\n\n.mdi-ladybug::before {\n  content: \"\\F082D\";\n}\n\n.mdi-lambda::before {\n  content: \"\\F0627\";\n}\n\n.mdi-lamp::before {\n  content: \"\\F06B5\";\n}\n\n.mdi-lamps::before {\n  content: \"\\F1576\";\n}\n\n.mdi-lan::before {\n  content: \"\\F0317\";\n}\n\n.mdi-lan-check::before {\n  content: \"\\F12AA\";\n}\n\n.mdi-lan-connect::before {\n  content: \"\\F0318\";\n}\n\n.mdi-lan-disconnect::before {\n  content: \"\\F0319\";\n}\n\n.mdi-lan-pending::before {\n  content: \"\\F031A\";\n}\n\n.mdi-language-c::before {\n  content: \"\\F0671\";\n}\n\n.mdi-language-cpp::before {\n  content: \"\\F0672\";\n}\n\n.mdi-language-csharp::before {\n  content: \"\\F031B\";\n}\n\n.mdi-language-css3::before {\n  content: \"\\F031C\";\n}\n\n.mdi-language-fortran::before {\n  content: \"\\F121A\";\n}\n\n.mdi-language-go::before {\n  content: \"\\F07D3\";\n}\n\n.mdi-language-haskell::before {\n  content: \"\\F0C92\";\n}\n\n.mdi-language-html5::before {\n  content: \"\\F031D\";\n}\n\n.mdi-language-java::before {\n  content: \"\\F0B37\";\n}\n\n.mdi-language-javascript::before {\n  content: \"\\F031E\";\n}\n\n.mdi-language-kotlin::before {\n  content: \"\\F1219\";\n}\n\n.mdi-language-lua::before {\n  content: \"\\F08B1\";\n}\n\n.mdi-language-markdown::before {\n  content: \"\\F0354\";\n}\n\n.mdi-language-markdown-outline::before {\n  content: \"\\F0F5B\";\n}\n\n.mdi-language-php::before {\n  content: \"\\F031F\";\n}\n\n.mdi-language-python::before {\n  content: \"\\F0320\";\n}\n\n.mdi-language-r::before {\n  content: \"\\F07D4\";\n}\n\n.mdi-language-ruby::before {\n  content: \"\\F0D2D\";\n}\n\n.mdi-language-ruby-on-rails::before {\n  content: \"\\F0ACF\";\n}\n\n.mdi-language-swift::before {\n  content: \"\\F06E5\";\n}\n\n.mdi-language-typescript::before {\n  content: \"\\F06E6\";\n}\n\n.mdi-language-xaml::before {\n  content: \"\\F0673\";\n}\n\n.mdi-laptop::before {\n  content: \"\\F0322\";\n}\n\n.mdi-laptop-chromebook::before {\n  content: \"\\F0323\";\n}\n\n.mdi-laptop-mac::before {\n  content: \"\\F0324\";\n}\n\n.mdi-laptop-off::before {\n  content: \"\\F06E7\";\n}\n\n.mdi-laptop-windows::before {\n  content: \"\\F0325\";\n}\n\n.mdi-laravel::before {\n  content: \"\\F0AD0\";\n}\n\n.mdi-laser-pointer::before {\n  content: \"\\F1484\";\n}\n\n.mdi-lasso::before {\n  content: \"\\F0F03\";\n}\n\n.mdi-lastpass::before {\n  content: \"\\F0446\";\n}\n\n.mdi-latitude::before {\n  content: \"\\F0F57\";\n}\n\n.mdi-launch::before {\n  content: \"\\F0327\";\n}\n\n.mdi-lava-lamp::before {\n  content: \"\\F07D5\";\n}\n\n.mdi-layers::before {\n  content: \"\\F0328\";\n}\n\n.mdi-layers-minus::before {\n  content: \"\\F0E4C\";\n}\n\n.mdi-layers-off::before {\n  content: \"\\F0329\";\n}\n\n.mdi-layers-off-outline::before {\n  content: \"\\F09FD\";\n}\n\n.mdi-layers-outline::before {\n  content: \"\\F09FE\";\n}\n\n.mdi-layers-plus::before {\n  content: \"\\F0E4D\";\n}\n\n.mdi-layers-remove::before {\n  content: \"\\F0E4E\";\n}\n\n.mdi-layers-search::before {\n  content: \"\\F1206\";\n}\n\n.mdi-layers-search-outline::before {\n  content: \"\\F1207\";\n}\n\n.mdi-layers-triple::before {\n  content: \"\\F0F58\";\n}\n\n.mdi-layers-triple-outline::before {\n  content: \"\\F0F59\";\n}\n\n.mdi-lead-pencil::before {\n  content: \"\\F064F\";\n}\n\n.mdi-leaf::before {\n  content: \"\\F032A\";\n}\n\n.mdi-leaf-maple::before {\n  content: \"\\F0C93\";\n}\n\n.mdi-leaf-maple-off::before {\n  content: \"\\F12DA\";\n}\n\n.mdi-leaf-off::before {\n  content: \"\\F12D9\";\n}\n\n.mdi-leak::before {\n  content: \"\\F0DD7\";\n}\n\n.mdi-leak-off::before {\n  content: \"\\F0DD8\";\n}\n\n.mdi-led-off::before {\n  content: \"\\F032B\";\n}\n\n.mdi-led-on::before {\n  content: \"\\F032C\";\n}\n\n.mdi-led-outline::before {\n  content: \"\\F032D\";\n}\n\n.mdi-led-strip::before {\n  content: \"\\F07D6\";\n}\n\n.mdi-led-strip-variant::before {\n  content: \"\\F1051\";\n}\n\n.mdi-led-variant-off::before {\n  content: \"\\F032E\";\n}\n\n.mdi-led-variant-on::before {\n  content: \"\\F032F\";\n}\n\n.mdi-led-variant-outline::before {\n  content: \"\\F0330\";\n}\n\n.mdi-leek::before {\n  content: \"\\F117D\";\n}\n\n.mdi-less-than::before {\n  content: \"\\F097C\";\n}\n\n.mdi-less-than-or-equal::before {\n  content: \"\\F097D\";\n}\n\n.mdi-library::before {\n  content: \"\\F0331\";\n}\n\n.mdi-library-shelves::before {\n  content: \"\\F0BA9\";\n}\n\n.mdi-license::before {\n  content: \"\\F0FC3\";\n}\n\n.mdi-lifebuoy::before {\n  content: \"\\F087E\";\n}\n\n.mdi-light-switch::before {\n  content: \"\\F097E\";\n}\n\n.mdi-lightbulb::before {\n  content: \"\\F0335\";\n}\n\n.mdi-lightbulb-cfl::before {\n  content: \"\\F1208\";\n}\n\n.mdi-lightbulb-cfl-off::before {\n  content: \"\\F1209\";\n}\n\n.mdi-lightbulb-cfl-spiral::before {\n  content: \"\\F1275\";\n}\n\n.mdi-lightbulb-cfl-spiral-off::before {\n  content: \"\\F12C3\";\n}\n\n.mdi-lightbulb-group::before {\n  content: \"\\F1253\";\n}\n\n.mdi-lightbulb-group-off::before {\n  content: \"\\F12CD\";\n}\n\n.mdi-lightbulb-group-off-outline::before {\n  content: \"\\F12CE\";\n}\n\n.mdi-lightbulb-group-outline::before {\n  content: \"\\F1254\";\n}\n\n.mdi-lightbulb-multiple::before {\n  content: \"\\F1255\";\n}\n\n.mdi-lightbulb-multiple-off::before {\n  content: \"\\F12CF\";\n}\n\n.mdi-lightbulb-multiple-off-outline::before {\n  content: \"\\F12D0\";\n}\n\n.mdi-lightbulb-multiple-outline::before {\n  content: \"\\F1256\";\n}\n\n.mdi-lightbulb-off::before {\n  content: \"\\F0E4F\";\n}\n\n.mdi-lightbulb-off-outline::before {\n  content: \"\\F0E50\";\n}\n\n.mdi-lightbulb-on::before {\n  content: \"\\F06E8\";\n}\n\n.mdi-lightbulb-on-outline::before {\n  content: \"\\F06E9\";\n}\n\n.mdi-lightbulb-outline::before {\n  content: \"\\F0336\";\n}\n\n.mdi-lighthouse::before {\n  content: \"\\F09FF\";\n}\n\n.mdi-lighthouse-on::before {\n  content: \"\\F0A00\";\n}\n\n.mdi-lightning-bolt::before {\n  content: \"\\F140B\";\n}\n\n.mdi-lightning-bolt-outline::before {\n  content: \"\\F140C\";\n}\n\n.mdi-lingerie::before {\n  content: \"\\F1476\";\n}\n\n.mdi-link::before {\n  content: \"\\F0337\";\n}\n\n.mdi-link-box::before {\n  content: \"\\F0D1A\";\n}\n\n.mdi-link-box-outline::before {\n  content: \"\\F0D1B\";\n}\n\n.mdi-link-box-variant::before {\n  content: \"\\F0D1C\";\n}\n\n.mdi-link-box-variant-outline::before {\n  content: \"\\F0D1D\";\n}\n\n.mdi-link-lock::before {\n  content: \"\\F10BA\";\n}\n\n.mdi-link-off::before {\n  content: \"\\F0338\";\n}\n\n.mdi-link-plus::before {\n  content: \"\\F0C94\";\n}\n\n.mdi-link-variant::before {\n  content: \"\\F0339\";\n}\n\n.mdi-link-variant-minus::before {\n  content: \"\\F10FF\";\n}\n\n.mdi-link-variant-off::before {\n  content: \"\\F033A\";\n}\n\n.mdi-link-variant-plus::before {\n  content: \"\\F1100\";\n}\n\n.mdi-link-variant-remove::before {\n  content: \"\\F1101\";\n}\n\n.mdi-linkedin::before {\n  content: \"\\F033B\";\n}\n\n.mdi-linux::before {\n  content: \"\\F033D\";\n}\n\n.mdi-linux-mint::before {\n  content: \"\\F08ED\";\n}\n\n.mdi-lipstick::before {\n  content: \"\\F13B5\";\n}\n\n.mdi-list-status::before {\n  content: \"\\F15AB\";\n}\n\n.mdi-litecoin::before {\n  content: \"\\F0A61\";\n}\n\n.mdi-loading::before {\n  content: \"\\F0772\";\n}\n\n.mdi-location-enter::before {\n  content: \"\\F0FC4\";\n}\n\n.mdi-location-exit::before {\n  content: \"\\F0FC5\";\n}\n\n.mdi-lock::before {\n  content: \"\\F033E\";\n}\n\n.mdi-lock-alert::before {\n  content: \"\\F08EE\";\n}\n\n.mdi-lock-check::before {\n  content: \"\\F139A\";\n}\n\n.mdi-lock-clock::before {\n  content: \"\\F097F\";\n}\n\n.mdi-lock-open::before {\n  content: \"\\F033F\";\n}\n\n.mdi-lock-open-alert::before {\n  content: \"\\F139B\";\n}\n\n.mdi-lock-open-check::before {\n  content: \"\\F139C\";\n}\n\n.mdi-lock-open-outline::before {\n  content: \"\\F0340\";\n}\n\n.mdi-lock-open-variant::before {\n  content: \"\\F0FC6\";\n}\n\n.mdi-lock-open-variant-outline::before {\n  content: \"\\F0FC7\";\n}\n\n.mdi-lock-outline::before {\n  content: \"\\F0341\";\n}\n\n.mdi-lock-pattern::before {\n  content: \"\\F06EA\";\n}\n\n.mdi-lock-plus::before {\n  content: \"\\F05FB\";\n}\n\n.mdi-lock-question::before {\n  content: \"\\F08EF\";\n}\n\n.mdi-lock-reset::before {\n  content: \"\\F0773\";\n}\n\n.mdi-lock-smart::before {\n  content: \"\\F08B2\";\n}\n\n.mdi-locker::before {\n  content: \"\\F07D7\";\n}\n\n.mdi-locker-multiple::before {\n  content: \"\\F07D8\";\n}\n\n.mdi-login::before {\n  content: \"\\F0342\";\n}\n\n.mdi-login-variant::before {\n  content: \"\\F05FC\";\n}\n\n.mdi-logout::before {\n  content: \"\\F0343\";\n}\n\n.mdi-logout-variant::before {\n  content: \"\\F05FD\";\n}\n\n.mdi-longitude::before {\n  content: \"\\F0F5A\";\n}\n\n.mdi-looks::before {\n  content: \"\\F0344\";\n}\n\n.mdi-lotion::before {\n  content: \"\\F1582\";\n}\n\n.mdi-lotion-outline::before {\n  content: \"\\F1583\";\n}\n\n.mdi-lotion-plus::before {\n  content: \"\\F1584\";\n}\n\n.mdi-lotion-plus-outline::before {\n  content: \"\\F1585\";\n}\n\n.mdi-loupe::before {\n  content: \"\\F0345\";\n}\n\n.mdi-lumx::before {\n  content: \"\\F0346\";\n}\n\n.mdi-lungs::before {\n  content: \"\\F1084\";\n}\n\n.mdi-magnet::before {\n  content: \"\\F0347\";\n}\n\n.mdi-magnet-on::before {\n  content: \"\\F0348\";\n}\n\n.mdi-magnify::before {\n  content: \"\\F0349\";\n}\n\n.mdi-magnify-close::before {\n  content: \"\\F0980\";\n}\n\n.mdi-magnify-minus::before {\n  content: \"\\F034A\";\n}\n\n.mdi-magnify-minus-cursor::before {\n  content: \"\\F0A62\";\n}\n\n.mdi-magnify-minus-outline::before {\n  content: \"\\F06EC\";\n}\n\n.mdi-magnify-plus::before {\n  content: \"\\F034B\";\n}\n\n.mdi-magnify-plus-cursor::before {\n  content: \"\\F0A63\";\n}\n\n.mdi-magnify-plus-outline::before {\n  content: \"\\F06ED\";\n}\n\n.mdi-magnify-remove-cursor::before {\n  content: \"\\F120C\";\n}\n\n.mdi-magnify-remove-outline::before {\n  content: \"\\F120D\";\n}\n\n.mdi-magnify-scan::before {\n  content: \"\\F1276\";\n}\n\n.mdi-mail::before {\n  content: \"\\F0EBB\";\n}\n\n.mdi-mailbox::before {\n  content: \"\\F06EE\";\n}\n\n.mdi-mailbox-open::before {\n  content: \"\\F0D88\";\n}\n\n.mdi-mailbox-open-outline::before {\n  content: \"\\F0D89\";\n}\n\n.mdi-mailbox-open-up::before {\n  content: \"\\F0D8A\";\n}\n\n.mdi-mailbox-open-up-outline::before {\n  content: \"\\F0D8B\";\n}\n\n.mdi-mailbox-outline::before {\n  content: \"\\F0D8C\";\n}\n\n.mdi-mailbox-up::before {\n  content: \"\\F0D8D\";\n}\n\n.mdi-mailbox-up-outline::before {\n  content: \"\\F0D8E\";\n}\n\n.mdi-map::before {\n  content: \"\\F034D\";\n}\n\n.mdi-map-check::before {\n  content: \"\\F0EBC\";\n}\n\n.mdi-map-check-outline::before {\n  content: \"\\F0EBD\";\n}\n\n.mdi-map-clock::before {\n  content: \"\\F0D1E\";\n}\n\n.mdi-map-clock-outline::before {\n  content: \"\\F0D1F\";\n}\n\n.mdi-map-legend::before {\n  content: \"\\F0A01\";\n}\n\n.mdi-map-marker::before {\n  content: \"\\F034E\";\n}\n\n.mdi-map-marker-alert::before {\n  content: \"\\F0F05\";\n}\n\n.mdi-map-marker-alert-outline::before {\n  content: \"\\F0F06\";\n}\n\n.mdi-map-marker-check::before {\n  content: \"\\F0C95\";\n}\n\n.mdi-map-marker-check-outline::before {\n  content: \"\\F12FB\";\n}\n\n.mdi-map-marker-circle::before {\n  content: \"\\F034F\";\n}\n\n.mdi-map-marker-distance::before {\n  content: \"\\F08F0\";\n}\n\n.mdi-map-marker-down::before {\n  content: \"\\F1102\";\n}\n\n.mdi-map-marker-left::before {\n  content: \"\\F12DB\";\n}\n\n.mdi-map-marker-left-outline::before {\n  content: \"\\F12DD\";\n}\n\n.mdi-map-marker-minus::before {\n  content: \"\\F0650\";\n}\n\n.mdi-map-marker-minus-outline::before {\n  content: \"\\F12F9\";\n}\n\n.mdi-map-marker-multiple::before {\n  content: \"\\F0350\";\n}\n\n.mdi-map-marker-multiple-outline::before {\n  content: \"\\F1277\";\n}\n\n.mdi-map-marker-off::before {\n  content: \"\\F0351\";\n}\n\n.mdi-map-marker-off-outline::before {\n  content: \"\\F12FD\";\n}\n\n.mdi-map-marker-outline::before {\n  content: \"\\F07D9\";\n}\n\n.mdi-map-marker-path::before {\n  content: \"\\F0D20\";\n}\n\n.mdi-map-marker-plus::before {\n  content: \"\\F0651\";\n}\n\n.mdi-map-marker-plus-outline::before {\n  content: \"\\F12F8\";\n}\n\n.mdi-map-marker-question::before {\n  content: \"\\F0F07\";\n}\n\n.mdi-map-marker-question-outline::before {\n  content: \"\\F0F08\";\n}\n\n.mdi-map-marker-radius::before {\n  content: \"\\F0352\";\n}\n\n.mdi-map-marker-radius-outline::before {\n  content: \"\\F12FC\";\n}\n\n.mdi-map-marker-remove::before {\n  content: \"\\F0F09\";\n}\n\n.mdi-map-marker-remove-outline::before {\n  content: \"\\F12FA\";\n}\n\n.mdi-map-marker-remove-variant::before {\n  content: \"\\F0F0A\";\n}\n\n.mdi-map-marker-right::before {\n  content: \"\\F12DC\";\n}\n\n.mdi-map-marker-right-outline::before {\n  content: \"\\F12DE\";\n}\n\n.mdi-map-marker-up::before {\n  content: \"\\F1103\";\n}\n\n.mdi-map-minus::before {\n  content: \"\\F0981\";\n}\n\n.mdi-map-outline::before {\n  content: \"\\F0982\";\n}\n\n.mdi-map-plus::before {\n  content: \"\\F0983\";\n}\n\n.mdi-map-search::before {\n  content: \"\\F0984\";\n}\n\n.mdi-map-search-outline::before {\n  content: \"\\F0985\";\n}\n\n.mdi-mapbox::before {\n  content: \"\\F0BAA\";\n}\n\n.mdi-margin::before {\n  content: \"\\F0353\";\n}\n\n.mdi-marker::before {\n  content: \"\\F0652\";\n}\n\n.mdi-marker-cancel::before {\n  content: \"\\F0DD9\";\n}\n\n.mdi-marker-check::before {\n  content: \"\\F0355\";\n}\n\n.mdi-mastodon::before {\n  content: \"\\F0AD1\";\n}\n\n.mdi-material-design::before {\n  content: \"\\F0986\";\n}\n\n.mdi-material-ui::before {\n  content: \"\\F0357\";\n}\n\n.mdi-math-compass::before {\n  content: \"\\F0358\";\n}\n\n.mdi-math-cos::before {\n  content: \"\\F0C96\";\n}\n\n.mdi-math-integral::before {\n  content: \"\\F0FC8\";\n}\n\n.mdi-math-integral-box::before {\n  content: \"\\F0FC9\";\n}\n\n.mdi-math-log::before {\n  content: \"\\F1085\";\n}\n\n.mdi-math-norm::before {\n  content: \"\\F0FCA\";\n}\n\n.mdi-math-norm-box::before {\n  content: \"\\F0FCB\";\n}\n\n.mdi-math-sin::before {\n  content: \"\\F0C97\";\n}\n\n.mdi-math-tan::before {\n  content: \"\\F0C98\";\n}\n\n.mdi-matrix::before {\n  content: \"\\F0628\";\n}\n\n.mdi-medal::before {\n  content: \"\\F0987\";\n}\n\n.mdi-medal-outline::before {\n  content: \"\\F1326\";\n}\n\n.mdi-medical-bag::before {\n  content: \"\\F06EF\";\n}\n\n.mdi-meditation::before {\n  content: \"\\F117B\";\n}\n\n.mdi-memory::before {\n  content: \"\\F035B\";\n}\n\n.mdi-menu::before {\n  content: \"\\F035C\";\n}\n\n.mdi-menu-down::before {\n  content: \"\\F035D\";\n}\n\n.mdi-menu-down-outline::before {\n  content: \"\\F06B6\";\n}\n\n.mdi-menu-left::before {\n  content: \"\\F035E\";\n}\n\n.mdi-menu-left-outline::before {\n  content: \"\\F0A02\";\n}\n\n.mdi-menu-open::before {\n  content: \"\\F0BAB\";\n}\n\n.mdi-menu-right::before {\n  content: \"\\F035F\";\n}\n\n.mdi-menu-right-outline::before {\n  content: \"\\F0A03\";\n}\n\n.mdi-menu-swap::before {\n  content: \"\\F0A64\";\n}\n\n.mdi-menu-swap-outline::before {\n  content: \"\\F0A65\";\n}\n\n.mdi-menu-up::before {\n  content: \"\\F0360\";\n}\n\n.mdi-menu-up-outline::before {\n  content: \"\\F06B7\";\n}\n\n.mdi-merge::before {\n  content: \"\\F0F5C\";\n}\n\n.mdi-message::before {\n  content: \"\\F0361\";\n}\n\n.mdi-message-alert::before {\n  content: \"\\F0362\";\n}\n\n.mdi-message-alert-outline::before {\n  content: \"\\F0A04\";\n}\n\n.mdi-message-arrow-left::before {\n  content: \"\\F12F2\";\n}\n\n.mdi-message-arrow-left-outline::before {\n  content: \"\\F12F3\";\n}\n\n.mdi-message-arrow-right::before {\n  content: \"\\F12F4\";\n}\n\n.mdi-message-arrow-right-outline::before {\n  content: \"\\F12F5\";\n}\n\n.mdi-message-bookmark::before {\n  content: \"\\F15AC\";\n}\n\n.mdi-message-bookmark-outline::before {\n  content: \"\\F15AD\";\n}\n\n.mdi-message-bulleted::before {\n  content: \"\\F06A2\";\n}\n\n.mdi-message-bulleted-off::before {\n  content: \"\\F06A3\";\n}\n\n.mdi-message-cog::before {\n  content: \"\\F06F1\";\n}\n\n.mdi-message-cog-outline::before {\n  content: \"\\F1172\";\n}\n\n.mdi-message-draw::before {\n  content: \"\\F0363\";\n}\n\n.mdi-message-flash::before {\n  content: \"\\F15A9\";\n}\n\n.mdi-message-flash-outline::before {\n  content: \"\\F15AA\";\n}\n\n.mdi-message-image::before {\n  content: \"\\F0364\";\n}\n\n.mdi-message-image-outline::before {\n  content: \"\\F116C\";\n}\n\n.mdi-message-lock::before {\n  content: \"\\F0FCC\";\n}\n\n.mdi-message-lock-outline::before {\n  content: \"\\F116D\";\n}\n\n.mdi-message-minus::before {\n  content: \"\\F116E\";\n}\n\n.mdi-message-minus-outline::before {\n  content: \"\\F116F\";\n}\n\n.mdi-message-outline::before {\n  content: \"\\F0365\";\n}\n\n.mdi-message-plus::before {\n  content: \"\\F0653\";\n}\n\n.mdi-message-plus-outline::before {\n  content: \"\\F10BB\";\n}\n\n.mdi-message-processing::before {\n  content: \"\\F0366\";\n}\n\n.mdi-message-processing-outline::before {\n  content: \"\\F1170\";\n}\n\n.mdi-message-reply::before {\n  content: \"\\F0367\";\n}\n\n.mdi-message-reply-text::before {\n  content: \"\\F0368\";\n}\n\n.mdi-message-settings::before {\n  content: \"\\F06F0\";\n}\n\n.mdi-message-settings-outline::before {\n  content: \"\\F1171\";\n}\n\n.mdi-message-text::before {\n  content: \"\\F0369\";\n}\n\n.mdi-message-text-clock::before {\n  content: \"\\F1173\";\n}\n\n.mdi-message-text-clock-outline::before {\n  content: \"\\F1174\";\n}\n\n.mdi-message-text-lock::before {\n  content: \"\\F0FCD\";\n}\n\n.mdi-message-text-lock-outline::before {\n  content: \"\\F1175\";\n}\n\n.mdi-message-text-outline::before {\n  content: \"\\F036A\";\n}\n\n.mdi-message-video::before {\n  content: \"\\F036B\";\n}\n\n.mdi-meteor::before {\n  content: \"\\F0629\";\n}\n\n.mdi-metronome::before {\n  content: \"\\F07DA\";\n}\n\n.mdi-metronome-tick::before {\n  content: \"\\F07DB\";\n}\n\n.mdi-micro-sd::before {\n  content: \"\\F07DC\";\n}\n\n.mdi-microphone::before {\n  content: \"\\F036C\";\n}\n\n.mdi-microphone-minus::before {\n  content: \"\\F08B3\";\n}\n\n.mdi-microphone-off::before {\n  content: \"\\F036D\";\n}\n\n.mdi-microphone-outline::before {\n  content: \"\\F036E\";\n}\n\n.mdi-microphone-plus::before {\n  content: \"\\F08B4\";\n}\n\n.mdi-microphone-settings::before {\n  content: \"\\F036F\";\n}\n\n.mdi-microphone-variant::before {\n  content: \"\\F0370\";\n}\n\n.mdi-microphone-variant-off::before {\n  content: \"\\F0371\";\n}\n\n.mdi-microscope::before {\n  content: \"\\F0654\";\n}\n\n.mdi-microsoft::before {\n  content: \"\\F0372\";\n}\n\n.mdi-microsoft-access::before {\n  content: \"\\F138E\";\n}\n\n.mdi-microsoft-azure::before {\n  content: \"\\F0805\";\n}\n\n.mdi-microsoft-azure-devops::before {\n  content: \"\\F0FD5\";\n}\n\n.mdi-microsoft-bing::before {\n  content: \"\\F00A4\";\n}\n\n.mdi-microsoft-dynamics-365::before {\n  content: \"\\F0988\";\n}\n\n.mdi-microsoft-edge::before {\n  content: \"\\F01E9\";\n}\n\n.mdi-microsoft-edge-legacy::before {\n  content: \"\\F1250\";\n}\n\n.mdi-microsoft-excel::before {\n  content: \"\\F138F\";\n}\n\n.mdi-microsoft-internet-explorer::before {\n  content: \"\\F0300\";\n}\n\n.mdi-microsoft-office::before {\n  content: \"\\F03C6\";\n}\n\n.mdi-microsoft-onedrive::before {\n  content: \"\\F03CA\";\n}\n\n.mdi-microsoft-onenote::before {\n  content: \"\\F0747\";\n}\n\n.mdi-microsoft-outlook::before {\n  content: \"\\F0D22\";\n}\n\n.mdi-microsoft-powerpoint::before {\n  content: \"\\F1390\";\n}\n\n.mdi-microsoft-sharepoint::before {\n  content: \"\\F1391\";\n}\n\n.mdi-microsoft-teams::before {\n  content: \"\\F02BB\";\n}\n\n.mdi-microsoft-visual-studio::before {\n  content: \"\\F0610\";\n}\n\n.mdi-microsoft-visual-studio-code::before {\n  content: \"\\F0A1E\";\n}\n\n.mdi-microsoft-windows::before {\n  content: \"\\F05B3\";\n}\n\n.mdi-microsoft-windows-classic::before {\n  content: \"\\F0A21\";\n}\n\n.mdi-microsoft-word::before {\n  content: \"\\F1392\";\n}\n\n.mdi-microsoft-xbox::before {\n  content: \"\\F05B9\";\n}\n\n.mdi-microsoft-xbox-controller::before {\n  content: \"\\F05BA\";\n}\n\n.mdi-microsoft-xbox-controller-battery-alert::before {\n  content: \"\\F074B\";\n}\n\n.mdi-microsoft-xbox-controller-battery-charging::before {\n  content: \"\\F0A22\";\n}\n\n.mdi-microsoft-xbox-controller-battery-empty::before {\n  content: \"\\F074C\";\n}\n\n.mdi-microsoft-xbox-controller-battery-full::before {\n  content: \"\\F074D\";\n}\n\n.mdi-microsoft-xbox-controller-battery-low::before {\n  content: \"\\F074E\";\n}\n\n.mdi-microsoft-xbox-controller-battery-medium::before {\n  content: \"\\F074F\";\n}\n\n.mdi-microsoft-xbox-controller-battery-unknown::before {\n  content: \"\\F0750\";\n}\n\n.mdi-microsoft-xbox-controller-menu::before {\n  content: \"\\F0E6F\";\n}\n\n.mdi-microsoft-xbox-controller-off::before {\n  content: \"\\F05BB\";\n}\n\n.mdi-microsoft-xbox-controller-view::before {\n  content: \"\\F0E70\";\n}\n\n.mdi-microsoft-yammer::before {\n  content: \"\\F0789\";\n}\n\n.mdi-microwave::before {\n  content: \"\\F0C99\";\n}\n\n.mdi-microwave-off::before {\n  content: \"\\F1423\";\n}\n\n.mdi-middleware::before {\n  content: \"\\F0F5D\";\n}\n\n.mdi-middleware-outline::before {\n  content: \"\\F0F5E\";\n}\n\n.mdi-midi::before {\n  content: \"\\F08F1\";\n}\n\n.mdi-midi-port::before {\n  content: \"\\F08F2\";\n}\n\n.mdi-mine::before {\n  content: \"\\F0DDA\";\n}\n\n.mdi-minecraft::before {\n  content: \"\\F0373\";\n}\n\n.mdi-mini-sd::before {\n  content: \"\\F0A05\";\n}\n\n.mdi-minidisc::before {\n  content: \"\\F0A06\";\n}\n\n.mdi-minus::before {\n  content: \"\\F0374\";\n}\n\n.mdi-minus-box::before {\n  content: \"\\F0375\";\n}\n\n.mdi-minus-box-multiple::before {\n  content: \"\\F1141\";\n}\n\n.mdi-minus-box-multiple-outline::before {\n  content: \"\\F1142\";\n}\n\n.mdi-minus-box-outline::before {\n  content: \"\\F06F2\";\n}\n\n.mdi-minus-circle::before {\n  content: \"\\F0376\";\n}\n\n.mdi-minus-circle-multiple::before {\n  content: \"\\F035A\";\n}\n\n.mdi-minus-circle-multiple-outline::before {\n  content: \"\\F0AD3\";\n}\n\n.mdi-minus-circle-off::before {\n  content: \"\\F1459\";\n}\n\n.mdi-minus-circle-off-outline::before {\n  content: \"\\F145A\";\n}\n\n.mdi-minus-circle-outline::before {\n  content: \"\\F0377\";\n}\n\n.mdi-minus-network::before {\n  content: \"\\F0378\";\n}\n\n.mdi-minus-network-outline::before {\n  content: \"\\F0C9A\";\n}\n\n.mdi-mirror::before {\n  content: \"\\F11FD\";\n}\n\n.mdi-mixed-martial-arts::before {\n  content: \"\\F0D8F\";\n}\n\n.mdi-mixed-reality::before {\n  content: \"\\F087F\";\n}\n\n.mdi-molecule::before {\n  content: \"\\F0BAC\";\n}\n\n.mdi-molecule-co::before {\n  content: \"\\F12FE\";\n}\n\n.mdi-molecule-co2::before {\n  content: \"\\F07E4\";\n}\n\n.mdi-monitor::before {\n  content: \"\\F0379\";\n}\n\n.mdi-monitor-cellphone::before {\n  content: \"\\F0989\";\n}\n\n.mdi-monitor-cellphone-star::before {\n  content: \"\\F098A\";\n}\n\n.mdi-monitor-clean::before {\n  content: \"\\F1104\";\n}\n\n.mdi-monitor-dashboard::before {\n  content: \"\\F0A07\";\n}\n\n.mdi-monitor-edit::before {\n  content: \"\\F12C6\";\n}\n\n.mdi-monitor-eye::before {\n  content: \"\\F13B4\";\n}\n\n.mdi-monitor-lock::before {\n  content: \"\\F0DDB\";\n}\n\n.mdi-monitor-multiple::before {\n  content: \"\\F037A\";\n}\n\n.mdi-monitor-off::before {\n  content: \"\\F0D90\";\n}\n\n.mdi-monitor-screenshot::before {\n  content: \"\\F0E51\";\n}\n\n.mdi-monitor-share::before {\n  content: \"\\F1483\";\n}\n\n.mdi-monitor-speaker::before {\n  content: \"\\F0F5F\";\n}\n\n.mdi-monitor-speaker-off::before {\n  content: \"\\F0F60\";\n}\n\n.mdi-monitor-star::before {\n  content: \"\\F0DDC\";\n}\n\n.mdi-moon-first-quarter::before {\n  content: \"\\F0F61\";\n}\n\n.mdi-moon-full::before {\n  content: \"\\F0F62\";\n}\n\n.mdi-moon-last-quarter::before {\n  content: \"\\F0F63\";\n}\n\n.mdi-moon-new::before {\n  content: \"\\F0F64\";\n}\n\n.mdi-moon-waning-crescent::before {\n  content: \"\\F0F65\";\n}\n\n.mdi-moon-waning-gibbous::before {\n  content: \"\\F0F66\";\n}\n\n.mdi-moon-waxing-crescent::before {\n  content: \"\\F0F67\";\n}\n\n.mdi-moon-waxing-gibbous::before {\n  content: \"\\F0F68\";\n}\n\n.mdi-moped::before {\n  content: \"\\F1086\";\n}\n\n.mdi-more::before {\n  content: \"\\F037B\";\n}\n\n.mdi-mother-heart::before {\n  content: \"\\F1314\";\n}\n\n.mdi-mother-nurse::before {\n  content: \"\\F0D21\";\n}\n\n.mdi-motion::before {\n  content: \"\\F15B2\";\n}\n\n.mdi-motion-outline::before {\n  content: \"\\F15B3\";\n}\n\n.mdi-motion-pause::before {\n  content: \"\\F1590\";\n}\n\n.mdi-motion-pause-outline::before {\n  content: \"\\F1592\";\n}\n\n.mdi-motion-play::before {\n  content: \"\\F158F\";\n}\n\n.mdi-motion-play-outline::before {\n  content: \"\\F1591\";\n}\n\n.mdi-motion-sensor::before {\n  content: \"\\F0D91\";\n}\n\n.mdi-motion-sensor-off::before {\n  content: \"\\F1435\";\n}\n\n.mdi-motorbike::before {\n  content: \"\\F037C\";\n}\n\n.mdi-mouse::before {\n  content: \"\\F037D\";\n}\n\n.mdi-mouse-bluetooth::before {\n  content: \"\\F098B\";\n}\n\n.mdi-mouse-move-down::before {\n  content: \"\\F1550\";\n}\n\n.mdi-mouse-move-up::before {\n  content: \"\\F1551\";\n}\n\n.mdi-mouse-move-vertical::before {\n  content: \"\\F1552\";\n}\n\n.mdi-mouse-off::before {\n  content: \"\\F037E\";\n}\n\n.mdi-mouse-variant::before {\n  content: \"\\F037F\";\n}\n\n.mdi-mouse-variant-off::before {\n  content: \"\\F0380\";\n}\n\n.mdi-move-resize::before {\n  content: \"\\F0655\";\n}\n\n.mdi-move-resize-variant::before {\n  content: \"\\F0656\";\n}\n\n.mdi-movie::before {\n  content: \"\\F0381\";\n}\n\n.mdi-movie-edit::before {\n  content: \"\\F1122\";\n}\n\n.mdi-movie-edit-outline::before {\n  content: \"\\F1123\";\n}\n\n.mdi-movie-filter::before {\n  content: \"\\F1124\";\n}\n\n.mdi-movie-filter-outline::before {\n  content: \"\\F1125\";\n}\n\n.mdi-movie-open::before {\n  content: \"\\F0FCE\";\n}\n\n.mdi-movie-open-outline::before {\n  content: \"\\F0FCF\";\n}\n\n.mdi-movie-outline::before {\n  content: \"\\F0DDD\";\n}\n\n.mdi-movie-roll::before {\n  content: \"\\F07DE\";\n}\n\n.mdi-movie-search::before {\n  content: \"\\F11D2\";\n}\n\n.mdi-movie-search-outline::before {\n  content: \"\\F11D3\";\n}\n\n.mdi-muffin::before {\n  content: \"\\F098C\";\n}\n\n.mdi-multiplication::before {\n  content: \"\\F0382\";\n}\n\n.mdi-multiplication-box::before {\n  content: \"\\F0383\";\n}\n\n.mdi-mushroom::before {\n  content: \"\\F07DF\";\n}\n\n.mdi-mushroom-off::before {\n  content: \"\\F13FA\";\n}\n\n.mdi-mushroom-off-outline::before {\n  content: \"\\F13FB\";\n}\n\n.mdi-mushroom-outline::before {\n  content: \"\\F07E0\";\n}\n\n.mdi-music::before {\n  content: \"\\F075A\";\n}\n\n.mdi-music-accidental-double-flat::before {\n  content: \"\\F0F69\";\n}\n\n.mdi-music-accidental-double-sharp::before {\n  content: \"\\F0F6A\";\n}\n\n.mdi-music-accidental-flat::before {\n  content: \"\\F0F6B\";\n}\n\n.mdi-music-accidental-natural::before {\n  content: \"\\F0F6C\";\n}\n\n.mdi-music-accidental-sharp::before {\n  content: \"\\F0F6D\";\n}\n\n.mdi-music-box::before {\n  content: \"\\F0384\";\n}\n\n.mdi-music-box-multiple::before {\n  content: \"\\F0333\";\n}\n\n.mdi-music-box-multiple-outline::before {\n  content: \"\\F0F04\";\n}\n\n.mdi-music-box-outline::before {\n  content: \"\\F0385\";\n}\n\n.mdi-music-circle::before {\n  content: \"\\F0386\";\n}\n\n.mdi-music-circle-outline::before {\n  content: \"\\F0AD4\";\n}\n\n.mdi-music-clef-alto::before {\n  content: \"\\F0F6E\";\n}\n\n.mdi-music-clef-bass::before {\n  content: \"\\F0F6F\";\n}\n\n.mdi-music-clef-treble::before {\n  content: \"\\F0F70\";\n}\n\n.mdi-music-note::before {\n  content: \"\\F0387\";\n}\n\n.mdi-music-note-bluetooth::before {\n  content: \"\\F05FE\";\n}\n\n.mdi-music-note-bluetooth-off::before {\n  content: \"\\F05FF\";\n}\n\n.mdi-music-note-eighth::before {\n  content: \"\\F0388\";\n}\n\n.mdi-music-note-eighth-dotted::before {\n  content: \"\\F0F71\";\n}\n\n.mdi-music-note-half::before {\n  content: \"\\F0389\";\n}\n\n.mdi-music-note-half-dotted::before {\n  content: \"\\F0F72\";\n}\n\n.mdi-music-note-off::before {\n  content: \"\\F038A\";\n}\n\n.mdi-music-note-off-outline::before {\n  content: \"\\F0F73\";\n}\n\n.mdi-music-note-outline::before {\n  content: \"\\F0F74\";\n}\n\n.mdi-music-note-plus::before {\n  content: \"\\F0DDE\";\n}\n\n.mdi-music-note-quarter::before {\n  content: \"\\F038B\";\n}\n\n.mdi-music-note-quarter-dotted::before {\n  content: \"\\F0F75\";\n}\n\n.mdi-music-note-sixteenth::before {\n  content: \"\\F038C\";\n}\n\n.mdi-music-note-sixteenth-dotted::before {\n  content: \"\\F0F76\";\n}\n\n.mdi-music-note-whole::before {\n  content: \"\\F038D\";\n}\n\n.mdi-music-note-whole-dotted::before {\n  content: \"\\F0F77\";\n}\n\n.mdi-music-off::before {\n  content: \"\\F075B\";\n}\n\n.mdi-music-rest-eighth::before {\n  content: \"\\F0F78\";\n}\n\n.mdi-music-rest-half::before {\n  content: \"\\F0F79\";\n}\n\n.mdi-music-rest-quarter::before {\n  content: \"\\F0F7A\";\n}\n\n.mdi-music-rest-sixteenth::before {\n  content: \"\\F0F7B\";\n}\n\n.mdi-music-rest-whole::before {\n  content: \"\\F0F7C\";\n}\n\n.mdi-nail::before {\n  content: \"\\F0DDF\";\n}\n\n.mdi-nas::before {\n  content: \"\\F08F3\";\n}\n\n.mdi-nativescript::before {\n  content: \"\\F0880\";\n}\n\n.mdi-nature::before {\n  content: \"\\F038E\";\n}\n\n.mdi-nature-people::before {\n  content: \"\\F038F\";\n}\n\n.mdi-navigation::before {\n  content: \"\\F0390\";\n}\n\n.mdi-near-me::before {\n  content: \"\\F05CD\";\n}\n\n.mdi-necklace::before {\n  content: \"\\F0F0B\";\n}\n\n.mdi-needle::before {\n  content: \"\\F0391\";\n}\n\n.mdi-netflix::before {\n  content: \"\\F0746\";\n}\n\n.mdi-network::before {\n  content: \"\\F06F3\";\n}\n\n.mdi-network-off::before {\n  content: \"\\F0C9B\";\n}\n\n.mdi-network-off-outline::before {\n  content: \"\\F0C9C\";\n}\n\n.mdi-network-outline::before {\n  content: \"\\F0C9D\";\n}\n\n.mdi-network-strength-1::before {\n  content: \"\\F08F4\";\n}\n\n.mdi-network-strength-1-alert::before {\n  content: \"\\F08F5\";\n}\n\n.mdi-network-strength-2::before {\n  content: \"\\F08F6\";\n}\n\n.mdi-network-strength-2-alert::before {\n  content: \"\\F08F7\";\n}\n\n.mdi-network-strength-3::before {\n  content: \"\\F08F8\";\n}\n\n.mdi-network-strength-3-alert::before {\n  content: \"\\F08F9\";\n}\n\n.mdi-network-strength-4::before {\n  content: \"\\F08FA\";\n}\n\n.mdi-network-strength-4-alert::before {\n  content: \"\\F08FB\";\n}\n\n.mdi-network-strength-off::before {\n  content: \"\\F08FC\";\n}\n\n.mdi-network-strength-off-outline::before {\n  content: \"\\F08FD\";\n}\n\n.mdi-network-strength-outline::before {\n  content: \"\\F08FE\";\n}\n\n.mdi-new-box::before {\n  content: \"\\F0394\";\n}\n\n.mdi-newspaper::before {\n  content: \"\\F0395\";\n}\n\n.mdi-newspaper-minus::before {\n  content: \"\\F0F0C\";\n}\n\n.mdi-newspaper-plus::before {\n  content: \"\\F0F0D\";\n}\n\n.mdi-newspaper-variant::before {\n  content: \"\\F1001\";\n}\n\n.mdi-newspaper-variant-multiple::before {\n  content: \"\\F1002\";\n}\n\n.mdi-newspaper-variant-multiple-outline::before {\n  content: \"\\F1003\";\n}\n\n.mdi-newspaper-variant-outline::before {\n  content: \"\\F1004\";\n}\n\n.mdi-nfc::before {\n  content: \"\\F0396\";\n}\n\n.mdi-nfc-search-variant::before {\n  content: \"\\F0E53\";\n}\n\n.mdi-nfc-tap::before {\n  content: \"\\F0397\";\n}\n\n.mdi-nfc-variant::before {\n  content: \"\\F0398\";\n}\n\n.mdi-nfc-variant-off::before {\n  content: \"\\F0E54\";\n}\n\n.mdi-ninja::before {\n  content: \"\\F0774\";\n}\n\n.mdi-nintendo-game-boy::before {\n  content: \"\\F1393\";\n}\n\n.mdi-nintendo-switch::before {\n  content: \"\\F07E1\";\n}\n\n.mdi-nintendo-wii::before {\n  content: \"\\F05AB\";\n}\n\n.mdi-nintendo-wiiu::before {\n  content: \"\\F072D\";\n}\n\n.mdi-nix::before {\n  content: \"\\F1105\";\n}\n\n.mdi-nodejs::before {\n  content: \"\\F0399\";\n}\n\n.mdi-noodles::before {\n  content: \"\\F117E\";\n}\n\n.mdi-not-equal::before {\n  content: \"\\F098D\";\n}\n\n.mdi-not-equal-variant::before {\n  content: \"\\F098E\";\n}\n\n.mdi-note::before {\n  content: \"\\F039A\";\n}\n\n.mdi-note-multiple::before {\n  content: \"\\F06B8\";\n}\n\n.mdi-note-multiple-outline::before {\n  content: \"\\F06B9\";\n}\n\n.mdi-note-outline::before {\n  content: \"\\F039B\";\n}\n\n.mdi-note-plus::before {\n  content: \"\\F039C\";\n}\n\n.mdi-note-plus-outline::before {\n  content: \"\\F039D\";\n}\n\n.mdi-note-text::before {\n  content: \"\\F039E\";\n}\n\n.mdi-note-text-outline::before {\n  content: \"\\F11D7\";\n}\n\n.mdi-notebook::before {\n  content: \"\\F082E\";\n}\n\n.mdi-notebook-check::before {\n  content: \"\\F14F5\";\n}\n\n.mdi-notebook-check-outline::before {\n  content: \"\\F14F6\";\n}\n\n.mdi-notebook-edit::before {\n  content: \"\\F14E7\";\n}\n\n.mdi-notebook-edit-outline::before {\n  content: \"\\F14E9\";\n}\n\n.mdi-notebook-multiple::before {\n  content: \"\\F0E55\";\n}\n\n.mdi-notebook-outline::before {\n  content: \"\\F0EBF\";\n}\n\n.mdi-notification-clear-all::before {\n  content: \"\\F039F\";\n}\n\n.mdi-npm::before {\n  content: \"\\F06F7\";\n}\n\n.mdi-nuke::before {\n  content: \"\\F06A4\";\n}\n\n.mdi-null::before {\n  content: \"\\F07E2\";\n}\n\n.mdi-numeric::before {\n  content: \"\\F03A0\";\n}\n\n.mdi-numeric-0::before {\n  content: \"\\F0B39\";\n}\n\n.mdi-numeric-0-box::before {\n  content: \"\\F03A1\";\n}\n\n.mdi-numeric-0-box-multiple::before {\n  content: \"\\F0F0E\";\n}\n\n.mdi-numeric-0-box-multiple-outline::before {\n  content: \"\\F03A2\";\n}\n\n.mdi-numeric-0-box-outline::before {\n  content: \"\\F03A3\";\n}\n\n.mdi-numeric-0-circle::before {\n  content: \"\\F0C9E\";\n}\n\n.mdi-numeric-0-circle-outline::before {\n  content: \"\\F0C9F\";\n}\n\n.mdi-numeric-1::before {\n  content: \"\\F0B3A\";\n}\n\n.mdi-numeric-1-box::before {\n  content: \"\\F03A4\";\n}\n\n.mdi-numeric-1-box-multiple::before {\n  content: \"\\F0F0F\";\n}\n\n.mdi-numeric-1-box-multiple-outline::before {\n  content: \"\\F03A5\";\n}\n\n.mdi-numeric-1-box-outline::before {\n  content: \"\\F03A6\";\n}\n\n.mdi-numeric-1-circle::before {\n  content: \"\\F0CA0\";\n}\n\n.mdi-numeric-1-circle-outline::before {\n  content: \"\\F0CA1\";\n}\n\n.mdi-numeric-10::before {\n  content: \"\\F0FE9\";\n}\n\n.mdi-numeric-10-box::before {\n  content: \"\\F0F7D\";\n}\n\n.mdi-numeric-10-box-multiple::before {\n  content: \"\\F0FEA\";\n}\n\n.mdi-numeric-10-box-multiple-outline::before {\n  content: \"\\F0FEB\";\n}\n\n.mdi-numeric-10-box-outline::before {\n  content: \"\\F0F7E\";\n}\n\n.mdi-numeric-10-circle::before {\n  content: \"\\F0FEC\";\n}\n\n.mdi-numeric-10-circle-outline::before {\n  content: \"\\F0FED\";\n}\n\n.mdi-numeric-2::before {\n  content: \"\\F0B3B\";\n}\n\n.mdi-numeric-2-box::before {\n  content: \"\\F03A7\";\n}\n\n.mdi-numeric-2-box-multiple::before {\n  content: \"\\F0F10\";\n}\n\n.mdi-numeric-2-box-multiple-outline::before {\n  content: \"\\F03A8\";\n}\n\n.mdi-numeric-2-box-outline::before {\n  content: \"\\F03A9\";\n}\n\n.mdi-numeric-2-circle::before {\n  content: \"\\F0CA2\";\n}\n\n.mdi-numeric-2-circle-outline::before {\n  content: \"\\F0CA3\";\n}\n\n.mdi-numeric-3::before {\n  content: \"\\F0B3C\";\n}\n\n.mdi-numeric-3-box::before {\n  content: \"\\F03AA\";\n}\n\n.mdi-numeric-3-box-multiple::before {\n  content: \"\\F0F11\";\n}\n\n.mdi-numeric-3-box-multiple-outline::before {\n  content: \"\\F03AB\";\n}\n\n.mdi-numeric-3-box-outline::before {\n  content: \"\\F03AC\";\n}\n\n.mdi-numeric-3-circle::before {\n  content: \"\\F0CA4\";\n}\n\n.mdi-numeric-3-circle-outline::before {\n  content: \"\\F0CA5\";\n}\n\n.mdi-numeric-4::before {\n  content: \"\\F0B3D\";\n}\n\n.mdi-numeric-4-box::before {\n  content: \"\\F03AD\";\n}\n\n.mdi-numeric-4-box-multiple::before {\n  content: \"\\F0F12\";\n}\n\n.mdi-numeric-4-box-multiple-outline::before {\n  content: \"\\F03B2\";\n}\n\n.mdi-numeric-4-box-outline::before {\n  content: \"\\F03AE\";\n}\n\n.mdi-numeric-4-circle::before {\n  content: \"\\F0CA6\";\n}\n\n.mdi-numeric-4-circle-outline::before {\n  content: \"\\F0CA7\";\n}\n\n.mdi-numeric-5::before {\n  content: \"\\F0B3E\";\n}\n\n.mdi-numeric-5-box::before {\n  content: \"\\F03B1\";\n}\n\n.mdi-numeric-5-box-multiple::before {\n  content: \"\\F0F13\";\n}\n\n.mdi-numeric-5-box-multiple-outline::before {\n  content: \"\\F03AF\";\n}\n\n.mdi-numeric-5-box-outline::before {\n  content: \"\\F03B0\";\n}\n\n.mdi-numeric-5-circle::before {\n  content: \"\\F0CA8\";\n}\n\n.mdi-numeric-5-circle-outline::before {\n  content: \"\\F0CA9\";\n}\n\n.mdi-numeric-6::before {\n  content: \"\\F0B3F\";\n}\n\n.mdi-numeric-6-box::before {\n  content: \"\\F03B3\";\n}\n\n.mdi-numeric-6-box-multiple::before {\n  content: \"\\F0F14\";\n}\n\n.mdi-numeric-6-box-multiple-outline::before {\n  content: \"\\F03B4\";\n}\n\n.mdi-numeric-6-box-outline::before {\n  content: \"\\F03B5\";\n}\n\n.mdi-numeric-6-circle::before {\n  content: \"\\F0CAA\";\n}\n\n.mdi-numeric-6-circle-outline::before {\n  content: \"\\F0CAB\";\n}\n\n.mdi-numeric-7::before {\n  content: \"\\F0B40\";\n}\n\n.mdi-numeric-7-box::before {\n  content: \"\\F03B6\";\n}\n\n.mdi-numeric-7-box-multiple::before {\n  content: \"\\F0F15\";\n}\n\n.mdi-numeric-7-box-multiple-outline::before {\n  content: \"\\F03B7\";\n}\n\n.mdi-numeric-7-box-outline::before {\n  content: \"\\F03B8\";\n}\n\n.mdi-numeric-7-circle::before {\n  content: \"\\F0CAC\";\n}\n\n.mdi-numeric-7-circle-outline::before {\n  content: \"\\F0CAD\";\n}\n\n.mdi-numeric-8::before {\n  content: \"\\F0B41\";\n}\n\n.mdi-numeric-8-box::before {\n  content: \"\\F03B9\";\n}\n\n.mdi-numeric-8-box-multiple::before {\n  content: \"\\F0F16\";\n}\n\n.mdi-numeric-8-box-multiple-outline::before {\n  content: \"\\F03BA\";\n}\n\n.mdi-numeric-8-box-outline::before {\n  content: \"\\F03BB\";\n}\n\n.mdi-numeric-8-circle::before {\n  content: \"\\F0CAE\";\n}\n\n.mdi-numeric-8-circle-outline::before {\n  content: \"\\F0CAF\";\n}\n\n.mdi-numeric-9::before {\n  content: \"\\F0B42\";\n}\n\n.mdi-numeric-9-box::before {\n  content: \"\\F03BC\";\n}\n\n.mdi-numeric-9-box-multiple::before {\n  content: \"\\F0F17\";\n}\n\n.mdi-numeric-9-box-multiple-outline::before {\n  content: \"\\F03BD\";\n}\n\n.mdi-numeric-9-box-outline::before {\n  content: \"\\F03BE\";\n}\n\n.mdi-numeric-9-circle::before {\n  content: \"\\F0CB0\";\n}\n\n.mdi-numeric-9-circle-outline::before {\n  content: \"\\F0CB1\";\n}\n\n.mdi-numeric-9-plus::before {\n  content: \"\\F0FEE\";\n}\n\n.mdi-numeric-9-plus-box::before {\n  content: \"\\F03BF\";\n}\n\n.mdi-numeric-9-plus-box-multiple::before {\n  content: \"\\F0F18\";\n}\n\n.mdi-numeric-9-plus-box-multiple-outline::before {\n  content: \"\\F03C0\";\n}\n\n.mdi-numeric-9-plus-box-outline::before {\n  content: \"\\F03C1\";\n}\n\n.mdi-numeric-9-plus-circle::before {\n  content: \"\\F0CB2\";\n}\n\n.mdi-numeric-9-plus-circle-outline::before {\n  content: \"\\F0CB3\";\n}\n\n.mdi-numeric-negative-1::before {\n  content: \"\\F1052\";\n}\n\n.mdi-nut::before {\n  content: \"\\F06F8\";\n}\n\n.mdi-nutrition::before {\n  content: \"\\F03C2\";\n}\n\n.mdi-nuxt::before {\n  content: \"\\F1106\";\n}\n\n.mdi-oar::before {\n  content: \"\\F067C\";\n}\n\n.mdi-ocarina::before {\n  content: \"\\F0DE0\";\n}\n\n.mdi-oci::before {\n  content: \"\\F12E9\";\n}\n\n.mdi-ocr::before {\n  content: \"\\F113A\";\n}\n\n.mdi-octagon::before {\n  content: \"\\F03C3\";\n}\n\n.mdi-octagon-outline::before {\n  content: \"\\F03C4\";\n}\n\n.mdi-octagram::before {\n  content: \"\\F06F9\";\n}\n\n.mdi-octagram-outline::before {\n  content: \"\\F0775\";\n}\n\n.mdi-odnoklassniki::before {\n  content: \"\\F03C5\";\n}\n\n.mdi-offer::before {\n  content: \"\\F121B\";\n}\n\n.mdi-office-building::before {\n  content: \"\\F0991\";\n}\n\n.mdi-office-building-marker::before {\n  content: \"\\F1520\";\n}\n\n.mdi-office-building-marker-outline::before {\n  content: \"\\F1521\";\n}\n\n.mdi-office-building-outline::before {\n  content: \"\\F151F\";\n}\n\n.mdi-oil::before {\n  content: \"\\F03C7\";\n}\n\n.mdi-oil-lamp::before {\n  content: \"\\F0F19\";\n}\n\n.mdi-oil-level::before {\n  content: \"\\F1053\";\n}\n\n.mdi-oil-temperature::before {\n  content: \"\\F0FF8\";\n}\n\n.mdi-omega::before {\n  content: \"\\F03C9\";\n}\n\n.mdi-one-up::before {\n  content: \"\\F0BAD\";\n}\n\n.mdi-onepassword::before {\n  content: \"\\F0881\";\n}\n\n.mdi-opacity::before {\n  content: \"\\F05CC\";\n}\n\n.mdi-open-in-app::before {\n  content: \"\\F03CB\";\n}\n\n.mdi-open-in-new::before {\n  content: \"\\F03CC\";\n}\n\n.mdi-open-source-initiative::before {\n  content: \"\\F0BAE\";\n}\n\n.mdi-openid::before {\n  content: \"\\F03CD\";\n}\n\n.mdi-opera::before {\n  content: \"\\F03CE\";\n}\n\n.mdi-orbit::before {\n  content: \"\\F0018\";\n}\n\n.mdi-order-alphabetical-ascending::before {\n  content: \"\\F020D\";\n}\n\n.mdi-order-alphabetical-descending::before {\n  content: \"\\F0D07\";\n}\n\n.mdi-order-bool-ascending::before {\n  content: \"\\F02BE\";\n}\n\n.mdi-order-bool-ascending-variant::before {\n  content: \"\\F098F\";\n}\n\n.mdi-order-bool-descending::before {\n  content: \"\\F1384\";\n}\n\n.mdi-order-bool-descending-variant::before {\n  content: \"\\F0990\";\n}\n\n.mdi-order-numeric-ascending::before {\n  content: \"\\F0545\";\n}\n\n.mdi-order-numeric-descending::before {\n  content: \"\\F0546\";\n}\n\n.mdi-origin::before {\n  content: \"\\F0B43\";\n}\n\n.mdi-ornament::before {\n  content: \"\\F03CF\";\n}\n\n.mdi-ornament-variant::before {\n  content: \"\\F03D0\";\n}\n\n.mdi-outdoor-lamp::before {\n  content: \"\\F1054\";\n}\n\n.mdi-overscan::before {\n  content: \"\\F1005\";\n}\n\n.mdi-owl::before {\n  content: \"\\F03D2\";\n}\n\n.mdi-pac-man::before {\n  content: \"\\F0BAF\";\n}\n\n.mdi-package::before {\n  content: \"\\F03D3\";\n}\n\n.mdi-package-down::before {\n  content: \"\\F03D4\";\n}\n\n.mdi-package-up::before {\n  content: \"\\F03D5\";\n}\n\n.mdi-package-variant::before {\n  content: \"\\F03D6\";\n}\n\n.mdi-package-variant-closed::before {\n  content: \"\\F03D7\";\n}\n\n.mdi-page-first::before {\n  content: \"\\F0600\";\n}\n\n.mdi-page-last::before {\n  content: \"\\F0601\";\n}\n\n.mdi-page-layout-body::before {\n  content: \"\\F06FA\";\n}\n\n.mdi-page-layout-footer::before {\n  content: \"\\F06FB\";\n}\n\n.mdi-page-layout-header::before {\n  content: \"\\F06FC\";\n}\n\n.mdi-page-layout-header-footer::before {\n  content: \"\\F0F7F\";\n}\n\n.mdi-page-layout-sidebar-left::before {\n  content: \"\\F06FD\";\n}\n\n.mdi-page-layout-sidebar-right::before {\n  content: \"\\F06FE\";\n}\n\n.mdi-page-next::before {\n  content: \"\\F0BB0\";\n}\n\n.mdi-page-next-outline::before {\n  content: \"\\F0BB1\";\n}\n\n.mdi-page-previous::before {\n  content: \"\\F0BB2\";\n}\n\n.mdi-page-previous-outline::before {\n  content: \"\\F0BB3\";\n}\n\n.mdi-pail::before {\n  content: \"\\F1417\";\n}\n\n.mdi-pail-minus::before {\n  content: \"\\F1437\";\n}\n\n.mdi-pail-minus-outline::before {\n  content: \"\\F143C\";\n}\n\n.mdi-pail-off::before {\n  content: \"\\F1439\";\n}\n\n.mdi-pail-off-outline::before {\n  content: \"\\F143E\";\n}\n\n.mdi-pail-outline::before {\n  content: \"\\F143A\";\n}\n\n.mdi-pail-plus::before {\n  content: \"\\F1436\";\n}\n\n.mdi-pail-plus-outline::before {\n  content: \"\\F143B\";\n}\n\n.mdi-pail-remove::before {\n  content: \"\\F1438\";\n}\n\n.mdi-pail-remove-outline::before {\n  content: \"\\F143D\";\n}\n\n.mdi-palette::before {\n  content: \"\\F03D8\";\n}\n\n.mdi-palette-advanced::before {\n  content: \"\\F03D9\";\n}\n\n.mdi-palette-outline::before {\n  content: \"\\F0E0C\";\n}\n\n.mdi-palette-swatch::before {\n  content: \"\\F08B5\";\n}\n\n.mdi-palette-swatch-outline::before {\n  content: \"\\F135C\";\n}\n\n.mdi-palm-tree::before {\n  content: \"\\F1055\";\n}\n\n.mdi-pan::before {\n  content: \"\\F0BB4\";\n}\n\n.mdi-pan-bottom-left::before {\n  content: \"\\F0BB5\";\n}\n\n.mdi-pan-bottom-right::before {\n  content: \"\\F0BB6\";\n}\n\n.mdi-pan-down::before {\n  content: \"\\F0BB7\";\n}\n\n.mdi-pan-horizontal::before {\n  content: \"\\F0BB8\";\n}\n\n.mdi-pan-left::before {\n  content: \"\\F0BB9\";\n}\n\n.mdi-pan-right::before {\n  content: \"\\F0BBA\";\n}\n\n.mdi-pan-top-left::before {\n  content: \"\\F0BBB\";\n}\n\n.mdi-pan-top-right::before {\n  content: \"\\F0BBC\";\n}\n\n.mdi-pan-up::before {\n  content: \"\\F0BBD\";\n}\n\n.mdi-pan-vertical::before {\n  content: \"\\F0BBE\";\n}\n\n.mdi-panda::before {\n  content: \"\\F03DA\";\n}\n\n.mdi-pandora::before {\n  content: \"\\F03DB\";\n}\n\n.mdi-panorama::before {\n  content: \"\\F03DC\";\n}\n\n.mdi-panorama-fisheye::before {\n  content: \"\\F03DD\";\n}\n\n.mdi-panorama-horizontal::before {\n  content: \"\\F03DE\";\n}\n\n.mdi-panorama-vertical::before {\n  content: \"\\F03DF\";\n}\n\n.mdi-panorama-wide-angle::before {\n  content: \"\\F03E0\";\n}\n\n.mdi-paper-cut-vertical::before {\n  content: \"\\F03E1\";\n}\n\n.mdi-paper-roll::before {\n  content: \"\\F1157\";\n}\n\n.mdi-paper-roll-outline::before {\n  content: \"\\F1158\";\n}\n\n.mdi-paperclip::before {\n  content: \"\\F03E2\";\n}\n\n.mdi-parachute::before {\n  content: \"\\F0CB4\";\n}\n\n.mdi-parachute-outline::before {\n  content: \"\\F0CB5\";\n}\n\n.mdi-parking::before {\n  content: \"\\F03E3\";\n}\n\n.mdi-party-popper::before {\n  content: \"\\F1056\";\n}\n\n.mdi-passport::before {\n  content: \"\\F07E3\";\n}\n\n.mdi-passport-biometric::before {\n  content: \"\\F0DE1\";\n}\n\n.mdi-pasta::before {\n  content: \"\\F1160\";\n}\n\n.mdi-patio-heater::before {\n  content: \"\\F0F80\";\n}\n\n.mdi-patreon::before {\n  content: \"\\F0882\";\n}\n\n.mdi-pause::before {\n  content: \"\\F03E4\";\n}\n\n.mdi-pause-circle::before {\n  content: \"\\F03E5\";\n}\n\n.mdi-pause-circle-outline::before {\n  content: \"\\F03E6\";\n}\n\n.mdi-pause-octagon::before {\n  content: \"\\F03E7\";\n}\n\n.mdi-pause-octagon-outline::before {\n  content: \"\\F03E8\";\n}\n\n.mdi-paw::before {\n  content: \"\\F03E9\";\n}\n\n.mdi-paw-off::before {\n  content: \"\\F0657\";\n}\n\n.mdi-pdf-box::before {\n  content: \"\\F0E56\";\n}\n\n.mdi-peace::before {\n  content: \"\\F0884\";\n}\n\n.mdi-peanut::before {\n  content: \"\\F0FFC\";\n}\n\n.mdi-peanut-off::before {\n  content: \"\\F0FFD\";\n}\n\n.mdi-peanut-off-outline::before {\n  content: \"\\F0FFF\";\n}\n\n.mdi-peanut-outline::before {\n  content: \"\\F0FFE\";\n}\n\n.mdi-pen::before {\n  content: \"\\F03EA\";\n}\n\n.mdi-pen-lock::before {\n  content: \"\\F0DE2\";\n}\n\n.mdi-pen-minus::before {\n  content: \"\\F0DE3\";\n}\n\n.mdi-pen-off::before {\n  content: \"\\F0DE4\";\n}\n\n.mdi-pen-plus::before {\n  content: \"\\F0DE5\";\n}\n\n.mdi-pen-remove::before {\n  content: \"\\F0DE6\";\n}\n\n.mdi-pencil::before {\n  content: \"\\F03EB\";\n}\n\n.mdi-pencil-box::before {\n  content: \"\\F03EC\";\n}\n\n.mdi-pencil-box-multiple::before {\n  content: \"\\F1144\";\n}\n\n.mdi-pencil-box-multiple-outline::before {\n  content: \"\\F1145\";\n}\n\n.mdi-pencil-box-outline::before {\n  content: \"\\F03ED\";\n}\n\n.mdi-pencil-circle::before {\n  content: \"\\F06FF\";\n}\n\n.mdi-pencil-circle-outline::before {\n  content: \"\\F0776\";\n}\n\n.mdi-pencil-lock::before {\n  content: \"\\F03EE\";\n}\n\n.mdi-pencil-lock-outline::before {\n  content: \"\\F0DE7\";\n}\n\n.mdi-pencil-minus::before {\n  content: \"\\F0DE8\";\n}\n\n.mdi-pencil-minus-outline::before {\n  content: \"\\F0DE9\";\n}\n\n.mdi-pencil-off::before {\n  content: \"\\F03EF\";\n}\n\n.mdi-pencil-off-outline::before {\n  content: \"\\F0DEA\";\n}\n\n.mdi-pencil-outline::before {\n  content: \"\\F0CB6\";\n}\n\n.mdi-pencil-plus::before {\n  content: \"\\F0DEB\";\n}\n\n.mdi-pencil-plus-outline::before {\n  content: \"\\F0DEC\";\n}\n\n.mdi-pencil-remove::before {\n  content: \"\\F0DED\";\n}\n\n.mdi-pencil-remove-outline::before {\n  content: \"\\F0DEE\";\n}\n\n.mdi-pencil-ruler::before {\n  content: \"\\F1353\";\n}\n\n.mdi-penguin::before {\n  content: \"\\F0EC0\";\n}\n\n.mdi-pentagon::before {\n  content: \"\\F0701\";\n}\n\n.mdi-pentagon-outline::before {\n  content: \"\\F0700\";\n}\n\n.mdi-percent::before {\n  content: \"\\F03F0\";\n}\n\n.mdi-percent-outline::before {\n  content: \"\\F1278\";\n}\n\n.mdi-periodic-table::before {\n  content: \"\\F08B6\";\n}\n\n.mdi-perspective-less::before {\n  content: \"\\F0D23\";\n}\n\n.mdi-perspective-more::before {\n  content: \"\\F0D24\";\n}\n\n.mdi-pharmacy::before {\n  content: \"\\F03F1\";\n}\n\n.mdi-phone::before {\n  content: \"\\F03F2\";\n}\n\n.mdi-phone-alert::before {\n  content: \"\\F0F1A\";\n}\n\n.mdi-phone-alert-outline::before {\n  content: \"\\F118E\";\n}\n\n.mdi-phone-bluetooth::before {\n  content: \"\\F03F3\";\n}\n\n.mdi-phone-bluetooth-outline::before {\n  content: \"\\F118F\";\n}\n\n.mdi-phone-cancel::before {\n  content: \"\\F10BC\";\n}\n\n.mdi-phone-cancel-outline::before {\n  content: \"\\F1190\";\n}\n\n.mdi-phone-check::before {\n  content: \"\\F11A9\";\n}\n\n.mdi-phone-check-outline::before {\n  content: \"\\F11AA\";\n}\n\n.mdi-phone-classic::before {\n  content: \"\\F0602\";\n}\n\n.mdi-phone-classic-off::before {\n  content: \"\\F1279\";\n}\n\n.mdi-phone-dial::before {\n  content: \"\\F1559\";\n}\n\n.mdi-phone-dial-outline::before {\n  content: \"\\F155A\";\n}\n\n.mdi-phone-forward::before {\n  content: \"\\F03F4\";\n}\n\n.mdi-phone-forward-outline::before {\n  content: \"\\F1191\";\n}\n\n.mdi-phone-hangup::before {\n  content: \"\\F03F5\";\n}\n\n.mdi-phone-hangup-outline::before {\n  content: \"\\F1192\";\n}\n\n.mdi-phone-in-talk::before {\n  content: \"\\F03F6\";\n}\n\n.mdi-phone-in-talk-outline::before {\n  content: \"\\F1182\";\n}\n\n.mdi-phone-incoming::before {\n  content: \"\\F03F7\";\n}\n\n.mdi-phone-incoming-outline::before {\n  content: \"\\F1193\";\n}\n\n.mdi-phone-lock::before {\n  content: \"\\F03F8\";\n}\n\n.mdi-phone-lock-outline::before {\n  content: \"\\F1194\";\n}\n\n.mdi-phone-log::before {\n  content: \"\\F03F9\";\n}\n\n.mdi-phone-log-outline::before {\n  content: \"\\F1195\";\n}\n\n.mdi-phone-message::before {\n  content: \"\\F1196\";\n}\n\n.mdi-phone-message-outline::before {\n  content: \"\\F1197\";\n}\n\n.mdi-phone-minus::before {\n  content: \"\\F0658\";\n}\n\n.mdi-phone-minus-outline::before {\n  content: \"\\F1198\";\n}\n\n.mdi-phone-missed::before {\n  content: \"\\F03FA\";\n}\n\n.mdi-phone-missed-outline::before {\n  content: \"\\F11A5\";\n}\n\n.mdi-phone-off::before {\n  content: \"\\F0DEF\";\n}\n\n.mdi-phone-off-outline::before {\n  content: \"\\F11A6\";\n}\n\n.mdi-phone-outgoing::before {\n  content: \"\\F03FB\";\n}\n\n.mdi-phone-outgoing-outline::before {\n  content: \"\\F1199\";\n}\n\n.mdi-phone-outline::before {\n  content: \"\\F0DF0\";\n}\n\n.mdi-phone-paused::before {\n  content: \"\\F03FC\";\n}\n\n.mdi-phone-paused-outline::before {\n  content: \"\\F119A\";\n}\n\n.mdi-phone-plus::before {\n  content: \"\\F0659\";\n}\n\n.mdi-phone-plus-outline::before {\n  content: \"\\F119B\";\n}\n\n.mdi-phone-remove::before {\n  content: \"\\F152F\";\n}\n\n.mdi-phone-remove-outline::before {\n  content: \"\\F1530\";\n}\n\n.mdi-phone-return::before {\n  content: \"\\F082F\";\n}\n\n.mdi-phone-return-outline::before {\n  content: \"\\F119C\";\n}\n\n.mdi-phone-ring::before {\n  content: \"\\F11AB\";\n}\n\n.mdi-phone-ring-outline::before {\n  content: \"\\F11AC\";\n}\n\n.mdi-phone-rotate-landscape::before {\n  content: \"\\F0885\";\n}\n\n.mdi-phone-rotate-portrait::before {\n  content: \"\\F0886\";\n}\n\n.mdi-phone-settings::before {\n  content: \"\\F03FD\";\n}\n\n.mdi-phone-settings-outline::before {\n  content: \"\\F119D\";\n}\n\n.mdi-phone-voip::before {\n  content: \"\\F03FE\";\n}\n\n.mdi-pi::before {\n  content: \"\\F03FF\";\n}\n\n.mdi-pi-box::before {\n  content: \"\\F0400\";\n}\n\n.mdi-pi-hole::before {\n  content: \"\\F0DF1\";\n}\n\n.mdi-piano::before {\n  content: \"\\F067D\";\n}\n\n.mdi-pickaxe::before {\n  content: \"\\F08B7\";\n}\n\n.mdi-picture-in-picture-bottom-right::before {\n  content: \"\\F0E57\";\n}\n\n.mdi-picture-in-picture-bottom-right-outline::before {\n  content: \"\\F0E58\";\n}\n\n.mdi-picture-in-picture-top-right::before {\n  content: \"\\F0E59\";\n}\n\n.mdi-picture-in-picture-top-right-outline::before {\n  content: \"\\F0E5A\";\n}\n\n.mdi-pier::before {\n  content: \"\\F0887\";\n}\n\n.mdi-pier-crane::before {\n  content: \"\\F0888\";\n}\n\n.mdi-pig::before {\n  content: \"\\F0401\";\n}\n\n.mdi-pig-variant::before {\n  content: \"\\F1006\";\n}\n\n.mdi-piggy-bank::before {\n  content: \"\\F1007\";\n}\n\n.mdi-pill::before {\n  content: \"\\F0402\";\n}\n\n.mdi-pillar::before {\n  content: \"\\F0702\";\n}\n\n.mdi-pin::before {\n  content: \"\\F0403\";\n}\n\n.mdi-pin-off::before {\n  content: \"\\F0404\";\n}\n\n.mdi-pin-off-outline::before {\n  content: \"\\F0930\";\n}\n\n.mdi-pin-outline::before {\n  content: \"\\F0931\";\n}\n\n.mdi-pine-tree::before {\n  content: \"\\F0405\";\n}\n\n.mdi-pine-tree-box::before {\n  content: \"\\F0406\";\n}\n\n.mdi-pine-tree-fire::before {\n  content: \"\\F141A\";\n}\n\n.mdi-pinterest::before {\n  content: \"\\F0407\";\n}\n\n.mdi-pinwheel::before {\n  content: \"\\F0AD5\";\n}\n\n.mdi-pinwheel-outline::before {\n  content: \"\\F0AD6\";\n}\n\n.mdi-pipe::before {\n  content: \"\\F07E5\";\n}\n\n.mdi-pipe-disconnected::before {\n  content: \"\\F07E6\";\n}\n\n.mdi-pipe-leak::before {\n  content: \"\\F0889\";\n}\n\n.mdi-pipe-wrench::before {\n  content: \"\\F1354\";\n}\n\n.mdi-pirate::before {\n  content: \"\\F0A08\";\n}\n\n.mdi-pistol::before {\n  content: \"\\F0703\";\n}\n\n.mdi-piston::before {\n  content: \"\\F088A\";\n}\n\n.mdi-pitchfork::before {\n  content: \"\\F1553\";\n}\n\n.mdi-pizza::before {\n  content: \"\\F0409\";\n}\n\n.mdi-play::before {\n  content: \"\\F040A\";\n}\n\n.mdi-play-box::before {\n  content: \"\\F127A\";\n}\n\n.mdi-play-box-multiple::before {\n  content: \"\\F0D19\";\n}\n\n.mdi-play-box-multiple-outline::before {\n  content: \"\\F13E6\";\n}\n\n.mdi-play-box-outline::before {\n  content: \"\\F040B\";\n}\n\n.mdi-play-circle::before {\n  content: \"\\F040C\";\n}\n\n.mdi-play-circle-outline::before {\n  content: \"\\F040D\";\n}\n\n.mdi-play-network::before {\n  content: \"\\F088B\";\n}\n\n.mdi-play-network-outline::before {\n  content: \"\\F0CB7\";\n}\n\n.mdi-play-outline::before {\n  content: \"\\F0F1B\";\n}\n\n.mdi-play-pause::before {\n  content: \"\\F040E\";\n}\n\n.mdi-play-protected-content::before {\n  content: \"\\F040F\";\n}\n\n.mdi-play-speed::before {\n  content: \"\\F08FF\";\n}\n\n.mdi-playlist-check::before {\n  content: \"\\F05C7\";\n}\n\n.mdi-playlist-edit::before {\n  content: \"\\F0900\";\n}\n\n.mdi-playlist-minus::before {\n  content: \"\\F0410\";\n}\n\n.mdi-playlist-music::before {\n  content: \"\\F0CB8\";\n}\n\n.mdi-playlist-music-outline::before {\n  content: \"\\F0CB9\";\n}\n\n.mdi-playlist-play::before {\n  content: \"\\F0411\";\n}\n\n.mdi-playlist-plus::before {\n  content: \"\\F0412\";\n}\n\n.mdi-playlist-remove::before {\n  content: \"\\F0413\";\n}\n\n.mdi-playlist-star::before {\n  content: \"\\F0DF2\";\n}\n\n.mdi-plex::before {\n  content: \"\\F06BA\";\n}\n\n.mdi-plus::before {\n  content: \"\\F0415\";\n}\n\n.mdi-plus-box::before {\n  content: \"\\F0416\";\n}\n\n.mdi-plus-box-multiple::before {\n  content: \"\\F0334\";\n}\n\n.mdi-plus-box-multiple-outline::before {\n  content: \"\\F1143\";\n}\n\n.mdi-plus-box-outline::before {\n  content: \"\\F0704\";\n}\n\n.mdi-plus-circle::before {\n  content: \"\\F0417\";\n}\n\n.mdi-plus-circle-multiple::before {\n  content: \"\\F034C\";\n}\n\n.mdi-plus-circle-multiple-outline::before {\n  content: \"\\F0418\";\n}\n\n.mdi-plus-circle-outline::before {\n  content: \"\\F0419\";\n}\n\n.mdi-plus-minus::before {\n  content: \"\\F0992\";\n}\n\n.mdi-plus-minus-box::before {\n  content: \"\\F0993\";\n}\n\n.mdi-plus-minus-variant::before {\n  content: \"\\F14C9\";\n}\n\n.mdi-plus-network::before {\n  content: \"\\F041A\";\n}\n\n.mdi-plus-network-outline::before {\n  content: \"\\F0CBA\";\n}\n\n.mdi-plus-one::before {\n  content: \"\\F041B\";\n}\n\n.mdi-plus-outline::before {\n  content: \"\\F0705\";\n}\n\n.mdi-plus-thick::before {\n  content: \"\\F11EC\";\n}\n\n.mdi-podcast::before {\n  content: \"\\F0994\";\n}\n\n.mdi-podium::before {\n  content: \"\\F0D25\";\n}\n\n.mdi-podium-bronze::before {\n  content: \"\\F0D26\";\n}\n\n.mdi-podium-gold::before {\n  content: \"\\F0D27\";\n}\n\n.mdi-podium-silver::before {\n  content: \"\\F0D28\";\n}\n\n.mdi-point-of-sale::before {\n  content: \"\\F0D92\";\n}\n\n.mdi-pokeball::before {\n  content: \"\\F041D\";\n}\n\n.mdi-pokemon-go::before {\n  content: \"\\F0A09\";\n}\n\n.mdi-poker-chip::before {\n  content: \"\\F0830\";\n}\n\n.mdi-polaroid::before {\n  content: \"\\F041E\";\n}\n\n.mdi-police-badge::before {\n  content: \"\\F1167\";\n}\n\n.mdi-police-badge-outline::before {\n  content: \"\\F1168\";\n}\n\n.mdi-poll::before {\n  content: \"\\F041F\";\n}\n\n.mdi-poll-box::before {\n  content: \"\\F0420\";\n}\n\n.mdi-poll-box-outline::before {\n  content: \"\\F127B\";\n}\n\n.mdi-polo::before {\n  content: \"\\F14C3\";\n}\n\n.mdi-polymer::before {\n  content: \"\\F0421\";\n}\n\n.mdi-pool::before {\n  content: \"\\F0606\";\n}\n\n.mdi-popcorn::before {\n  content: \"\\F0422\";\n}\n\n.mdi-post::before {\n  content: \"\\F1008\";\n}\n\n.mdi-post-outline::before {\n  content: \"\\F1009\";\n}\n\n.mdi-postage-stamp::before {\n  content: \"\\F0CBB\";\n}\n\n.mdi-pot::before {\n  content: \"\\F02E5\";\n}\n\n.mdi-pot-mix::before {\n  content: \"\\F065B\";\n}\n\n.mdi-pot-mix-outline::before {\n  content: \"\\F0677\";\n}\n\n.mdi-pot-outline::before {\n  content: \"\\F02FF\";\n}\n\n.mdi-pot-steam::before {\n  content: \"\\F065A\";\n}\n\n.mdi-pot-steam-outline::before {\n  content: \"\\F0326\";\n}\n\n.mdi-pound::before {\n  content: \"\\F0423\";\n}\n\n.mdi-pound-box::before {\n  content: \"\\F0424\";\n}\n\n.mdi-pound-box-outline::before {\n  content: \"\\F117F\";\n}\n\n.mdi-power::before {\n  content: \"\\F0425\";\n}\n\n.mdi-power-cycle::before {\n  content: \"\\F0901\";\n}\n\n.mdi-power-off::before {\n  content: \"\\F0902\";\n}\n\n.mdi-power-on::before {\n  content: \"\\F0903\";\n}\n\n.mdi-power-plug::before {\n  content: \"\\F06A5\";\n}\n\n.mdi-power-plug-off::before {\n  content: \"\\F06A6\";\n}\n\n.mdi-power-plug-off-outline::before {\n  content: \"\\F1424\";\n}\n\n.mdi-power-plug-outline::before {\n  content: \"\\F1425\";\n}\n\n.mdi-power-settings::before {\n  content: \"\\F0426\";\n}\n\n.mdi-power-sleep::before {\n  content: \"\\F0904\";\n}\n\n.mdi-power-socket::before {\n  content: \"\\F0427\";\n}\n\n.mdi-power-socket-au::before {\n  content: \"\\F0905\";\n}\n\n.mdi-power-socket-de::before {\n  content: \"\\F1107\";\n}\n\n.mdi-power-socket-eu::before {\n  content: \"\\F07E7\";\n}\n\n.mdi-power-socket-fr::before {\n  content: \"\\F1108\";\n}\n\n.mdi-power-socket-it::before {\n  content: \"\\F14FF\";\n}\n\n.mdi-power-socket-jp::before {\n  content: \"\\F1109\";\n}\n\n.mdi-power-socket-uk::before {\n  content: \"\\F07E8\";\n}\n\n.mdi-power-socket-us::before {\n  content: \"\\F07E9\";\n}\n\n.mdi-power-standby::before {\n  content: \"\\F0906\";\n}\n\n.mdi-powershell::before {\n  content: \"\\F0A0A\";\n}\n\n.mdi-prescription::before {\n  content: \"\\F0706\";\n}\n\n.mdi-presentation::before {\n  content: \"\\F0428\";\n}\n\n.mdi-presentation-play::before {\n  content: \"\\F0429\";\n}\n\n.mdi-pretzel::before {\n  content: \"\\F1562\";\n}\n\n.mdi-printer::before {\n  content: \"\\F042A\";\n}\n\n.mdi-printer-3d::before {\n  content: \"\\F042B\";\n}\n\n.mdi-printer-3d-nozzle::before {\n  content: \"\\F0E5B\";\n}\n\n.mdi-printer-3d-nozzle-alert::before {\n  content: \"\\F11C0\";\n}\n\n.mdi-printer-3d-nozzle-alert-outline::before {\n  content: \"\\F11C1\";\n}\n\n.mdi-printer-3d-nozzle-outline::before {\n  content: \"\\F0E5C\";\n}\n\n.mdi-printer-alert::before {\n  content: \"\\F042C\";\n}\n\n.mdi-printer-check::before {\n  content: \"\\F1146\";\n}\n\n.mdi-printer-eye::before {\n  content: \"\\F1458\";\n}\n\n.mdi-printer-off::before {\n  content: \"\\F0E5D\";\n}\n\n.mdi-printer-pos::before {\n  content: \"\\F1057\";\n}\n\n.mdi-printer-search::before {\n  content: \"\\F1457\";\n}\n\n.mdi-printer-settings::before {\n  content: \"\\F0707\";\n}\n\n.mdi-printer-wireless::before {\n  content: \"\\F0A0B\";\n}\n\n.mdi-priority-high::before {\n  content: \"\\F0603\";\n}\n\n.mdi-priority-low::before {\n  content: \"\\F0604\";\n}\n\n.mdi-professional-hexagon::before {\n  content: \"\\F042D\";\n}\n\n.mdi-progress-alert::before {\n  content: \"\\F0CBC\";\n}\n\n.mdi-progress-check::before {\n  content: \"\\F0995\";\n}\n\n.mdi-progress-clock::before {\n  content: \"\\F0996\";\n}\n\n.mdi-progress-close::before {\n  content: \"\\F110A\";\n}\n\n.mdi-progress-download::before {\n  content: \"\\F0997\";\n}\n\n.mdi-progress-question::before {\n  content: \"\\F1522\";\n}\n\n.mdi-progress-upload::before {\n  content: \"\\F0998\";\n}\n\n.mdi-progress-wrench::before {\n  content: \"\\F0CBD\";\n}\n\n.mdi-projector::before {\n  content: \"\\F042E\";\n}\n\n.mdi-projector-screen::before {\n  content: \"\\F042F\";\n}\n\n.mdi-propane-tank::before {\n  content: \"\\F1357\";\n}\n\n.mdi-propane-tank-outline::before {\n  content: \"\\F1358\";\n}\n\n.mdi-protocol::before {\n  content: \"\\F0FD8\";\n}\n\n.mdi-publish::before {\n  content: \"\\F06A7\";\n}\n\n.mdi-pulse::before {\n  content: \"\\F0430\";\n}\n\n.mdi-pump::before {\n  content: \"\\F1402\";\n}\n\n.mdi-pumpkin::before {\n  content: \"\\F0BBF\";\n}\n\n.mdi-purse::before {\n  content: \"\\F0F1C\";\n}\n\n.mdi-purse-outline::before {\n  content: \"\\F0F1D\";\n}\n\n.mdi-puzzle::before {\n  content: \"\\F0431\";\n}\n\n.mdi-puzzle-check::before {\n  content: \"\\F1426\";\n}\n\n.mdi-puzzle-check-outline::before {\n  content: \"\\F1427\";\n}\n\n.mdi-puzzle-edit::before {\n  content: \"\\F14D3\";\n}\n\n.mdi-puzzle-edit-outline::before {\n  content: \"\\F14D9\";\n}\n\n.mdi-puzzle-heart::before {\n  content: \"\\F14D4\";\n}\n\n.mdi-puzzle-heart-outline::before {\n  content: \"\\F14DA\";\n}\n\n.mdi-puzzle-minus::before {\n  content: \"\\F14D1\";\n}\n\n.mdi-puzzle-minus-outline::before {\n  content: \"\\F14D7\";\n}\n\n.mdi-puzzle-outline::before {\n  content: \"\\F0A66\";\n}\n\n.mdi-puzzle-plus::before {\n  content: \"\\F14D0\";\n}\n\n.mdi-puzzle-plus-outline::before {\n  content: \"\\F14D6\";\n}\n\n.mdi-puzzle-remove::before {\n  content: \"\\F14D2\";\n}\n\n.mdi-puzzle-remove-outline::before {\n  content: \"\\F14D8\";\n}\n\n.mdi-puzzle-star::before {\n  content: \"\\F14D5\";\n}\n\n.mdi-puzzle-star-outline::before {\n  content: \"\\F14DB\";\n}\n\n.mdi-qi::before {\n  content: \"\\F0999\";\n}\n\n.mdi-qqchat::before {\n  content: \"\\F0605\";\n}\n\n.mdi-qrcode::before {\n  content: \"\\F0432\";\n}\n\n.mdi-qrcode-edit::before {\n  content: \"\\F08B8\";\n}\n\n.mdi-qrcode-minus::before {\n  content: \"\\F118C\";\n}\n\n.mdi-qrcode-plus::before {\n  content: \"\\F118B\";\n}\n\n.mdi-qrcode-remove::before {\n  content: \"\\F118D\";\n}\n\n.mdi-qrcode-scan::before {\n  content: \"\\F0433\";\n}\n\n.mdi-quadcopter::before {\n  content: \"\\F0434\";\n}\n\n.mdi-quality-high::before {\n  content: \"\\F0435\";\n}\n\n.mdi-quality-low::before {\n  content: \"\\F0A0C\";\n}\n\n.mdi-quality-medium::before {\n  content: \"\\F0A0D\";\n}\n\n.mdi-quora::before {\n  content: \"\\F0D29\";\n}\n\n.mdi-rabbit::before {\n  content: \"\\F0907\";\n}\n\n.mdi-racing-helmet::before {\n  content: \"\\F0D93\";\n}\n\n.mdi-racquetball::before {\n  content: \"\\F0D94\";\n}\n\n.mdi-radar::before {\n  content: \"\\F0437\";\n}\n\n.mdi-radiator::before {\n  content: \"\\F0438\";\n}\n\n.mdi-radiator-disabled::before {\n  content: \"\\F0AD7\";\n}\n\n.mdi-radiator-off::before {\n  content: \"\\F0AD8\";\n}\n\n.mdi-radio::before {\n  content: \"\\F0439\";\n}\n\n.mdi-radio-am::before {\n  content: \"\\F0CBE\";\n}\n\n.mdi-radio-fm::before {\n  content: \"\\F0CBF\";\n}\n\n.mdi-radio-handheld::before {\n  content: \"\\F043A\";\n}\n\n.mdi-radio-off::before {\n  content: \"\\F121C\";\n}\n\n.mdi-radio-tower::before {\n  content: \"\\F043B\";\n}\n\n.mdi-radioactive::before {\n  content: \"\\F043C\";\n}\n\n.mdi-radioactive-off::before {\n  content: \"\\F0EC1\";\n}\n\n.mdi-radiobox-blank::before {\n  content: \"\\F043D\";\n}\n\n.mdi-radiobox-marked::before {\n  content: \"\\F043E\";\n}\n\n.mdi-radiology-box::before {\n  content: \"\\F14C5\";\n}\n\n.mdi-radiology-box-outline::before {\n  content: \"\\F14C6\";\n}\n\n.mdi-radius::before {\n  content: \"\\F0CC0\";\n}\n\n.mdi-radius-outline::before {\n  content: \"\\F0CC1\";\n}\n\n.mdi-railroad-light::before {\n  content: \"\\F0F1E\";\n}\n\n.mdi-rake::before {\n  content: \"\\F1544\";\n}\n\n.mdi-raspberry-pi::before {\n  content: \"\\F043F\";\n}\n\n.mdi-ray-end::before {\n  content: \"\\F0440\";\n}\n\n.mdi-ray-end-arrow::before {\n  content: \"\\F0441\";\n}\n\n.mdi-ray-start::before {\n  content: \"\\F0442\";\n}\n\n.mdi-ray-start-arrow::before {\n  content: \"\\F0443\";\n}\n\n.mdi-ray-start-end::before {\n  content: \"\\F0444\";\n}\n\n.mdi-ray-vertex::before {\n  content: \"\\F0445\";\n}\n\n.mdi-react::before {\n  content: \"\\F0708\";\n}\n\n.mdi-read::before {\n  content: \"\\F0447\";\n}\n\n.mdi-receipt::before {\n  content: \"\\F0449\";\n}\n\n.mdi-record::before {\n  content: \"\\F044A\";\n}\n\n.mdi-record-circle::before {\n  content: \"\\F0EC2\";\n}\n\n.mdi-record-circle-outline::before {\n  content: \"\\F0EC3\";\n}\n\n.mdi-record-player::before {\n  content: \"\\F099A\";\n}\n\n.mdi-record-rec::before {\n  content: \"\\F044B\";\n}\n\n.mdi-rectangle::before {\n  content: \"\\F0E5E\";\n}\n\n.mdi-rectangle-outline::before {\n  content: \"\\F0E5F\";\n}\n\n.mdi-recycle::before {\n  content: \"\\F044C\";\n}\n\n.mdi-recycle-variant::before {\n  content: \"\\F139D\";\n}\n\n.mdi-reddit::before {\n  content: \"\\F044D\";\n}\n\n.mdi-redhat::before {\n  content: \"\\F111B\";\n}\n\n.mdi-redo::before {\n  content: \"\\F044E\";\n}\n\n.mdi-redo-variant::before {\n  content: \"\\F044F\";\n}\n\n.mdi-reflect-horizontal::before {\n  content: \"\\F0A0E\";\n}\n\n.mdi-reflect-vertical::before {\n  content: \"\\F0A0F\";\n}\n\n.mdi-refresh::before {\n  content: \"\\F0450\";\n}\n\n.mdi-refresh-circle::before {\n  content: \"\\F1377\";\n}\n\n.mdi-regex::before {\n  content: \"\\F0451\";\n}\n\n.mdi-registered-trademark::before {\n  content: \"\\F0A67\";\n}\n\n.mdi-reiterate::before {\n  content: \"\\F1588\";\n}\n\n.mdi-relation-many-to-many::before {\n  content: \"\\F1496\";\n}\n\n.mdi-relation-many-to-one::before {\n  content: \"\\F1497\";\n}\n\n.mdi-relation-many-to-one-or-many::before {\n  content: \"\\F1498\";\n}\n\n.mdi-relation-many-to-only-one::before {\n  content: \"\\F1499\";\n}\n\n.mdi-relation-many-to-zero-or-many::before {\n  content: \"\\F149A\";\n}\n\n.mdi-relation-many-to-zero-or-one::before {\n  content: \"\\F149B\";\n}\n\n.mdi-relation-one-or-many-to-many::before {\n  content: \"\\F149C\";\n}\n\n.mdi-relation-one-or-many-to-one::before {\n  content: \"\\F149D\";\n}\n\n.mdi-relation-one-or-many-to-one-or-many::before {\n  content: \"\\F149E\";\n}\n\n.mdi-relation-one-or-many-to-only-one::before {\n  content: \"\\F149F\";\n}\n\n.mdi-relation-one-or-many-to-zero-or-many::before {\n  content: \"\\F14A0\";\n}\n\n.mdi-relation-one-or-many-to-zero-or-one::before {\n  content: \"\\F14A1\";\n}\n\n.mdi-relation-one-to-many::before {\n  content: \"\\F14A2\";\n}\n\n.mdi-relation-one-to-one::before {\n  content: \"\\F14A3\";\n}\n\n.mdi-relation-one-to-one-or-many::before {\n  content: \"\\F14A4\";\n}\n\n.mdi-relation-one-to-only-one::before {\n  content: \"\\F14A5\";\n}\n\n.mdi-relation-one-to-zero-or-many::before {\n  content: \"\\F14A6\";\n}\n\n.mdi-relation-one-to-zero-or-one::before {\n  content: \"\\F14A7\";\n}\n\n.mdi-relation-only-one-to-many::before {\n  content: \"\\F14A8\";\n}\n\n.mdi-relation-only-one-to-one::before {\n  content: \"\\F14A9\";\n}\n\n.mdi-relation-only-one-to-one-or-many::before {\n  content: \"\\F14AA\";\n}\n\n.mdi-relation-only-one-to-only-one::before {\n  content: \"\\F14AB\";\n}\n\n.mdi-relation-only-one-to-zero-or-many::before {\n  content: \"\\F14AC\";\n}\n\n.mdi-relation-only-one-to-zero-or-one::before {\n  content: \"\\F14AD\";\n}\n\n.mdi-relation-zero-or-many-to-many::before {\n  content: \"\\F14AE\";\n}\n\n.mdi-relation-zero-or-many-to-one::before {\n  content: \"\\F14AF\";\n}\n\n.mdi-relation-zero-or-many-to-one-or-many::before {\n  content: \"\\F14B0\";\n}\n\n.mdi-relation-zero-or-many-to-only-one::before {\n  content: \"\\F14B1\";\n}\n\n.mdi-relation-zero-or-many-to-zero-or-many::before {\n  content: \"\\F14B2\";\n}\n\n.mdi-relation-zero-or-many-to-zero-or-one::before {\n  content: \"\\F14B3\";\n}\n\n.mdi-relation-zero-or-one-to-many::before {\n  content: \"\\F14B4\";\n}\n\n.mdi-relation-zero-or-one-to-one::before {\n  content: \"\\F14B5\";\n}\n\n.mdi-relation-zero-or-one-to-one-or-many::before {\n  content: \"\\F14B6\";\n}\n\n.mdi-relation-zero-or-one-to-only-one::before {\n  content: \"\\F14B7\";\n}\n\n.mdi-relation-zero-or-one-to-zero-or-many::before {\n  content: \"\\F14B8\";\n}\n\n.mdi-relation-zero-or-one-to-zero-or-one::before {\n  content: \"\\F14B9\";\n}\n\n.mdi-relative-scale::before {\n  content: \"\\F0452\";\n}\n\n.mdi-reload::before {\n  content: \"\\F0453\";\n}\n\n.mdi-reload-alert::before {\n  content: \"\\F110B\";\n}\n\n.mdi-reminder::before {\n  content: \"\\F088C\";\n}\n\n.mdi-remote::before {\n  content: \"\\F0454\";\n}\n\n.mdi-remote-desktop::before {\n  content: \"\\F08B9\";\n}\n\n.mdi-remote-off::before {\n  content: \"\\F0EC4\";\n}\n\n.mdi-remote-tv::before {\n  content: \"\\F0EC5\";\n}\n\n.mdi-remote-tv-off::before {\n  content: \"\\F0EC6\";\n}\n\n.mdi-rename-box::before {\n  content: \"\\F0455\";\n}\n\n.mdi-reorder-horizontal::before {\n  content: \"\\F0688\";\n}\n\n.mdi-reorder-vertical::before {\n  content: \"\\F0689\";\n}\n\n.mdi-repeat::before {\n  content: \"\\F0456\";\n}\n\n.mdi-repeat-off::before {\n  content: \"\\F0457\";\n}\n\n.mdi-repeat-once::before {\n  content: \"\\F0458\";\n}\n\n.mdi-replay::before {\n  content: \"\\F0459\";\n}\n\n.mdi-reply::before {\n  content: \"\\F045A\";\n}\n\n.mdi-reply-all::before {\n  content: \"\\F045B\";\n}\n\n.mdi-reply-all-outline::before {\n  content: \"\\F0F1F\";\n}\n\n.mdi-reply-circle::before {\n  content: \"\\F11AE\";\n}\n\n.mdi-reply-outline::before {\n  content: \"\\F0F20\";\n}\n\n.mdi-reproduction::before {\n  content: \"\\F045C\";\n}\n\n.mdi-resistor::before {\n  content: \"\\F0B44\";\n}\n\n.mdi-resistor-nodes::before {\n  content: \"\\F0B45\";\n}\n\n.mdi-resize::before {\n  content: \"\\F0A68\";\n}\n\n.mdi-resize-bottom-right::before {\n  content: \"\\F045D\";\n}\n\n.mdi-responsive::before {\n  content: \"\\F045E\";\n}\n\n.mdi-restart::before {\n  content: \"\\F0709\";\n}\n\n.mdi-restart-alert::before {\n  content: \"\\F110C\";\n}\n\n.mdi-restart-off::before {\n  content: \"\\F0D95\";\n}\n\n.mdi-restore::before {\n  content: \"\\F099B\";\n}\n\n.mdi-restore-alert::before {\n  content: \"\\F110D\";\n}\n\n.mdi-rewind::before {\n  content: \"\\F045F\";\n}\n\n.mdi-rewind-10::before {\n  content: \"\\F0D2A\";\n}\n\n.mdi-rewind-30::before {\n  content: \"\\F0D96\";\n}\n\n.mdi-rewind-5::before {\n  content: \"\\F11F9\";\n}\n\n.mdi-rewind-outline::before {\n  content: \"\\F070A\";\n}\n\n.mdi-rhombus::before {\n  content: \"\\F070B\";\n}\n\n.mdi-rhombus-medium::before {\n  content: \"\\F0A10\";\n}\n\n.mdi-rhombus-medium-outline::before {\n  content: \"\\F14DC\";\n}\n\n.mdi-rhombus-outline::before {\n  content: \"\\F070C\";\n}\n\n.mdi-rhombus-split::before {\n  content: \"\\F0A11\";\n}\n\n.mdi-rhombus-split-outline::before {\n  content: \"\\F14DD\";\n}\n\n.mdi-ribbon::before {\n  content: \"\\F0460\";\n}\n\n.mdi-rice::before {\n  content: \"\\F07EA\";\n}\n\n.mdi-ring::before {\n  content: \"\\F07EB\";\n}\n\n.mdi-rivet::before {\n  content: \"\\F0E60\";\n}\n\n.mdi-road::before {\n  content: \"\\F0461\";\n}\n\n.mdi-road-variant::before {\n  content: \"\\F0462\";\n}\n\n.mdi-robber::before {\n  content: \"\\F1058\";\n}\n\n.mdi-robot::before {\n  content: \"\\F06A9\";\n}\n\n.mdi-robot-industrial::before {\n  content: \"\\F0B46\";\n}\n\n.mdi-robot-mower::before {\n  content: \"\\F11F7\";\n}\n\n.mdi-robot-mower-outline::before {\n  content: \"\\F11F3\";\n}\n\n.mdi-robot-vacuum::before {\n  content: \"\\F070D\";\n}\n\n.mdi-robot-vacuum-variant::before {\n  content: \"\\F0908\";\n}\n\n.mdi-rocket::before {\n  content: \"\\F0463\";\n}\n\n.mdi-rocket-launch::before {\n  content: \"\\F14DE\";\n}\n\n.mdi-rocket-launch-outline::before {\n  content: \"\\F14DF\";\n}\n\n.mdi-rocket-outline::before {\n  content: \"\\F13AF\";\n}\n\n.mdi-rodent::before {\n  content: \"\\F1327\";\n}\n\n.mdi-roller-skate::before {\n  content: \"\\F0D2B\";\n}\n\n.mdi-roller-skate-off::before {\n  content: \"\\F0145\";\n}\n\n.mdi-rollerblade::before {\n  content: \"\\F0D2C\";\n}\n\n.mdi-rollerblade-off::before {\n  content: \"\\F002E\";\n}\n\n.mdi-rollupjs::before {\n  content: \"\\F0BC0\";\n}\n\n.mdi-roman-numeral-1::before {\n  content: \"\\F1088\";\n}\n\n.mdi-roman-numeral-10::before {\n  content: \"\\F1091\";\n}\n\n.mdi-roman-numeral-2::before {\n  content: \"\\F1089\";\n}\n\n.mdi-roman-numeral-3::before {\n  content: \"\\F108A\";\n}\n\n.mdi-roman-numeral-4::before {\n  content: \"\\F108B\";\n}\n\n.mdi-roman-numeral-5::before {\n  content: \"\\F108C\";\n}\n\n.mdi-roman-numeral-6::before {\n  content: \"\\F108D\";\n}\n\n.mdi-roman-numeral-7::before {\n  content: \"\\F108E\";\n}\n\n.mdi-roman-numeral-8::before {\n  content: \"\\F108F\";\n}\n\n.mdi-roman-numeral-9::before {\n  content: \"\\F1090\";\n}\n\n.mdi-room-service::before {\n  content: \"\\F088D\";\n}\n\n.mdi-room-service-outline::before {\n  content: \"\\F0D97\";\n}\n\n.mdi-rotate-3d::before {\n  content: \"\\F0EC7\";\n}\n\n.mdi-rotate-3d-variant::before {\n  content: \"\\F0464\";\n}\n\n.mdi-rotate-left::before {\n  content: \"\\F0465\";\n}\n\n.mdi-rotate-left-variant::before {\n  content: \"\\F0466\";\n}\n\n.mdi-rotate-orbit::before {\n  content: \"\\F0D98\";\n}\n\n.mdi-rotate-right::before {\n  content: \"\\F0467\";\n}\n\n.mdi-rotate-right-variant::before {\n  content: \"\\F0468\";\n}\n\n.mdi-rounded-corner::before {\n  content: \"\\F0607\";\n}\n\n.mdi-router::before {\n  content: \"\\F11E2\";\n}\n\n.mdi-router-network::before {\n  content: \"\\F1087\";\n}\n\n.mdi-router-wireless::before {\n  content: \"\\F0469\";\n}\n\n.mdi-router-wireless-off::before {\n  content: \"\\F15A3\";\n}\n\n.mdi-router-wireless-settings::before {\n  content: \"\\F0A69\";\n}\n\n.mdi-routes::before {\n  content: \"\\F046A\";\n}\n\n.mdi-routes-clock::before {\n  content: \"\\F1059\";\n}\n\n.mdi-rowing::before {\n  content: \"\\F0608\";\n}\n\n.mdi-rss::before {\n  content: \"\\F046B\";\n}\n\n.mdi-rss-box::before {\n  content: \"\\F046C\";\n}\n\n.mdi-rss-off::before {\n  content: \"\\F0F21\";\n}\n\n.mdi-rug::before {\n  content: \"\\F1475\";\n}\n\n.mdi-rugby::before {\n  content: \"\\F0D99\";\n}\n\n.mdi-ruler::before {\n  content: \"\\F046D\";\n}\n\n.mdi-ruler-square::before {\n  content: \"\\F0CC2\";\n}\n\n.mdi-ruler-square-compass::before {\n  content: \"\\F0EBE\";\n}\n\n.mdi-run::before {\n  content: \"\\F070E\";\n}\n\n.mdi-run-fast::before {\n  content: \"\\F046E\";\n}\n\n.mdi-rv-truck::before {\n  content: \"\\F11D4\";\n}\n\n.mdi-sack::before {\n  content: \"\\F0D2E\";\n}\n\n.mdi-sack-percent::before {\n  content: \"\\F0D2F\";\n}\n\n.mdi-safe::before {\n  content: \"\\F0A6A\";\n}\n\n.mdi-safe-square::before {\n  content: \"\\F127C\";\n}\n\n.mdi-safe-square-outline::before {\n  content: \"\\F127D\";\n}\n\n.mdi-safety-goggles::before {\n  content: \"\\F0D30\";\n}\n\n.mdi-sail-boat::before {\n  content: \"\\F0EC8\";\n}\n\n.mdi-sale::before {\n  content: \"\\F046F\";\n}\n\n.mdi-salesforce::before {\n  content: \"\\F088E\";\n}\n\n.mdi-sass::before {\n  content: \"\\F07EC\";\n}\n\n.mdi-satellite::before {\n  content: \"\\F0470\";\n}\n\n.mdi-satellite-uplink::before {\n  content: \"\\F0909\";\n}\n\n.mdi-satellite-variant::before {\n  content: \"\\F0471\";\n}\n\n.mdi-sausage::before {\n  content: \"\\F08BA\";\n}\n\n.mdi-saw-blade::before {\n  content: \"\\F0E61\";\n}\n\n.mdi-sawtooth-wave::before {\n  content: \"\\F147A\";\n}\n\n.mdi-saxophone::before {\n  content: \"\\F0609\";\n}\n\n.mdi-scale::before {\n  content: \"\\F0472\";\n}\n\n.mdi-scale-balance::before {\n  content: \"\\F05D1\";\n}\n\n.mdi-scale-bathroom::before {\n  content: \"\\F0473\";\n}\n\n.mdi-scale-off::before {\n  content: \"\\F105A\";\n}\n\n.mdi-scan-helper::before {\n  content: \"\\F13D8\";\n}\n\n.mdi-scanner::before {\n  content: \"\\F06AB\";\n}\n\n.mdi-scanner-off::before {\n  content: \"\\F090A\";\n}\n\n.mdi-scatter-plot::before {\n  content: \"\\F0EC9\";\n}\n\n.mdi-scatter-plot-outline::before {\n  content: \"\\F0ECA\";\n}\n\n.mdi-school::before {\n  content: \"\\F0474\";\n}\n\n.mdi-school-outline::before {\n  content: \"\\F1180\";\n}\n\n.mdi-scissors-cutting::before {\n  content: \"\\F0A6B\";\n}\n\n.mdi-scoreboard::before {\n  content: \"\\F127E\";\n}\n\n.mdi-scoreboard-outline::before {\n  content: \"\\F127F\";\n}\n\n.mdi-screen-rotation::before {\n  content: \"\\F0475\";\n}\n\n.mdi-screen-rotation-lock::before {\n  content: \"\\F0478\";\n}\n\n.mdi-screw-flat-top::before {\n  content: \"\\F0DF3\";\n}\n\n.mdi-screw-lag::before {\n  content: \"\\F0DF4\";\n}\n\n.mdi-screw-machine-flat-top::before {\n  content: \"\\F0DF5\";\n}\n\n.mdi-screw-machine-round-top::before {\n  content: \"\\F0DF6\";\n}\n\n.mdi-screw-round-top::before {\n  content: \"\\F0DF7\";\n}\n\n.mdi-screwdriver::before {\n  content: \"\\F0476\";\n}\n\n.mdi-script::before {\n  content: \"\\F0BC1\";\n}\n\n.mdi-script-outline::before {\n  content: \"\\F0477\";\n}\n\n.mdi-script-text::before {\n  content: \"\\F0BC2\";\n}\n\n.mdi-script-text-outline::before {\n  content: \"\\F0BC3\";\n}\n\n.mdi-sd::before {\n  content: \"\\F0479\";\n}\n\n.mdi-seal::before {\n  content: \"\\F047A\";\n}\n\n.mdi-seal-variant::before {\n  content: \"\\F0FD9\";\n}\n\n.mdi-search-web::before {\n  content: \"\\F070F\";\n}\n\n.mdi-seat::before {\n  content: \"\\F0CC3\";\n}\n\n.mdi-seat-flat::before {\n  content: \"\\F047B\";\n}\n\n.mdi-seat-flat-angled::before {\n  content: \"\\F047C\";\n}\n\n.mdi-seat-individual-suite::before {\n  content: \"\\F047D\";\n}\n\n.mdi-seat-legroom-extra::before {\n  content: \"\\F047E\";\n}\n\n.mdi-seat-legroom-normal::before {\n  content: \"\\F047F\";\n}\n\n.mdi-seat-legroom-reduced::before {\n  content: \"\\F0480\";\n}\n\n.mdi-seat-outline::before {\n  content: \"\\F0CC4\";\n}\n\n.mdi-seat-passenger::before {\n  content: \"\\F1249\";\n}\n\n.mdi-seat-recline-extra::before {\n  content: \"\\F0481\";\n}\n\n.mdi-seat-recline-normal::before {\n  content: \"\\F0482\";\n}\n\n.mdi-seatbelt::before {\n  content: \"\\F0CC5\";\n}\n\n.mdi-security::before {\n  content: \"\\F0483\";\n}\n\n.mdi-security-network::before {\n  content: \"\\F0484\";\n}\n\n.mdi-seed::before {\n  content: \"\\F0E62\";\n}\n\n.mdi-seed-off::before {\n  content: \"\\F13FD\";\n}\n\n.mdi-seed-off-outline::before {\n  content: \"\\F13FE\";\n}\n\n.mdi-seed-outline::before {\n  content: \"\\F0E63\";\n}\n\n.mdi-seesaw::before {\n  content: \"\\F15A4\";\n}\n\n.mdi-segment::before {\n  content: \"\\F0ECB\";\n}\n\n.mdi-select::before {\n  content: \"\\F0485\";\n}\n\n.mdi-select-all::before {\n  content: \"\\F0486\";\n}\n\n.mdi-select-color::before {\n  content: \"\\F0D31\";\n}\n\n.mdi-select-compare::before {\n  content: \"\\F0AD9\";\n}\n\n.mdi-select-drag::before {\n  content: \"\\F0A6C\";\n}\n\n.mdi-select-group::before {\n  content: \"\\F0F82\";\n}\n\n.mdi-select-inverse::before {\n  content: \"\\F0487\";\n}\n\n.mdi-select-marker::before {\n  content: \"\\F1280\";\n}\n\n.mdi-select-multiple::before {\n  content: \"\\F1281\";\n}\n\n.mdi-select-multiple-marker::before {\n  content: \"\\F1282\";\n}\n\n.mdi-select-off::before {\n  content: \"\\F0488\";\n}\n\n.mdi-select-place::before {\n  content: \"\\F0FDA\";\n}\n\n.mdi-select-search::before {\n  content: \"\\F1204\";\n}\n\n.mdi-selection::before {\n  content: \"\\F0489\";\n}\n\n.mdi-selection-drag::before {\n  content: \"\\F0A6D\";\n}\n\n.mdi-selection-ellipse::before {\n  content: \"\\F0D32\";\n}\n\n.mdi-selection-ellipse-arrow-inside::before {\n  content: \"\\F0F22\";\n}\n\n.mdi-selection-marker::before {\n  content: \"\\F1283\";\n}\n\n.mdi-selection-multiple::before {\n  content: \"\\F1285\";\n}\n\n.mdi-selection-multiple-marker::before {\n  content: \"\\F1284\";\n}\n\n.mdi-selection-off::before {\n  content: \"\\F0777\";\n}\n\n.mdi-selection-search::before {\n  content: \"\\F1205\";\n}\n\n.mdi-semantic-web::before {\n  content: \"\\F1316\";\n}\n\n.mdi-send::before {\n  content: \"\\F048A\";\n}\n\n.mdi-send-check::before {\n  content: \"\\F1161\";\n}\n\n.mdi-send-check-outline::before {\n  content: \"\\F1162\";\n}\n\n.mdi-send-circle::before {\n  content: \"\\F0DF8\";\n}\n\n.mdi-send-circle-outline::before {\n  content: \"\\F0DF9\";\n}\n\n.mdi-send-clock::before {\n  content: \"\\F1163\";\n}\n\n.mdi-send-clock-outline::before {\n  content: \"\\F1164\";\n}\n\n.mdi-send-lock::before {\n  content: \"\\F07ED\";\n}\n\n.mdi-send-lock-outline::before {\n  content: \"\\F1166\";\n}\n\n.mdi-send-outline::before {\n  content: \"\\F1165\";\n}\n\n.mdi-serial-port::before {\n  content: \"\\F065C\";\n}\n\n.mdi-server::before {\n  content: \"\\F048B\";\n}\n\n.mdi-server-minus::before {\n  content: \"\\F048C\";\n}\n\n.mdi-server-network::before {\n  content: \"\\F048D\";\n}\n\n.mdi-server-network-off::before {\n  content: \"\\F048E\";\n}\n\n.mdi-server-off::before {\n  content: \"\\F048F\";\n}\n\n.mdi-server-plus::before {\n  content: \"\\F0490\";\n}\n\n.mdi-server-remove::before {\n  content: \"\\F0491\";\n}\n\n.mdi-server-security::before {\n  content: \"\\F0492\";\n}\n\n.mdi-set-all::before {\n  content: \"\\F0778\";\n}\n\n.mdi-set-center::before {\n  content: \"\\F0779\";\n}\n\n.mdi-set-center-right::before {\n  content: \"\\F077A\";\n}\n\n.mdi-set-left::before {\n  content: \"\\F077B\";\n}\n\n.mdi-set-left-center::before {\n  content: \"\\F077C\";\n}\n\n.mdi-set-left-right::before {\n  content: \"\\F077D\";\n}\n\n.mdi-set-merge::before {\n  content: \"\\F14E0\";\n}\n\n.mdi-set-none::before {\n  content: \"\\F077E\";\n}\n\n.mdi-set-right::before {\n  content: \"\\F077F\";\n}\n\n.mdi-set-split::before {\n  content: \"\\F14E1\";\n}\n\n.mdi-set-square::before {\n  content: \"\\F145D\";\n}\n\n.mdi-set-top-box::before {\n  content: \"\\F099F\";\n}\n\n.mdi-settings-helper::before {\n  content: \"\\F0A6E\";\n}\n\n.mdi-shaker::before {\n  content: \"\\F110E\";\n}\n\n.mdi-shaker-outline::before {\n  content: \"\\F110F\";\n}\n\n.mdi-shape::before {\n  content: \"\\F0831\";\n}\n\n.mdi-shape-circle-plus::before {\n  content: \"\\F065D\";\n}\n\n.mdi-shape-outline::before {\n  content: \"\\F0832\";\n}\n\n.mdi-shape-oval-plus::before {\n  content: \"\\F11FA\";\n}\n\n.mdi-shape-plus::before {\n  content: \"\\F0495\";\n}\n\n.mdi-shape-polygon-plus::before {\n  content: \"\\F065E\";\n}\n\n.mdi-shape-rectangle-plus::before {\n  content: \"\\F065F\";\n}\n\n.mdi-shape-square-plus::before {\n  content: \"\\F0660\";\n}\n\n.mdi-shape-square-rounded-plus::before {\n  content: \"\\F14FA\";\n}\n\n.mdi-share::before {\n  content: \"\\F0496\";\n}\n\n.mdi-share-all::before {\n  content: \"\\F11F4\";\n}\n\n.mdi-share-all-outline::before {\n  content: \"\\F11F5\";\n}\n\n.mdi-share-circle::before {\n  content: \"\\F11AD\";\n}\n\n.mdi-share-off::before {\n  content: \"\\F0F23\";\n}\n\n.mdi-share-off-outline::before {\n  content: \"\\F0F24\";\n}\n\n.mdi-share-outline::before {\n  content: \"\\F0932\";\n}\n\n.mdi-share-variant::before {\n  content: \"\\F0497\";\n}\n\n.mdi-share-variant-outline::before {\n  content: \"\\F1514\";\n}\n\n.mdi-sheep::before {\n  content: \"\\F0CC6\";\n}\n\n.mdi-shield::before {\n  content: \"\\F0498\";\n}\n\n.mdi-shield-account::before {\n  content: \"\\F088F\";\n}\n\n.mdi-shield-account-outline::before {\n  content: \"\\F0A12\";\n}\n\n.mdi-shield-account-variant::before {\n  content: \"\\F15A7\";\n}\n\n.mdi-shield-account-variant-outline::before {\n  content: \"\\F15A8\";\n}\n\n.mdi-shield-airplane::before {\n  content: \"\\F06BB\";\n}\n\n.mdi-shield-airplane-outline::before {\n  content: \"\\F0CC7\";\n}\n\n.mdi-shield-alert::before {\n  content: \"\\F0ECC\";\n}\n\n.mdi-shield-alert-outline::before {\n  content: \"\\F0ECD\";\n}\n\n.mdi-shield-bug::before {\n  content: \"\\F13DA\";\n}\n\n.mdi-shield-bug-outline::before {\n  content: \"\\F13DB\";\n}\n\n.mdi-shield-car::before {\n  content: \"\\F0F83\";\n}\n\n.mdi-shield-check::before {\n  content: \"\\F0565\";\n}\n\n.mdi-shield-check-outline::before {\n  content: \"\\F0CC8\";\n}\n\n.mdi-shield-cross::before {\n  content: \"\\F0CC9\";\n}\n\n.mdi-shield-cross-outline::before {\n  content: \"\\F0CCA\";\n}\n\n.mdi-shield-edit::before {\n  content: \"\\F11A0\";\n}\n\n.mdi-shield-edit-outline::before {\n  content: \"\\F11A1\";\n}\n\n.mdi-shield-half::before {\n  content: \"\\F1360\";\n}\n\n.mdi-shield-half-full::before {\n  content: \"\\F0780\";\n}\n\n.mdi-shield-home::before {\n  content: \"\\F068A\";\n}\n\n.mdi-shield-home-outline::before {\n  content: \"\\F0CCB\";\n}\n\n.mdi-shield-key::before {\n  content: \"\\F0BC4\";\n}\n\n.mdi-shield-key-outline::before {\n  content: \"\\F0BC5\";\n}\n\n.mdi-shield-link-variant::before {\n  content: \"\\F0D33\";\n}\n\n.mdi-shield-link-variant-outline::before {\n  content: \"\\F0D34\";\n}\n\n.mdi-shield-lock::before {\n  content: \"\\F099D\";\n}\n\n.mdi-shield-lock-outline::before {\n  content: \"\\F0CCC\";\n}\n\n.mdi-shield-off::before {\n  content: \"\\F099E\";\n}\n\n.mdi-shield-off-outline::before {\n  content: \"\\F099C\";\n}\n\n.mdi-shield-outline::before {\n  content: \"\\F0499\";\n}\n\n.mdi-shield-plus::before {\n  content: \"\\F0ADA\";\n}\n\n.mdi-shield-plus-outline::before {\n  content: \"\\F0ADB\";\n}\n\n.mdi-shield-refresh::before {\n  content: \"\\F00AA\";\n}\n\n.mdi-shield-refresh-outline::before {\n  content: \"\\F01E0\";\n}\n\n.mdi-shield-remove::before {\n  content: \"\\F0ADC\";\n}\n\n.mdi-shield-remove-outline::before {\n  content: \"\\F0ADD\";\n}\n\n.mdi-shield-search::before {\n  content: \"\\F0D9A\";\n}\n\n.mdi-shield-star::before {\n  content: \"\\F113B\";\n}\n\n.mdi-shield-star-outline::before {\n  content: \"\\F113C\";\n}\n\n.mdi-shield-sun::before {\n  content: \"\\F105D\";\n}\n\n.mdi-shield-sun-outline::before {\n  content: \"\\F105E\";\n}\n\n.mdi-shield-sync::before {\n  content: \"\\F11A2\";\n}\n\n.mdi-shield-sync-outline::before {\n  content: \"\\F11A3\";\n}\n\n.mdi-ship-wheel::before {\n  content: \"\\F0833\";\n}\n\n.mdi-shoe-formal::before {\n  content: \"\\F0B47\";\n}\n\n.mdi-shoe-heel::before {\n  content: \"\\F0B48\";\n}\n\n.mdi-shoe-print::before {\n  content: \"\\F0DFA\";\n}\n\n.mdi-shopping::before {\n  content: \"\\F049A\";\n}\n\n.mdi-shopping-music::before {\n  content: \"\\F049B\";\n}\n\n.mdi-shopping-outline::before {\n  content: \"\\F11D5\";\n}\n\n.mdi-shopping-search::before {\n  content: \"\\F0F84\";\n}\n\n.mdi-shore::before {\n  content: \"\\F14F9\";\n}\n\n.mdi-shovel::before {\n  content: \"\\F0710\";\n}\n\n.mdi-shovel-off::before {\n  content: \"\\F0711\";\n}\n\n.mdi-shower::before {\n  content: \"\\F09A0\";\n}\n\n.mdi-shower-head::before {\n  content: \"\\F09A1\";\n}\n\n.mdi-shredder::before {\n  content: \"\\F049C\";\n}\n\n.mdi-shuffle::before {\n  content: \"\\F049D\";\n}\n\n.mdi-shuffle-disabled::before {\n  content: \"\\F049E\";\n}\n\n.mdi-shuffle-variant::before {\n  content: \"\\F049F\";\n}\n\n.mdi-shuriken::before {\n  content: \"\\F137F\";\n}\n\n.mdi-sigma::before {\n  content: \"\\F04A0\";\n}\n\n.mdi-sigma-lower::before {\n  content: \"\\F062B\";\n}\n\n.mdi-sign-caution::before {\n  content: \"\\F04A1\";\n}\n\n.mdi-sign-direction::before {\n  content: \"\\F0781\";\n}\n\n.mdi-sign-direction-minus::before {\n  content: \"\\F1000\";\n}\n\n.mdi-sign-direction-plus::before {\n  content: \"\\F0FDC\";\n}\n\n.mdi-sign-direction-remove::before {\n  content: \"\\F0FDD\";\n}\n\n.mdi-sign-pole::before {\n  content: \"\\F14F8\";\n}\n\n.mdi-sign-real-estate::before {\n  content: \"\\F1118\";\n}\n\n.mdi-sign-text::before {\n  content: \"\\F0782\";\n}\n\n.mdi-signal::before {\n  content: \"\\F04A2\";\n}\n\n.mdi-signal-2g::before {\n  content: \"\\F0712\";\n}\n\n.mdi-signal-3g::before {\n  content: \"\\F0713\";\n}\n\n.mdi-signal-4g::before {\n  content: \"\\F0714\";\n}\n\n.mdi-signal-5g::before {\n  content: \"\\F0A6F\";\n}\n\n.mdi-signal-cellular-1::before {\n  content: \"\\F08BC\";\n}\n\n.mdi-signal-cellular-2::before {\n  content: \"\\F08BD\";\n}\n\n.mdi-signal-cellular-3::before {\n  content: \"\\F08BE\";\n}\n\n.mdi-signal-cellular-outline::before {\n  content: \"\\F08BF\";\n}\n\n.mdi-signal-distance-variant::before {\n  content: \"\\F0E64\";\n}\n\n.mdi-signal-hspa::before {\n  content: \"\\F0715\";\n}\n\n.mdi-signal-hspa-plus::before {\n  content: \"\\F0716\";\n}\n\n.mdi-signal-off::before {\n  content: \"\\F0783\";\n}\n\n.mdi-signal-variant::before {\n  content: \"\\F060A\";\n}\n\n.mdi-signature::before {\n  content: \"\\F0DFB\";\n}\n\n.mdi-signature-freehand::before {\n  content: \"\\F0DFC\";\n}\n\n.mdi-signature-image::before {\n  content: \"\\F0DFD\";\n}\n\n.mdi-signature-text::before {\n  content: \"\\F0DFE\";\n}\n\n.mdi-silo::before {\n  content: \"\\F0B49\";\n}\n\n.mdi-silverware::before {\n  content: \"\\F04A3\";\n}\n\n.mdi-silverware-clean::before {\n  content: \"\\F0FDE\";\n}\n\n.mdi-silverware-fork::before {\n  content: \"\\F04A4\";\n}\n\n.mdi-silverware-fork-knife::before {\n  content: \"\\F0A70\";\n}\n\n.mdi-silverware-spoon::before {\n  content: \"\\F04A5\";\n}\n\n.mdi-silverware-variant::before {\n  content: \"\\F04A6\";\n}\n\n.mdi-sim::before {\n  content: \"\\F04A7\";\n}\n\n.mdi-sim-alert::before {\n  content: \"\\F04A8\";\n}\n\n.mdi-sim-off::before {\n  content: \"\\F04A9\";\n}\n\n.mdi-simple-icons::before {\n  content: \"\\F131D\";\n}\n\n.mdi-sina-weibo::before {\n  content: \"\\F0ADF\";\n}\n\n.mdi-sine-wave::before {\n  content: \"\\F095B\";\n}\n\n.mdi-sitemap::before {\n  content: \"\\F04AA\";\n}\n\n.mdi-size-l::before {\n  content: \"\\F13A6\";\n}\n\n.mdi-size-m::before {\n  content: \"\\F13A5\";\n}\n\n.mdi-size-s::before {\n  content: \"\\F13A4\";\n}\n\n.mdi-size-xl::before {\n  content: \"\\F13A7\";\n}\n\n.mdi-size-xs::before {\n  content: \"\\F13A3\";\n}\n\n.mdi-size-xxl::before {\n  content: \"\\F13A8\";\n}\n\n.mdi-size-xxs::before {\n  content: \"\\F13A2\";\n}\n\n.mdi-size-xxxl::before {\n  content: \"\\F13A9\";\n}\n\n.mdi-skate::before {\n  content: \"\\F0D35\";\n}\n\n.mdi-skateboard::before {\n  content: \"\\F14C2\";\n}\n\n.mdi-skew-less::before {\n  content: \"\\F0D36\";\n}\n\n.mdi-skew-more::before {\n  content: \"\\F0D37\";\n}\n\n.mdi-ski::before {\n  content: \"\\F1304\";\n}\n\n.mdi-ski-cross-country::before {\n  content: \"\\F1305\";\n}\n\n.mdi-ski-water::before {\n  content: \"\\F1306\";\n}\n\n.mdi-skip-backward::before {\n  content: \"\\F04AB\";\n}\n\n.mdi-skip-backward-outline::before {\n  content: \"\\F0F25\";\n}\n\n.mdi-skip-forward::before {\n  content: \"\\F04AC\";\n}\n\n.mdi-skip-forward-outline::before {\n  content: \"\\F0F26\";\n}\n\n.mdi-skip-next::before {\n  content: \"\\F04AD\";\n}\n\n.mdi-skip-next-circle::before {\n  content: \"\\F0661\";\n}\n\n.mdi-skip-next-circle-outline::before {\n  content: \"\\F0662\";\n}\n\n.mdi-skip-next-outline::before {\n  content: \"\\F0F27\";\n}\n\n.mdi-skip-previous::before {\n  content: \"\\F04AE\";\n}\n\n.mdi-skip-previous-circle::before {\n  content: \"\\F0663\";\n}\n\n.mdi-skip-previous-circle-outline::before {\n  content: \"\\F0664\";\n}\n\n.mdi-skip-previous-outline::before {\n  content: \"\\F0F28\";\n}\n\n.mdi-skull::before {\n  content: \"\\F068C\";\n}\n\n.mdi-skull-crossbones::before {\n  content: \"\\F0BC6\";\n}\n\n.mdi-skull-crossbones-outline::before {\n  content: \"\\F0BC7\";\n}\n\n.mdi-skull-outline::before {\n  content: \"\\F0BC8\";\n}\n\n.mdi-skull-scan::before {\n  content: \"\\F14C7\";\n}\n\n.mdi-skull-scan-outline::before {\n  content: \"\\F14C8\";\n}\n\n.mdi-skype::before {\n  content: \"\\F04AF\";\n}\n\n.mdi-skype-business::before {\n  content: \"\\F04B0\";\n}\n\n.mdi-slack::before {\n  content: \"\\F04B1\";\n}\n\n.mdi-slash-forward::before {\n  content: \"\\F0FDF\";\n}\n\n.mdi-slash-forward-box::before {\n  content: \"\\F0FE0\";\n}\n\n.mdi-sleep::before {\n  content: \"\\F04B2\";\n}\n\n.mdi-sleep-off::before {\n  content: \"\\F04B3\";\n}\n\n.mdi-slide::before {\n  content: \"\\F15A5\";\n}\n\n.mdi-slope-downhill::before {\n  content: \"\\F0DFF\";\n}\n\n.mdi-slope-uphill::before {\n  content: \"\\F0E00\";\n}\n\n.mdi-slot-machine::before {\n  content: \"\\F1114\";\n}\n\n.mdi-slot-machine-outline::before {\n  content: \"\\F1115\";\n}\n\n.mdi-smart-card::before {\n  content: \"\\F10BD\";\n}\n\n.mdi-smart-card-outline::before {\n  content: \"\\F10BE\";\n}\n\n.mdi-smart-card-reader::before {\n  content: \"\\F10BF\";\n}\n\n.mdi-smart-card-reader-outline::before {\n  content: \"\\F10C0\";\n}\n\n.mdi-smog::before {\n  content: \"\\F0A71\";\n}\n\n.mdi-smoke-detector::before {\n  content: \"\\F0392\";\n}\n\n.mdi-smoking::before {\n  content: \"\\F04B4\";\n}\n\n.mdi-smoking-off::before {\n  content: \"\\F04B5\";\n}\n\n.mdi-smoking-pipe::before {\n  content: \"\\F140D\";\n}\n\n.mdi-smoking-pipe-off::before {\n  content: \"\\F1428\";\n}\n\n.mdi-snake::before {\n  content: \"\\F150E\";\n}\n\n.mdi-snapchat::before {\n  content: \"\\F04B6\";\n}\n\n.mdi-snowboard::before {\n  content: \"\\F1307\";\n}\n\n.mdi-snowflake::before {\n  content: \"\\F0717\";\n}\n\n.mdi-snowflake-alert::before {\n  content: \"\\F0F29\";\n}\n\n.mdi-snowflake-melt::before {\n  content: \"\\F12CB\";\n}\n\n.mdi-snowflake-off::before {\n  content: \"\\F14E3\";\n}\n\n.mdi-snowflake-variant::before {\n  content: \"\\F0F2A\";\n}\n\n.mdi-snowman::before {\n  content: \"\\F04B7\";\n}\n\n.mdi-soccer::before {\n  content: \"\\F04B8\";\n}\n\n.mdi-soccer-field::before {\n  content: \"\\F0834\";\n}\n\n.mdi-social-distance-2-meters::before {\n  content: \"\\F1579\";\n}\n\n.mdi-social-distance-6-feet::before {\n  content: \"\\F157A\";\n}\n\n.mdi-sofa::before {\n  content: \"\\F04B9\";\n}\n\n.mdi-sofa-outline::before {\n  content: \"\\F156D\";\n}\n\n.mdi-sofa-single::before {\n  content: \"\\F156E\";\n}\n\n.mdi-sofa-single-outline::before {\n  content: \"\\F156F\";\n}\n\n.mdi-solar-panel::before {\n  content: \"\\F0D9B\";\n}\n\n.mdi-solar-panel-large::before {\n  content: \"\\F0D9C\";\n}\n\n.mdi-solar-power::before {\n  content: \"\\F0A72\";\n}\n\n.mdi-soldering-iron::before {\n  content: \"\\F1092\";\n}\n\n.mdi-solid::before {\n  content: \"\\F068D\";\n}\n\n.mdi-sony-playstation::before {\n  content: \"\\F0414\";\n}\n\n.mdi-sort::before {\n  content: \"\\F04BA\";\n}\n\n.mdi-sort-alphabetical-ascending::before {\n  content: \"\\F05BD\";\n}\n\n.mdi-sort-alphabetical-ascending-variant::before {\n  content: \"\\F1148\";\n}\n\n.mdi-sort-alphabetical-descending::before {\n  content: \"\\F05BF\";\n}\n\n.mdi-sort-alphabetical-descending-variant::before {\n  content: \"\\F1149\";\n}\n\n.mdi-sort-alphabetical-variant::before {\n  content: \"\\F04BB\";\n}\n\n.mdi-sort-ascending::before {\n  content: \"\\F04BC\";\n}\n\n.mdi-sort-bool-ascending::before {\n  content: \"\\F1385\";\n}\n\n.mdi-sort-bool-ascending-variant::before {\n  content: \"\\F1386\";\n}\n\n.mdi-sort-bool-descending::before {\n  content: \"\\F1387\";\n}\n\n.mdi-sort-bool-descending-variant::before {\n  content: \"\\F1388\";\n}\n\n.mdi-sort-calendar-ascending::before {\n  content: \"\\F1547\";\n}\n\n.mdi-sort-calendar-descending::before {\n  content: \"\\F1548\";\n}\n\n.mdi-sort-clock-ascending::before {\n  content: \"\\F1549\";\n}\n\n.mdi-sort-clock-ascending-outline::before {\n  content: \"\\F154A\";\n}\n\n.mdi-sort-clock-descending::before {\n  content: \"\\F154B\";\n}\n\n.mdi-sort-clock-descending-outline::before {\n  content: \"\\F154C\";\n}\n\n.mdi-sort-descending::before {\n  content: \"\\F04BD\";\n}\n\n.mdi-sort-numeric-ascending::before {\n  content: \"\\F1389\";\n}\n\n.mdi-sort-numeric-ascending-variant::before {\n  content: \"\\F090D\";\n}\n\n.mdi-sort-numeric-descending::before {\n  content: \"\\F138A\";\n}\n\n.mdi-sort-numeric-descending-variant::before {\n  content: \"\\F0AD2\";\n}\n\n.mdi-sort-numeric-variant::before {\n  content: \"\\F04BE\";\n}\n\n.mdi-sort-reverse-variant::before {\n  content: \"\\F033C\";\n}\n\n.mdi-sort-variant::before {\n  content: \"\\F04BF\";\n}\n\n.mdi-sort-variant-lock::before {\n  content: \"\\F0CCD\";\n}\n\n.mdi-sort-variant-lock-open::before {\n  content: \"\\F0CCE\";\n}\n\n.mdi-sort-variant-remove::before {\n  content: \"\\F1147\";\n}\n\n.mdi-soundcloud::before {\n  content: \"\\F04C0\";\n}\n\n.mdi-source-branch::before {\n  content: \"\\F062C\";\n}\n\n.mdi-source-branch-check::before {\n  content: \"\\F14CF\";\n}\n\n.mdi-source-branch-minus::before {\n  content: \"\\F14CB\";\n}\n\n.mdi-source-branch-plus::before {\n  content: \"\\F14CA\";\n}\n\n.mdi-source-branch-refresh::before {\n  content: \"\\F14CD\";\n}\n\n.mdi-source-branch-remove::before {\n  content: \"\\F14CC\";\n}\n\n.mdi-source-branch-sync::before {\n  content: \"\\F14CE\";\n}\n\n.mdi-source-commit::before {\n  content: \"\\F0718\";\n}\n\n.mdi-source-commit-end::before {\n  content: \"\\F0719\";\n}\n\n.mdi-source-commit-end-local::before {\n  content: \"\\F071A\";\n}\n\n.mdi-source-commit-local::before {\n  content: \"\\F071B\";\n}\n\n.mdi-source-commit-next-local::before {\n  content: \"\\F071C\";\n}\n\n.mdi-source-commit-start::before {\n  content: \"\\F071D\";\n}\n\n.mdi-source-commit-start-next-local::before {\n  content: \"\\F071E\";\n}\n\n.mdi-source-fork::before {\n  content: \"\\F04C1\";\n}\n\n.mdi-source-merge::before {\n  content: \"\\F062D\";\n}\n\n.mdi-source-pull::before {\n  content: \"\\F04C2\";\n}\n\n.mdi-source-repository::before {\n  content: \"\\F0CCF\";\n}\n\n.mdi-source-repository-multiple::before {\n  content: \"\\F0CD0\";\n}\n\n.mdi-soy-sauce::before {\n  content: \"\\F07EE\";\n}\n\n.mdi-soy-sauce-off::before {\n  content: \"\\F13FC\";\n}\n\n.mdi-spa::before {\n  content: \"\\F0CD1\";\n}\n\n.mdi-spa-outline::before {\n  content: \"\\F0CD2\";\n}\n\n.mdi-space-invaders::before {\n  content: \"\\F0BC9\";\n}\n\n.mdi-space-station::before {\n  content: \"\\F1383\";\n}\n\n.mdi-spade::before {\n  content: \"\\F0E65\";\n}\n\n.mdi-sparkles::before {\n  content: \"\\F1545\";\n}\n\n.mdi-speaker::before {\n  content: \"\\F04C3\";\n}\n\n.mdi-speaker-bluetooth::before {\n  content: \"\\F09A2\";\n}\n\n.mdi-speaker-multiple::before {\n  content: \"\\F0D38\";\n}\n\n.mdi-speaker-off::before {\n  content: \"\\F04C4\";\n}\n\n.mdi-speaker-wireless::before {\n  content: \"\\F071F\";\n}\n\n.mdi-speedometer::before {\n  content: \"\\F04C5\";\n}\n\n.mdi-speedometer-medium::before {\n  content: \"\\F0F85\";\n}\n\n.mdi-speedometer-slow::before {\n  content: \"\\F0F86\";\n}\n\n.mdi-spellcheck::before {\n  content: \"\\F04C6\";\n}\n\n.mdi-spider::before {\n  content: \"\\F11EA\";\n}\n\n.mdi-spider-thread::before {\n  content: \"\\F11EB\";\n}\n\n.mdi-spider-web::before {\n  content: \"\\F0BCA\";\n}\n\n.mdi-spirit-level::before {\n  content: \"\\F14F1\";\n}\n\n.mdi-spoon-sugar::before {\n  content: \"\\F1429\";\n}\n\n.mdi-spotify::before {\n  content: \"\\F04C7\";\n}\n\n.mdi-spotlight::before {\n  content: \"\\F04C8\";\n}\n\n.mdi-spotlight-beam::before {\n  content: \"\\F04C9\";\n}\n\n.mdi-spray::before {\n  content: \"\\F0665\";\n}\n\n.mdi-spray-bottle::before {\n  content: \"\\F0AE0\";\n}\n\n.mdi-sprinkler::before {\n  content: \"\\F105F\";\n}\n\n.mdi-sprinkler-variant::before {\n  content: \"\\F1060\";\n}\n\n.mdi-sprout::before {\n  content: \"\\F0E66\";\n}\n\n.mdi-sprout-outline::before {\n  content: \"\\F0E67\";\n}\n\n.mdi-square::before {\n  content: \"\\F0764\";\n}\n\n.mdi-square-circle::before {\n  content: \"\\F1500\";\n}\n\n.mdi-square-edit-outline::before {\n  content: \"\\F090C\";\n}\n\n.mdi-square-medium::before {\n  content: \"\\F0A13\";\n}\n\n.mdi-square-medium-outline::before {\n  content: \"\\F0A14\";\n}\n\n.mdi-square-off::before {\n  content: \"\\F12EE\";\n}\n\n.mdi-square-off-outline::before {\n  content: \"\\F12EF\";\n}\n\n.mdi-square-outline::before {\n  content: \"\\F0763\";\n}\n\n.mdi-square-root::before {\n  content: \"\\F0784\";\n}\n\n.mdi-square-root-box::before {\n  content: \"\\F09A3\";\n}\n\n.mdi-square-rounded::before {\n  content: \"\\F14FB\";\n}\n\n.mdi-square-rounded-outline::before {\n  content: \"\\F14FC\";\n}\n\n.mdi-square-small::before {\n  content: \"\\F0A15\";\n}\n\n.mdi-square-wave::before {\n  content: \"\\F147B\";\n}\n\n.mdi-squeegee::before {\n  content: \"\\F0AE1\";\n}\n\n.mdi-ssh::before {\n  content: \"\\F08C0\";\n}\n\n.mdi-stack-exchange::before {\n  content: \"\\F060B\";\n}\n\n.mdi-stack-overflow::before {\n  content: \"\\F04CC\";\n}\n\n.mdi-stackpath::before {\n  content: \"\\F0359\";\n}\n\n.mdi-stadium::before {\n  content: \"\\F0FF9\";\n}\n\n.mdi-stadium-variant::before {\n  content: \"\\F0720\";\n}\n\n.mdi-stairs::before {\n  content: \"\\F04CD\";\n}\n\n.mdi-stairs-box::before {\n  content: \"\\F139E\";\n}\n\n.mdi-stairs-down::before {\n  content: \"\\F12BE\";\n}\n\n.mdi-stairs-up::before {\n  content: \"\\F12BD\";\n}\n\n.mdi-stamper::before {\n  content: \"\\F0D39\";\n}\n\n.mdi-standard-definition::before {\n  content: \"\\F07EF\";\n}\n\n.mdi-star::before {\n  content: \"\\F04CE\";\n}\n\n.mdi-star-box::before {\n  content: \"\\F0A73\";\n}\n\n.mdi-star-box-multiple::before {\n  content: \"\\F1286\";\n}\n\n.mdi-star-box-multiple-outline::before {\n  content: \"\\F1287\";\n}\n\n.mdi-star-box-outline::before {\n  content: \"\\F0A74\";\n}\n\n.mdi-star-check::before {\n  content: \"\\F1566\";\n}\n\n.mdi-star-check-outline::before {\n  content: \"\\F156A\";\n}\n\n.mdi-star-circle::before {\n  content: \"\\F04CF\";\n}\n\n.mdi-star-circle-outline::before {\n  content: \"\\F09A4\";\n}\n\n.mdi-star-face::before {\n  content: \"\\F09A5\";\n}\n\n.mdi-star-four-points::before {\n  content: \"\\F0AE2\";\n}\n\n.mdi-star-four-points-outline::before {\n  content: \"\\F0AE3\";\n}\n\n.mdi-star-half::before {\n  content: \"\\F0246\";\n}\n\n.mdi-star-half-full::before {\n  content: \"\\F04D0\";\n}\n\n.mdi-star-minus::before {\n  content: \"\\F1564\";\n}\n\n.mdi-star-minus-outline::before {\n  content: \"\\F1568\";\n}\n\n.mdi-star-off::before {\n  content: \"\\F04D1\";\n}\n\n.mdi-star-off-outline::before {\n  content: \"\\F155B\";\n}\n\n.mdi-star-outline::before {\n  content: \"\\F04D2\";\n}\n\n.mdi-star-plus::before {\n  content: \"\\F1563\";\n}\n\n.mdi-star-plus-outline::before {\n  content: \"\\F1567\";\n}\n\n.mdi-star-remove::before {\n  content: \"\\F1565\";\n}\n\n.mdi-star-remove-outline::before {\n  content: \"\\F1569\";\n}\n\n.mdi-star-three-points::before {\n  content: \"\\F0AE4\";\n}\n\n.mdi-star-three-points-outline::before {\n  content: \"\\F0AE5\";\n}\n\n.mdi-state-machine::before {\n  content: \"\\F11EF\";\n}\n\n.mdi-steam::before {\n  content: \"\\F04D3\";\n}\n\n.mdi-steering::before {\n  content: \"\\F04D4\";\n}\n\n.mdi-steering-off::before {\n  content: \"\\F090E\";\n}\n\n.mdi-step-backward::before {\n  content: \"\\F04D5\";\n}\n\n.mdi-step-backward-2::before {\n  content: \"\\F04D6\";\n}\n\n.mdi-step-forward::before {\n  content: \"\\F04D7\";\n}\n\n.mdi-step-forward-2::before {\n  content: \"\\F04D8\";\n}\n\n.mdi-stethoscope::before {\n  content: \"\\F04D9\";\n}\n\n.mdi-sticker::before {\n  content: \"\\F1364\";\n}\n\n.mdi-sticker-alert::before {\n  content: \"\\F1365\";\n}\n\n.mdi-sticker-alert-outline::before {\n  content: \"\\F1366\";\n}\n\n.mdi-sticker-check::before {\n  content: \"\\F1367\";\n}\n\n.mdi-sticker-check-outline::before {\n  content: \"\\F1368\";\n}\n\n.mdi-sticker-circle-outline::before {\n  content: \"\\F05D0\";\n}\n\n.mdi-sticker-emoji::before {\n  content: \"\\F0785\";\n}\n\n.mdi-sticker-minus::before {\n  content: \"\\F1369\";\n}\n\n.mdi-sticker-minus-outline::before {\n  content: \"\\F136A\";\n}\n\n.mdi-sticker-outline::before {\n  content: \"\\F136B\";\n}\n\n.mdi-sticker-plus::before {\n  content: \"\\F136C\";\n}\n\n.mdi-sticker-plus-outline::before {\n  content: \"\\F136D\";\n}\n\n.mdi-sticker-remove::before {\n  content: \"\\F136E\";\n}\n\n.mdi-sticker-remove-outline::before {\n  content: \"\\F136F\";\n}\n\n.mdi-stocking::before {\n  content: \"\\F04DA\";\n}\n\n.mdi-stomach::before {\n  content: \"\\F1093\";\n}\n\n.mdi-stop::before {\n  content: \"\\F04DB\";\n}\n\n.mdi-stop-circle::before {\n  content: \"\\F0666\";\n}\n\n.mdi-stop-circle-outline::before {\n  content: \"\\F0667\";\n}\n\n.mdi-store::before {\n  content: \"\\F04DC\";\n}\n\n.mdi-store-24-hour::before {\n  content: \"\\F04DD\";\n}\n\n.mdi-store-outline::before {\n  content: \"\\F1361\";\n}\n\n.mdi-storefront::before {\n  content: \"\\F07C7\";\n}\n\n.mdi-storefront-outline::before {\n  content: \"\\F10C1\";\n}\n\n.mdi-stove::before {\n  content: \"\\F04DE\";\n}\n\n.mdi-strategy::before {\n  content: \"\\F11D6\";\n}\n\n.mdi-stretch-to-page::before {\n  content: \"\\F0F2B\";\n}\n\n.mdi-stretch-to-page-outline::before {\n  content: \"\\F0F2C\";\n}\n\n.mdi-string-lights::before {\n  content: \"\\F12BA\";\n}\n\n.mdi-string-lights-off::before {\n  content: \"\\F12BB\";\n}\n\n.mdi-subdirectory-arrow-left::before {\n  content: \"\\F060C\";\n}\n\n.mdi-subdirectory-arrow-right::before {\n  content: \"\\F060D\";\n}\n\n.mdi-submarine::before {\n  content: \"\\F156C\";\n}\n\n.mdi-subtitles::before {\n  content: \"\\F0A16\";\n}\n\n.mdi-subtitles-outline::before {\n  content: \"\\F0A17\";\n}\n\n.mdi-subway::before {\n  content: \"\\F06AC\";\n}\n\n.mdi-subway-alert-variant::before {\n  content: \"\\F0D9D\";\n}\n\n.mdi-subway-variant::before {\n  content: \"\\F04DF\";\n}\n\n.mdi-summit::before {\n  content: \"\\F0786\";\n}\n\n.mdi-sunglasses::before {\n  content: \"\\F04E0\";\n}\n\n.mdi-surround-sound::before {\n  content: \"\\F05C5\";\n}\n\n.mdi-surround-sound-2-0::before {\n  content: \"\\F07F0\";\n}\n\n.mdi-surround-sound-3-1::before {\n  content: \"\\F07F1\";\n}\n\n.mdi-surround-sound-5-1::before {\n  content: \"\\F07F2\";\n}\n\n.mdi-surround-sound-7-1::before {\n  content: \"\\F07F3\";\n}\n\n.mdi-svg::before {\n  content: \"\\F0721\";\n}\n\n.mdi-swap-horizontal::before {\n  content: \"\\F04E1\";\n}\n\n.mdi-swap-horizontal-bold::before {\n  content: \"\\F0BCD\";\n}\n\n.mdi-swap-horizontal-circle::before {\n  content: \"\\F0FE1\";\n}\n\n.mdi-swap-horizontal-circle-outline::before {\n  content: \"\\F0FE2\";\n}\n\n.mdi-swap-horizontal-variant::before {\n  content: \"\\F08C1\";\n}\n\n.mdi-swap-vertical::before {\n  content: \"\\F04E2\";\n}\n\n.mdi-swap-vertical-bold::before {\n  content: \"\\F0BCE\";\n}\n\n.mdi-swap-vertical-circle::before {\n  content: \"\\F0FE3\";\n}\n\n.mdi-swap-vertical-circle-outline::before {\n  content: \"\\F0FE4\";\n}\n\n.mdi-swap-vertical-variant::before {\n  content: \"\\F08C2\";\n}\n\n.mdi-swim::before {\n  content: \"\\F04E3\";\n}\n\n.mdi-switch::before {\n  content: \"\\F04E4\";\n}\n\n.mdi-sword::before {\n  content: \"\\F04E5\";\n}\n\n.mdi-sword-cross::before {\n  content: \"\\F0787\";\n}\n\n.mdi-syllabary-hangul::before {\n  content: \"\\F1333\";\n}\n\n.mdi-syllabary-hiragana::before {\n  content: \"\\F1334\";\n}\n\n.mdi-syllabary-katakana::before {\n  content: \"\\F1335\";\n}\n\n.mdi-syllabary-katakana-halfwidth::before {\n  content: \"\\F1336\";\n}\n\n.mdi-symbol::before {\n  content: \"\\F1501\";\n}\n\n.mdi-symfony::before {\n  content: \"\\F0AE6\";\n}\n\n.mdi-sync::before {\n  content: \"\\F04E6\";\n}\n\n.mdi-sync-alert::before {\n  content: \"\\F04E7\";\n}\n\n.mdi-sync-circle::before {\n  content: \"\\F1378\";\n}\n\n.mdi-sync-off::before {\n  content: \"\\F04E8\";\n}\n\n.mdi-tab::before {\n  content: \"\\F04E9\";\n}\n\n.mdi-tab-minus::before {\n  content: \"\\F0B4B\";\n}\n\n.mdi-tab-plus::before {\n  content: \"\\F075C\";\n}\n\n.mdi-tab-remove::before {\n  content: \"\\F0B4C\";\n}\n\n.mdi-tab-unselected::before {\n  content: \"\\F04EA\";\n}\n\n.mdi-table::before {\n  content: \"\\F04EB\";\n}\n\n.mdi-table-account::before {\n  content: \"\\F13B9\";\n}\n\n.mdi-table-alert::before {\n  content: \"\\F13BA\";\n}\n\n.mdi-table-arrow-down::before {\n  content: \"\\F13BB\";\n}\n\n.mdi-table-arrow-left::before {\n  content: \"\\F13BC\";\n}\n\n.mdi-table-arrow-right::before {\n  content: \"\\F13BD\";\n}\n\n.mdi-table-arrow-up::before {\n  content: \"\\F13BE\";\n}\n\n.mdi-table-border::before {\n  content: \"\\F0A18\";\n}\n\n.mdi-table-cancel::before {\n  content: \"\\F13BF\";\n}\n\n.mdi-table-chair::before {\n  content: \"\\F1061\";\n}\n\n.mdi-table-check::before {\n  content: \"\\F13C0\";\n}\n\n.mdi-table-clock::before {\n  content: \"\\F13C1\";\n}\n\n.mdi-table-cog::before {\n  content: \"\\F13C2\";\n}\n\n.mdi-table-column::before {\n  content: \"\\F0835\";\n}\n\n.mdi-table-column-plus-after::before {\n  content: \"\\F04EC\";\n}\n\n.mdi-table-column-plus-before::before {\n  content: \"\\F04ED\";\n}\n\n.mdi-table-column-remove::before {\n  content: \"\\F04EE\";\n}\n\n.mdi-table-column-width::before {\n  content: \"\\F04EF\";\n}\n\n.mdi-table-edit::before {\n  content: \"\\F04F0\";\n}\n\n.mdi-table-eye::before {\n  content: \"\\F1094\";\n}\n\n.mdi-table-eye-off::before {\n  content: \"\\F13C3\";\n}\n\n.mdi-table-furniture::before {\n  content: \"\\F05BC\";\n}\n\n.mdi-table-headers-eye::before {\n  content: \"\\F121D\";\n}\n\n.mdi-table-headers-eye-off::before {\n  content: \"\\F121E\";\n}\n\n.mdi-table-heart::before {\n  content: \"\\F13C4\";\n}\n\n.mdi-table-key::before {\n  content: \"\\F13C5\";\n}\n\n.mdi-table-large::before {\n  content: \"\\F04F1\";\n}\n\n.mdi-table-large-plus::before {\n  content: \"\\F0F87\";\n}\n\n.mdi-table-large-remove::before {\n  content: \"\\F0F88\";\n}\n\n.mdi-table-lock::before {\n  content: \"\\F13C6\";\n}\n\n.mdi-table-merge-cells::before {\n  content: \"\\F09A6\";\n}\n\n.mdi-table-minus::before {\n  content: \"\\F13C7\";\n}\n\n.mdi-table-multiple::before {\n  content: \"\\F13C8\";\n}\n\n.mdi-table-network::before {\n  content: \"\\F13C9\";\n}\n\n.mdi-table-of-contents::before {\n  content: \"\\F0836\";\n}\n\n.mdi-table-off::before {\n  content: \"\\F13CA\";\n}\n\n.mdi-table-plus::before {\n  content: \"\\F0A75\";\n}\n\n.mdi-table-refresh::before {\n  content: \"\\F13A0\";\n}\n\n.mdi-table-remove::before {\n  content: \"\\F0A76\";\n}\n\n.mdi-table-row::before {\n  content: \"\\F0837\";\n}\n\n.mdi-table-row-height::before {\n  content: \"\\F04F2\";\n}\n\n.mdi-table-row-plus-after::before {\n  content: \"\\F04F3\";\n}\n\n.mdi-table-row-plus-before::before {\n  content: \"\\F04F4\";\n}\n\n.mdi-table-row-remove::before {\n  content: \"\\F04F5\";\n}\n\n.mdi-table-search::before {\n  content: \"\\F090F\";\n}\n\n.mdi-table-settings::before {\n  content: \"\\F0838\";\n}\n\n.mdi-table-split-cell::before {\n  content: \"\\F142A\";\n}\n\n.mdi-table-star::before {\n  content: \"\\F13CB\";\n}\n\n.mdi-table-sync::before {\n  content: \"\\F13A1\";\n}\n\n.mdi-table-tennis::before {\n  content: \"\\F0E68\";\n}\n\n.mdi-tablet::before {\n  content: \"\\F04F6\";\n}\n\n.mdi-tablet-android::before {\n  content: \"\\F04F7\";\n}\n\n.mdi-tablet-cellphone::before {\n  content: \"\\F09A7\";\n}\n\n.mdi-tablet-dashboard::before {\n  content: \"\\F0ECE\";\n}\n\n.mdi-tablet-ipad::before {\n  content: \"\\F04F8\";\n}\n\n.mdi-taco::before {\n  content: \"\\F0762\";\n}\n\n.mdi-tag::before {\n  content: \"\\F04F9\";\n}\n\n.mdi-tag-faces::before {\n  content: \"\\F04FA\";\n}\n\n.mdi-tag-heart::before {\n  content: \"\\F068B\";\n}\n\n.mdi-tag-heart-outline::before {\n  content: \"\\F0BCF\";\n}\n\n.mdi-tag-minus::before {\n  content: \"\\F0910\";\n}\n\n.mdi-tag-minus-outline::before {\n  content: \"\\F121F\";\n}\n\n.mdi-tag-multiple::before {\n  content: \"\\F04FB\";\n}\n\n.mdi-tag-multiple-outline::before {\n  content: \"\\F12F7\";\n}\n\n.mdi-tag-off::before {\n  content: \"\\F1220\";\n}\n\n.mdi-tag-off-outline::before {\n  content: \"\\F1221\";\n}\n\n.mdi-tag-outline::before {\n  content: \"\\F04FC\";\n}\n\n.mdi-tag-plus::before {\n  content: \"\\F0722\";\n}\n\n.mdi-tag-plus-outline::before {\n  content: \"\\F1222\";\n}\n\n.mdi-tag-remove::before {\n  content: \"\\F0723\";\n}\n\n.mdi-tag-remove-outline::before {\n  content: \"\\F1223\";\n}\n\n.mdi-tag-text::before {\n  content: \"\\F1224\";\n}\n\n.mdi-tag-text-outline::before {\n  content: \"\\F04FD\";\n}\n\n.mdi-tailwind::before {\n  content: \"\\F13FF\";\n}\n\n.mdi-tank::before {\n  content: \"\\F0D3A\";\n}\n\n.mdi-tanker-truck::before {\n  content: \"\\F0FE5\";\n}\n\n.mdi-tape-measure::before {\n  content: \"\\F0B4D\";\n}\n\n.mdi-target::before {\n  content: \"\\F04FE\";\n}\n\n.mdi-target-account::before {\n  content: \"\\F0BD0\";\n}\n\n.mdi-target-variant::before {\n  content: \"\\F0A77\";\n}\n\n.mdi-taxi::before {\n  content: \"\\F04FF\";\n}\n\n.mdi-tea::before {\n  content: \"\\F0D9E\";\n}\n\n.mdi-tea-outline::before {\n  content: \"\\F0D9F\";\n}\n\n.mdi-teach::before {\n  content: \"\\F0890\";\n}\n\n.mdi-teamviewer::before {\n  content: \"\\F0500\";\n}\n\n.mdi-telegram::before {\n  content: \"\\F0501\";\n}\n\n.mdi-telescope::before {\n  content: \"\\F0B4E\";\n}\n\n.mdi-television::before {\n  content: \"\\F0502\";\n}\n\n.mdi-television-ambient-light::before {\n  content: \"\\F1356\";\n}\n\n.mdi-television-box::before {\n  content: \"\\F0839\";\n}\n\n.mdi-television-classic::before {\n  content: \"\\F07F4\";\n}\n\n.mdi-television-classic-off::before {\n  content: \"\\F083A\";\n}\n\n.mdi-television-clean::before {\n  content: \"\\F1110\";\n}\n\n.mdi-television-guide::before {\n  content: \"\\F0503\";\n}\n\n.mdi-television-off::before {\n  content: \"\\F083B\";\n}\n\n.mdi-television-pause::before {\n  content: \"\\F0F89\";\n}\n\n.mdi-television-play::before {\n  content: \"\\F0ECF\";\n}\n\n.mdi-television-stop::before {\n  content: \"\\F0F8A\";\n}\n\n.mdi-temperature-celsius::before {\n  content: \"\\F0504\";\n}\n\n.mdi-temperature-fahrenheit::before {\n  content: \"\\F0505\";\n}\n\n.mdi-temperature-kelvin::before {\n  content: \"\\F0506\";\n}\n\n.mdi-tennis::before {\n  content: \"\\F0DA0\";\n}\n\n.mdi-tennis-ball::before {\n  content: \"\\F0507\";\n}\n\n.mdi-tent::before {\n  content: \"\\F0508\";\n}\n\n.mdi-terraform::before {\n  content: \"\\F1062\";\n}\n\n.mdi-terrain::before {\n  content: \"\\F0509\";\n}\n\n.mdi-test-tube::before {\n  content: \"\\F0668\";\n}\n\n.mdi-test-tube-empty::before {\n  content: \"\\F0911\";\n}\n\n.mdi-test-tube-off::before {\n  content: \"\\F0912\";\n}\n\n.mdi-text::before {\n  content: \"\\F09A8\";\n}\n\n.mdi-text-account::before {\n  content: \"\\F1570\";\n}\n\n.mdi-text-box::before {\n  content: \"\\F021A\";\n}\n\n.mdi-text-box-check::before {\n  content: \"\\F0EA6\";\n}\n\n.mdi-text-box-check-outline::before {\n  content: \"\\F0EA7\";\n}\n\n.mdi-text-box-minus::before {\n  content: \"\\F0EA8\";\n}\n\n.mdi-text-box-minus-outline::before {\n  content: \"\\F0EA9\";\n}\n\n.mdi-text-box-multiple::before {\n  content: \"\\F0AB7\";\n}\n\n.mdi-text-box-multiple-outline::before {\n  content: \"\\F0AB8\";\n}\n\n.mdi-text-box-outline::before {\n  content: \"\\F09ED\";\n}\n\n.mdi-text-box-plus::before {\n  content: \"\\F0EAA\";\n}\n\n.mdi-text-box-plus-outline::before {\n  content: \"\\F0EAB\";\n}\n\n.mdi-text-box-remove::before {\n  content: \"\\F0EAC\";\n}\n\n.mdi-text-box-remove-outline::before {\n  content: \"\\F0EAD\";\n}\n\n.mdi-text-box-search::before {\n  content: \"\\F0EAE\";\n}\n\n.mdi-text-box-search-outline::before {\n  content: \"\\F0EAF\";\n}\n\n.mdi-text-recognition::before {\n  content: \"\\F113D\";\n}\n\n.mdi-text-search::before {\n  content: \"\\F13B8\";\n}\n\n.mdi-text-shadow::before {\n  content: \"\\F0669\";\n}\n\n.mdi-text-short::before {\n  content: \"\\F09A9\";\n}\n\n.mdi-text-subject::before {\n  content: \"\\F09AA\";\n}\n\n.mdi-text-to-speech::before {\n  content: \"\\F050A\";\n}\n\n.mdi-text-to-speech-off::before {\n  content: \"\\F050B\";\n}\n\n.mdi-texture::before {\n  content: \"\\F050C\";\n}\n\n.mdi-texture-box::before {\n  content: \"\\F0FE6\";\n}\n\n.mdi-theater::before {\n  content: \"\\F050D\";\n}\n\n.mdi-theme-light-dark::before {\n  content: \"\\F050E\";\n}\n\n.mdi-thermometer::before {\n  content: \"\\F050F\";\n}\n\n.mdi-thermometer-alert::before {\n  content: \"\\F0E01\";\n}\n\n.mdi-thermometer-chevron-down::before {\n  content: \"\\F0E02\";\n}\n\n.mdi-thermometer-chevron-up::before {\n  content: \"\\F0E03\";\n}\n\n.mdi-thermometer-high::before {\n  content: \"\\F10C2\";\n}\n\n.mdi-thermometer-lines::before {\n  content: \"\\F0510\";\n}\n\n.mdi-thermometer-low::before {\n  content: \"\\F10C3\";\n}\n\n.mdi-thermometer-minus::before {\n  content: \"\\F0E04\";\n}\n\n.mdi-thermometer-off::before {\n  content: \"\\F1531\";\n}\n\n.mdi-thermometer-plus::before {\n  content: \"\\F0E05\";\n}\n\n.mdi-thermostat::before {\n  content: \"\\F0393\";\n}\n\n.mdi-thermostat-box::before {\n  content: \"\\F0891\";\n}\n\n.mdi-thought-bubble::before {\n  content: \"\\F07F6\";\n}\n\n.mdi-thought-bubble-outline::before {\n  content: \"\\F07F7\";\n}\n\n.mdi-thumb-down::before {\n  content: \"\\F0511\";\n}\n\n.mdi-thumb-down-outline::before {\n  content: \"\\F0512\";\n}\n\n.mdi-thumb-up::before {\n  content: \"\\F0513\";\n}\n\n.mdi-thumb-up-outline::before {\n  content: \"\\F0514\";\n}\n\n.mdi-thumbs-up-down::before {\n  content: \"\\F0515\";\n}\n\n.mdi-ticket::before {\n  content: \"\\F0516\";\n}\n\n.mdi-ticket-account::before {\n  content: \"\\F0517\";\n}\n\n.mdi-ticket-confirmation::before {\n  content: \"\\F0518\";\n}\n\n.mdi-ticket-confirmation-outline::before {\n  content: \"\\F13AA\";\n}\n\n.mdi-ticket-outline::before {\n  content: \"\\F0913\";\n}\n\n.mdi-ticket-percent::before {\n  content: \"\\F0724\";\n}\n\n.mdi-ticket-percent-outline::before {\n  content: \"\\F142B\";\n}\n\n.mdi-tie::before {\n  content: \"\\F0519\";\n}\n\n.mdi-tilde::before {\n  content: \"\\F0725\";\n}\n\n.mdi-timelapse::before {\n  content: \"\\F051A\";\n}\n\n.mdi-timeline::before {\n  content: \"\\F0BD1\";\n}\n\n.mdi-timeline-alert::before {\n  content: \"\\F0F95\";\n}\n\n.mdi-timeline-alert-outline::before {\n  content: \"\\F0F98\";\n}\n\n.mdi-timeline-check::before {\n  content: \"\\F1532\";\n}\n\n.mdi-timeline-check-outline::before {\n  content: \"\\F1533\";\n}\n\n.mdi-timeline-clock::before {\n  content: \"\\F11FB\";\n}\n\n.mdi-timeline-clock-outline::before {\n  content: \"\\F11FC\";\n}\n\n.mdi-timeline-help::before {\n  content: \"\\F0F99\";\n}\n\n.mdi-timeline-help-outline::before {\n  content: \"\\F0F9A\";\n}\n\n.mdi-timeline-minus::before {\n  content: \"\\F1534\";\n}\n\n.mdi-timeline-minus-outline::before {\n  content: \"\\F1535\";\n}\n\n.mdi-timeline-outline::before {\n  content: \"\\F0BD2\";\n}\n\n.mdi-timeline-plus::before {\n  content: \"\\F0F96\";\n}\n\n.mdi-timeline-plus-outline::before {\n  content: \"\\F0F97\";\n}\n\n.mdi-timeline-remove::before {\n  content: \"\\F1536\";\n}\n\n.mdi-timeline-remove-outline::before {\n  content: \"\\F1537\";\n}\n\n.mdi-timeline-text::before {\n  content: \"\\F0BD3\";\n}\n\n.mdi-timeline-text-outline::before {\n  content: \"\\F0BD4\";\n}\n\n.mdi-timer::before {\n  content: \"\\F13AB\";\n}\n\n.mdi-timer-10::before {\n  content: \"\\F051C\";\n}\n\n.mdi-timer-3::before {\n  content: \"\\F051D\";\n}\n\n.mdi-timer-off::before {\n  content: \"\\F13AC\";\n}\n\n.mdi-timer-off-outline::before {\n  content: \"\\F051E\";\n}\n\n.mdi-timer-outline::before {\n  content: \"\\F051B\";\n}\n\n.mdi-timer-sand::before {\n  content: \"\\F051F\";\n}\n\n.mdi-timer-sand-empty::before {\n  content: \"\\F06AD\";\n}\n\n.mdi-timer-sand-full::before {\n  content: \"\\F078C\";\n}\n\n.mdi-timetable::before {\n  content: \"\\F0520\";\n}\n\n.mdi-toaster::before {\n  content: \"\\F1063\";\n}\n\n.mdi-toaster-off::before {\n  content: \"\\F11B7\";\n}\n\n.mdi-toaster-oven::before {\n  content: \"\\F0CD3\";\n}\n\n.mdi-toggle-switch::before {\n  content: \"\\F0521\";\n}\n\n.mdi-toggle-switch-off::before {\n  content: \"\\F0522\";\n}\n\n.mdi-toggle-switch-off-outline::before {\n  content: \"\\F0A19\";\n}\n\n.mdi-toggle-switch-outline::before {\n  content: \"\\F0A1A\";\n}\n\n.mdi-toilet::before {\n  content: \"\\F09AB\";\n}\n\n.mdi-toolbox::before {\n  content: \"\\F09AC\";\n}\n\n.mdi-toolbox-outline::before {\n  content: \"\\F09AD\";\n}\n\n.mdi-tools::before {\n  content: \"\\F1064\";\n}\n\n.mdi-tooltip::before {\n  content: \"\\F0523\";\n}\n\n.mdi-tooltip-account::before {\n  content: \"\\F000C\";\n}\n\n.mdi-tooltip-check::before {\n  content: \"\\F155C\";\n}\n\n.mdi-tooltip-check-outline::before {\n  content: \"\\F155D\";\n}\n\n.mdi-tooltip-edit::before {\n  content: \"\\F0524\";\n}\n\n.mdi-tooltip-edit-outline::before {\n  content: \"\\F12C5\";\n}\n\n.mdi-tooltip-image::before {\n  content: \"\\F0525\";\n}\n\n.mdi-tooltip-image-outline::before {\n  content: \"\\F0BD5\";\n}\n\n.mdi-tooltip-minus::before {\n  content: \"\\F155E\";\n}\n\n.mdi-tooltip-minus-outline::before {\n  content: \"\\F155F\";\n}\n\n.mdi-tooltip-outline::before {\n  content: \"\\F0526\";\n}\n\n.mdi-tooltip-plus::before {\n  content: \"\\F0BD6\";\n}\n\n.mdi-tooltip-plus-outline::before {\n  content: \"\\F0527\";\n}\n\n.mdi-tooltip-remove::before {\n  content: \"\\F1560\";\n}\n\n.mdi-tooltip-remove-outline::before {\n  content: \"\\F1561\";\n}\n\n.mdi-tooltip-text::before {\n  content: \"\\F0528\";\n}\n\n.mdi-tooltip-text-outline::before {\n  content: \"\\F0BD7\";\n}\n\n.mdi-tooth::before {\n  content: \"\\F08C3\";\n}\n\n.mdi-tooth-outline::before {\n  content: \"\\F0529\";\n}\n\n.mdi-toothbrush::before {\n  content: \"\\F1129\";\n}\n\n.mdi-toothbrush-electric::before {\n  content: \"\\F112C\";\n}\n\n.mdi-toothbrush-paste::before {\n  content: \"\\F112A\";\n}\n\n.mdi-tortoise::before {\n  content: \"\\F0D3B\";\n}\n\n.mdi-toslink::before {\n  content: \"\\F12B8\";\n}\n\n.mdi-tournament::before {\n  content: \"\\F09AE\";\n}\n\n.mdi-tow-truck::before {\n  content: \"\\F083C\";\n}\n\n.mdi-tower-beach::before {\n  content: \"\\F0681\";\n}\n\n.mdi-tower-fire::before {\n  content: \"\\F0682\";\n}\n\n.mdi-toy-brick::before {\n  content: \"\\F1288\";\n}\n\n.mdi-toy-brick-marker::before {\n  content: \"\\F1289\";\n}\n\n.mdi-toy-brick-marker-outline::before {\n  content: \"\\F128A\";\n}\n\n.mdi-toy-brick-minus::before {\n  content: \"\\F128B\";\n}\n\n.mdi-toy-brick-minus-outline::before {\n  content: \"\\F128C\";\n}\n\n.mdi-toy-brick-outline::before {\n  content: \"\\F128D\";\n}\n\n.mdi-toy-brick-plus::before {\n  content: \"\\F128E\";\n}\n\n.mdi-toy-brick-plus-outline::before {\n  content: \"\\F128F\";\n}\n\n.mdi-toy-brick-remove::before {\n  content: \"\\F1290\";\n}\n\n.mdi-toy-brick-remove-outline::before {\n  content: \"\\F1291\";\n}\n\n.mdi-toy-brick-search::before {\n  content: \"\\F1292\";\n}\n\n.mdi-toy-brick-search-outline::before {\n  content: \"\\F1293\";\n}\n\n.mdi-track-light::before {\n  content: \"\\F0914\";\n}\n\n.mdi-trackpad::before {\n  content: \"\\F07F8\";\n}\n\n.mdi-trackpad-lock::before {\n  content: \"\\F0933\";\n}\n\n.mdi-tractor::before {\n  content: \"\\F0892\";\n}\n\n.mdi-tractor-variant::before {\n  content: \"\\F14C4\";\n}\n\n.mdi-trademark::before {\n  content: \"\\F0A78\";\n}\n\n.mdi-traffic-cone::before {\n  content: \"\\F137C\";\n}\n\n.mdi-traffic-light::before {\n  content: \"\\F052B\";\n}\n\n.mdi-train::before {\n  content: \"\\F052C\";\n}\n\n.mdi-train-car::before {\n  content: \"\\F0BD8\";\n}\n\n.mdi-train-variant::before {\n  content: \"\\F08C4\";\n}\n\n.mdi-tram::before {\n  content: \"\\F052D\";\n}\n\n.mdi-tram-side::before {\n  content: \"\\F0FE7\";\n}\n\n.mdi-transcribe::before {\n  content: \"\\F052E\";\n}\n\n.mdi-transcribe-close::before {\n  content: \"\\F052F\";\n}\n\n.mdi-transfer::before {\n  content: \"\\F1065\";\n}\n\n.mdi-transfer-down::before {\n  content: \"\\F0DA1\";\n}\n\n.mdi-transfer-left::before {\n  content: \"\\F0DA2\";\n}\n\n.mdi-transfer-right::before {\n  content: \"\\F0530\";\n}\n\n.mdi-transfer-up::before {\n  content: \"\\F0DA3\";\n}\n\n.mdi-transit-connection::before {\n  content: \"\\F0D3C\";\n}\n\n.mdi-transit-connection-horizontal::before {\n  content: \"\\F1546\";\n}\n\n.mdi-transit-connection-variant::before {\n  content: \"\\F0D3D\";\n}\n\n.mdi-transit-detour::before {\n  content: \"\\F0F8B\";\n}\n\n.mdi-transit-skip::before {\n  content: \"\\F1515\";\n}\n\n.mdi-transit-transfer::before {\n  content: \"\\F06AE\";\n}\n\n.mdi-transition::before {\n  content: \"\\F0915\";\n}\n\n.mdi-transition-masked::before {\n  content: \"\\F0916\";\n}\n\n.mdi-translate::before {\n  content: \"\\F05CA\";\n}\n\n.mdi-translate-off::before {\n  content: \"\\F0E06\";\n}\n\n.mdi-transmission-tower::before {\n  content: \"\\F0D3E\";\n}\n\n.mdi-trash-can::before {\n  content: \"\\F0A79\";\n}\n\n.mdi-trash-can-outline::before {\n  content: \"\\F0A7A\";\n}\n\n.mdi-tray::before {\n  content: \"\\F1294\";\n}\n\n.mdi-tray-alert::before {\n  content: \"\\F1295\";\n}\n\n.mdi-tray-full::before {\n  content: \"\\F1296\";\n}\n\n.mdi-tray-minus::before {\n  content: \"\\F1297\";\n}\n\n.mdi-tray-plus::before {\n  content: \"\\F1298\";\n}\n\n.mdi-tray-remove::before {\n  content: \"\\F1299\";\n}\n\n.mdi-treasure-chest::before {\n  content: \"\\F0726\";\n}\n\n.mdi-tree::before {\n  content: \"\\F0531\";\n}\n\n.mdi-tree-outline::before {\n  content: \"\\F0E69\";\n}\n\n.mdi-trello::before {\n  content: \"\\F0532\";\n}\n\n.mdi-trending-down::before {\n  content: \"\\F0533\";\n}\n\n.mdi-trending-neutral::before {\n  content: \"\\F0534\";\n}\n\n.mdi-trending-up::before {\n  content: \"\\F0535\";\n}\n\n.mdi-triangle::before {\n  content: \"\\F0536\";\n}\n\n.mdi-triangle-outline::before {\n  content: \"\\F0537\";\n}\n\n.mdi-triangle-wave::before {\n  content: \"\\F147C\";\n}\n\n.mdi-triforce::before {\n  content: \"\\F0BD9\";\n}\n\n.mdi-trophy::before {\n  content: \"\\F0538\";\n}\n\n.mdi-trophy-award::before {\n  content: \"\\F0539\";\n}\n\n.mdi-trophy-broken::before {\n  content: \"\\F0DA4\";\n}\n\n.mdi-trophy-outline::before {\n  content: \"\\F053A\";\n}\n\n.mdi-trophy-variant::before {\n  content: \"\\F053B\";\n}\n\n.mdi-trophy-variant-outline::before {\n  content: \"\\F053C\";\n}\n\n.mdi-truck::before {\n  content: \"\\F053D\";\n}\n\n.mdi-truck-check::before {\n  content: \"\\F0CD4\";\n}\n\n.mdi-truck-check-outline::before {\n  content: \"\\F129A\";\n}\n\n.mdi-truck-delivery::before {\n  content: \"\\F053E\";\n}\n\n.mdi-truck-delivery-outline::before {\n  content: \"\\F129B\";\n}\n\n.mdi-truck-fast::before {\n  content: \"\\F0788\";\n}\n\n.mdi-truck-fast-outline::before {\n  content: \"\\F129C\";\n}\n\n.mdi-truck-outline::before {\n  content: \"\\F129D\";\n}\n\n.mdi-truck-trailer::before {\n  content: \"\\F0727\";\n}\n\n.mdi-trumpet::before {\n  content: \"\\F1096\";\n}\n\n.mdi-tshirt-crew::before {\n  content: \"\\F0A7B\";\n}\n\n.mdi-tshirt-crew-outline::before {\n  content: \"\\F053F\";\n}\n\n.mdi-tshirt-v::before {\n  content: \"\\F0A7C\";\n}\n\n.mdi-tshirt-v-outline::before {\n  content: \"\\F0540\";\n}\n\n.mdi-tumble-dryer::before {\n  content: \"\\F0917\";\n}\n\n.mdi-tumble-dryer-alert::before {\n  content: \"\\F11BA\";\n}\n\n.mdi-tumble-dryer-off::before {\n  content: \"\\F11BB\";\n}\n\n.mdi-tune::before {\n  content: \"\\F062E\";\n}\n\n.mdi-tune-variant::before {\n  content: \"\\F1542\";\n}\n\n.mdi-tune-vertical::before {\n  content: \"\\F066A\";\n}\n\n.mdi-tune-vertical-variant::before {\n  content: \"\\F1543\";\n}\n\n.mdi-turnstile::before {\n  content: \"\\F0CD5\";\n}\n\n.mdi-turnstile-outline::before {\n  content: \"\\F0CD6\";\n}\n\n.mdi-turtle::before {\n  content: \"\\F0CD7\";\n}\n\n.mdi-twitch::before {\n  content: \"\\F0543\";\n}\n\n.mdi-twitter::before {\n  content: \"\\F0544\";\n}\n\n.mdi-twitter-retweet::before {\n  content: \"\\F0547\";\n}\n\n.mdi-two-factor-authentication::before {\n  content: \"\\F09AF\";\n}\n\n.mdi-typewriter::before {\n  content: \"\\F0F2D\";\n}\n\n.mdi-ubisoft::before {\n  content: \"\\F0BDA\";\n}\n\n.mdi-ubuntu::before {\n  content: \"\\F0548\";\n}\n\n.mdi-ufo::before {\n  content: \"\\F10C4\";\n}\n\n.mdi-ufo-outline::before {\n  content: \"\\F10C5\";\n}\n\n.mdi-ultra-high-definition::before {\n  content: \"\\F07F9\";\n}\n\n.mdi-umbraco::before {\n  content: \"\\F0549\";\n}\n\n.mdi-umbrella::before {\n  content: \"\\F054A\";\n}\n\n.mdi-umbrella-closed::before {\n  content: \"\\F09B0\";\n}\n\n.mdi-umbrella-closed-outline::before {\n  content: \"\\F13E2\";\n}\n\n.mdi-umbrella-closed-variant::before {\n  content: \"\\F13E1\";\n}\n\n.mdi-umbrella-outline::before {\n  content: \"\\F054B\";\n}\n\n.mdi-undo::before {\n  content: \"\\F054C\";\n}\n\n.mdi-undo-variant::before {\n  content: \"\\F054D\";\n}\n\n.mdi-unfold-less-horizontal::before {\n  content: \"\\F054E\";\n}\n\n.mdi-unfold-less-vertical::before {\n  content: \"\\F0760\";\n}\n\n.mdi-unfold-more-horizontal::before {\n  content: \"\\F054F\";\n}\n\n.mdi-unfold-more-vertical::before {\n  content: \"\\F0761\";\n}\n\n.mdi-ungroup::before {\n  content: \"\\F0550\";\n}\n\n.mdi-unicode::before {\n  content: \"\\F0ED0\";\n}\n\n.mdi-unity::before {\n  content: \"\\F06AF\";\n}\n\n.mdi-unreal::before {\n  content: \"\\F09B1\";\n}\n\n.mdi-untappd::before {\n  content: \"\\F0551\";\n}\n\n.mdi-update::before {\n  content: \"\\F06B0\";\n}\n\n.mdi-upload::before {\n  content: \"\\F0552\";\n}\n\n.mdi-upload-lock::before {\n  content: \"\\F1373\";\n}\n\n.mdi-upload-lock-outline::before {\n  content: \"\\F1374\";\n}\n\n.mdi-upload-multiple::before {\n  content: \"\\F083D\";\n}\n\n.mdi-upload-network::before {\n  content: \"\\F06F6\";\n}\n\n.mdi-upload-network-outline::before {\n  content: \"\\F0CD8\";\n}\n\n.mdi-upload-off::before {\n  content: \"\\F10C6\";\n}\n\n.mdi-upload-off-outline::before {\n  content: \"\\F10C7\";\n}\n\n.mdi-upload-outline::before {\n  content: \"\\F0E07\";\n}\n\n.mdi-usb::before {\n  content: \"\\F0553\";\n}\n\n.mdi-usb-flash-drive::before {\n  content: \"\\F129E\";\n}\n\n.mdi-usb-flash-drive-outline::before {\n  content: \"\\F129F\";\n}\n\n.mdi-usb-port::before {\n  content: \"\\F11F0\";\n}\n\n.mdi-valve::before {\n  content: \"\\F1066\";\n}\n\n.mdi-valve-closed::before {\n  content: \"\\F1067\";\n}\n\n.mdi-valve-open::before {\n  content: \"\\F1068\";\n}\n\n.mdi-van-passenger::before {\n  content: \"\\F07FA\";\n}\n\n.mdi-van-utility::before {\n  content: \"\\F07FB\";\n}\n\n.mdi-vanish::before {\n  content: \"\\F07FC\";\n}\n\n.mdi-vanish-quarter::before {\n  content: \"\\F1554\";\n}\n\n.mdi-vanity-light::before {\n  content: \"\\F11E1\";\n}\n\n.mdi-variable::before {\n  content: \"\\F0AE7\";\n}\n\n.mdi-variable-box::before {\n  content: \"\\F1111\";\n}\n\n.mdi-vector-arrange-above::before {\n  content: \"\\F0554\";\n}\n\n.mdi-vector-arrange-below::before {\n  content: \"\\F0555\";\n}\n\n.mdi-vector-bezier::before {\n  content: \"\\F0AE8\";\n}\n\n.mdi-vector-circle::before {\n  content: \"\\F0556\";\n}\n\n.mdi-vector-circle-variant::before {\n  content: \"\\F0557\";\n}\n\n.mdi-vector-combine::before {\n  content: \"\\F0558\";\n}\n\n.mdi-vector-curve::before {\n  content: \"\\F0559\";\n}\n\n.mdi-vector-difference::before {\n  content: \"\\F055A\";\n}\n\n.mdi-vector-difference-ab::before {\n  content: \"\\F055B\";\n}\n\n.mdi-vector-difference-ba::before {\n  content: \"\\F055C\";\n}\n\n.mdi-vector-ellipse::before {\n  content: \"\\F0893\";\n}\n\n.mdi-vector-intersection::before {\n  content: \"\\F055D\";\n}\n\n.mdi-vector-line::before {\n  content: \"\\F055E\";\n}\n\n.mdi-vector-link::before {\n  content: \"\\F0FE8\";\n}\n\n.mdi-vector-point::before {\n  content: \"\\F055F\";\n}\n\n.mdi-vector-polygon::before {\n  content: \"\\F0560\";\n}\n\n.mdi-vector-polyline::before {\n  content: \"\\F0561\";\n}\n\n.mdi-vector-polyline-edit::before {\n  content: \"\\F1225\";\n}\n\n.mdi-vector-polyline-minus::before {\n  content: \"\\F1226\";\n}\n\n.mdi-vector-polyline-plus::before {\n  content: \"\\F1227\";\n}\n\n.mdi-vector-polyline-remove::before {\n  content: \"\\F1228\";\n}\n\n.mdi-vector-radius::before {\n  content: \"\\F074A\";\n}\n\n.mdi-vector-rectangle::before {\n  content: \"\\F05C6\";\n}\n\n.mdi-vector-selection::before {\n  content: \"\\F0562\";\n}\n\n.mdi-vector-square::before {\n  content: \"\\F0001\";\n}\n\n.mdi-vector-triangle::before {\n  content: \"\\F0563\";\n}\n\n.mdi-vector-union::before {\n  content: \"\\F0564\";\n}\n\n.mdi-vhs::before {\n  content: \"\\F0A1B\";\n}\n\n.mdi-vibrate::before {\n  content: \"\\F0566\";\n}\n\n.mdi-vibrate-off::before {\n  content: \"\\F0CD9\";\n}\n\n.mdi-video::before {\n  content: \"\\F0567\";\n}\n\n.mdi-video-3d::before {\n  content: \"\\F07FD\";\n}\n\n.mdi-video-3d-off::before {\n  content: \"\\F13D9\";\n}\n\n.mdi-video-3d-variant::before {\n  content: \"\\F0ED1\";\n}\n\n.mdi-video-4k-box::before {\n  content: \"\\F083E\";\n}\n\n.mdi-video-account::before {\n  content: \"\\F0919\";\n}\n\n.mdi-video-box::before {\n  content: \"\\F00FD\";\n}\n\n.mdi-video-box-off::before {\n  content: \"\\F00FE\";\n}\n\n.mdi-video-check::before {\n  content: \"\\F1069\";\n}\n\n.mdi-video-check-outline::before {\n  content: \"\\F106A\";\n}\n\n.mdi-video-high-definition::before {\n  content: \"\\F152E\";\n}\n\n.mdi-video-image::before {\n  content: \"\\F091A\";\n}\n\n.mdi-video-input-antenna::before {\n  content: \"\\F083F\";\n}\n\n.mdi-video-input-component::before {\n  content: \"\\F0840\";\n}\n\n.mdi-video-input-hdmi::before {\n  content: \"\\F0841\";\n}\n\n.mdi-video-input-scart::before {\n  content: \"\\F0F8C\";\n}\n\n.mdi-video-input-svideo::before {\n  content: \"\\F0842\";\n}\n\n.mdi-video-minus::before {\n  content: \"\\F09B2\";\n}\n\n.mdi-video-minus-outline::before {\n  content: \"\\F02BA\";\n}\n\n.mdi-video-off::before {\n  content: \"\\F0568\";\n}\n\n.mdi-video-off-outline::before {\n  content: \"\\F0BDB\";\n}\n\n.mdi-video-outline::before {\n  content: \"\\F0BDC\";\n}\n\n.mdi-video-plus::before {\n  content: \"\\F09B3\";\n}\n\n.mdi-video-plus-outline::before {\n  content: \"\\F01D3\";\n}\n\n.mdi-video-stabilization::before {\n  content: \"\\F091B\";\n}\n\n.mdi-video-switch::before {\n  content: \"\\F0569\";\n}\n\n.mdi-video-switch-outline::before {\n  content: \"\\F0790\";\n}\n\n.mdi-video-vintage::before {\n  content: \"\\F0A1C\";\n}\n\n.mdi-video-wireless::before {\n  content: \"\\F0ED2\";\n}\n\n.mdi-video-wireless-outline::before {\n  content: \"\\F0ED3\";\n}\n\n.mdi-view-agenda::before {\n  content: \"\\F056A\";\n}\n\n.mdi-view-agenda-outline::before {\n  content: \"\\F11D8\";\n}\n\n.mdi-view-array::before {\n  content: \"\\F056B\";\n}\n\n.mdi-view-array-outline::before {\n  content: \"\\F1485\";\n}\n\n.mdi-view-carousel::before {\n  content: \"\\F056C\";\n}\n\n.mdi-view-carousel-outline::before {\n  content: \"\\F1486\";\n}\n\n.mdi-view-column::before {\n  content: \"\\F056D\";\n}\n\n.mdi-view-column-outline::before {\n  content: \"\\F1487\";\n}\n\n.mdi-view-comfy::before {\n  content: \"\\F0E6A\";\n}\n\n.mdi-view-comfy-outline::before {\n  content: \"\\F1488\";\n}\n\n.mdi-view-compact::before {\n  content: \"\\F0E6B\";\n}\n\n.mdi-view-compact-outline::before {\n  content: \"\\F0E6C\";\n}\n\n.mdi-view-dashboard::before {\n  content: \"\\F056E\";\n}\n\n.mdi-view-dashboard-outline::before {\n  content: \"\\F0A1D\";\n}\n\n.mdi-view-dashboard-variant::before {\n  content: \"\\F0843\";\n}\n\n.mdi-view-dashboard-variant-outline::before {\n  content: \"\\F1489\";\n}\n\n.mdi-view-day::before {\n  content: \"\\F056F\";\n}\n\n.mdi-view-day-outline::before {\n  content: \"\\F148A\";\n}\n\n.mdi-view-grid::before {\n  content: \"\\F0570\";\n}\n\n.mdi-view-grid-outline::before {\n  content: \"\\F11D9\";\n}\n\n.mdi-view-grid-plus::before {\n  content: \"\\F0F8D\";\n}\n\n.mdi-view-grid-plus-outline::before {\n  content: \"\\F11DA\";\n}\n\n.mdi-view-headline::before {\n  content: \"\\F0571\";\n}\n\n.mdi-view-list::before {\n  content: \"\\F0572\";\n}\n\n.mdi-view-list-outline::before {\n  content: \"\\F148B\";\n}\n\n.mdi-view-module::before {\n  content: \"\\F0573\";\n}\n\n.mdi-view-module-outline::before {\n  content: \"\\F148C\";\n}\n\n.mdi-view-parallel::before {\n  content: \"\\F0728\";\n}\n\n.mdi-view-parallel-outline::before {\n  content: \"\\F148D\";\n}\n\n.mdi-view-quilt::before {\n  content: \"\\F0574\";\n}\n\n.mdi-view-quilt-outline::before {\n  content: \"\\F148E\";\n}\n\n.mdi-view-sequential::before {\n  content: \"\\F0729\";\n}\n\n.mdi-view-sequential-outline::before {\n  content: \"\\F148F\";\n}\n\n.mdi-view-split-horizontal::before {\n  content: \"\\F0BCB\";\n}\n\n.mdi-view-split-vertical::before {\n  content: \"\\F0BCC\";\n}\n\n.mdi-view-stream::before {\n  content: \"\\F0575\";\n}\n\n.mdi-view-stream-outline::before {\n  content: \"\\F1490\";\n}\n\n.mdi-view-week::before {\n  content: \"\\F0576\";\n}\n\n.mdi-view-week-outline::before {\n  content: \"\\F1491\";\n}\n\n.mdi-vimeo::before {\n  content: \"\\F0577\";\n}\n\n.mdi-violin::before {\n  content: \"\\F060F\";\n}\n\n.mdi-virtual-reality::before {\n  content: \"\\F0894\";\n}\n\n.mdi-virus::before {\n  content: \"\\F13B6\";\n}\n\n.mdi-virus-outline::before {\n  content: \"\\F13B7\";\n}\n\n.mdi-vk::before {\n  content: \"\\F0579\";\n}\n\n.mdi-vlc::before {\n  content: \"\\F057C\";\n}\n\n.mdi-voice-off::before {\n  content: \"\\F0ED4\";\n}\n\n.mdi-voicemail::before {\n  content: \"\\F057D\";\n}\n\n.mdi-volleyball::before {\n  content: \"\\F09B4\";\n}\n\n.mdi-volume-high::before {\n  content: \"\\F057E\";\n}\n\n.mdi-volume-low::before {\n  content: \"\\F057F\";\n}\n\n.mdi-volume-medium::before {\n  content: \"\\F0580\";\n}\n\n.mdi-volume-minus::before {\n  content: \"\\F075E\";\n}\n\n.mdi-volume-mute::before {\n  content: \"\\F075F\";\n}\n\n.mdi-volume-off::before {\n  content: \"\\F0581\";\n}\n\n.mdi-volume-plus::before {\n  content: \"\\F075D\";\n}\n\n.mdi-volume-source::before {\n  content: \"\\F1120\";\n}\n\n.mdi-volume-variant-off::before {\n  content: \"\\F0E08\";\n}\n\n.mdi-volume-vibrate::before {\n  content: \"\\F1121\";\n}\n\n.mdi-vote::before {\n  content: \"\\F0A1F\";\n}\n\n.mdi-vote-outline::before {\n  content: \"\\F0A20\";\n}\n\n.mdi-vpn::before {\n  content: \"\\F0582\";\n}\n\n.mdi-vuejs::before {\n  content: \"\\F0844\";\n}\n\n.mdi-vuetify::before {\n  content: \"\\F0E6D\";\n}\n\n.mdi-walk::before {\n  content: \"\\F0583\";\n}\n\n.mdi-wall::before {\n  content: \"\\F07FE\";\n}\n\n.mdi-wall-sconce::before {\n  content: \"\\F091C\";\n}\n\n.mdi-wall-sconce-flat::before {\n  content: \"\\F091D\";\n}\n\n.mdi-wall-sconce-flat-variant::before {\n  content: \"\\F041C\";\n}\n\n.mdi-wall-sconce-round::before {\n  content: \"\\F0748\";\n}\n\n.mdi-wall-sconce-round-variant::before {\n  content: \"\\F091E\";\n}\n\n.mdi-wallet::before {\n  content: \"\\F0584\";\n}\n\n.mdi-wallet-giftcard::before {\n  content: \"\\F0585\";\n}\n\n.mdi-wallet-membership::before {\n  content: \"\\F0586\";\n}\n\n.mdi-wallet-outline::before {\n  content: \"\\F0BDD\";\n}\n\n.mdi-wallet-plus::before {\n  content: \"\\F0F8E\";\n}\n\n.mdi-wallet-plus-outline::before {\n  content: \"\\F0F8F\";\n}\n\n.mdi-wallet-travel::before {\n  content: \"\\F0587\";\n}\n\n.mdi-wallpaper::before {\n  content: \"\\F0E09\";\n}\n\n.mdi-wan::before {\n  content: \"\\F0588\";\n}\n\n.mdi-wardrobe::before {\n  content: \"\\F0F90\";\n}\n\n.mdi-wardrobe-outline::before {\n  content: \"\\F0F91\";\n}\n\n.mdi-warehouse::before {\n  content: \"\\F0F81\";\n}\n\n.mdi-washing-machine::before {\n  content: \"\\F072A\";\n}\n\n.mdi-washing-machine-alert::before {\n  content: \"\\F11BC\";\n}\n\n.mdi-washing-machine-off::before {\n  content: \"\\F11BD\";\n}\n\n.mdi-watch::before {\n  content: \"\\F0589\";\n}\n\n.mdi-watch-export::before {\n  content: \"\\F058A\";\n}\n\n.mdi-watch-export-variant::before {\n  content: \"\\F0895\";\n}\n\n.mdi-watch-import::before {\n  content: \"\\F058B\";\n}\n\n.mdi-watch-import-variant::before {\n  content: \"\\F0896\";\n}\n\n.mdi-watch-variant::before {\n  content: \"\\F0897\";\n}\n\n.mdi-watch-vibrate::before {\n  content: \"\\F06B1\";\n}\n\n.mdi-watch-vibrate-off::before {\n  content: \"\\F0CDA\";\n}\n\n.mdi-water::before {\n  content: \"\\F058C\";\n}\n\n.mdi-water-alert::before {\n  content: \"\\F1502\";\n}\n\n.mdi-water-alert-outline::before {\n  content: \"\\F1503\";\n}\n\n.mdi-water-boiler::before {\n  content: \"\\F0F92\";\n}\n\n.mdi-water-boiler-alert::before {\n  content: \"\\F11B3\";\n}\n\n.mdi-water-boiler-off::before {\n  content: \"\\F11B4\";\n}\n\n.mdi-water-check::before {\n  content: \"\\F1504\";\n}\n\n.mdi-water-check-outline::before {\n  content: \"\\F1505\";\n}\n\n.mdi-water-minus::before {\n  content: \"\\F1506\";\n}\n\n.mdi-water-minus-outline::before {\n  content: \"\\F1507\";\n}\n\n.mdi-water-off::before {\n  content: \"\\F058D\";\n}\n\n.mdi-water-off-outline::before {\n  content: \"\\F1508\";\n}\n\n.mdi-water-outline::before {\n  content: \"\\F0E0A\";\n}\n\n.mdi-water-percent::before {\n  content: \"\\F058E\";\n}\n\n.mdi-water-percent-alert::before {\n  content: \"\\F1509\";\n}\n\n.mdi-water-plus::before {\n  content: \"\\F150A\";\n}\n\n.mdi-water-plus-outline::before {\n  content: \"\\F150B\";\n}\n\n.mdi-water-polo::before {\n  content: \"\\F12A0\";\n}\n\n.mdi-water-pump::before {\n  content: \"\\F058F\";\n}\n\n.mdi-water-pump-off::before {\n  content: \"\\F0F93\";\n}\n\n.mdi-water-remove::before {\n  content: \"\\F150C\";\n}\n\n.mdi-water-remove-outline::before {\n  content: \"\\F150D\";\n}\n\n.mdi-water-well::before {\n  content: \"\\F106B\";\n}\n\n.mdi-water-well-outline::before {\n  content: \"\\F106C\";\n}\n\n.mdi-watering-can::before {\n  content: \"\\F1481\";\n}\n\n.mdi-watering-can-outline::before {\n  content: \"\\F1482\";\n}\n\n.mdi-watermark::before {\n  content: \"\\F0612\";\n}\n\n.mdi-wave::before {\n  content: \"\\F0F2E\";\n}\n\n.mdi-waveform::before {\n  content: \"\\F147D\";\n}\n\n.mdi-waves::before {\n  content: \"\\F078D\";\n}\n\n.mdi-waze::before {\n  content: \"\\F0BDE\";\n}\n\n.mdi-weather-cloudy::before {\n  content: \"\\F0590\";\n}\n\n.mdi-weather-cloudy-alert::before {\n  content: \"\\F0F2F\";\n}\n\n.mdi-weather-cloudy-arrow-right::before {\n  content: \"\\F0E6E\";\n}\n\n.mdi-weather-fog::before {\n  content: \"\\F0591\";\n}\n\n.mdi-weather-hail::before {\n  content: \"\\F0592\";\n}\n\n.mdi-weather-hazy::before {\n  content: \"\\F0F30\";\n}\n\n.mdi-weather-hurricane::before {\n  content: \"\\F0898\";\n}\n\n.mdi-weather-lightning::before {\n  content: \"\\F0593\";\n}\n\n.mdi-weather-lightning-rainy::before {\n  content: \"\\F067E\";\n}\n\n.mdi-weather-night::before {\n  content: \"\\F0594\";\n}\n\n.mdi-weather-night-partly-cloudy::before {\n  content: \"\\F0F31\";\n}\n\n.mdi-weather-partly-cloudy::before {\n  content: \"\\F0595\";\n}\n\n.mdi-weather-partly-lightning::before {\n  content: \"\\F0F32\";\n}\n\n.mdi-weather-partly-rainy::before {\n  content: \"\\F0F33\";\n}\n\n.mdi-weather-partly-snowy::before {\n  content: \"\\F0F34\";\n}\n\n.mdi-weather-partly-snowy-rainy::before {\n  content: \"\\F0F35\";\n}\n\n.mdi-weather-pouring::before {\n  content: \"\\F0596\";\n}\n\n.mdi-weather-rainy::before {\n  content: \"\\F0597\";\n}\n\n.mdi-weather-snowy::before {\n  content: \"\\F0598\";\n}\n\n.mdi-weather-snowy-heavy::before {\n  content: \"\\F0F36\";\n}\n\n.mdi-weather-snowy-rainy::before {\n  content: \"\\F067F\";\n}\n\n.mdi-weather-sunny::before {\n  content: \"\\F0599\";\n}\n\n.mdi-weather-sunny-alert::before {\n  content: \"\\F0F37\";\n}\n\n.mdi-weather-sunny-off::before {\n  content: \"\\F14E4\";\n}\n\n.mdi-weather-sunset::before {\n  content: \"\\F059A\";\n}\n\n.mdi-weather-sunset-down::before {\n  content: \"\\F059B\";\n}\n\n.mdi-weather-sunset-up::before {\n  content: \"\\F059C\";\n}\n\n.mdi-weather-tornado::before {\n  content: \"\\F0F38\";\n}\n\n.mdi-weather-windy::before {\n  content: \"\\F059D\";\n}\n\n.mdi-weather-windy-variant::before {\n  content: \"\\F059E\";\n}\n\n.mdi-web::before {\n  content: \"\\F059F\";\n}\n\n.mdi-web-box::before {\n  content: \"\\F0F94\";\n}\n\n.mdi-web-clock::before {\n  content: \"\\F124A\";\n}\n\n.mdi-webcam::before {\n  content: \"\\F05A0\";\n}\n\n.mdi-webhook::before {\n  content: \"\\F062F\";\n}\n\n.mdi-webpack::before {\n  content: \"\\F072B\";\n}\n\n.mdi-webrtc::before {\n  content: \"\\F1248\";\n}\n\n.mdi-wechat::before {\n  content: \"\\F0611\";\n}\n\n.mdi-weight::before {\n  content: \"\\F05A1\";\n}\n\n.mdi-weight-gram::before {\n  content: \"\\F0D3F\";\n}\n\n.mdi-weight-kilogram::before {\n  content: \"\\F05A2\";\n}\n\n.mdi-weight-lifter::before {\n  content: \"\\F115D\";\n}\n\n.mdi-weight-pound::before {\n  content: \"\\F09B5\";\n}\n\n.mdi-whatsapp::before {\n  content: \"\\F05A3\";\n}\n\n.mdi-wheel-barrow::before {\n  content: \"\\F14F2\";\n}\n\n.mdi-wheelchair-accessibility::before {\n  content: \"\\F05A4\";\n}\n\n.mdi-whistle::before {\n  content: \"\\F09B6\";\n}\n\n.mdi-whistle-outline::before {\n  content: \"\\F12BC\";\n}\n\n.mdi-white-balance-auto::before {\n  content: \"\\F05A5\";\n}\n\n.mdi-white-balance-incandescent::before {\n  content: \"\\F05A6\";\n}\n\n.mdi-white-balance-iridescent::before {\n  content: \"\\F05A7\";\n}\n\n.mdi-white-balance-sunny::before {\n  content: \"\\F05A8\";\n}\n\n.mdi-widgets::before {\n  content: \"\\F072C\";\n}\n\n.mdi-widgets-outline::before {\n  content: \"\\F1355\";\n}\n\n.mdi-wifi::before {\n  content: \"\\F05A9\";\n}\n\n.mdi-wifi-off::before {\n  content: \"\\F05AA\";\n}\n\n.mdi-wifi-star::before {\n  content: \"\\F0E0B\";\n}\n\n.mdi-wifi-strength-1::before {\n  content: \"\\F091F\";\n}\n\n.mdi-wifi-strength-1-alert::before {\n  content: \"\\F0920\";\n}\n\n.mdi-wifi-strength-1-lock::before {\n  content: \"\\F0921\";\n}\n\n.mdi-wifi-strength-2::before {\n  content: \"\\F0922\";\n}\n\n.mdi-wifi-strength-2-alert::before {\n  content: \"\\F0923\";\n}\n\n.mdi-wifi-strength-2-lock::before {\n  content: \"\\F0924\";\n}\n\n.mdi-wifi-strength-3::before {\n  content: \"\\F0925\";\n}\n\n.mdi-wifi-strength-3-alert::before {\n  content: \"\\F0926\";\n}\n\n.mdi-wifi-strength-3-lock::before {\n  content: \"\\F0927\";\n}\n\n.mdi-wifi-strength-4::before {\n  content: \"\\F0928\";\n}\n\n.mdi-wifi-strength-4-alert::before {\n  content: \"\\F0929\";\n}\n\n.mdi-wifi-strength-4-lock::before {\n  content: \"\\F092A\";\n}\n\n.mdi-wifi-strength-alert-outline::before {\n  content: \"\\F092B\";\n}\n\n.mdi-wifi-strength-lock-outline::before {\n  content: \"\\F092C\";\n}\n\n.mdi-wifi-strength-off::before {\n  content: \"\\F092D\";\n}\n\n.mdi-wifi-strength-off-outline::before {\n  content: \"\\F092E\";\n}\n\n.mdi-wifi-strength-outline::before {\n  content: \"\\F092F\";\n}\n\n.mdi-wikipedia::before {\n  content: \"\\F05AC\";\n}\n\n.mdi-wind-turbine::before {\n  content: \"\\F0DA5\";\n}\n\n.mdi-window-close::before {\n  content: \"\\F05AD\";\n}\n\n.mdi-window-closed::before {\n  content: \"\\F05AE\";\n}\n\n.mdi-window-closed-variant::before {\n  content: \"\\F11DB\";\n}\n\n.mdi-window-maximize::before {\n  content: \"\\F05AF\";\n}\n\n.mdi-window-minimize::before {\n  content: \"\\F05B0\";\n}\n\n.mdi-window-open::before {\n  content: \"\\F05B1\";\n}\n\n.mdi-window-open-variant::before {\n  content: \"\\F11DC\";\n}\n\n.mdi-window-restore::before {\n  content: \"\\F05B2\";\n}\n\n.mdi-window-shutter::before {\n  content: \"\\F111C\";\n}\n\n.mdi-window-shutter-alert::before {\n  content: \"\\F111D\";\n}\n\n.mdi-window-shutter-open::before {\n  content: \"\\F111E\";\n}\n\n.mdi-wiper::before {\n  content: \"\\F0AE9\";\n}\n\n.mdi-wiper-wash::before {\n  content: \"\\F0DA6\";\n}\n\n.mdi-wizard-hat::before {\n  content: \"\\F1477\";\n}\n\n.mdi-wordpress::before {\n  content: \"\\F05B4\";\n}\n\n.mdi-wrap::before {\n  content: \"\\F05B6\";\n}\n\n.mdi-wrap-disabled::before {\n  content: \"\\F0BDF\";\n}\n\n.mdi-wrench::before {\n  content: \"\\F05B7\";\n}\n\n.mdi-wrench-outline::before {\n  content: \"\\F0BE0\";\n}\n\n.mdi-xamarin::before {\n  content: \"\\F0845\";\n}\n\n.mdi-xamarin-outline::before {\n  content: \"\\F0846\";\n}\n\n.mdi-xing::before {\n  content: \"\\F05BE\";\n}\n\n.mdi-xml::before {\n  content: \"\\F05C0\";\n}\n\n.mdi-xmpp::before {\n  content: \"\\F07FF\";\n}\n\n.mdi-y-combinator::before {\n  content: \"\\F0624\";\n}\n\n.mdi-yahoo::before {\n  content: \"\\F0B4F\";\n}\n\n.mdi-yeast::before {\n  content: \"\\F05C1\";\n}\n\n.mdi-yin-yang::before {\n  content: \"\\F0680\";\n}\n\n.mdi-yoga::before {\n  content: \"\\F117C\";\n}\n\n.mdi-youtube::before {\n  content: \"\\F05C3\";\n}\n\n.mdi-youtube-gaming::before {\n  content: \"\\F0848\";\n}\n\n.mdi-youtube-studio::before {\n  content: \"\\F0847\";\n}\n\n.mdi-youtube-subscription::before {\n  content: \"\\F0D40\";\n}\n\n.mdi-youtube-tv::before {\n  content: \"\\F0448\";\n}\n\n.mdi-yurt::before {\n  content: \"\\F1516\";\n}\n\n.mdi-z-wave::before {\n  content: \"\\F0AEA\";\n}\n\n.mdi-zend::before {\n  content: \"\\F0AEB\";\n}\n\n.mdi-zigbee::before {\n  content: \"\\F0D41\";\n}\n\n.mdi-zip-box::before {\n  content: \"\\F05C4\";\n}\n\n.mdi-zip-box-outline::before {\n  content: \"\\F0FFA\";\n}\n\n.mdi-zip-disk::before {\n  content: \"\\F0A23\";\n}\n\n.mdi-zodiac-aquarius::before {\n  content: \"\\F0A7D\";\n}\n\n.mdi-zodiac-aries::before {\n  content: \"\\F0A7E\";\n}\n\n.mdi-zodiac-cancer::before {\n  content: \"\\F0A7F\";\n}\n\n.mdi-zodiac-capricorn::before {\n  content: \"\\F0A80\";\n}\n\n.mdi-zodiac-gemini::before {\n  content: \"\\F0A81\";\n}\n\n.mdi-zodiac-leo::before {\n  content: \"\\F0A82\";\n}\n\n.mdi-zodiac-libra::before {\n  content: \"\\F0A83\";\n}\n\n.mdi-zodiac-pisces::before {\n  content: \"\\F0A84\";\n}\n\n.mdi-zodiac-sagittarius::before {\n  content: \"\\F0A85\";\n}\n\n.mdi-zodiac-scorpio::before {\n  content: \"\\F0A86\";\n}\n\n.mdi-zodiac-taurus::before {\n  content: \"\\F0A87\";\n}\n\n.mdi-zodiac-virgo::before {\n  content: \"\\F0A88\";\n}\n\n.mdi-blank::before {\n  content: \"\\F68C\";\n  visibility: hidden;\n}\n\n.mdi-18px.mdi-set, .mdi-18px.mdi:before {\n  font-size: 18px;\n}\n\n.mdi-24px.mdi-set, .mdi-24px.mdi:before {\n  font-size: 24px;\n}\n\n.mdi-36px.mdi-set, .mdi-36px.mdi:before {\n  font-size: 36px;\n}\n\n.mdi-48px.mdi-set, .mdi-48px.mdi:before {\n  font-size: 48px;\n}\n\n.mdi-dark:before {\n  color: rgba(0, 0, 0, 0.54);\n}\n\n.mdi-dark.mdi-inactive:before {\n  color: rgba(0, 0, 0, 0.26);\n}\n\n.mdi-light:before {\n  color: white;\n}\n\n.mdi-light.mdi-inactive:before {\n  color: rgba(255, 255, 255, 0.3);\n}\n\n.mdi-rotate-45 {\n  /*\r\n        // Not included in production\r\n        &.mdi-flip-h:before {\r\n            -webkit-transform: scaleX(-1) rotate(45deg);\r\n            transform: scaleX(-1) rotate(45deg);\r\n            filter: FlipH;\r\n            -ms-filter: \"FlipH\";\r\n        }\r\n        &.mdi-flip-v:before {\r\n            -webkit-transform: scaleY(-1) rotate(45deg);\r\n            -ms-transform: rotate(45deg);\r\n            transform: scaleY(-1) rotate(45deg);\r\n            filter: FlipV;\r\n            -ms-filter: \"FlipV\";\r\n        }\r\n        */\n}\n\n.mdi-rotate-45:before {\n  transform: rotate(45deg);\n}\n\n.mdi-rotate-90 {\n  /*\r\n        // Not included in production\r\n        &.mdi-flip-h:before {\r\n            -webkit-transform: scaleX(-1) rotate(90deg);\r\n            transform: scaleX(-1) rotate(90deg);\r\n            filter: FlipH;\r\n            -ms-filter: \"FlipH\";\r\n        }\r\n        &.mdi-flip-v:before {\r\n            -webkit-transform: scaleY(-1) rotate(90deg);\r\n            -ms-transform: rotate(90deg);\r\n            transform: scaleY(-1) rotate(90deg);\r\n            filter: FlipV;\r\n            -ms-filter: \"FlipV\";\r\n        }\r\n        */\n}\n\n.mdi-rotate-90:before {\n  transform: rotate(90deg);\n}\n\n.mdi-rotate-135 {\n  /*\r\n        // Not included in production\r\n        &.mdi-flip-h:before {\r\n            -webkit-transform: scaleX(-1) rotate(135deg);\r\n            transform: scaleX(-1) rotate(135deg);\r\n            filter: FlipH;\r\n            -ms-filter: \"FlipH\";\r\n        }\r\n        &.mdi-flip-v:before {\r\n            -webkit-transform: scaleY(-1) rotate(135deg);\r\n            -ms-transform: rotate(135deg);\r\n            transform: scaleY(-1) rotate(135deg);\r\n            filter: FlipV;\r\n            -ms-filter: \"FlipV\";\r\n        }\r\n        */\n}\n\n.mdi-rotate-135:before {\n  transform: rotate(135deg);\n}\n\n.mdi-rotate-180 {\n  /*\r\n        // Not included in production\r\n        &.mdi-flip-h:before {\r\n            -webkit-transform: scaleX(-1) rotate(180deg);\r\n            transform: scaleX(-1) rotate(180deg);\r\n            filter: FlipH;\r\n            -ms-filter: \"FlipH\";\r\n        }\r\n        &.mdi-flip-v:before {\r\n            -webkit-transform: scaleY(-1) rotate(180deg);\r\n            -ms-transform: rotate(180deg);\r\n            transform: scaleY(-1) rotate(180deg);\r\n            filter: FlipV;\r\n            -ms-filter: \"FlipV\";\r\n        }\r\n        */\n}\n\n.mdi-rotate-180:before {\n  transform: rotate(180deg);\n}\n\n.mdi-rotate-225 {\n  /*\r\n        // Not included in production\r\n        &.mdi-flip-h:before {\r\n            -webkit-transform: scaleX(-1) rotate(225deg);\r\n            transform: scaleX(-1) rotate(225deg);\r\n            filter: FlipH;\r\n            -ms-filter: \"FlipH\";\r\n        }\r\n        &.mdi-flip-v:before {\r\n            -webkit-transform: scaleY(-1) rotate(225deg);\r\n            -ms-transform: rotate(225deg);\r\n            transform: scaleY(-1) rotate(225deg);\r\n            filter: FlipV;\r\n            -ms-filter: \"FlipV\";\r\n        }\r\n        */\n}\n\n.mdi-rotate-225:before {\n  transform: rotate(225deg);\n}\n\n.mdi-rotate-270 {\n  /*\r\n        // Not included in production\r\n        &.mdi-flip-h:before {\r\n            -webkit-transform: scaleX(-1) rotate(270deg);\r\n            transform: scaleX(-1) rotate(270deg);\r\n            filter: FlipH;\r\n            -ms-filter: \"FlipH\";\r\n        }\r\n        &.mdi-flip-v:before {\r\n            -webkit-transform: scaleY(-1) rotate(270deg);\r\n            -ms-transform: rotate(270deg);\r\n            transform: scaleY(-1) rotate(270deg);\r\n            filter: FlipV;\r\n            -ms-filter: \"FlipV\";\r\n        }\r\n        */\n}\n\n.mdi-rotate-270:before {\n  transform: rotate(270deg);\n}\n\n.mdi-rotate-315 {\n  /*\r\n        // Not included in production\r\n        &.mdi-flip-h:before {\r\n            -webkit-transform: scaleX(-1) rotate(315deg);\r\n            transform: scaleX(-1) rotate(315deg);\r\n            filter: FlipH;\r\n            -ms-filter: \"FlipH\";\r\n        }\r\n        &.mdi-flip-v:before {\r\n            -webkit-transform: scaleY(-1) rotate(315deg);\r\n            -ms-transform: rotate(315deg);\r\n            transform: scaleY(-1) rotate(315deg);\r\n            filter: FlipV;\r\n            -ms-filter: \"FlipV\";\r\n        }\r\n        */\n}\n\n.mdi-rotate-315:before {\n  transform: rotate(315deg);\n}\n\n.mdi-flip-h:before {\n  transform: scaleX(-1);\n  -webkit-filter: FlipH;\n          filter: FlipH;\n  -ms-filter: \"FlipH\";\n}\n\n.mdi-flip-v:before {\n  transform: scaleY(-1);\n  -webkit-filter: FlipV;\n          filter: FlipV;\n  -ms-filter: \"FlipV\";\n}\n\n.mdi-spin:before {\n  -webkit-animation: mdi-spin 2s infinite linear;\n  animation: mdi-spin 2s infinite linear;\n}\n\n@-webkit-keyframes mdi-spin {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(359deg);\n  }\n}\n\n@keyframes mdi-spin {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(359deg);\n  }\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/material-design-icons-iconfont/dist/material-design-icons.css":
+/*!********************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/postcss-loader/src??ref--6-2!./node_modules/material-design-icons-iconfont/dist/material-design-icons.css ***!
+  \********************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+var escape = __webpack_require__(/*! ../../css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
+exports = module.exports = __webpack_require__(/*! ../../css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "@charset \"UTF-8\";\r\n@font-face {\r\n  font-family: 'Material Icons';\r\n  font-style: normal;\r\n  font-weight: 400;\r\n  font-display: block;\r\n  src: url(" + escape(__webpack_require__(/*! ./fonts/MaterialIcons-Regular.eot */ "./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.eot")) + ");\r\n  /* For IE6-8 */\r\n  src: local(\"\\263A\"), url(" + escape(__webpack_require__(/*! ./fonts/MaterialIcons-Regular.woff2 */ "./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.woff2")) + ") format(\"woff2\"), url(" + escape(__webpack_require__(/*! ./fonts/MaterialIcons-Regular.woff */ "./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.woff")) + ") format(\"woff\"), url(" + escape(__webpack_require__(/*! ./fonts/MaterialIcons-Regular.ttf */ "./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.ttf")) + ") format(\"truetype\"); }\r\n\r\n.material-icons {\r\n  font-family: 'Material Icons';\r\n  font-weight: normal;\r\n  font-style: normal;\r\n  font-size: 24px;\r\n  /* Preferred icon size */\r\n  display: inline-block;\r\n  line-height: 1;\r\n  text-transform: none;\r\n  letter-spacing: normal;\r\n  word-wrap: normal;\r\n  white-space: nowrap;\r\n  direction: ltr;\r\n  /* Support for all WebKit browsers. */\r\n  -webkit-font-smoothing: antialiased;\r\n  /* Support for Safari and Chrome. */\r\n  text-rendering: optimizeLegibility;\r\n  /* Support for Firefox. */\r\n  -moz-osx-font-smoothing: grayscale;\r\n  /* Support for IE. */\r\n  font-feature-settings: 'liga'; }\r\n  .material-icons._10k:before {\r\n    content: \"\\E951\"; }\r\n  .material-icons._10mp:before {\r\n    content: \"\\E952\"; }\r\n  .material-icons._11mp:before {\r\n    content: \"\\E953\"; }\r\n  .material-icons._12mp:before {\r\n    content: \"\\E954\"; }\r\n  .material-icons._13mp:before {\r\n    content: \"\\E955\"; }\r\n  .material-icons._14mp:before {\r\n    content: \"\\E956\"; }\r\n  .material-icons._15mp:before {\r\n    content: \"\\E957\"; }\r\n  .material-icons._16mp:before {\r\n    content: \"\\E958\"; }\r\n  .material-icons._17mp:before {\r\n    content: \"\\E959\"; }\r\n  .material-icons._18mp:before {\r\n    content: \"\\E95A\"; }\r\n  .material-icons._19mp:before {\r\n    content: \"\\E95B\"; }\r\n  .material-icons._1k:before {\r\n    content: \"\\E95C\"; }\r\n  .material-icons._1k_plus:before {\r\n    content: \"\\E95D\"; }\r\n  .material-icons._20mp:before {\r\n    content: \"\\E95E\"; }\r\n  .material-icons._21mp:before {\r\n    content: \"\\E95F\"; }\r\n  .material-icons._22mp:before {\r\n    content: \"\\E960\"; }\r\n  .material-icons._23mp:before {\r\n    content: \"\\E961\"; }\r\n  .material-icons._24mp:before {\r\n    content: \"\\E962\"; }\r\n  .material-icons._2k:before {\r\n    content: \"\\E963\"; }\r\n  .material-icons._2k_plus:before {\r\n    content: \"\\E964\"; }\r\n  .material-icons._2mp:before {\r\n    content: \"\\E965\"; }\r\n  .material-icons._360:before {\r\n    content: \"\\E577\"; }\r\n  .material-icons._3d_rotation:before {\r\n    content: \"\\E84D\"; }\r\n  .material-icons._3k:before {\r\n    content: \"\\E966\"; }\r\n  .material-icons._3k_plus:before {\r\n    content: \"\\E967\"; }\r\n  .material-icons._3mp:before {\r\n    content: \"\\E968\"; }\r\n  .material-icons._4k:before {\r\n    content: \"\\E072\"; }\r\n  .material-icons._4k_plus:before {\r\n    content: \"\\E969\"; }\r\n  .material-icons._4mp:before {\r\n    content: \"\\E96A\"; }\r\n  .material-icons._5k:before {\r\n    content: \"\\E96B\"; }\r\n  .material-icons._5k_plus:before {\r\n    content: \"\\E96C\"; }\r\n  .material-icons._5mp:before {\r\n    content: \"\\E96D\"; }\r\n  .material-icons._6k:before {\r\n    content: \"\\E96E\"; }\r\n  .material-icons._6k_plus:before {\r\n    content: \"\\E96F\"; }\r\n  .material-icons._6mp:before {\r\n    content: \"\\E970\"; }\r\n  .material-icons._7k:before {\r\n    content: \"\\E971\"; }\r\n  .material-icons._7k_plus:before {\r\n    content: \"\\E972\"; }\r\n  .material-icons._7mp:before {\r\n    content: \"\\E973\"; }\r\n  .material-icons._8k:before {\r\n    content: \"\\E974\"; }\r\n  .material-icons._8k_plus:before {\r\n    content: \"\\E975\"; }\r\n  .material-icons._8mp:before {\r\n    content: \"\\E976\"; }\r\n  .material-icons._9k:before {\r\n    content: \"\\E977\"; }\r\n  .material-icons._9k_plus:before {\r\n    content: \"\\E978\"; }\r\n  .material-icons._9mp:before {\r\n    content: \"\\E979\"; }\r\n  .material-icons.ac_unit:before {\r\n    content: \"\\EB3B\"; }\r\n  .material-icons.access_alarm:before {\r\n    content: \"\\E190\"; }\r\n  .material-icons.access_alarms:before {\r\n    content: \"\\E191\"; }\r\n  .material-icons.access_time:before {\r\n    content: \"\\E192\"; }\r\n  .material-icons.accessibility:before {\r\n    content: \"\\E84E\"; }\r\n  .material-icons.accessibility_new:before {\r\n    content: \"\\E92C\"; }\r\n  .material-icons.accessible:before {\r\n    content: \"\\E914\"; }\r\n  .material-icons.accessible_forward:before {\r\n    content: \"\\E934\"; }\r\n  .material-icons.account_balance:before {\r\n    content: \"\\E84F\"; }\r\n  .material-icons.account_balance_wallet:before {\r\n    content: \"\\E850\"; }\r\n  .material-icons.account_box:before {\r\n    content: \"\\E851\"; }\r\n  .material-icons.account_circle:before {\r\n    content: \"\\E853\"; }\r\n  .material-icons.account_tree:before {\r\n    content: \"\\E97A\"; }\r\n  .material-icons.adb:before {\r\n    content: \"\\E60E\"; }\r\n  .material-icons.add:before {\r\n    content: \"\\E145\"; }\r\n  .material-icons.add_a_photo:before {\r\n    content: \"\\E439\"; }\r\n  .material-icons.add_alarm:before {\r\n    content: \"\\E193\"; }\r\n  .material-icons.add_alert:before {\r\n    content: \"\\E003\"; }\r\n  .material-icons.add_box:before {\r\n    content: \"\\E146\"; }\r\n  .material-icons.add_call:before {\r\n    content: \"\\E0E8\"; }\r\n  .material-icons.add_chart:before {\r\n    content: \"\\E97B\"; }\r\n  .material-icons.add_circle:before {\r\n    content: \"\\E147\"; }\r\n  .material-icons.add_circle_outline:before {\r\n    content: \"\\E148\"; }\r\n  .material-icons.add_comment:before {\r\n    content: \"\\E266\"; }\r\n  .material-icons.add_ic_call:before {\r\n    content: \"\\E97C\"; }\r\n  .material-icons.add_link:before {\r\n    content: \"\\E178\"; }\r\n  .material-icons.add_location:before {\r\n    content: \"\\E567\"; }\r\n  .material-icons.add_moderator:before {\r\n    content: \"\\E97D\"; }\r\n  .material-icons.add_photo_alternate:before {\r\n    content: \"\\E43E\"; }\r\n  .material-icons.add_shopping_cart:before {\r\n    content: \"\\E854\"; }\r\n  .material-icons.add_to_home_screen:before {\r\n    content: \"\\E1FE\"; }\r\n  .material-icons.add_to_photos:before {\r\n    content: \"\\E39D\"; }\r\n  .material-icons.add_to_queue:before {\r\n    content: \"\\E05C\"; }\r\n  .material-icons.adjust:before {\r\n    content: \"\\E39E\"; }\r\n  .material-icons.airline_seat_flat:before {\r\n    content: \"\\E630\"; }\r\n  .material-icons.airline_seat_flat_angled:before {\r\n    content: \"\\E631\"; }\r\n  .material-icons.airline_seat_individual_suite:before {\r\n    content: \"\\E632\"; }\r\n  .material-icons.airline_seat_legroom_extra:before {\r\n    content: \"\\E633\"; }\r\n  .material-icons.airline_seat_legroom_normal:before {\r\n    content: \"\\E634\"; }\r\n  .material-icons.airline_seat_legroom_reduced:before {\r\n    content: \"\\E635\"; }\r\n  .material-icons.airline_seat_recline_extra:before {\r\n    content: \"\\E636\"; }\r\n  .material-icons.airline_seat_recline_normal:before {\r\n    content: \"\\E637\"; }\r\n  .material-icons.airplanemode_active:before {\r\n    content: \"\\E195\"; }\r\n  .material-icons.airplanemode_inactive:before {\r\n    content: \"\\E194\"; }\r\n  .material-icons.airplanemode_off:before {\r\n    content: \"\\E194\"; }\r\n  .material-icons.airplanemode_on:before {\r\n    content: \"\\E195\"; }\r\n  .material-icons.airplay:before {\r\n    content: \"\\E055\"; }\r\n  .material-icons.airport_shuttle:before {\r\n    content: \"\\EB3C\"; }\r\n  .material-icons.alarm:before {\r\n    content: \"\\E855\"; }\r\n  .material-icons.alarm_add:before {\r\n    content: \"\\E856\"; }\r\n  .material-icons.alarm_off:before {\r\n    content: \"\\E857\"; }\r\n  .material-icons.alarm_on:before {\r\n    content: \"\\E858\"; }\r\n  .material-icons.album:before {\r\n    content: \"\\E019\"; }\r\n  .material-icons.all_inbox:before {\r\n    content: \"\\E97F\"; }\r\n  .material-icons.all_inclusive:before {\r\n    content: \"\\EB3D\"; }\r\n  .material-icons.all_out:before {\r\n    content: \"\\E90B\"; }\r\n  .material-icons.alternate_email:before {\r\n    content: \"\\E0E6\"; }\r\n  .material-icons.amp_stories:before {\r\n    content: \"\\EA13\"; }\r\n  .material-icons.android:before {\r\n    content: \"\\E859\"; }\r\n  .material-icons.announcement:before {\r\n    content: \"\\E85A\"; }\r\n  .material-icons.apartment:before {\r\n    content: \"\\EA40\"; }\r\n  .material-icons.approval:before {\r\n    content: \"\\E982\"; }\r\n  .material-icons.apps:before {\r\n    content: \"\\E5C3\"; }\r\n  .material-icons.archive:before {\r\n    content: \"\\E149\"; }\r\n  .material-icons.arrow_back:before {\r\n    content: \"\\E5C4\"; }\r\n  .material-icons.arrow_back_ios:before {\r\n    content: \"\\E5E0\"; }\r\n  .material-icons.arrow_downward:before {\r\n    content: \"\\E5DB\"; }\r\n  .material-icons.arrow_drop_down:before {\r\n    content: \"\\E5C5\"; }\r\n  .material-icons.arrow_drop_down_circle:before {\r\n    content: \"\\E5C6\"; }\r\n  .material-icons.arrow_drop_up:before {\r\n    content: \"\\E5C7\"; }\r\n  .material-icons.arrow_forward:before {\r\n    content: \"\\E5C8\"; }\r\n  .material-icons.arrow_forward_ios:before {\r\n    content: \"\\E5E1\"; }\r\n  .material-icons.arrow_left:before {\r\n    content: \"\\E5DE\"; }\r\n  .material-icons.arrow_right:before {\r\n    content: \"\\E5DF\"; }\r\n  .material-icons.arrow_right_alt:before {\r\n    content: \"\\E941\"; }\r\n  .material-icons.arrow_upward:before {\r\n    content: \"\\E5D8\"; }\r\n  .material-icons.art_track:before {\r\n    content: \"\\E060\"; }\r\n  .material-icons.aspect_ratio:before {\r\n    content: \"\\E85B\"; }\r\n  .material-icons.assessment:before {\r\n    content: \"\\E85C\"; }\r\n  .material-icons.assignment:before {\r\n    content: \"\\E85D\"; }\r\n  .material-icons.assignment_ind:before {\r\n    content: \"\\E85E\"; }\r\n  .material-icons.assignment_late:before {\r\n    content: \"\\E85F\"; }\r\n  .material-icons.assignment_return:before {\r\n    content: \"\\E860\"; }\r\n  .material-icons.assignment_returned:before {\r\n    content: \"\\E861\"; }\r\n  .material-icons.assignment_turned_in:before {\r\n    content: \"\\E862\"; }\r\n  .material-icons.assistant:before {\r\n    content: \"\\E39F\"; }\r\n  .material-icons.assistant_direction:before {\r\n    content: \"\\E988\"; }\r\n  .material-icons.assistant_navigation:before {\r\n    content: \"\\E989\"; }\r\n  .material-icons.assistant_photo:before {\r\n    content: \"\\E3A0\"; }\r\n  .material-icons.atm:before {\r\n    content: \"\\E573\"; }\r\n  .material-icons.attach_file:before {\r\n    content: \"\\E226\"; }\r\n  .material-icons.attach_money:before {\r\n    content: \"\\E227\"; }\r\n  .material-icons.attachment:before {\r\n    content: \"\\E2BC\"; }\r\n  .material-icons.attractions:before {\r\n    content: \"\\EA52\"; }\r\n  .material-icons.audiotrack:before {\r\n    content: \"\\E3A1\"; }\r\n  .material-icons.autorenew:before {\r\n    content: \"\\E863\"; }\r\n  .material-icons.av_timer:before {\r\n    content: \"\\E01B\"; }\r\n  .material-icons.backspace:before {\r\n    content: \"\\E14A\"; }\r\n  .material-icons.backup:before {\r\n    content: \"\\E864\"; }\r\n  .material-icons.badge:before {\r\n    content: \"\\EA67\"; }\r\n  .material-icons.bakery_dining:before {\r\n    content: \"\\EA53\"; }\r\n  .material-icons.ballot:before {\r\n    content: \"\\E172\"; }\r\n  .material-icons.bar_chart:before {\r\n    content: \"\\E26B\"; }\r\n  .material-icons.bathtub:before {\r\n    content: \"\\EA41\"; }\r\n  .material-icons.battery_alert:before {\r\n    content: \"\\E19C\"; }\r\n  .material-icons.battery_charging_full:before {\r\n    content: \"\\E1A3\"; }\r\n  .material-icons.battery_full:before {\r\n    content: \"\\E1A4\"; }\r\n  .material-icons.battery_std:before {\r\n    content: \"\\E1A5\"; }\r\n  .material-icons.battery_unknown:before {\r\n    content: \"\\E1A6\"; }\r\n  .material-icons.beach_access:before {\r\n    content: \"\\EB3E\"; }\r\n  .material-icons.beenhere:before {\r\n    content: \"\\E52D\"; }\r\n  .material-icons.block:before {\r\n    content: \"\\E14B\"; }\r\n  .material-icons.bluetooth:before {\r\n    content: \"\\E1A7\"; }\r\n  .material-icons.bluetooth_audio:before {\r\n    content: \"\\E60F\"; }\r\n  .material-icons.bluetooth_connected:before {\r\n    content: \"\\E1A8\"; }\r\n  .material-icons.bluetooth_disabled:before {\r\n    content: \"\\E1A9\"; }\r\n  .material-icons.bluetooth_searching:before {\r\n    content: \"\\E1AA\"; }\r\n  .material-icons.blur_circular:before {\r\n    content: \"\\E3A2\"; }\r\n  .material-icons.blur_linear:before {\r\n    content: \"\\E3A3\"; }\r\n  .material-icons.blur_off:before {\r\n    content: \"\\E3A4\"; }\r\n  .material-icons.blur_on:before {\r\n    content: \"\\E3A5\"; }\r\n  .material-icons.bolt:before {\r\n    content: \"\\EA0B\"; }\r\n  .material-icons.book:before {\r\n    content: \"\\E865\"; }\r\n  .material-icons.bookmark:before {\r\n    content: \"\\E866\"; }\r\n  .material-icons.bookmark_border:before {\r\n    content: \"\\E867\"; }\r\n  .material-icons.bookmark_outline:before {\r\n    content: \"\\E867\"; }\r\n  .material-icons.bookmarks:before {\r\n    content: \"\\E98B\"; }\r\n  .material-icons.border_all:before {\r\n    content: \"\\E228\"; }\r\n  .material-icons.border_bottom:before {\r\n    content: \"\\E229\"; }\r\n  .material-icons.border_clear:before {\r\n    content: \"\\E22A\"; }\r\n  .material-icons.border_color:before {\r\n    content: \"\\E22B\"; }\r\n  .material-icons.border_horizontal:before {\r\n    content: \"\\E22C\"; }\r\n  .material-icons.border_inner:before {\r\n    content: \"\\E22D\"; }\r\n  .material-icons.border_left:before {\r\n    content: \"\\E22E\"; }\r\n  .material-icons.border_outer:before {\r\n    content: \"\\E22F\"; }\r\n  .material-icons.border_right:before {\r\n    content: \"\\E230\"; }\r\n  .material-icons.border_style:before {\r\n    content: \"\\E231\"; }\r\n  .material-icons.border_top:before {\r\n    content: \"\\E232\"; }\r\n  .material-icons.border_vertical:before {\r\n    content: \"\\E233\"; }\r\n  .material-icons.branding_watermark:before {\r\n    content: \"\\E06B\"; }\r\n  .material-icons.breakfast_dining:before {\r\n    content: \"\\EA54\"; }\r\n  .material-icons.brightness_1:before {\r\n    content: \"\\E3A6\"; }\r\n  .material-icons.brightness_2:before {\r\n    content: \"\\E3A7\"; }\r\n  .material-icons.brightness_3:before {\r\n    content: \"\\E3A8\"; }\r\n  .material-icons.brightness_4:before {\r\n    content: \"\\E3A9\"; }\r\n  .material-icons.brightness_5:before {\r\n    content: \"\\E3AA\"; }\r\n  .material-icons.brightness_6:before {\r\n    content: \"\\E3AB\"; }\r\n  .material-icons.brightness_7:before {\r\n    content: \"\\E3AC\"; }\r\n  .material-icons.brightness_auto:before {\r\n    content: \"\\E1AB\"; }\r\n  .material-icons.brightness_high:before {\r\n    content: \"\\E1AC\"; }\r\n  .material-icons.brightness_low:before {\r\n    content: \"\\E1AD\"; }\r\n  .material-icons.brightness_medium:before {\r\n    content: \"\\E1AE\"; }\r\n  .material-icons.broken_image:before {\r\n    content: \"\\E3AD\"; }\r\n  .material-icons.brunch_dining:before {\r\n    content: \"\\EA73\"; }\r\n  .material-icons.brush:before {\r\n    content: \"\\E3AE\"; }\r\n  .material-icons.bubble_chart:before {\r\n    content: \"\\E6DD\"; }\r\n  .material-icons.bug_report:before {\r\n    content: \"\\E868\"; }\r\n  .material-icons.build:before {\r\n    content: \"\\E869\"; }\r\n  .material-icons.burst_mode:before {\r\n    content: \"\\E43C\"; }\r\n  .material-icons.bus_alert:before {\r\n    content: \"\\E98F\"; }\r\n  .material-icons.business:before {\r\n    content: \"\\E0AF\"; }\r\n  .material-icons.business_center:before {\r\n    content: \"\\EB3F\"; }\r\n  .material-icons.cached:before {\r\n    content: \"\\E86A\"; }\r\n  .material-icons.cake:before {\r\n    content: \"\\E7E9\"; }\r\n  .material-icons.calendar_today:before {\r\n    content: \"\\E935\"; }\r\n  .material-icons.calendar_view_day:before {\r\n    content: \"\\E936\"; }\r\n  .material-icons.call:before {\r\n    content: \"\\E0B0\"; }\r\n  .material-icons.call_end:before {\r\n    content: \"\\E0B1\"; }\r\n  .material-icons.call_made:before {\r\n    content: \"\\E0B2\"; }\r\n  .material-icons.call_merge:before {\r\n    content: \"\\E0B3\"; }\r\n  .material-icons.call_missed:before {\r\n    content: \"\\E0B4\"; }\r\n  .material-icons.call_missed_outgoing:before {\r\n    content: \"\\E0E4\"; }\r\n  .material-icons.call_received:before {\r\n    content: \"\\E0B5\"; }\r\n  .material-icons.call_split:before {\r\n    content: \"\\E0B6\"; }\r\n  .material-icons.call_to_action:before {\r\n    content: \"\\E06C\"; }\r\n  .material-icons.camera:before {\r\n    content: \"\\E3AF\"; }\r\n  .material-icons.camera_alt:before {\r\n    content: \"\\E3B0\"; }\r\n  .material-icons.camera_enhance:before {\r\n    content: \"\\E8FC\"; }\r\n  .material-icons.camera_front:before {\r\n    content: \"\\E3B1\"; }\r\n  .material-icons.camera_rear:before {\r\n    content: \"\\E3B2\"; }\r\n  .material-icons.camera_roll:before {\r\n    content: \"\\E3B3\"; }\r\n  .material-icons.cancel:before {\r\n    content: \"\\E5C9\"; }\r\n  .material-icons.cancel_presentation:before {\r\n    content: \"\\E0E9\"; }\r\n  .material-icons.cancel_schedule_send:before {\r\n    content: \"\\EA39\"; }\r\n  .material-icons.car_rental:before {\r\n    content: \"\\EA55\"; }\r\n  .material-icons.car_repair:before {\r\n    content: \"\\EA56\"; }\r\n  .material-icons.card_giftcard:before {\r\n    content: \"\\E8F6\"; }\r\n  .material-icons.card_membership:before {\r\n    content: \"\\E8F7\"; }\r\n  .material-icons.card_travel:before {\r\n    content: \"\\E8F8\"; }\r\n  .material-icons.cases:before {\r\n    content: \"\\E992\"; }\r\n  .material-icons.casino:before {\r\n    content: \"\\EB40\"; }\r\n  .material-icons.cast:before {\r\n    content: \"\\E307\"; }\r\n  .material-icons.cast_connected:before {\r\n    content: \"\\E308\"; }\r\n  .material-icons.category:before {\r\n    content: \"\\E574\"; }\r\n  .material-icons.celebration:before {\r\n    content: \"\\EA65\"; }\r\n  .material-icons.cell_wifi:before {\r\n    content: \"\\E0EC\"; }\r\n  .material-icons.center_focus_strong:before {\r\n    content: \"\\E3B4\"; }\r\n  .material-icons.center_focus_weak:before {\r\n    content: \"\\E3B5\"; }\r\n  .material-icons.change_history:before {\r\n    content: \"\\E86B\"; }\r\n  .material-icons.chat:before {\r\n    content: \"\\E0B7\"; }\r\n  .material-icons.chat_bubble:before {\r\n    content: \"\\E0CA\"; }\r\n  .material-icons.chat_bubble_outline:before {\r\n    content: \"\\E0CB\"; }\r\n  .material-icons.check:before {\r\n    content: \"\\E5CA\"; }\r\n  .material-icons.check_box:before {\r\n    content: \"\\E834\"; }\r\n  .material-icons.check_box_outline_blank:before {\r\n    content: \"\\E835\"; }\r\n  .material-icons.check_circle:before {\r\n    content: \"\\E86C\"; }\r\n  .material-icons.check_circle_outline:before {\r\n    content: \"\\E92D\"; }\r\n  .material-icons.chevron_left:before {\r\n    content: \"\\E5CB\"; }\r\n  .material-icons.chevron_right:before {\r\n    content: \"\\E5CC\"; }\r\n  .material-icons.child_care:before {\r\n    content: \"\\EB41\"; }\r\n  .material-icons.child_friendly:before {\r\n    content: \"\\EB42\"; }\r\n  .material-icons.chrome_reader_mode:before {\r\n    content: \"\\E86D\"; }\r\n  .material-icons.circle_notifications:before {\r\n    content: \"\\E994\"; }\r\n  .material-icons.class:before {\r\n    content: \"\\E86E\"; }\r\n  .material-icons.clear:before {\r\n    content: \"\\E14C\"; }\r\n  .material-icons.clear_all:before {\r\n    content: \"\\E0B8\"; }\r\n  .material-icons.close:before {\r\n    content: \"\\E5CD\"; }\r\n  .material-icons.closed_caption:before {\r\n    content: \"\\E01C\"; }\r\n  .material-icons.closed_caption_off:before {\r\n    content: \"\\E996\"; }\r\n  .material-icons.cloud:before {\r\n    content: \"\\E2BD\"; }\r\n  .material-icons.cloud_circle:before {\r\n    content: \"\\E2BE\"; }\r\n  .material-icons.cloud_done:before {\r\n    content: \"\\E2BF\"; }\r\n  .material-icons.cloud_download:before {\r\n    content: \"\\E2C0\"; }\r\n  .material-icons.cloud_off:before {\r\n    content: \"\\E2C1\"; }\r\n  .material-icons.cloud_queue:before {\r\n    content: \"\\E2C2\"; }\r\n  .material-icons.cloud_upload:before {\r\n    content: \"\\E2C3\"; }\r\n  .material-icons.code:before {\r\n    content: \"\\E86F\"; }\r\n  .material-icons.collections:before {\r\n    content: \"\\E3B6\"; }\r\n  .material-icons.collections_bookmark:before {\r\n    content: \"\\E431\"; }\r\n  .material-icons.color_lens:before {\r\n    content: \"\\E3B7\"; }\r\n  .material-icons.colorize:before {\r\n    content: \"\\E3B8\"; }\r\n  .material-icons.comment:before {\r\n    content: \"\\E0B9\"; }\r\n  .material-icons.commute:before {\r\n    content: \"\\E940\"; }\r\n  .material-icons.compare:before {\r\n    content: \"\\E3B9\"; }\r\n  .material-icons.compare_arrows:before {\r\n    content: \"\\E915\"; }\r\n  .material-icons.compass_calibration:before {\r\n    content: \"\\E57C\"; }\r\n  .material-icons.compress:before {\r\n    content: \"\\E94D\"; }\r\n  .material-icons.computer:before {\r\n    content: \"\\E30A\"; }\r\n  .material-icons.confirmation_num:before {\r\n    content: \"\\E638\"; }\r\n  .material-icons.confirmation_number:before {\r\n    content: \"\\E638\"; }\r\n  .material-icons.connected_tv:before {\r\n    content: \"\\E998\"; }\r\n  .material-icons.contact_mail:before {\r\n    content: \"\\E0D0\"; }\r\n  .material-icons.contact_phone:before {\r\n    content: \"\\E0CF\"; }\r\n  .material-icons.contact_support:before {\r\n    content: \"\\E94C\"; }\r\n  .material-icons.contactless:before {\r\n    content: \"\\EA71\"; }\r\n  .material-icons.contacts:before {\r\n    content: \"\\E0BA\"; }\r\n  .material-icons.content_copy:before {\r\n    content: \"\\E14D\"; }\r\n  .material-icons.content_cut:before {\r\n    content: \"\\E14E\"; }\r\n  .material-icons.content_paste:before {\r\n    content: \"\\E14F\"; }\r\n  .material-icons.control_camera:before {\r\n    content: \"\\E074\"; }\r\n  .material-icons.control_point:before {\r\n    content: \"\\E3BA\"; }\r\n  .material-icons.control_point_duplicate:before {\r\n    content: \"\\E3BB\"; }\r\n  .material-icons.copyright:before {\r\n    content: \"\\E90C\"; }\r\n  .material-icons.create:before {\r\n    content: \"\\E150\"; }\r\n  .material-icons.create_new_folder:before {\r\n    content: \"\\E2CC\"; }\r\n  .material-icons.credit_card:before {\r\n    content: \"\\E870\"; }\r\n  .material-icons.crop:before {\r\n    content: \"\\E3BE\"; }\r\n  .material-icons.crop_16_9:before {\r\n    content: \"\\E3BC\"; }\r\n  .material-icons.crop_3_2:before {\r\n    content: \"\\E3BD\"; }\r\n  .material-icons.crop_5_4:before {\r\n    content: \"\\E3BF\"; }\r\n  .material-icons.crop_7_5:before {\r\n    content: \"\\E3C0\"; }\r\n  .material-icons.crop_din:before {\r\n    content: \"\\E3C1\"; }\r\n  .material-icons.crop_free:before {\r\n    content: \"\\E3C2\"; }\r\n  .material-icons.crop_landscape:before {\r\n    content: \"\\E3C3\"; }\r\n  .material-icons.crop_original:before {\r\n    content: \"\\E3C4\"; }\r\n  .material-icons.crop_portrait:before {\r\n    content: \"\\E3C5\"; }\r\n  .material-icons.crop_rotate:before {\r\n    content: \"\\E437\"; }\r\n  .material-icons.crop_square:before {\r\n    content: \"\\E3C6\"; }\r\n  .material-icons.dangerous:before {\r\n    content: \"\\E99A\"; }\r\n  .material-icons.dashboard:before {\r\n    content: \"\\E871\"; }\r\n  .material-icons.dashboard_customize:before {\r\n    content: \"\\E99B\"; }\r\n  .material-icons.data_usage:before {\r\n    content: \"\\E1AF\"; }\r\n  .material-icons.date_range:before {\r\n    content: \"\\E916\"; }\r\n  .material-icons.deck:before {\r\n    content: \"\\EA42\"; }\r\n  .material-icons.dehaze:before {\r\n    content: \"\\E3C7\"; }\r\n  .material-icons.delete:before {\r\n    content: \"\\E872\"; }\r\n  .material-icons.delete_forever:before {\r\n    content: \"\\E92B\"; }\r\n  .material-icons.delete_outline:before {\r\n    content: \"\\E92E\"; }\r\n  .material-icons.delete_sweep:before {\r\n    content: \"\\E16C\"; }\r\n  .material-icons.delivery_dining:before {\r\n    content: \"\\EA72\"; }\r\n  .material-icons.departure_board:before {\r\n    content: \"\\E576\"; }\r\n  .material-icons.description:before {\r\n    content: \"\\E873\"; }\r\n  .material-icons.desktop_access_disabled:before {\r\n    content: \"\\E99D\"; }\r\n  .material-icons.desktop_mac:before {\r\n    content: \"\\E30B\"; }\r\n  .material-icons.desktop_windows:before {\r\n    content: \"\\E30C\"; }\r\n  .material-icons.details:before {\r\n    content: \"\\E3C8\"; }\r\n  .material-icons.developer_board:before {\r\n    content: \"\\E30D\"; }\r\n  .material-icons.developer_mode:before {\r\n    content: \"\\E1B0\"; }\r\n  .material-icons.device_hub:before {\r\n    content: \"\\E335\"; }\r\n  .material-icons.device_thermostat:before {\r\n    content: \"\\E1FF\"; }\r\n  .material-icons.device_unknown:before {\r\n    content: \"\\E339\"; }\r\n  .material-icons.devices:before {\r\n    content: \"\\E1B1\"; }\r\n  .material-icons.devices_other:before {\r\n    content: \"\\E337\"; }\r\n  .material-icons.dialer_sip:before {\r\n    content: \"\\E0BB\"; }\r\n  .material-icons.dialpad:before {\r\n    content: \"\\E0BC\"; }\r\n  .material-icons.dinner_dining:before {\r\n    content: \"\\EA57\"; }\r\n  .material-icons.directions:before {\r\n    content: \"\\E52E\"; }\r\n  .material-icons.directions_bike:before {\r\n    content: \"\\E52F\"; }\r\n  .material-icons.directions_boat:before {\r\n    content: \"\\E532\"; }\r\n  .material-icons.directions_bus:before {\r\n    content: \"\\E530\"; }\r\n  .material-icons.directions_car:before {\r\n    content: \"\\E531\"; }\r\n  .material-icons.directions_ferry:before {\r\n    content: \"\\E532\"; }\r\n  .material-icons.directions_railway:before {\r\n    content: \"\\E534\"; }\r\n  .material-icons.directions_run:before {\r\n    content: \"\\E566\"; }\r\n  .material-icons.directions_subway:before {\r\n    content: \"\\E533\"; }\r\n  .material-icons.directions_train:before {\r\n    content: \"\\E534\"; }\r\n  .material-icons.directions_transit:before {\r\n    content: \"\\E535\"; }\r\n  .material-icons.directions_walk:before {\r\n    content: \"\\E536\"; }\r\n  .material-icons.disc_full:before {\r\n    content: \"\\E610\"; }\r\n  .material-icons.dnd_forwardslash:before {\r\n    content: \"\\E611\"; }\r\n  .material-icons.dns:before {\r\n    content: \"\\E875\"; }\r\n  .material-icons.do_not_disturb:before {\r\n    content: \"\\E612\"; }\r\n  .material-icons.do_not_disturb_alt:before {\r\n    content: \"\\E611\"; }\r\n  .material-icons.do_not_disturb_off:before {\r\n    content: \"\\E643\"; }\r\n  .material-icons.do_not_disturb_on:before {\r\n    content: \"\\E644\"; }\r\n  .material-icons.dock:before {\r\n    content: \"\\E30E\"; }\r\n  .material-icons.domain:before {\r\n    content: \"\\E7EE\"; }\r\n  .material-icons.domain_disabled:before {\r\n    content: \"\\E0EF\"; }\r\n  .material-icons.done:before {\r\n    content: \"\\E876\"; }\r\n  .material-icons.done_all:before {\r\n    content: \"\\E877\"; }\r\n  .material-icons.done_outline:before {\r\n    content: \"\\E92F\"; }\r\n  .material-icons.donut_large:before {\r\n    content: \"\\E917\"; }\r\n  .material-icons.donut_small:before {\r\n    content: \"\\E918\"; }\r\n  .material-icons.double_arrow:before {\r\n    content: \"\\EA50\"; }\r\n  .material-icons.drafts:before {\r\n    content: \"\\E151\"; }\r\n  .material-icons.drag_handle:before {\r\n    content: \"\\E25D\"; }\r\n  .material-icons.drag_indicator:before {\r\n    content: \"\\E945\"; }\r\n  .material-icons.drive_eta:before {\r\n    content: \"\\E613\"; }\r\n  .material-icons.drive_file_move_outline:before {\r\n    content: \"\\E9A1\"; }\r\n  .material-icons.drive_file_rename_outline:before {\r\n    content: \"\\E9A2\"; }\r\n  .material-icons.drive_folder_upload:before {\r\n    content: \"\\E9A3\"; }\r\n  .material-icons.dry_cleaning:before {\r\n    content: \"\\EA58\"; }\r\n  .material-icons.duo:before {\r\n    content: \"\\E9A5\"; }\r\n  .material-icons.dvr:before {\r\n    content: \"\\E1B2\"; }\r\n  .material-icons.dynamic_feed:before {\r\n    content: \"\\EA14\"; }\r\n  .material-icons.eco:before {\r\n    content: \"\\EA35\"; }\r\n  .material-icons.edit:before {\r\n    content: \"\\E3C9\"; }\r\n  .material-icons.edit_attributes:before {\r\n    content: \"\\E578\"; }\r\n  .material-icons.edit_location:before {\r\n    content: \"\\E568\"; }\r\n  .material-icons.edit_off:before {\r\n    content: \"\\E950\"; }\r\n  .material-icons.eject:before {\r\n    content: \"\\E8FB\"; }\r\n  .material-icons.email:before {\r\n    content: \"\\E0BE\"; }\r\n  .material-icons.emoji_emotions:before {\r\n    content: \"\\EA22\"; }\r\n  .material-icons.emoji_events:before {\r\n    content: \"\\EA23\"; }\r\n  .material-icons.emoji_flags:before {\r\n    content: \"\\EA1A\"; }\r\n  .material-icons.emoji_food_beverage:before {\r\n    content: \"\\EA1B\"; }\r\n  .material-icons.emoji_nature:before {\r\n    content: \"\\EA1C\"; }\r\n  .material-icons.emoji_objects:before {\r\n    content: \"\\EA24\"; }\r\n  .material-icons.emoji_people:before {\r\n    content: \"\\EA1D\"; }\r\n  .material-icons.emoji_symbols:before {\r\n    content: \"\\EA1E\"; }\r\n  .material-icons.emoji_transportation:before {\r\n    content: \"\\EA1F\"; }\r\n  .material-icons.enhance_photo_translate:before {\r\n    content: \"\\E8FC\"; }\r\n  .material-icons.enhanced_encryption:before {\r\n    content: \"\\E63F\"; }\r\n  .material-icons.equalizer:before {\r\n    content: \"\\E01D\"; }\r\n  .material-icons.error:before {\r\n    content: \"\\E000\"; }\r\n  .material-icons.error_outline:before {\r\n    content: \"\\E001\"; }\r\n  .material-icons.euro:before {\r\n    content: \"\\EA15\"; }\r\n  .material-icons.euro_symbol:before {\r\n    content: \"\\E926\"; }\r\n  .material-icons.ev_station:before {\r\n    content: \"\\E56D\"; }\r\n  .material-icons.event:before {\r\n    content: \"\\E878\"; }\r\n  .material-icons.event_available:before {\r\n    content: \"\\E614\"; }\r\n  .material-icons.event_busy:before {\r\n    content: \"\\E615\"; }\r\n  .material-icons.event_note:before {\r\n    content: \"\\E616\"; }\r\n  .material-icons.event_seat:before {\r\n    content: \"\\E903\"; }\r\n  .material-icons.exit_to_app:before {\r\n    content: \"\\E879\"; }\r\n  .material-icons.expand:before {\r\n    content: \"\\E94F\"; }\r\n  .material-icons.expand_less:before {\r\n    content: \"\\E5CE\"; }\r\n  .material-icons.expand_more:before {\r\n    content: \"\\E5CF\"; }\r\n  .material-icons.explicit:before {\r\n    content: \"\\E01E\"; }\r\n  .material-icons.explore:before {\r\n    content: \"\\E87A\"; }\r\n  .material-icons.explore_off:before {\r\n    content: \"\\E9A8\"; }\r\n  .material-icons.exposure:before {\r\n    content: \"\\E3CA\"; }\r\n  .material-icons.exposure_minus_1:before {\r\n    content: \"\\E3CB\"; }\r\n  .material-icons.exposure_minus_2:before {\r\n    content: \"\\E3CC\"; }\r\n  .material-icons.exposure_neg_1:before {\r\n    content: \"\\E3CB\"; }\r\n  .material-icons.exposure_neg_2:before {\r\n    content: \"\\E3CC\"; }\r\n  .material-icons.exposure_plus_1:before {\r\n    content: \"\\E3CD\"; }\r\n  .material-icons.exposure_plus_2:before {\r\n    content: \"\\E3CE\"; }\r\n  .material-icons.exposure_zero:before {\r\n    content: \"\\E3CF\"; }\r\n  .material-icons.extension:before {\r\n    content: \"\\E87B\"; }\r\n  .material-icons.face:before {\r\n    content: \"\\E87C\"; }\r\n  .material-icons.fast_forward:before {\r\n    content: \"\\E01F\"; }\r\n  .material-icons.fast_rewind:before {\r\n    content: \"\\E020\"; }\r\n  .material-icons.fastfood:before {\r\n    content: \"\\E57A\"; }\r\n  .material-icons.favorite:before {\r\n    content: \"\\E87D\"; }\r\n  .material-icons.favorite_border:before {\r\n    content: \"\\E87E\"; }\r\n  .material-icons.favorite_outline:before {\r\n    content: \"\\E87E\"; }\r\n  .material-icons.featured_play_list:before {\r\n    content: \"\\E06D\"; }\r\n  .material-icons.featured_video:before {\r\n    content: \"\\E06E\"; }\r\n  .material-icons.feedback:before {\r\n    content: \"\\E87F\"; }\r\n  .material-icons.festival:before {\r\n    content: \"\\EA68\"; }\r\n  .material-icons.fiber_dvr:before {\r\n    content: \"\\E05D\"; }\r\n  .material-icons.fiber_manual_record:before {\r\n    content: \"\\E061\"; }\r\n  .material-icons.fiber_new:before {\r\n    content: \"\\E05E\"; }\r\n  .material-icons.fiber_pin:before {\r\n    content: \"\\E06A\"; }\r\n  .material-icons.fiber_smart_record:before {\r\n    content: \"\\E062\"; }\r\n  .material-icons.file_copy:before {\r\n    content: \"\\E173\"; }\r\n  .material-icons.file_download:before {\r\n    content: \"\\E2C4\"; }\r\n  .material-icons.file_download_done:before {\r\n    content: \"\\E9AA\"; }\r\n  .material-icons.file_present:before {\r\n    content: \"\\EA0E\"; }\r\n  .material-icons.file_upload:before {\r\n    content: \"\\E2C6\"; }\r\n  .material-icons.filter:before {\r\n    content: \"\\E3D3\"; }\r\n  .material-icons.filter_1:before {\r\n    content: \"\\E3D0\"; }\r\n  .material-icons.filter_2:before {\r\n    content: \"\\E3D1\"; }\r\n  .material-icons.filter_3:before {\r\n    content: \"\\E3D2\"; }\r\n  .material-icons.filter_4:before {\r\n    content: \"\\E3D4\"; }\r\n  .material-icons.filter_5:before {\r\n    content: \"\\E3D5\"; }\r\n  .material-icons.filter_6:before {\r\n    content: \"\\E3D6\"; }\r\n  .material-icons.filter_7:before {\r\n    content: \"\\E3D7\"; }\r\n  .material-icons.filter_8:before {\r\n    content: \"\\E3D8\"; }\r\n  .material-icons.filter_9:before {\r\n    content: \"\\E3D9\"; }\r\n  .material-icons.filter_9_plus:before {\r\n    content: \"\\E3DA\"; }\r\n  .material-icons.filter_b_and_w:before {\r\n    content: \"\\E3DB\"; }\r\n  .material-icons.filter_center_focus:before {\r\n    content: \"\\E3DC\"; }\r\n  .material-icons.filter_drama:before {\r\n    content: \"\\E3DD\"; }\r\n  .material-icons.filter_frames:before {\r\n    content: \"\\E3DE\"; }\r\n  .material-icons.filter_hdr:before {\r\n    content: \"\\E3DF\"; }\r\n  .material-icons.filter_list:before {\r\n    content: \"\\E152\"; }\r\n  .material-icons.filter_list_alt:before {\r\n    content: \"\\E94E\"; }\r\n  .material-icons.filter_none:before {\r\n    content: \"\\E3E0\"; }\r\n  .material-icons.filter_tilt_shift:before {\r\n    content: \"\\E3E2\"; }\r\n  .material-icons.filter_vintage:before {\r\n    content: \"\\E3E3\"; }\r\n  .material-icons.find_in_page:before {\r\n    content: \"\\E880\"; }\r\n  .material-icons.find_replace:before {\r\n    content: \"\\E881\"; }\r\n  .material-icons.fingerprint:before {\r\n    content: \"\\E90D\"; }\r\n  .material-icons.fireplace:before {\r\n    content: \"\\EA43\"; }\r\n  .material-icons.first_page:before {\r\n    content: \"\\E5DC\"; }\r\n  .material-icons.fit_screen:before {\r\n    content: \"\\EA10\"; }\r\n  .material-icons.fitness_center:before {\r\n    content: \"\\EB43\"; }\r\n  .material-icons.flag:before {\r\n    content: \"\\E153\"; }\r\n  .material-icons.flare:before {\r\n    content: \"\\E3E4\"; }\r\n  .material-icons.flash_auto:before {\r\n    content: \"\\E3E5\"; }\r\n  .material-icons.flash_off:before {\r\n    content: \"\\E3E6\"; }\r\n  .material-icons.flash_on:before {\r\n    content: \"\\E3E7\"; }\r\n  .material-icons.flight:before {\r\n    content: \"\\E539\"; }\r\n  .material-icons.flight_land:before {\r\n    content: \"\\E904\"; }\r\n  .material-icons.flight_takeoff:before {\r\n    content: \"\\E905\"; }\r\n  .material-icons.flip:before {\r\n    content: \"\\E3E8\"; }\r\n  .material-icons.flip_camera_android:before {\r\n    content: \"\\EA37\"; }\r\n  .material-icons.flip_camera_ios:before {\r\n    content: \"\\EA38\"; }\r\n  .material-icons.flip_to_back:before {\r\n    content: \"\\E882\"; }\r\n  .material-icons.flip_to_front:before {\r\n    content: \"\\E883\"; }\r\n  .material-icons.folder:before {\r\n    content: \"\\E2C7\"; }\r\n  .material-icons.folder_open:before {\r\n    content: \"\\E2C8\"; }\r\n  .material-icons.folder_shared:before {\r\n    content: \"\\E2C9\"; }\r\n  .material-icons.folder_special:before {\r\n    content: \"\\E617\"; }\r\n  .material-icons.font_download:before {\r\n    content: \"\\E167\"; }\r\n  .material-icons.format_align_center:before {\r\n    content: \"\\E234\"; }\r\n  .material-icons.format_align_justify:before {\r\n    content: \"\\E235\"; }\r\n  .material-icons.format_align_left:before {\r\n    content: \"\\E236\"; }\r\n  .material-icons.format_align_right:before {\r\n    content: \"\\E237\"; }\r\n  .material-icons.format_bold:before {\r\n    content: \"\\E238\"; }\r\n  .material-icons.format_clear:before {\r\n    content: \"\\E239\"; }\r\n  .material-icons.format_color_fill:before {\r\n    content: \"\\E23A\"; }\r\n  .material-icons.format_color_reset:before {\r\n    content: \"\\E23B\"; }\r\n  .material-icons.format_color_text:before {\r\n    content: \"\\E23C\"; }\r\n  .material-icons.format_indent_decrease:before {\r\n    content: \"\\E23D\"; }\r\n  .material-icons.format_indent_increase:before {\r\n    content: \"\\E23E\"; }\r\n  .material-icons.format_italic:before {\r\n    content: \"\\E23F\"; }\r\n  .material-icons.format_line_spacing:before {\r\n    content: \"\\E240\"; }\r\n  .material-icons.format_list_bulleted:before {\r\n    content: \"\\E241\"; }\r\n  .material-icons.format_list_numbered:before {\r\n    content: \"\\E242\"; }\r\n  .material-icons.format_list_numbered_rtl:before {\r\n    content: \"\\E267\"; }\r\n  .material-icons.format_paint:before {\r\n    content: \"\\E243\"; }\r\n  .material-icons.format_quote:before {\r\n    content: \"\\E244\"; }\r\n  .material-icons.format_shapes:before {\r\n    content: \"\\E25E\"; }\r\n  .material-icons.format_size:before {\r\n    content: \"\\E245\"; }\r\n  .material-icons.format_strikethrough:before {\r\n    content: \"\\E246\"; }\r\n  .material-icons.format_textdirection_l_to_r:before {\r\n    content: \"\\E247\"; }\r\n  .material-icons.format_textdirection_r_to_l:before {\r\n    content: \"\\E248\"; }\r\n  .material-icons.format_underline:before {\r\n    content: \"\\E249\"; }\r\n  .material-icons.format_underlined:before {\r\n    content: \"\\E249\"; }\r\n  .material-icons.forum:before {\r\n    content: \"\\E0BF\"; }\r\n  .material-icons.forward:before {\r\n    content: \"\\E154\"; }\r\n  .material-icons.forward_10:before {\r\n    content: \"\\E056\"; }\r\n  .material-icons.forward_30:before {\r\n    content: \"\\E057\"; }\r\n  .material-icons.forward_5:before {\r\n    content: \"\\E058\"; }\r\n  .material-icons.free_breakfast:before {\r\n    content: \"\\EB44\"; }\r\n  .material-icons.fullscreen:before {\r\n    content: \"\\E5D0\"; }\r\n  .material-icons.fullscreen_exit:before {\r\n    content: \"\\E5D1\"; }\r\n  .material-icons.functions:before {\r\n    content: \"\\E24A\"; }\r\n  .material-icons.g_translate:before {\r\n    content: \"\\E927\"; }\r\n  .material-icons.gamepad:before {\r\n    content: \"\\E30F\"; }\r\n  .material-icons.games:before {\r\n    content: \"\\E021\"; }\r\n  .material-icons.gavel:before {\r\n    content: \"\\E90E\"; }\r\n  .material-icons.gesture:before {\r\n    content: \"\\E155\"; }\r\n  .material-icons.get_app:before {\r\n    content: \"\\E884\"; }\r\n  .material-icons.gif:before {\r\n    content: \"\\E908\"; }\r\n  .material-icons.goat:before {\r\n    content: \"\\DBFF\"; }\r\n  .material-icons.golf_course:before {\r\n    content: \"\\EB45\"; }\r\n  .material-icons.gps_fixed:before {\r\n    content: \"\\E1B3\"; }\r\n  .material-icons.gps_not_fixed:before {\r\n    content: \"\\E1B4\"; }\r\n  .material-icons.gps_off:before {\r\n    content: \"\\E1B5\"; }\r\n  .material-icons.grade:before {\r\n    content: \"\\E885\"; }\r\n  .material-icons.gradient:before {\r\n    content: \"\\E3E9\"; }\r\n  .material-icons.grain:before {\r\n    content: \"\\E3EA\"; }\r\n  .material-icons.graphic_eq:before {\r\n    content: \"\\E1B8\"; }\r\n  .material-icons.grid_off:before {\r\n    content: \"\\E3EB\"; }\r\n  .material-icons.grid_on:before {\r\n    content: \"\\E3EC\"; }\r\n  .material-icons.grid_view:before {\r\n    content: \"\\E9B0\"; }\r\n  .material-icons.group:before {\r\n    content: \"\\E7EF\"; }\r\n  .material-icons.group_add:before {\r\n    content: \"\\E7F0\"; }\r\n  .material-icons.group_work:before {\r\n    content: \"\\E886\"; }\r\n  .material-icons.hail:before {\r\n    content: \"\\E9B1\"; }\r\n  .material-icons.hardware:before {\r\n    content: \"\\EA59\"; }\r\n  .material-icons.hd:before {\r\n    content: \"\\E052\"; }\r\n  .material-icons.hdr_off:before {\r\n    content: \"\\E3ED\"; }\r\n  .material-icons.hdr_on:before {\r\n    content: \"\\E3EE\"; }\r\n  .material-icons.hdr_strong:before {\r\n    content: \"\\E3F1\"; }\r\n  .material-icons.hdr_weak:before {\r\n    content: \"\\E3F2\"; }\r\n  .material-icons.headset:before {\r\n    content: \"\\E310\"; }\r\n  .material-icons.headset_mic:before {\r\n    content: \"\\E311\"; }\r\n  .material-icons.headset_off:before {\r\n    content: \"\\E33A\"; }\r\n  .material-icons.healing:before {\r\n    content: \"\\E3F3\"; }\r\n  .material-icons.hearing:before {\r\n    content: \"\\E023\"; }\r\n  .material-icons.height:before {\r\n    content: \"\\EA16\"; }\r\n  .material-icons.help:before {\r\n    content: \"\\E887\"; }\r\n  .material-icons.help_outline:before {\r\n    content: \"\\E8FD\"; }\r\n  .material-icons.high_quality:before {\r\n    content: \"\\E024\"; }\r\n  .material-icons.highlight:before {\r\n    content: \"\\E25F\"; }\r\n  .material-icons.highlight_off:before {\r\n    content: \"\\E888\"; }\r\n  .material-icons.highlight_remove:before {\r\n    content: \"\\E888\"; }\r\n  .material-icons.history:before {\r\n    content: \"\\E889\"; }\r\n  .material-icons.home:before {\r\n    content: \"\\E88A\"; }\r\n  .material-icons.home_filled:before {\r\n    content: \"\\E9B2\"; }\r\n  .material-icons.home_work:before {\r\n    content: \"\\EA09\"; }\r\n  .material-icons.horizontal_split:before {\r\n    content: \"\\E947\"; }\r\n  .material-icons.hot_tub:before {\r\n    content: \"\\EB46\"; }\r\n  .material-icons.hotel:before {\r\n    content: \"\\E53A\"; }\r\n  .material-icons.hourglass_empty:before {\r\n    content: \"\\E88B\"; }\r\n  .material-icons.hourglass_full:before {\r\n    content: \"\\E88C\"; }\r\n  .material-icons.house:before {\r\n    content: \"\\EA44\"; }\r\n  .material-icons.how_to_reg:before {\r\n    content: \"\\E174\"; }\r\n  .material-icons.how_to_vote:before {\r\n    content: \"\\E175\"; }\r\n  .material-icons.http:before {\r\n    content: \"\\E902\"; }\r\n  .material-icons.https:before {\r\n    content: \"\\E88D\"; }\r\n  .material-icons.icecream:before {\r\n    content: \"\\EA69\"; }\r\n  .material-icons.image:before {\r\n    content: \"\\E3F4\"; }\r\n  .material-icons.image_aspect_ratio:before {\r\n    content: \"\\E3F5\"; }\r\n  .material-icons.image_search:before {\r\n    content: \"\\E43F\"; }\r\n  .material-icons.imagesearch_roller:before {\r\n    content: \"\\E9B4\"; }\r\n  .material-icons.import_contacts:before {\r\n    content: \"\\E0E0\"; }\r\n  .material-icons.import_export:before {\r\n    content: \"\\E0C3\"; }\r\n  .material-icons.important_devices:before {\r\n    content: \"\\E912\"; }\r\n  .material-icons.inbox:before {\r\n    content: \"\\E156\"; }\r\n  .material-icons.indeterminate_check_box:before {\r\n    content: \"\\E909\"; }\r\n  .material-icons.info:before {\r\n    content: \"\\E88E\"; }\r\n  .material-icons.info_outline:before {\r\n    content: \"\\E88F\"; }\r\n  .material-icons.input:before {\r\n    content: \"\\E890\"; }\r\n  .material-icons.insert_chart:before {\r\n    content: \"\\E24B\"; }\r\n  .material-icons.insert_chart_outlined:before {\r\n    content: \"\\E26A\"; }\r\n  .material-icons.insert_comment:before {\r\n    content: \"\\E24C\"; }\r\n  .material-icons.insert_drive_file:before {\r\n    content: \"\\E24D\"; }\r\n  .material-icons.insert_emoticon:before {\r\n    content: \"\\E24E\"; }\r\n  .material-icons.insert_invitation:before {\r\n    content: \"\\E24F\"; }\r\n  .material-icons.insert_link:before {\r\n    content: \"\\E250\"; }\r\n  .material-icons.insert_photo:before {\r\n    content: \"\\E251\"; }\r\n  .material-icons.inventory:before {\r\n    content: \"\\E179\"; }\r\n  .material-icons.invert_colors:before {\r\n    content: \"\\E891\"; }\r\n  .material-icons.invert_colors_off:before {\r\n    content: \"\\E0C4\"; }\r\n  .material-icons.invert_colors_on:before {\r\n    content: \"\\E891\"; }\r\n  .material-icons.iso:before {\r\n    content: \"\\E3F6\"; }\r\n  .material-icons.keyboard:before {\r\n    content: \"\\E312\"; }\r\n  .material-icons.keyboard_arrow_down:before {\r\n    content: \"\\E313\"; }\r\n  .material-icons.keyboard_arrow_left:before {\r\n    content: \"\\E314\"; }\r\n  .material-icons.keyboard_arrow_right:before {\r\n    content: \"\\E315\"; }\r\n  .material-icons.keyboard_arrow_up:before {\r\n    content: \"\\E316\"; }\r\n  .material-icons.keyboard_backspace:before {\r\n    content: \"\\E317\"; }\r\n  .material-icons.keyboard_capslock:before {\r\n    content: \"\\E318\"; }\r\n  .material-icons.keyboard_control:before {\r\n    content: \"\\E5D3\"; }\r\n  .material-icons.keyboard_hide:before {\r\n    content: \"\\E31A\"; }\r\n  .material-icons.keyboard_return:before {\r\n    content: \"\\E31B\"; }\r\n  .material-icons.keyboard_tab:before {\r\n    content: \"\\E31C\"; }\r\n  .material-icons.keyboard_voice:before {\r\n    content: \"\\E31D\"; }\r\n  .material-icons.king_bed:before {\r\n    content: \"\\EA45\"; }\r\n  .material-icons.kitchen:before {\r\n    content: \"\\EB47\"; }\r\n  .material-icons.label:before {\r\n    content: \"\\E892\"; }\r\n  .material-icons.label_important:before {\r\n    content: \"\\E937\"; }\r\n  .material-icons.label_important_outline:before {\r\n    content: \"\\E948\"; }\r\n  .material-icons.label_off:before {\r\n    content: \"\\E9B6\"; }\r\n  .material-icons.label_outline:before {\r\n    content: \"\\E893\"; }\r\n  .material-icons.landscape:before {\r\n    content: \"\\E3F7\"; }\r\n  .material-icons.language:before {\r\n    content: \"\\E894\"; }\r\n  .material-icons.laptop:before {\r\n    content: \"\\E31E\"; }\r\n  .material-icons.laptop_chromebook:before {\r\n    content: \"\\E31F\"; }\r\n  .material-icons.laptop_mac:before {\r\n    content: \"\\E320\"; }\r\n  .material-icons.laptop_windows:before {\r\n    content: \"\\E321\"; }\r\n  .material-icons.last_page:before {\r\n    content: \"\\E5DD\"; }\r\n  .material-icons.launch:before {\r\n    content: \"\\E895\"; }\r\n  .material-icons.layers:before {\r\n    content: \"\\E53B\"; }\r\n  .material-icons.layers_clear:before {\r\n    content: \"\\E53C\"; }\r\n  .material-icons.leak_add:before {\r\n    content: \"\\E3F8\"; }\r\n  .material-icons.leak_remove:before {\r\n    content: \"\\E3F9\"; }\r\n  .material-icons.lens:before {\r\n    content: \"\\E3FA\"; }\r\n  .material-icons.library_add:before {\r\n    content: \"\\E02E\"; }\r\n  .material-icons.library_add_check:before {\r\n    content: \"\\E9B7\"; }\r\n  .material-icons.library_books:before {\r\n    content: \"\\E02F\"; }\r\n  .material-icons.library_music:before {\r\n    content: \"\\E030\"; }\r\n  .material-icons.lightbulb:before {\r\n    content: \"\\E0F0\"; }\r\n  .material-icons.lightbulb_outline:before {\r\n    content: \"\\E90F\"; }\r\n  .material-icons.line_style:before {\r\n    content: \"\\E919\"; }\r\n  .material-icons.line_weight:before {\r\n    content: \"\\E91A\"; }\r\n  .material-icons.linear_scale:before {\r\n    content: \"\\E260\"; }\r\n  .material-icons.link:before {\r\n    content: \"\\E157\"; }\r\n  .material-icons.link_off:before {\r\n    content: \"\\E16F\"; }\r\n  .material-icons.linked_camera:before {\r\n    content: \"\\E438\"; }\r\n  .material-icons.liquor:before {\r\n    content: \"\\EA60\"; }\r\n  .material-icons.list:before {\r\n    content: \"\\E896\"; }\r\n  .material-icons.list_alt:before {\r\n    content: \"\\E0EE\"; }\r\n  .material-icons.live_help:before {\r\n    content: \"\\E0C6\"; }\r\n  .material-icons.live_tv:before {\r\n    content: \"\\E639\"; }\r\n  .material-icons.local_activity:before {\r\n    content: \"\\E53F\"; }\r\n  .material-icons.local_airport:before {\r\n    content: \"\\E53D\"; }\r\n  .material-icons.local_atm:before {\r\n    content: \"\\E53E\"; }\r\n  .material-icons.local_attraction:before {\r\n    content: \"\\E53F\"; }\r\n  .material-icons.local_bar:before {\r\n    content: \"\\E540\"; }\r\n  .material-icons.local_cafe:before {\r\n    content: \"\\E541\"; }\r\n  .material-icons.local_car_wash:before {\r\n    content: \"\\E542\"; }\r\n  .material-icons.local_convenience_store:before {\r\n    content: \"\\E543\"; }\r\n  .material-icons.local_dining:before {\r\n    content: \"\\E556\"; }\r\n  .material-icons.local_drink:before {\r\n    content: \"\\E544\"; }\r\n  .material-icons.local_florist:before {\r\n    content: \"\\E545\"; }\r\n  .material-icons.local_gas_station:before {\r\n    content: \"\\E546\"; }\r\n  .material-icons.local_grocery_store:before {\r\n    content: \"\\E547\"; }\r\n  .material-icons.local_hospital:before {\r\n    content: \"\\E548\"; }\r\n  .material-icons.local_hotel:before {\r\n    content: \"\\E549\"; }\r\n  .material-icons.local_laundry_service:before {\r\n    content: \"\\E54A\"; }\r\n  .material-icons.local_library:before {\r\n    content: \"\\E54B\"; }\r\n  .material-icons.local_mall:before {\r\n    content: \"\\E54C\"; }\r\n  .material-icons.local_movies:before {\r\n    content: \"\\E54D\"; }\r\n  .material-icons.local_offer:before {\r\n    content: \"\\E54E\"; }\r\n  .material-icons.local_parking:before {\r\n    content: \"\\E54F\"; }\r\n  .material-icons.local_pharmacy:before {\r\n    content: \"\\E550\"; }\r\n  .material-icons.local_phone:before {\r\n    content: \"\\E551\"; }\r\n  .material-icons.local_pizza:before {\r\n    content: \"\\E552\"; }\r\n  .material-icons.local_play:before {\r\n    content: \"\\E553\"; }\r\n  .material-icons.local_post_office:before {\r\n    content: \"\\E554\"; }\r\n  .material-icons.local_print_shop:before {\r\n    content: \"\\E555\"; }\r\n  .material-icons.local_printshop:before {\r\n    content: \"\\E555\"; }\r\n  .material-icons.local_restaurant:before {\r\n    content: \"\\E556\"; }\r\n  .material-icons.local_see:before {\r\n    content: \"\\E557\"; }\r\n  .material-icons.local_shipping:before {\r\n    content: \"\\E558\"; }\r\n  .material-icons.local_taxi:before {\r\n    content: \"\\E559\"; }\r\n  .material-icons.location_city:before {\r\n    content: \"\\E7F1\"; }\r\n  .material-icons.location_disabled:before {\r\n    content: \"\\E1B6\"; }\r\n  .material-icons.location_history:before {\r\n    content: \"\\E55A\"; }\r\n  .material-icons.location_off:before {\r\n    content: \"\\E0C7\"; }\r\n  .material-icons.location_on:before {\r\n    content: \"\\E0C8\"; }\r\n  .material-icons.location_searching:before {\r\n    content: \"\\E1B7\"; }\r\n  .material-icons.lock:before {\r\n    content: \"\\E897\"; }\r\n  .material-icons.lock_open:before {\r\n    content: \"\\E898\"; }\r\n  .material-icons.lock_outline:before {\r\n    content: \"\\E899\"; }\r\n  .material-icons.logout:before {\r\n    content: \"\\E9BA\"; }\r\n  .material-icons.looks:before {\r\n    content: \"\\E3FC\"; }\r\n  .material-icons.looks_3:before {\r\n    content: \"\\E3FB\"; }\r\n  .material-icons.looks_4:before {\r\n    content: \"\\E3FD\"; }\r\n  .material-icons.looks_5:before {\r\n    content: \"\\E3FE\"; }\r\n  .material-icons.looks_6:before {\r\n    content: \"\\E3FF\"; }\r\n  .material-icons.looks_one:before {\r\n    content: \"\\E400\"; }\r\n  .material-icons.looks_two:before {\r\n    content: \"\\E401\"; }\r\n  .material-icons.loop:before {\r\n    content: \"\\E028\"; }\r\n  .material-icons.loupe:before {\r\n    content: \"\\E402\"; }\r\n  .material-icons.low_priority:before {\r\n    content: \"\\E16D\"; }\r\n  .material-icons.loyalty:before {\r\n    content: \"\\E89A\"; }\r\n  .material-icons.lunch_dining:before {\r\n    content: \"\\EA61\"; }\r\n  .material-icons.mail:before {\r\n    content: \"\\E158\"; }\r\n  .material-icons.mail_outline:before {\r\n    content: \"\\E0E1\"; }\r\n  .material-icons.map:before {\r\n    content: \"\\E55B\"; }\r\n  .material-icons.margin:before {\r\n    content: \"\\E9BB\"; }\r\n  .material-icons.mark_as_unread:before {\r\n    content: \"\\E9BC\"; }\r\n  .material-icons.markunread:before {\r\n    content: \"\\E159\"; }\r\n  .material-icons.markunread_mailbox:before {\r\n    content: \"\\E89B\"; }\r\n  .material-icons.maximize:before {\r\n    content: \"\\E930\"; }\r\n  .material-icons.meeting_room:before {\r\n    content: \"\\EB4F\"; }\r\n  .material-icons.memory:before {\r\n    content: \"\\E322\"; }\r\n  .material-icons.menu:before {\r\n    content: \"\\E5D2\"; }\r\n  .material-icons.menu_book:before {\r\n    content: \"\\EA19\"; }\r\n  .material-icons.menu_open:before {\r\n    content: \"\\E9BD\"; }\r\n  .material-icons.merge_type:before {\r\n    content: \"\\E252\"; }\r\n  .material-icons.message:before {\r\n    content: \"\\E0C9\"; }\r\n  .material-icons.messenger:before {\r\n    content: \"\\E0CA\"; }\r\n  .material-icons.messenger_outline:before {\r\n    content: \"\\E0CB\"; }\r\n  .material-icons.mic:before {\r\n    content: \"\\E029\"; }\r\n  .material-icons.mic_none:before {\r\n    content: \"\\E02A\"; }\r\n  .material-icons.mic_off:before {\r\n    content: \"\\E02B\"; }\r\n  .material-icons.minimize:before {\r\n    content: \"\\E931\"; }\r\n  .material-icons.missed_video_call:before {\r\n    content: \"\\E073\"; }\r\n  .material-icons.mms:before {\r\n    content: \"\\E618\"; }\r\n  .material-icons.mobile_friendly:before {\r\n    content: \"\\E200\"; }\r\n  .material-icons.mobile_off:before {\r\n    content: \"\\E201\"; }\r\n  .material-icons.mobile_screen_share:before {\r\n    content: \"\\E0E7\"; }\r\n  .material-icons.mode_comment:before {\r\n    content: \"\\E253\"; }\r\n  .material-icons.mode_edit:before {\r\n    content: \"\\E254\"; }\r\n  .material-icons.monetization_on:before {\r\n    content: \"\\E263\"; }\r\n  .material-icons.money:before {\r\n    content: \"\\E57D\"; }\r\n  .material-icons.money_off:before {\r\n    content: \"\\E25C\"; }\r\n  .material-icons.monochrome_photos:before {\r\n    content: \"\\E403\"; }\r\n  .material-icons.mood:before {\r\n    content: \"\\E7F2\"; }\r\n  .material-icons.mood_bad:before {\r\n    content: \"\\E7F3\"; }\r\n  .material-icons.more:before {\r\n    content: \"\\E619\"; }\r\n  .material-icons.more_horiz:before {\r\n    content: \"\\E5D3\"; }\r\n  .material-icons.more_vert:before {\r\n    content: \"\\E5D4\"; }\r\n  .material-icons.motorcycle:before {\r\n    content: \"\\E91B\"; }\r\n  .material-icons.mouse:before {\r\n    content: \"\\E323\"; }\r\n  .material-icons.move_to_inbox:before {\r\n    content: \"\\E168\"; }\r\n  .material-icons.movie:before {\r\n    content: \"\\E02C\"; }\r\n  .material-icons.movie_creation:before {\r\n    content: \"\\E404\"; }\r\n  .material-icons.movie_filter:before {\r\n    content: \"\\E43A\"; }\r\n  .material-icons.mp:before {\r\n    content: \"\\E9C3\"; }\r\n  .material-icons.multiline_chart:before {\r\n    content: \"\\E6DF\"; }\r\n  .material-icons.multitrack_audio:before {\r\n    content: \"\\E1B8\"; }\r\n  .material-icons.museum:before {\r\n    content: \"\\EA36\"; }\r\n  .material-icons.music_note:before {\r\n    content: \"\\E405\"; }\r\n  .material-icons.music_off:before {\r\n    content: \"\\E440\"; }\r\n  .material-icons.music_video:before {\r\n    content: \"\\E063\"; }\r\n  .material-icons.my_library_add:before {\r\n    content: \"\\E02E\"; }\r\n  .material-icons.my_library_books:before {\r\n    content: \"\\E02F\"; }\r\n  .material-icons.my_library_music:before {\r\n    content: \"\\E030\"; }\r\n  .material-icons.my_location:before {\r\n    content: \"\\E55C\"; }\r\n  .material-icons.nature:before {\r\n    content: \"\\E406\"; }\r\n  .material-icons.nature_people:before {\r\n    content: \"\\E407\"; }\r\n  .material-icons.navigate_before:before {\r\n    content: \"\\E408\"; }\r\n  .material-icons.navigate_next:before {\r\n    content: \"\\E409\"; }\r\n  .material-icons.navigation:before {\r\n    content: \"\\E55D\"; }\r\n  .material-icons.near_me:before {\r\n    content: \"\\E569\"; }\r\n  .material-icons.network_cell:before {\r\n    content: \"\\E1B9\"; }\r\n  .material-icons.network_check:before {\r\n    content: \"\\E640\"; }\r\n  .material-icons.network_locked:before {\r\n    content: \"\\E61A\"; }\r\n  .material-icons.network_wifi:before {\r\n    content: \"\\E1BA\"; }\r\n  .material-icons.new_releases:before {\r\n    content: \"\\E031\"; }\r\n  .material-icons.next_week:before {\r\n    content: \"\\E16A\"; }\r\n  .material-icons.nfc:before {\r\n    content: \"\\E1BB\"; }\r\n  .material-icons.nightlife:before {\r\n    content: \"\\EA62\"; }\r\n  .material-icons.nights_stay:before {\r\n    content: \"\\EA46\"; }\r\n  .material-icons.no_encryption:before {\r\n    content: \"\\E641\"; }\r\n  .material-icons.no_meeting_room:before {\r\n    content: \"\\EB4E\"; }\r\n  .material-icons.no_sim:before {\r\n    content: \"\\E0CC\"; }\r\n  .material-icons.not_interested:before {\r\n    content: \"\\E033\"; }\r\n  .material-icons.not_listed_location:before {\r\n    content: \"\\E575\"; }\r\n  .material-icons.note:before {\r\n    content: \"\\E06F\"; }\r\n  .material-icons.note_add:before {\r\n    content: \"\\E89C\"; }\r\n  .material-icons.notes:before {\r\n    content: \"\\E26C\"; }\r\n  .material-icons.notification_important:before {\r\n    content: \"\\E004\"; }\r\n  .material-icons.notifications:before {\r\n    content: \"\\E7F4\"; }\r\n  .material-icons.notifications_active:before {\r\n    content: \"\\E7F7\"; }\r\n  .material-icons.notifications_none:before {\r\n    content: \"\\E7F5\"; }\r\n  .material-icons.notifications_off:before {\r\n    content: \"\\E7F6\"; }\r\n  .material-icons.notifications_on:before {\r\n    content: \"\\E7F7\"; }\r\n  .material-icons.notifications_paused:before {\r\n    content: \"\\E7F8\"; }\r\n  .material-icons.now_wallpaper:before {\r\n    content: \"\\E1BC\"; }\r\n  .material-icons.now_widgets:before {\r\n    content: \"\\E1BD\"; }\r\n  .material-icons.offline_bolt:before {\r\n    content: \"\\E932\"; }\r\n  .material-icons.offline_pin:before {\r\n    content: \"\\E90A\"; }\r\n  .material-icons.offline_share:before {\r\n    content: \"\\E9C5\"; }\r\n  .material-icons.ondemand_video:before {\r\n    content: \"\\E63A\"; }\r\n  .material-icons.opacity:before {\r\n    content: \"\\E91C\"; }\r\n  .material-icons.open_in_browser:before {\r\n    content: \"\\E89D\"; }\r\n  .material-icons.open_in_new:before {\r\n    content: \"\\E89E\"; }\r\n  .material-icons.open_with:before {\r\n    content: \"\\E89F\"; }\r\n  .material-icons.outdoor_grill:before {\r\n    content: \"\\EA47\"; }\r\n  .material-icons.outlined_flag:before {\r\n    content: \"\\E16E\"; }\r\n  .material-icons.padding:before {\r\n    content: \"\\E9C8\"; }\r\n  .material-icons.pages:before {\r\n    content: \"\\E7F9\"; }\r\n  .material-icons.pageview:before {\r\n    content: \"\\E8A0\"; }\r\n  .material-icons.palette:before {\r\n    content: \"\\E40A\"; }\r\n  .material-icons.pan_tool:before {\r\n    content: \"\\E925\"; }\r\n  .material-icons.panorama:before {\r\n    content: \"\\E40B\"; }\r\n  .material-icons.panorama_fish_eye:before {\r\n    content: \"\\E40C\"; }\r\n  .material-icons.panorama_fisheye:before {\r\n    content: \"\\E40C\"; }\r\n  .material-icons.panorama_horizontal:before {\r\n    content: \"\\E40D\"; }\r\n  .material-icons.panorama_photosphere:before {\r\n    content: \"\\E9C9\"; }\r\n  .material-icons.panorama_photosphere_select:before {\r\n    content: \"\\E9CA\"; }\r\n  .material-icons.panorama_vertical:before {\r\n    content: \"\\E40E\"; }\r\n  .material-icons.panorama_wide_angle:before {\r\n    content: \"\\E40F\"; }\r\n  .material-icons.park:before {\r\n    content: \"\\EA63\"; }\r\n  .material-icons.party_mode:before {\r\n    content: \"\\E7FA\"; }\r\n  .material-icons.pause:before {\r\n    content: \"\\E034\"; }\r\n  .material-icons.pause_circle_filled:before {\r\n    content: \"\\E035\"; }\r\n  .material-icons.pause_circle_outline:before {\r\n    content: \"\\E036\"; }\r\n  .material-icons.pause_presentation:before {\r\n    content: \"\\E0EA\"; }\r\n  .material-icons.payment:before {\r\n    content: \"\\E8A1\"; }\r\n  .material-icons.people:before {\r\n    content: \"\\E7FB\"; }\r\n  .material-icons.people_alt:before {\r\n    content: \"\\EA21\"; }\r\n  .material-icons.people_outline:before {\r\n    content: \"\\E7FC\"; }\r\n  .material-icons.perm_camera_mic:before {\r\n    content: \"\\E8A2\"; }\r\n  .material-icons.perm_contact_cal:before {\r\n    content: \"\\E8A3\"; }\r\n  .material-icons.perm_contact_calendar:before {\r\n    content: \"\\E8A3\"; }\r\n  .material-icons.perm_data_setting:before {\r\n    content: \"\\E8A4\"; }\r\n  .material-icons.perm_device_info:before {\r\n    content: \"\\E8A5\"; }\r\n  .material-icons.perm_device_information:before {\r\n    content: \"\\E8A5\"; }\r\n  .material-icons.perm_identity:before {\r\n    content: \"\\E8A6\"; }\r\n  .material-icons.perm_media:before {\r\n    content: \"\\E8A7\"; }\r\n  .material-icons.perm_phone_msg:before {\r\n    content: \"\\E8A8\"; }\r\n  .material-icons.perm_scan_wifi:before {\r\n    content: \"\\E8A9\"; }\r\n  .material-icons.person:before {\r\n    content: \"\\E7FD\"; }\r\n  .material-icons.person_add:before {\r\n    content: \"\\E7FE\"; }\r\n  .material-icons.person_add_disabled:before {\r\n    content: \"\\E9CB\"; }\r\n  .material-icons.person_outline:before {\r\n    content: \"\\E7FF\"; }\r\n  .material-icons.person_pin:before {\r\n    content: \"\\E55A\"; }\r\n  .material-icons.person_pin_circle:before {\r\n    content: \"\\E56A\"; }\r\n  .material-icons.personal_video:before {\r\n    content: \"\\E63B\"; }\r\n  .material-icons.pets:before {\r\n    content: \"\\E91D\"; }\r\n  .material-icons.phone:before {\r\n    content: \"\\E0CD\"; }\r\n  .material-icons.phone_android:before {\r\n    content: \"\\E324\"; }\r\n  .material-icons.phone_bluetooth_speaker:before {\r\n    content: \"\\E61B\"; }\r\n  .material-icons.phone_callback:before {\r\n    content: \"\\E649\"; }\r\n  .material-icons.phone_disabled:before {\r\n    content: \"\\E9CC\"; }\r\n  .material-icons.phone_enabled:before {\r\n    content: \"\\E9CD\"; }\r\n  .material-icons.phone_forwarded:before {\r\n    content: \"\\E61C\"; }\r\n  .material-icons.phone_in_talk:before {\r\n    content: \"\\E61D\"; }\r\n  .material-icons.phone_iphone:before {\r\n    content: \"\\E325\"; }\r\n  .material-icons.phone_locked:before {\r\n    content: \"\\E61E\"; }\r\n  .material-icons.phone_missed:before {\r\n    content: \"\\E61F\"; }\r\n  .material-icons.phone_paused:before {\r\n    content: \"\\E620\"; }\r\n  .material-icons.phonelink:before {\r\n    content: \"\\E326\"; }\r\n  .material-icons.phonelink_erase:before {\r\n    content: \"\\E0DB\"; }\r\n  .material-icons.phonelink_lock:before {\r\n    content: \"\\E0DC\"; }\r\n  .material-icons.phonelink_off:before {\r\n    content: \"\\E327\"; }\r\n  .material-icons.phonelink_ring:before {\r\n    content: \"\\E0DD\"; }\r\n  .material-icons.phonelink_setup:before {\r\n    content: \"\\E0DE\"; }\r\n  .material-icons.photo:before {\r\n    content: \"\\E410\"; }\r\n  .material-icons.photo_album:before {\r\n    content: \"\\E411\"; }\r\n  .material-icons.photo_camera:before {\r\n    content: \"\\E412\"; }\r\n  .material-icons.photo_filter:before {\r\n    content: \"\\E43B\"; }\r\n  .material-icons.photo_library:before {\r\n    content: \"\\E413\"; }\r\n  .material-icons.photo_size_select_actual:before {\r\n    content: \"\\E432\"; }\r\n  .material-icons.photo_size_select_large:before {\r\n    content: \"\\E433\"; }\r\n  .material-icons.photo_size_select_small:before {\r\n    content: \"\\E434\"; }\r\n  .material-icons.picture_as_pdf:before {\r\n    content: \"\\E415\"; }\r\n  .material-icons.picture_in_picture:before {\r\n    content: \"\\E8AA\"; }\r\n  .material-icons.picture_in_picture_alt:before {\r\n    content: \"\\E911\"; }\r\n  .material-icons.pie_chart:before {\r\n    content: \"\\E6C4\"; }\r\n  .material-icons.pie_chart_outlined:before {\r\n    content: \"\\E6C5\"; }\r\n  .material-icons.pin_drop:before {\r\n    content: \"\\E55E\"; }\r\n  .material-icons.pivot_table_chart:before {\r\n    content: \"\\E9CE\"; }\r\n  .material-icons.place:before {\r\n    content: \"\\E55F\"; }\r\n  .material-icons.play_arrow:before {\r\n    content: \"\\E037\"; }\r\n  .material-icons.play_circle_fill:before {\r\n    content: \"\\E038\"; }\r\n  .material-icons.play_circle_filled:before {\r\n    content: \"\\E038\"; }\r\n  .material-icons.play_circle_outline:before {\r\n    content: \"\\E039\"; }\r\n  .material-icons.play_for_work:before {\r\n    content: \"\\E906\"; }\r\n  .material-icons.playlist_add:before {\r\n    content: \"\\E03B\"; }\r\n  .material-icons.playlist_add_check:before {\r\n    content: \"\\E065\"; }\r\n  .material-icons.playlist_play:before {\r\n    content: \"\\E05F\"; }\r\n  .material-icons.plus_one:before {\r\n    content: \"\\E800\"; }\r\n  .material-icons.policy:before {\r\n    content: \"\\EA17\"; }\r\n  .material-icons.poll:before {\r\n    content: \"\\E801\"; }\r\n  .material-icons.polymer:before {\r\n    content: \"\\E8AB\"; }\r\n  .material-icons.pool:before {\r\n    content: \"\\EB48\"; }\r\n  .material-icons.portable_wifi_off:before {\r\n    content: \"\\E0CE\"; }\r\n  .material-icons.portrait:before {\r\n    content: \"\\E416\"; }\r\n  .material-icons.post_add:before {\r\n    content: \"\\EA20\"; }\r\n  .material-icons.power:before {\r\n    content: \"\\E63C\"; }\r\n  .material-icons.power_input:before {\r\n    content: \"\\E336\"; }\r\n  .material-icons.power_off:before {\r\n    content: \"\\E646\"; }\r\n  .material-icons.power_settings_new:before {\r\n    content: \"\\E8AC\"; }\r\n  .material-icons.pregnant_woman:before {\r\n    content: \"\\E91E\"; }\r\n  .material-icons.present_to_all:before {\r\n    content: \"\\E0DF\"; }\r\n  .material-icons.print:before {\r\n    content: \"\\E8AD\"; }\r\n  .material-icons.print_disabled:before {\r\n    content: \"\\E9CF\"; }\r\n  .material-icons.priority_high:before {\r\n    content: \"\\E645\"; }\r\n  .material-icons.public:before {\r\n    content: \"\\E80B\"; }\r\n  .material-icons.publish:before {\r\n    content: \"\\E255\"; }\r\n  .material-icons.query_builder:before {\r\n    content: \"\\E8AE\"; }\r\n  .material-icons.question_answer:before {\r\n    content: \"\\E8AF\"; }\r\n  .material-icons.queue:before {\r\n    content: \"\\E03C\"; }\r\n  .material-icons.queue_music:before {\r\n    content: \"\\E03D\"; }\r\n  .material-icons.queue_play_next:before {\r\n    content: \"\\E066\"; }\r\n  .material-icons.quick_contacts_dialer:before {\r\n    content: \"\\E0CF\"; }\r\n  .material-icons.quick_contacts_mail:before {\r\n    content: \"\\E0D0\"; }\r\n  .material-icons.radio:before {\r\n    content: \"\\E03E\"; }\r\n  .material-icons.radio_button_checked:before {\r\n    content: \"\\E837\"; }\r\n  .material-icons.radio_button_off:before {\r\n    content: \"\\E836\"; }\r\n  .material-icons.radio_button_on:before {\r\n    content: \"\\E837\"; }\r\n  .material-icons.radio_button_unchecked:before {\r\n    content: \"\\E836\"; }\r\n  .material-icons.railway_alert:before {\r\n    content: \"\\E9D1\"; }\r\n  .material-icons.ramen_dining:before {\r\n    content: \"\\EA64\"; }\r\n  .material-icons.rate_review:before {\r\n    content: \"\\E560\"; }\r\n  .material-icons.receipt:before {\r\n    content: \"\\E8B0\"; }\r\n  .material-icons.recent_actors:before {\r\n    content: \"\\E03F\"; }\r\n  .material-icons.recommend:before {\r\n    content: \"\\E9D2\"; }\r\n  .material-icons.record_voice_over:before {\r\n    content: \"\\E91F\"; }\r\n  .material-icons.redeem:before {\r\n    content: \"\\E8B1\"; }\r\n  .material-icons.redo:before {\r\n    content: \"\\E15A\"; }\r\n  .material-icons.refresh:before {\r\n    content: \"\\E5D5\"; }\r\n  .material-icons.remove:before {\r\n    content: \"\\E15B\"; }\r\n  .material-icons.remove_circle:before {\r\n    content: \"\\E15C\"; }\r\n  .material-icons.remove_circle_outline:before {\r\n    content: \"\\E15D\"; }\r\n  .material-icons.remove_done:before {\r\n    content: \"\\E9D3\"; }\r\n  .material-icons.remove_from_queue:before {\r\n    content: \"\\E067\"; }\r\n  .material-icons.remove_moderator:before {\r\n    content: \"\\E9D4\"; }\r\n  .material-icons.remove_red_eye:before {\r\n    content: \"\\E417\"; }\r\n  .material-icons.remove_shopping_cart:before {\r\n    content: \"\\E928\"; }\r\n  .material-icons.reorder:before {\r\n    content: \"\\E8FE\"; }\r\n  .material-icons.repeat:before {\r\n    content: \"\\E040\"; }\r\n  .material-icons.repeat_on:before {\r\n    content: \"\\E9D6\"; }\r\n  .material-icons.repeat_one:before {\r\n    content: \"\\E041\"; }\r\n  .material-icons.repeat_one_on:before {\r\n    content: \"\\E9D7\"; }\r\n  .material-icons.replay:before {\r\n    content: \"\\E042\"; }\r\n  .material-icons.replay_10:before {\r\n    content: \"\\E059\"; }\r\n  .material-icons.replay_30:before {\r\n    content: \"\\E05A\"; }\r\n  .material-icons.replay_5:before {\r\n    content: \"\\E05B\"; }\r\n  .material-icons.replay_circle_filled:before {\r\n    content: \"\\E9D8\"; }\r\n  .material-icons.reply:before {\r\n    content: \"\\E15E\"; }\r\n  .material-icons.reply_all:before {\r\n    content: \"\\E15F\"; }\r\n  .material-icons.report:before {\r\n    content: \"\\E160\"; }\r\n  .material-icons.report_off:before {\r\n    content: \"\\E170\"; }\r\n  .material-icons.report_problem:before {\r\n    content: \"\\E8B2\"; }\r\n  .material-icons.reset_tv:before {\r\n    content: \"\\E9D9\"; }\r\n  .material-icons.restaurant:before {\r\n    content: \"\\E56C\"; }\r\n  .material-icons.restaurant_menu:before {\r\n    content: \"\\E561\"; }\r\n  .material-icons.restore:before {\r\n    content: \"\\E8B3\"; }\r\n  .material-icons.restore_from_trash:before {\r\n    content: \"\\E938\"; }\r\n  .material-icons.restore_page:before {\r\n    content: \"\\E929\"; }\r\n  .material-icons.ring_volume:before {\r\n    content: \"\\E0D1\"; }\r\n  .material-icons.room:before {\r\n    content: \"\\E8B4\"; }\r\n  .material-icons.room_service:before {\r\n    content: \"\\EB49\"; }\r\n  .material-icons.rotate_90_degrees_ccw:before {\r\n    content: \"\\E418\"; }\r\n  .material-icons.rotate_left:before {\r\n    content: \"\\E419\"; }\r\n  .material-icons.rotate_right:before {\r\n    content: \"\\E41A\"; }\r\n  .material-icons.rounded_corner:before {\r\n    content: \"\\E920\"; }\r\n  .material-icons.router:before {\r\n    content: \"\\E328\"; }\r\n  .material-icons.rowing:before {\r\n    content: \"\\E921\"; }\r\n  .material-icons.rss_feed:before {\r\n    content: \"\\E0E5\"; }\r\n  .material-icons.rtt:before {\r\n    content: \"\\E9AD\"; }\r\n  .material-icons.rv_hookup:before {\r\n    content: \"\\E642\"; }\r\n  .material-icons.satellite:before {\r\n    content: \"\\E562\"; }\r\n  .material-icons.save:before {\r\n    content: \"\\E161\"; }\r\n  .material-icons.save_alt:before {\r\n    content: \"\\E171\"; }\r\n  .material-icons.saved_search:before {\r\n    content: \"\\EA11\"; }\r\n  .material-icons.scanner:before {\r\n    content: \"\\E329\"; }\r\n  .material-icons.scatter_plot:before {\r\n    content: \"\\E268\"; }\r\n  .material-icons.schedule:before {\r\n    content: \"\\E8B5\"; }\r\n  .material-icons.schedule_send:before {\r\n    content: \"\\EA0A\"; }\r\n  .material-icons.school:before {\r\n    content: \"\\E80C\"; }\r\n  .material-icons.score:before {\r\n    content: \"\\E269\"; }\r\n  .material-icons.screen_lock_landscape:before {\r\n    content: \"\\E1BE\"; }\r\n  .material-icons.screen_lock_portrait:before {\r\n    content: \"\\E1BF\"; }\r\n  .material-icons.screen_lock_rotation:before {\r\n    content: \"\\E1C0\"; }\r\n  .material-icons.screen_rotation:before {\r\n    content: \"\\E1C1\"; }\r\n  .material-icons.screen_share:before {\r\n    content: \"\\E0E2\"; }\r\n  .material-icons.sd:before {\r\n    content: \"\\E9DD\"; }\r\n  .material-icons.sd_card:before {\r\n    content: \"\\E623\"; }\r\n  .material-icons.sd_storage:before {\r\n    content: \"\\E1C2\"; }\r\n  .material-icons.search:before {\r\n    content: \"\\E8B6\"; }\r\n  .material-icons.security:before {\r\n    content: \"\\E32A\"; }\r\n  .material-icons.segment:before {\r\n    content: \"\\E94B\"; }\r\n  .material-icons.select_all:before {\r\n    content: \"\\E162\"; }\r\n  .material-icons.send:before {\r\n    content: \"\\E163\"; }\r\n  .material-icons.send_and_archive:before {\r\n    content: \"\\EA0C\"; }\r\n  .material-icons.sentiment_dissatisfied:before {\r\n    content: \"\\E811\"; }\r\n  .material-icons.sentiment_neutral:before {\r\n    content: \"\\E812\"; }\r\n  .material-icons.sentiment_satisfied:before {\r\n    content: \"\\E813\"; }\r\n  .material-icons.sentiment_satisfied_alt:before {\r\n    content: \"\\E0ED\"; }\r\n  .material-icons.sentiment_very_dissatisfied:before {\r\n    content: \"\\E814\"; }\r\n  .material-icons.sentiment_very_satisfied:before {\r\n    content: \"\\E815\"; }\r\n  .material-icons.settings:before {\r\n    content: \"\\E8B8\"; }\r\n  .material-icons.settings_applications:before {\r\n    content: \"\\E8B9\"; }\r\n  .material-icons.settings_backup_restore:before {\r\n    content: \"\\E8BA\"; }\r\n  .material-icons.settings_bluetooth:before {\r\n    content: \"\\E8BB\"; }\r\n  .material-icons.settings_brightness:before {\r\n    content: \"\\E8BD\"; }\r\n  .material-icons.settings_cell:before {\r\n    content: \"\\E8BC\"; }\r\n  .material-icons.settings_display:before {\r\n    content: \"\\E8BD\"; }\r\n  .material-icons.settings_ethernet:before {\r\n    content: \"\\E8BE\"; }\r\n  .material-icons.settings_input_antenna:before {\r\n    content: \"\\E8BF\"; }\r\n  .material-icons.settings_input_component:before {\r\n    content: \"\\E8C0\"; }\r\n  .material-icons.settings_input_composite:before {\r\n    content: \"\\E8C1\"; }\r\n  .material-icons.settings_input_hdmi:before {\r\n    content: \"\\E8C2\"; }\r\n  .material-icons.settings_input_svideo:before {\r\n    content: \"\\E8C3\"; }\r\n  .material-icons.settings_overscan:before {\r\n    content: \"\\E8C4\"; }\r\n  .material-icons.settings_phone:before {\r\n    content: \"\\E8C5\"; }\r\n  .material-icons.settings_power:before {\r\n    content: \"\\E8C6\"; }\r\n  .material-icons.settings_remote:before {\r\n    content: \"\\E8C7\"; }\r\n  .material-icons.settings_system_daydream:before {\r\n    content: \"\\E1C3\"; }\r\n  .material-icons.settings_voice:before {\r\n    content: \"\\E8C8\"; }\r\n  .material-icons.share:before {\r\n    content: \"\\E80D\"; }\r\n  .material-icons.shield:before {\r\n    content: \"\\E9E0\"; }\r\n  .material-icons.shop:before {\r\n    content: \"\\E8C9\"; }\r\n  .material-icons.shop_two:before {\r\n    content: \"\\E8CA\"; }\r\n  .material-icons.shopping_basket:before {\r\n    content: \"\\E8CB\"; }\r\n  .material-icons.shopping_cart:before {\r\n    content: \"\\E8CC\"; }\r\n  .material-icons.short_text:before {\r\n    content: \"\\E261\"; }\r\n  .material-icons.show_chart:before {\r\n    content: \"\\E6E1\"; }\r\n  .material-icons.shuffle:before {\r\n    content: \"\\E043\"; }\r\n  .material-icons.shuffle_on:before {\r\n    content: \"\\E9E1\"; }\r\n  .material-icons.shutter_speed:before {\r\n    content: \"\\E43D\"; }\r\n  .material-icons.signal_cellular_4_bar:before {\r\n    content: \"\\E1C8\"; }\r\n  .material-icons.signal_cellular_alt:before {\r\n    content: \"\\E202\"; }\r\n  .material-icons.signal_cellular_connected_no_internet_4_bar:before {\r\n    content: \"\\E1CD\"; }\r\n  .material-icons.signal_cellular_no_sim:before {\r\n    content: \"\\E1CE\"; }\r\n  .material-icons.signal_cellular_null:before {\r\n    content: \"\\E1CF\"; }\r\n  .material-icons.signal_cellular_off:before {\r\n    content: \"\\E1D0\"; }\r\n  .material-icons.signal_wifi_4_bar:before {\r\n    content: \"\\E1D8\"; }\r\n  .material-icons.signal_wifi_4_bar_lock:before {\r\n    content: \"\\E1D9\"; }\r\n  .material-icons.signal_wifi_off:before {\r\n    content: \"\\E1DA\"; }\r\n  .material-icons.sim_card:before {\r\n    content: \"\\E32B\"; }\r\n  .material-icons.sim_card_alert:before {\r\n    content: \"\\E624\"; }\r\n  .material-icons.single_bed:before {\r\n    content: \"\\EA48\"; }\r\n  .material-icons.skip_next:before {\r\n    content: \"\\E044\"; }\r\n  .material-icons.skip_previous:before {\r\n    content: \"\\E045\"; }\r\n  .material-icons.slideshow:before {\r\n    content: \"\\E41B\"; }\r\n  .material-icons.slow_motion_video:before {\r\n    content: \"\\E068\"; }\r\n  .material-icons.smartphone:before {\r\n    content: \"\\E32C\"; }\r\n  .material-icons.smoke_free:before {\r\n    content: \"\\EB4A\"; }\r\n  .material-icons.smoking_rooms:before {\r\n    content: \"\\EB4B\"; }\r\n  .material-icons.sms:before {\r\n    content: \"\\E625\"; }\r\n  .material-icons.sms_failed:before {\r\n    content: \"\\E626\"; }\r\n  .material-icons.snooze:before {\r\n    content: \"\\E046\"; }\r\n  .material-icons.sort:before {\r\n    content: \"\\E164\"; }\r\n  .material-icons.sort_by_alpha:before {\r\n    content: \"\\E053\"; }\r\n  .material-icons.spa:before {\r\n    content: \"\\EB4C\"; }\r\n  .material-icons.space_bar:before {\r\n    content: \"\\E256\"; }\r\n  .material-icons.speaker:before {\r\n    content: \"\\E32D\"; }\r\n  .material-icons.speaker_group:before {\r\n    content: \"\\E32E\"; }\r\n  .material-icons.speaker_notes:before {\r\n    content: \"\\E8CD\"; }\r\n  .material-icons.speaker_notes_off:before {\r\n    content: \"\\E92A\"; }\r\n  .material-icons.speaker_phone:before {\r\n    content: \"\\E0D2\"; }\r\n  .material-icons.speed:before {\r\n    content: \"\\E9E4\"; }\r\n  .material-icons.spellcheck:before {\r\n    content: \"\\E8CE\"; }\r\n  .material-icons.sports:before {\r\n    content: \"\\EA30\"; }\r\n  .material-icons.sports_baseball:before {\r\n    content: \"\\EA51\"; }\r\n  .material-icons.sports_basketball:before {\r\n    content: \"\\EA26\"; }\r\n  .material-icons.sports_cricket:before {\r\n    content: \"\\EA27\"; }\r\n  .material-icons.sports_esports:before {\r\n    content: \"\\EA28\"; }\r\n  .material-icons.sports_football:before {\r\n    content: \"\\EA29\"; }\r\n  .material-icons.sports_golf:before {\r\n    content: \"\\EA2A\"; }\r\n  .material-icons.sports_handball:before {\r\n    content: \"\\EA33\"; }\r\n  .material-icons.sports_hockey:before {\r\n    content: \"\\EA2B\"; }\r\n  .material-icons.sports_kabaddi:before {\r\n    content: \"\\EA34\"; }\r\n  .material-icons.sports_mma:before {\r\n    content: \"\\EA2C\"; }\r\n  .material-icons.sports_motorsports:before {\r\n    content: \"\\EA2D\"; }\r\n  .material-icons.sports_rugby:before {\r\n    content: \"\\EA2E\"; }\r\n  .material-icons.sports_soccer:before {\r\n    content: \"\\EA2F\"; }\r\n  .material-icons.sports_tennis:before {\r\n    content: \"\\EA32\"; }\r\n  .material-icons.sports_volleyball:before {\r\n    content: \"\\EA31\"; }\r\n  .material-icons.square_foot:before {\r\n    content: \"\\EA49\"; }\r\n  .material-icons.stacked_bar_chart:before {\r\n    content: \"\\E9E6\"; }\r\n  .material-icons.star:before {\r\n    content: \"\\E838\"; }\r\n  .material-icons.star_border:before {\r\n    content: \"\\E83A\"; }\r\n  .material-icons.star_half:before {\r\n    content: \"\\E839\"; }\r\n  .material-icons.star_outline:before {\r\n    content: \"\\E83A\"; }\r\n  .material-icons.stars:before {\r\n    content: \"\\E8D0\"; }\r\n  .material-icons.stay_current_landscape:before {\r\n    content: \"\\E0D3\"; }\r\n  .material-icons.stay_current_portrait:before {\r\n    content: \"\\E0D4\"; }\r\n  .material-icons.stay_primary_landscape:before {\r\n    content: \"\\E0D5\"; }\r\n  .material-icons.stay_primary_portrait:before {\r\n    content: \"\\E0D6\"; }\r\n  .material-icons.stop:before {\r\n    content: \"\\E047\"; }\r\n  .material-icons.stop_screen_share:before {\r\n    content: \"\\E0E3\"; }\r\n  .material-icons.storage:before {\r\n    content: \"\\E1DB\"; }\r\n  .material-icons.store:before {\r\n    content: \"\\E8D1\"; }\r\n  .material-icons.store_mall_directory:before {\r\n    content: \"\\E563\"; }\r\n  .material-icons.storefront:before {\r\n    content: \"\\EA12\"; }\r\n  .material-icons.straighten:before {\r\n    content: \"\\E41C\"; }\r\n  .material-icons.stream:before {\r\n    content: \"\\E9E9\"; }\r\n  .material-icons.streetview:before {\r\n    content: \"\\E56E\"; }\r\n  .material-icons.strikethrough_s:before {\r\n    content: \"\\E257\"; }\r\n  .material-icons.style:before {\r\n    content: \"\\E41D\"; }\r\n  .material-icons.subdirectory_arrow_left:before {\r\n    content: \"\\E5D9\"; }\r\n  .material-icons.subdirectory_arrow_right:before {\r\n    content: \"\\E5DA\"; }\r\n  .material-icons.subject:before {\r\n    content: \"\\E8D2\"; }\r\n  .material-icons.subscriptions:before {\r\n    content: \"\\E064\"; }\r\n  .material-icons.subtitles:before {\r\n    content: \"\\E048\"; }\r\n  .material-icons.subway:before {\r\n    content: \"\\E56F\"; }\r\n  .material-icons.supervised_user_circle:before {\r\n    content: \"\\E939\"; }\r\n  .material-icons.supervisor_account:before {\r\n    content: \"\\E8D3\"; }\r\n  .material-icons.surround_sound:before {\r\n    content: \"\\E049\"; }\r\n  .material-icons.swap_calls:before {\r\n    content: \"\\E0D7\"; }\r\n  .material-icons.swap_horiz:before {\r\n    content: \"\\E8D4\"; }\r\n  .material-icons.swap_horizontal_circle:before {\r\n    content: \"\\E933\"; }\r\n  .material-icons.swap_vert:before {\r\n    content: \"\\E8D5\"; }\r\n  .material-icons.swap_vert_circle:before {\r\n    content: \"\\E8D6\"; }\r\n  .material-icons.swap_vertical_circle:before {\r\n    content: \"\\E8D6\"; }\r\n  .material-icons.swipe:before {\r\n    content: \"\\E9EC\"; }\r\n  .material-icons.switch_account:before {\r\n    content: \"\\E9ED\"; }\r\n  .material-icons.switch_camera:before {\r\n    content: \"\\E41E\"; }\r\n  .material-icons.switch_video:before {\r\n    content: \"\\E41F\"; }\r\n  .material-icons.sync:before {\r\n    content: \"\\E627\"; }\r\n  .material-icons.sync_alt:before {\r\n    content: \"\\EA18\"; }\r\n  .material-icons.sync_disabled:before {\r\n    content: \"\\E628\"; }\r\n  .material-icons.sync_problem:before {\r\n    content: \"\\E629\"; }\r\n  .material-icons.system_update:before {\r\n    content: \"\\E62A\"; }\r\n  .material-icons.system_update_alt:before {\r\n    content: \"\\E8D7\"; }\r\n  .material-icons.system_update_tv:before {\r\n    content: \"\\E8D7\"; }\r\n  .material-icons.tab:before {\r\n    content: \"\\E8D8\"; }\r\n  .material-icons.tab_unselected:before {\r\n    content: \"\\E8D9\"; }\r\n  .material-icons.table_chart:before {\r\n    content: \"\\E265\"; }\r\n  .material-icons.tablet:before {\r\n    content: \"\\E32F\"; }\r\n  .material-icons.tablet_android:before {\r\n    content: \"\\E330\"; }\r\n  .material-icons.tablet_mac:before {\r\n    content: \"\\E331\"; }\r\n  .material-icons.tag:before {\r\n    content: \"\\E9EF\"; }\r\n  .material-icons.tag_faces:before {\r\n    content: \"\\E420\"; }\r\n  .material-icons.takeout_dining:before {\r\n    content: \"\\EA74\"; }\r\n  .material-icons.tap_and_play:before {\r\n    content: \"\\E62B\"; }\r\n  .material-icons.terrain:before {\r\n    content: \"\\E564\"; }\r\n  .material-icons.text_fields:before {\r\n    content: \"\\E262\"; }\r\n  .material-icons.text_format:before {\r\n    content: \"\\E165\"; }\r\n  .material-icons.text_rotate_up:before {\r\n    content: \"\\E93A\"; }\r\n  .material-icons.text_rotate_vertical:before {\r\n    content: \"\\E93B\"; }\r\n  .material-icons.text_rotation_angledown:before {\r\n    content: \"\\E93C\"; }\r\n  .material-icons.text_rotation_angleup:before {\r\n    content: \"\\E93D\"; }\r\n  .material-icons.text_rotation_down:before {\r\n    content: \"\\E93E\"; }\r\n  .material-icons.text_rotation_none:before {\r\n    content: \"\\E93F\"; }\r\n  .material-icons.textsms:before {\r\n    content: \"\\E0D8\"; }\r\n  .material-icons.texture:before {\r\n    content: \"\\E421\"; }\r\n  .material-icons.theater_comedy:before {\r\n    content: \"\\EA66\"; }\r\n  .material-icons.theaters:before {\r\n    content: \"\\E8DA\"; }\r\n  .material-icons.thumb_down:before {\r\n    content: \"\\E8DB\"; }\r\n  .material-icons.thumb_down_alt:before {\r\n    content: \"\\E816\"; }\r\n  .material-icons.thumb_down_off_alt:before {\r\n    content: \"\\E9F2\"; }\r\n  .material-icons.thumb_up:before {\r\n    content: \"\\E8DC\"; }\r\n  .material-icons.thumb_up_alt:before {\r\n    content: \"\\E817\"; }\r\n  .material-icons.thumb_up_off_alt:before {\r\n    content: \"\\E9F3\"; }\r\n  .material-icons.thumbs_up_down:before {\r\n    content: \"\\E8DD\"; }\r\n  .material-icons.time_to_leave:before {\r\n    content: \"\\E62C\"; }\r\n  .material-icons.timelapse:before {\r\n    content: \"\\E422\"; }\r\n  .material-icons.timeline:before {\r\n    content: \"\\E922\"; }\r\n  .material-icons.timer:before {\r\n    content: \"\\E425\"; }\r\n  .material-icons.timer_10:before {\r\n    content: \"\\E423\"; }\r\n  .material-icons.timer_3:before {\r\n    content: \"\\E424\"; }\r\n  .material-icons.timer_off:before {\r\n    content: \"\\E426\"; }\r\n  .material-icons.title:before {\r\n    content: \"\\E264\"; }\r\n  .material-icons.toc:before {\r\n    content: \"\\E8DE\"; }\r\n  .material-icons.today:before {\r\n    content: \"\\E8DF\"; }\r\n  .material-icons.toggle_off:before {\r\n    content: \"\\E9F5\"; }\r\n  .material-icons.toggle_on:before {\r\n    content: \"\\E9F6\"; }\r\n  .material-icons.toll:before {\r\n    content: \"\\E8E0\"; }\r\n  .material-icons.tonality:before {\r\n    content: \"\\E427\"; }\r\n  .material-icons.touch_app:before {\r\n    content: \"\\E913\"; }\r\n  .material-icons.toys:before {\r\n    content: \"\\E332\"; }\r\n  .material-icons.track_changes:before {\r\n    content: \"\\E8E1\"; }\r\n  .material-icons.traffic:before {\r\n    content: \"\\E565\"; }\r\n  .material-icons.train:before {\r\n    content: \"\\E570\"; }\r\n  .material-icons.tram:before {\r\n    content: \"\\E571\"; }\r\n  .material-icons.transfer_within_a_station:before {\r\n    content: \"\\E572\"; }\r\n  .material-icons.transform:before {\r\n    content: \"\\E428\"; }\r\n  .material-icons.transit_enterexit:before {\r\n    content: \"\\E579\"; }\r\n  .material-icons.translate:before {\r\n    content: \"\\E8E2\"; }\r\n  .material-icons.trending_down:before {\r\n    content: \"\\E8E3\"; }\r\n  .material-icons.trending_flat:before {\r\n    content: \"\\E8E4\"; }\r\n  .material-icons.trending_neutral:before {\r\n    content: \"\\E8E4\"; }\r\n  .material-icons.trending_up:before {\r\n    content: \"\\E8E5\"; }\r\n  .material-icons.trip_origin:before {\r\n    content: \"\\E57B\"; }\r\n  .material-icons.tune:before {\r\n    content: \"\\E429\"; }\r\n  .material-icons.turned_in:before {\r\n    content: \"\\E8E6\"; }\r\n  .material-icons.turned_in_not:before {\r\n    content: \"\\E8E7\"; }\r\n  .material-icons.tv:before {\r\n    content: \"\\E333\"; }\r\n  .material-icons.tv_off:before {\r\n    content: \"\\E647\"; }\r\n  .material-icons.two_wheeler:before {\r\n    content: \"\\E9F9\"; }\r\n  .material-icons.unarchive:before {\r\n    content: \"\\E169\"; }\r\n  .material-icons.undo:before {\r\n    content: \"\\E166\"; }\r\n  .material-icons.unfold_less:before {\r\n    content: \"\\E5D6\"; }\r\n  .material-icons.unfold_more:before {\r\n    content: \"\\E5D7\"; }\r\n  .material-icons.unsubscribe:before {\r\n    content: \"\\E0EB\"; }\r\n  .material-icons.update:before {\r\n    content: \"\\E923\"; }\r\n  .material-icons.upload_file:before {\r\n    content: \"\\E9FC\"; }\r\n  .material-icons.usb:before {\r\n    content: \"\\E1E0\"; }\r\n  .material-icons.verified_user:before {\r\n    content: \"\\E8E8\"; }\r\n  .material-icons.vertical_align_bottom:before {\r\n    content: \"\\E258\"; }\r\n  .material-icons.vertical_align_center:before {\r\n    content: \"\\E259\"; }\r\n  .material-icons.vertical_align_top:before {\r\n    content: \"\\E25A\"; }\r\n  .material-icons.vertical_split:before {\r\n    content: \"\\E949\"; }\r\n  .material-icons.vibration:before {\r\n    content: \"\\E62D\"; }\r\n  .material-icons.video_call:before {\r\n    content: \"\\E070\"; }\r\n  .material-icons.video_collection:before {\r\n    content: \"\\E04A\"; }\r\n  .material-icons.video_label:before {\r\n    content: \"\\E071\"; }\r\n  .material-icons.video_library:before {\r\n    content: \"\\E04A\"; }\r\n  .material-icons.videocam:before {\r\n    content: \"\\E04B\"; }\r\n  .material-icons.videocam_off:before {\r\n    content: \"\\E04C\"; }\r\n  .material-icons.videogame_asset:before {\r\n    content: \"\\E338\"; }\r\n  .material-icons.view_agenda:before {\r\n    content: \"\\E8E9\"; }\r\n  .material-icons.view_array:before {\r\n    content: \"\\E8EA\"; }\r\n  .material-icons.view_carousel:before {\r\n    content: \"\\E8EB\"; }\r\n  .material-icons.view_column:before {\r\n    content: \"\\E8EC\"; }\r\n  .material-icons.view_comfortable:before {\r\n    content: \"\\E42A\"; }\r\n  .material-icons.view_comfy:before {\r\n    content: \"\\E42A\"; }\r\n  .material-icons.view_compact:before {\r\n    content: \"\\E42B\"; }\r\n  .material-icons.view_day:before {\r\n    content: \"\\E8ED\"; }\r\n  .material-icons.view_headline:before {\r\n    content: \"\\E8EE\"; }\r\n  .material-icons.view_in_ar:before {\r\n    content: \"\\E9FE\"; }\r\n  .material-icons.view_list:before {\r\n    content: \"\\E8EF\"; }\r\n  .material-icons.view_module:before {\r\n    content: \"\\E8F0\"; }\r\n  .material-icons.view_quilt:before {\r\n    content: \"\\E8F1\"; }\r\n  .material-icons.view_stream:before {\r\n    content: \"\\E8F2\"; }\r\n  .material-icons.view_week:before {\r\n    content: \"\\E8F3\"; }\r\n  .material-icons.vignette:before {\r\n    content: \"\\E435\"; }\r\n  .material-icons.visibility:before {\r\n    content: \"\\E8F4\"; }\r\n  .material-icons.visibility_off:before {\r\n    content: \"\\E8F5\"; }\r\n  .material-icons.voice_chat:before {\r\n    content: \"\\E62E\"; }\r\n  .material-icons.voice_over_off:before {\r\n    content: \"\\E94A\"; }\r\n  .material-icons.voicemail:before {\r\n    content: \"\\E0D9\"; }\r\n  .material-icons.volume_down:before {\r\n    content: \"\\E04D\"; }\r\n  .material-icons.volume_mute:before {\r\n    content: \"\\E04E\"; }\r\n  .material-icons.volume_off:before {\r\n    content: \"\\E04F\"; }\r\n  .material-icons.volume_up:before {\r\n    content: \"\\E050\"; }\r\n  .material-icons.volunteer_activism:before {\r\n    content: \"\\EA70\"; }\r\n  .material-icons.vpn_key:before {\r\n    content: \"\\E0DA\"; }\r\n  .material-icons.vpn_lock:before {\r\n    content: \"\\E62F\"; }\r\n  .material-icons.wallet_giftcard:before {\r\n    content: \"\\E8F6\"; }\r\n  .material-icons.wallet_membership:before {\r\n    content: \"\\E8F7\"; }\r\n  .material-icons.wallet_travel:before {\r\n    content: \"\\E8F8\"; }\r\n  .material-icons.wallpaper:before {\r\n    content: \"\\E1BC\"; }\r\n  .material-icons.warning:before {\r\n    content: \"\\E002\"; }\r\n  .material-icons.watch:before {\r\n    content: \"\\E334\"; }\r\n  .material-icons.watch_later:before {\r\n    content: \"\\E924\"; }\r\n  .material-icons.waterfall_chart:before {\r\n    content: \"\\EA00\"; }\r\n  .material-icons.waves:before {\r\n    content: \"\\E176\"; }\r\n  .material-icons.wb_auto:before {\r\n    content: \"\\E42C\"; }\r\n  .material-icons.wb_cloudy:before {\r\n    content: \"\\E42D\"; }\r\n  .material-icons.wb_incandescent:before {\r\n    content: \"\\E42E\"; }\r\n  .material-icons.wb_iridescent:before {\r\n    content: \"\\E436\"; }\r\n  .material-icons.wb_shade:before {\r\n    content: \"\\EA01\"; }\r\n  .material-icons.wb_sunny:before {\r\n    content: \"\\E430\"; }\r\n  .material-icons.wb_twighlight:before {\r\n    content: \"\\EA02\"; }\r\n  .material-icons.wc:before {\r\n    content: \"\\E63D\"; }\r\n  .material-icons.web:before {\r\n    content: \"\\E051\"; }\r\n  .material-icons.web_asset:before {\r\n    content: \"\\E069\"; }\r\n  .material-icons.weekend:before {\r\n    content: \"\\E16B\"; }\r\n  .material-icons.whatshot:before {\r\n    content: \"\\E80E\"; }\r\n  .material-icons.where_to_vote:before {\r\n    content: \"\\E177\"; }\r\n  .material-icons.widgets:before {\r\n    content: \"\\E1BD\"; }\r\n  .material-icons.wifi:before {\r\n    content: \"\\E63E\"; }\r\n  .material-icons.wifi_lock:before {\r\n    content: \"\\E1E1\"; }\r\n  .material-icons.wifi_off:before {\r\n    content: \"\\E648\"; }\r\n  .material-icons.wifi_tethering:before {\r\n    content: \"\\E1E2\"; }\r\n  .material-icons.work:before {\r\n    content: \"\\E8F9\"; }\r\n  .material-icons.work_off:before {\r\n    content: \"\\E942\"; }\r\n  .material-icons.work_outline:before {\r\n    content: \"\\E943\"; }\r\n  .material-icons.workspaces_filled:before {\r\n    content: \"\\EA0D\"; }\r\n  .material-icons.workspaces_outline:before {\r\n    content: \"\\EA0F\"; }\r\n  .material-icons.wrap_text:before {\r\n    content: \"\\E25B\"; }\r\n  .material-icons.youtube_searched_for:before {\r\n    content: \"\\E8FA\"; }\r\n  .material-icons.zoom_in:before {\r\n    content: \"\\E8FF\"; }\r\n  .material-icons.zoom_out:before {\r\n    content: \"\\E900\"; }\r\n  .material-icons.zoom_out_map:before {\r\n    content: \"\\E56B\"; }\r\n", ""]);
 
 // exports
 
@@ -34635,6 +35060,80 @@ return jQuery;
 
 /***/ }),
 
+/***/ "./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.eot":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.eot ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/vendor/material-design-icons-icondist/MaterialIcons-Regular.eot?96c476804d7a788cc1c05351b287ee41";
+
+/***/ }),
+
+/***/ "./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.ttf":
+/*!******************************************************************************************!*\
+  !*** ./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.ttf ***!
+  \******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/vendor/material-design-icons-icondist/MaterialIcons-Regular.ttf?da4ea5cdfca6b3baab285741f5ccb59f";
+
+/***/ }),
+
+/***/ "./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.woff":
+/*!*******************************************************************************************!*\
+  !*** ./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.woff ***!
+  \*******************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/vendor/material-design-icons-icondist/MaterialIcons-Regular.woff?29b882f018fa6fe75fd338aaae6235b8";
+
+/***/ }),
+
+/***/ "./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.woff2":
+/*!********************************************************************************************!*\
+  !*** ./node_modules/material-design-icons-iconfont/dist/fonts/MaterialIcons-Regular.woff2 ***!
+  \********************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/vendor/material-design-icons-icondist/MaterialIcons-Regular.woff2?0509ab09c1b0d2200a4135803c91d6ce";
+
+/***/ }),
+
+/***/ "./node_modules/material-design-icons-iconfont/dist/material-design-icons.css":
+/*!************************************************************************************!*\
+  !*** ./node_modules/material-design-icons-iconfont/dist/material-design-icons.css ***!
+  \************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../css-loader??ref--6-1!../../postcss-loader/src??ref--6-2!./material-design-icons.css */ "./node_modules/css-loader/index.js?!./node_modules/postcss-loader/src/index.js?!./node_modules/material-design-icons-iconfont/dist/material-design-icons.css");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/popper.js/dist/esm/popper.js":
 /*!***************************************************!*\
   !*** ./node_modules/popper.js/dist/esm/popper.js ***!
@@ -38242,6 +38741,187 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 
 /***/ }),
 
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/Dashboard.vue?vue&type=template&id=af0944b4&":
+/*!*******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/Dashboard.vue?vue&type=template&id=af0944b4& ***!
+  \*******************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    { staticClass: "text-center" },
+    [
+      _c(
+        "v-btn",
+        { staticClass: "ma-2", attrs: { outlined: "", color: "indigo" } },
+        [_vm._v("Outlined Button")]
+      ),
+      _vm._v(" "),
+      _c(
+        "v-btn",
+        {
+          staticClass: "ma-2",
+          attrs: { outlined: "", fab: "", color: "teal" }
+        },
+        [_c("v-icon", [_vm._v("mdi-format-list-bulleted-square")])],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-btn",
+        {
+          staticClass: "ma-2",
+          attrs: { outlined: "", large: "", fab: "", color: "indigo" }
+        },
+        [_c("v-icon", [_vm._v("mdi-pencil")])],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/Restaurants.vue?vue&type=template&id=37102f30&":
+/*!*********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/admin/Restaurants.vue?vue&type=template&id=37102f30& ***!
+  \*********************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "div",
+    [
+      _c(
+        "v-card",
+        { staticClass: "ma-5" },
+        [
+          _c(
+            "v-card-title",
+            [
+              _c(
+                "v-col",
+                { attrs: { cols: "12", md: "4", sm: "12" } },
+                [
+                  _vm._v("\n                Restaurant\n                "),
+                  _c("v-divider", {
+                    staticClass: "mx-4",
+                    attrs: { inset: "", vertical: "" }
+                  })
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("v-spacer"),
+              _vm._v(" "),
+              _c(
+                "v-col",
+                { attrs: { cols: "12", md: "4", sm: "12" } },
+                [
+                  _c("v-text-field", {
+                    staticClass: "mt-0",
+                    attrs: {
+                      "append-icon": "mdi-magnify",
+                      label: "Search",
+                      "single-line": "",
+                      "hide-details": ""
+                    },
+                    model: {
+                      value: _vm.search,
+                      callback: function($$v) {
+                        _vm.search = $$v
+                      },
+                      expression: "search"
+                    }
+                  })
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("v-spacer"),
+              _vm._v(" "),
+              _c(
+                "v-col",
+                { attrs: { cols: "12", md: "4", sm: "12" } },
+                [_c("popup")],
+                1
+              )
+            ],
+            1
+          ),
+          _vm._v(" "),
+          _c("v-data-table", {
+            attrs: {
+              headers: _vm.tableHeaders,
+              items: _vm.desserts,
+              search: _vm.search
+            }
+          })
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Admin.vue?vue&type=template&id=58b78718&":
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Admin.vue?vue&type=template&id=58b78718& ***!
+  \********************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "v-app",
+    { staticClass: "default" },
+    [_c("navigation"), _vm._v(" "), _c("v-main", [_c("router-view")], 1)],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&":
 /*!*******************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e& ***!
@@ -38284,6 +38964,430 @@ var render = function() {
           attrs: { outlined: "", large: "", fab: "", color: "indigo" }
         },
         [_c("v-icon", [_vm._v("mdi-pencil")])],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Navigation.vue?vue&type=template&id=3250b25d&":
+/*!********************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Navigation.vue?vue&type=template&id=3250b25d& ***!
+  \********************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "nav",
+    [
+      _c(
+        "v-navigation-drawer",
+        {
+          attrs: { clipped: _vm.primaryDrawer.clipped, app: "", overflow: "" },
+          model: {
+            value: _vm.primaryDrawer.model,
+            callback: function($$v) {
+              _vm.$set(_vm.primaryDrawer, "model", $$v)
+            },
+            expression: "primaryDrawer.model"
+          }
+        },
+        [
+          _c(
+            "v-list",
+            { staticClass: "ma-3" },
+            _vm._l(_vm.navDrawerLinks, function(link) {
+              return _c(
+                "v-list-item",
+                {
+                  key: link.name,
+                  attrs: { link: "", router: "", to: link.route }
+                },
+                [
+                  _c(
+                    "v-list-item-icon",
+                    [_c("v-icon", [_vm._v(_vm._s(link.icon))])],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c(
+                    "v-list-item-content",
+                    [_c("v-list-item-title", [_vm._v(_vm._s(link.name))])],
+                    1
+                  )
+                ],
+                1
+              )
+            }),
+            1
+          )
+        ],
+        1
+      ),
+      _vm._v(" "),
+      _c(
+        "v-app-bar",
+        {
+          attrs: {
+            "clipped-left": _vm.primaryDrawer.clipped,
+            app: "",
+            flat: ""
+          }
+        },
+        [
+          _c(
+            "v-toolbar",
+            { staticClass: "transparent", attrs: { flat: "" } },
+            [
+              _vm.primaryDrawer.type !== "permanent"
+                ? _c("v-app-bar-nav-icon", {
+                    on: {
+                      click: function($event) {
+                        $event.stopPropagation()
+                        _vm.primaryDrawer.model = !_vm.primaryDrawer.model
+                      }
+                    }
+                  })
+                : _vm._e(),
+              _vm._v(" "),
+              _c("v-toolbar-title", [_vm._v("Munch Express")]),
+              _vm._v(" "),
+              _c("v-spacer"),
+              _vm._v(" "),
+              _c(
+                "v-col",
+                { attrs: { cols: "3", sm: "2" } },
+                [
+                  _c("v-text-field", {
+                    staticClass: "mt-5",
+                    attrs: { label: "Search", "append-icon": "mdi-magnify" }
+                  })
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "v-btn",
+                { attrs: { icon: "" } },
+                [_c("v-icon", [_vm._v("mdi-bell")])],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "span",
+                [
+                  _c(
+                    "v-btn",
+                    { attrs: { icon: "" } },
+                    [_c("v-icon", [_vm._v("mdi-account")])],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c("span", [_vm._v("Admin")])
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Popup.vue?vue&type=template&id=7d2b02f3&":
+/*!***************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/pages/Popup.vue?vue&type=template&id=7d2b02f3& ***!
+  \***************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "v-row",
+    { attrs: { justify: "center" } },
+    [
+      _c(
+        "v-dialog",
+        {
+          attrs: { persistent: "", "max-width": "600px" },
+          scopedSlots: _vm._u([
+            {
+              key: "activator",
+              fn: function(ref) {
+                var on = ref.on
+                var attrs = ref.attrs
+                return [
+                  _c(
+                    "v-btn",
+                    _vm._g(
+                      _vm._b(
+                        { attrs: { color: "primary", dark: "" } },
+                        "v-btn",
+                        attrs,
+                        false
+                      ),
+                      on
+                    ),
+                    [
+                      _c("span", [_c("v-icon", [_vm._v("add")])], 1),
+                      _vm._v(" "),
+                      _c("span", [_vm._v("Add Restaurant Owner")])
+                    ]
+                  )
+                ]
+              }
+            }
+          ]),
+          model: {
+            value: _vm.dialog,
+            callback: function($$v) {
+              _vm.dialog = $$v
+            },
+            expression: "dialog"
+          }
+        },
+        [
+          _vm._v(" "),
+          _c(
+            "v-card",
+            [
+              _c(
+                "v-card-title",
+                [
+                  _c("span", { staticClass: "headline" }, [
+                    _vm._v("Add Restaurant")
+                  ]),
+                  _vm._v(" "),
+                  _c("v-spacer"),
+                  _vm._v(" "),
+                  _c(
+                    "span",
+                    [
+                      _c(
+                        "v-icon",
+                        {
+                          attrs: { color: "black darken-4", dark: "" },
+                          on: {
+                            click: function($event) {
+                              _vm.dialog = false
+                            }
+                          }
+                        },
+                        [_vm._v("mdi-close")]
+                      )
+                    ],
+                    1
+                  )
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "v-card-text",
+                [
+                  _c(
+                    "v-container",
+                    [
+                      _c(
+                        "v-row",
+                        [
+                          _c(
+                            "v-col",
+                            { attrs: { cols: "12", sm: "6", md: "6" } },
+                            [
+                              _c("v-text-field", {
+                                attrs: {
+                                  label: "Owners name*",
+                                  required: "",
+                                  hint: "This is a required field"
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "v-col",
+                            { attrs: { cols: "12", sm: "6", md: "6" } },
+                            [
+                              _c("v-text-field", {
+                                attrs: {
+                                  label: "Restaurants Name*",
+                                  hint: "This is a required field",
+                                  required: ""
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "v-col",
+                            { attrs: { cols: "12" } },
+                            [
+                              _c("v-text-field", {
+                                attrs: { label: "Email*", required: "" }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "v-col",
+                            { attrs: { cols: "12" } },
+                            [
+                              _c("v-text-field", {
+                                attrs: {
+                                  label: "Password*",
+                                  type: "password",
+                                  required: ""
+                                }
+                              })
+                            ],
+                            1
+                          ),
+                          _vm._v(" "),
+                          _c(
+                            "v-col",
+                            { attrs: { cols: "12", sm: "12" } },
+                            [
+                              _c("v-autocomplete", {
+                                attrs: {
+                                  items: [
+                                    "Abuja",
+                                    "Lagos",
+                                    "Enugu",
+                                    "Port Harcourt"
+                                  ],
+                                  label: "Restaurants Location"
+                                }
+                              })
+                            ],
+                            1
+                          )
+                        ],
+                        1
+                      )
+                    ],
+                    1
+                  ),
+                  _vm._v(" "),
+                  _c("small", [_vm._v("*indicates required field")])
+                ],
+                1
+              ),
+              _vm._v(" "),
+              _c(
+                "v-card-actions",
+                [
+                  _c("v-spacer"),
+                  _vm._v(" "),
+                  _c("v-btn", { attrs: { color: "blue darken-4", dark: "" } }, [
+                    _vm._v("Create")
+                  ])
+                ],
+                1
+              )
+            ],
+            1
+          )
+        ],
+        1
+      )
+    ],
+    1
+  )
+}
+var staticRenderFns = []
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/user/RestaurantMenus.vue?vue&type=template&id=4b247351&":
+/*!************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/user/RestaurantMenus.vue?vue&type=template&id=4b247351& ***!
+  \************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _c(
+    "v-card",
+    { staticClass: "mx-auto", attrs: { "max-width": "400" } },
+    [
+      _c(
+        "v-img",
+        {
+          staticClass: "white--text align-end",
+          attrs: {
+            height: "200px",
+            src: "https://cdn.vuetifyjs.com/images/cards/docks.jpg"
+          }
+        },
+        [_c("v-card-title", [_vm._v("Top 10 Australian beaches")])],
+        1
+      ),
+      _vm._v(" "),
+      _c("v-card-subtitle", { staticClass: "pb-0" }, [_vm._v("Number 10")]),
+      _vm._v(" "),
+      _c("v-card-text", { staticClass: "text--primary" }, [
+        _c("div", [_vm._v("Whitehaven Beach")]),
+        _vm._v(" "),
+        _c("div", [_vm._v("Whitsunday Island, Whitsunday Islands")])
+      ]),
+      _vm._v(" "),
+      _c(
+        "v-card-actions",
+        [
+          _c("v-btn", { attrs: { color: "orange", text: "" } }, [
+            _vm._v("\n            Share\n        ")
+          ]),
+          _vm._v(" "),
+          _c("v-btn", { attrs: { color: "orange", text: "" } }, [
+            _vm._v("\n            Explore\n        ")
+          ])
+        ],
         1
       )
     ],
@@ -38405,6 +39509,3072 @@ function normalizeComponent (
     options: options
   }
 }
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-router/dist/vue-router.esm.js":
+/*!********************************************************!*\
+  !*** ./node_modules/vue-router/dist/vue-router.esm.js ***!
+  \********************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/*!
+  * vue-router v3.4.3
+  * (c) 2020 Evan You
+  * @license MIT
+  */
+/*  */
+
+function assert (condition, message) {
+  if (!condition) {
+    throw new Error(("[vue-router] " + message))
+  }
+}
+
+function warn (condition, message) {
+  if ( true && !condition) {
+    typeof console !== 'undefined' && console.warn(("[vue-router] " + message));
+  }
+}
+
+function extend (a, b) {
+  for (var key in b) {
+    a[key] = b[key];
+  }
+  return a
+}
+
+var View = {
+  name: 'RouterView',
+  functional: true,
+  props: {
+    name: {
+      type: String,
+      default: 'default'
+    }
+  },
+  render: function render (_, ref) {
+    var props = ref.props;
+    var children = ref.children;
+    var parent = ref.parent;
+    var data = ref.data;
+
+    // used by devtools to display a router-view badge
+    data.routerView = true;
+
+    // directly use parent context's createElement() function
+    // so that components rendered by router-view can resolve named slots
+    var h = parent.$createElement;
+    var name = props.name;
+    var route = parent.$route;
+    var cache = parent._routerViewCache || (parent._routerViewCache = {});
+
+    // determine current view depth, also check to see if the tree
+    // has been toggled inactive but kept-alive.
+    var depth = 0;
+    var inactive = false;
+    while (parent && parent._routerRoot !== parent) {
+      var vnodeData = parent.$vnode ? parent.$vnode.data : {};
+      if (vnodeData.routerView) {
+        depth++;
+      }
+      if (vnodeData.keepAlive && parent._directInactive && parent._inactive) {
+        inactive = true;
+      }
+      parent = parent.$parent;
+    }
+    data.routerViewDepth = depth;
+
+    // render previous view if the tree is inactive and kept-alive
+    if (inactive) {
+      var cachedData = cache[name];
+      var cachedComponent = cachedData && cachedData.component;
+      if (cachedComponent) {
+        // #2301
+        // pass props
+        if (cachedData.configProps) {
+          fillPropsinData(cachedComponent, data, cachedData.route, cachedData.configProps);
+        }
+        return h(cachedComponent, data, children)
+      } else {
+        // render previous empty view
+        return h()
+      }
+    }
+
+    var matched = route.matched[depth];
+    var component = matched && matched.components[name];
+
+    // render empty node if no matched route or no config component
+    if (!matched || !component) {
+      cache[name] = null;
+      return h()
+    }
+
+    // cache component
+    cache[name] = { component: component };
+
+    // attach instance registration hook
+    // this will be called in the instance's injected lifecycle hooks
+    data.registerRouteInstance = function (vm, val) {
+      // val could be undefined for unregistration
+      var current = matched.instances[name];
+      if (
+        (val && current !== vm) ||
+        (!val && current === vm)
+      ) {
+        matched.instances[name] = val;
+      }
+    }
+
+    // also register instance in prepatch hook
+    // in case the same component instance is reused across different routes
+    ;(data.hook || (data.hook = {})).prepatch = function (_, vnode) {
+      matched.instances[name] = vnode.componentInstance;
+    };
+
+    // register instance in init hook
+    // in case kept-alive component be actived when routes changed
+    data.hook.init = function (vnode) {
+      if (vnode.data.keepAlive &&
+        vnode.componentInstance &&
+        vnode.componentInstance !== matched.instances[name]
+      ) {
+        matched.instances[name] = vnode.componentInstance;
+      }
+    };
+
+    var configProps = matched.props && matched.props[name];
+    // save route and configProps in cache
+    if (configProps) {
+      extend(cache[name], {
+        route: route,
+        configProps: configProps
+      });
+      fillPropsinData(component, data, route, configProps);
+    }
+
+    return h(component, data, children)
+  }
+};
+
+function fillPropsinData (component, data, route, configProps) {
+  // resolve props
+  var propsToPass = data.props = resolveProps(route, configProps);
+  if (propsToPass) {
+    // clone to prevent mutation
+    propsToPass = data.props = extend({}, propsToPass);
+    // pass non-declared props as attrs
+    var attrs = data.attrs = data.attrs || {};
+    for (var key in propsToPass) {
+      if (!component.props || !(key in component.props)) {
+        attrs[key] = propsToPass[key];
+        delete propsToPass[key];
+      }
+    }
+  }
+}
+
+function resolveProps (route, config) {
+  switch (typeof config) {
+    case 'undefined':
+      return
+    case 'object':
+      return config
+    case 'function':
+      return config(route)
+    case 'boolean':
+      return config ? route.params : undefined
+    default:
+      if (true) {
+        warn(
+          false,
+          "props in \"" + (route.path) + "\" is a " + (typeof config) + ", " +
+          "expecting an object, function or boolean."
+        );
+      }
+  }
+}
+
+/*  */
+
+var encodeReserveRE = /[!'()*]/g;
+var encodeReserveReplacer = function (c) { return '%' + c.charCodeAt(0).toString(16); };
+var commaRE = /%2C/g;
+
+// fixed encodeURIComponent which is more conformant to RFC3986:
+// - escapes [!'()*]
+// - preserve commas
+var encode = function (str) { return encodeURIComponent(str)
+    .replace(encodeReserveRE, encodeReserveReplacer)
+    .replace(commaRE, ','); };
+
+var decode = decodeURIComponent;
+
+function resolveQuery (
+  query,
+  extraQuery,
+  _parseQuery
+) {
+  if ( extraQuery === void 0 ) extraQuery = {};
+
+  var parse = _parseQuery || parseQuery;
+  var parsedQuery;
+  try {
+    parsedQuery = parse(query || '');
+  } catch (e) {
+     true && warn(false, e.message);
+    parsedQuery = {};
+  }
+  for (var key in extraQuery) {
+    var value = extraQuery[key];
+    parsedQuery[key] = Array.isArray(value)
+      ? value.map(castQueryParamValue)
+      : castQueryParamValue(value);
+  }
+  return parsedQuery
+}
+
+var castQueryParamValue = function (value) { return (value == null || typeof value === 'object' ? value : String(value)); };
+
+function parseQuery (query) {
+  var res = {};
+
+  query = query.trim().replace(/^(\?|#|&)/, '');
+
+  if (!query) {
+    return res
+  }
+
+  query.split('&').forEach(function (param) {
+    var parts = param.replace(/\+/g, ' ').split('=');
+    var key = decode(parts.shift());
+    var val = parts.length > 0 ? decode(parts.join('=')) : null;
+
+    if (res[key] === undefined) {
+      res[key] = val;
+    } else if (Array.isArray(res[key])) {
+      res[key].push(val);
+    } else {
+      res[key] = [res[key], val];
+    }
+  });
+
+  return res
+}
+
+function stringifyQuery (obj) {
+  var res = obj
+    ? Object.keys(obj)
+      .map(function (key) {
+        var val = obj[key];
+
+        if (val === undefined) {
+          return ''
+        }
+
+        if (val === null) {
+          return encode(key)
+        }
+
+        if (Array.isArray(val)) {
+          var result = [];
+          val.forEach(function (val2) {
+            if (val2 === undefined) {
+              return
+            }
+            if (val2 === null) {
+              result.push(encode(key));
+            } else {
+              result.push(encode(key) + '=' + encode(val2));
+            }
+          });
+          return result.join('&')
+        }
+
+        return encode(key) + '=' + encode(val)
+      })
+      .filter(function (x) { return x.length > 0; })
+      .join('&')
+    : null;
+  return res ? ("?" + res) : ''
+}
+
+/*  */
+
+var trailingSlashRE = /\/?$/;
+
+function createRoute (
+  record,
+  location,
+  redirectedFrom,
+  router
+) {
+  var stringifyQuery = router && router.options.stringifyQuery;
+
+  var query = location.query || {};
+  try {
+    query = clone(query);
+  } catch (e) {}
+
+  var route = {
+    name: location.name || (record && record.name),
+    meta: (record && record.meta) || {},
+    path: location.path || '/',
+    hash: location.hash || '',
+    query: query,
+    params: location.params || {},
+    fullPath: getFullPath(location, stringifyQuery),
+    matched: record ? formatMatch(record) : []
+  };
+  if (redirectedFrom) {
+    route.redirectedFrom = getFullPath(redirectedFrom, stringifyQuery);
+  }
+  return Object.freeze(route)
+}
+
+function clone (value) {
+  if (Array.isArray(value)) {
+    return value.map(clone)
+  } else if (value && typeof value === 'object') {
+    var res = {};
+    for (var key in value) {
+      res[key] = clone(value[key]);
+    }
+    return res
+  } else {
+    return value
+  }
+}
+
+// the starting route that represents the initial state
+var START = createRoute(null, {
+  path: '/'
+});
+
+function formatMatch (record) {
+  var res = [];
+  while (record) {
+    res.unshift(record);
+    record = record.parent;
+  }
+  return res
+}
+
+function getFullPath (
+  ref,
+  _stringifyQuery
+) {
+  var path = ref.path;
+  var query = ref.query; if ( query === void 0 ) query = {};
+  var hash = ref.hash; if ( hash === void 0 ) hash = '';
+
+  var stringify = _stringifyQuery || stringifyQuery;
+  return (path || '/') + stringify(query) + hash
+}
+
+function isSameRoute (a, b) {
+  if (b === START) {
+    return a === b
+  } else if (!b) {
+    return false
+  } else if (a.path && b.path) {
+    return (
+      a.path.replace(trailingSlashRE, '') === b.path.replace(trailingSlashRE, '') &&
+      a.hash === b.hash &&
+      isObjectEqual(a.query, b.query)
+    )
+  } else if (a.name && b.name) {
+    return (
+      a.name === b.name &&
+      a.hash === b.hash &&
+      isObjectEqual(a.query, b.query) &&
+      isObjectEqual(a.params, b.params)
+    )
+  } else {
+    return false
+  }
+}
+
+function isObjectEqual (a, b) {
+  if ( a === void 0 ) a = {};
+  if ( b === void 0 ) b = {};
+
+  // handle null value #1566
+  if (!a || !b) { return a === b }
+  var aKeys = Object.keys(a);
+  var bKeys = Object.keys(b);
+  if (aKeys.length !== bKeys.length) {
+    return false
+  }
+  return aKeys.every(function (key) {
+    var aVal = a[key];
+    var bVal = b[key];
+    // query values can be null and undefined
+    if (aVal == null || bVal == null) { return aVal === bVal }
+    // check nested equality
+    if (typeof aVal === 'object' && typeof bVal === 'object') {
+      return isObjectEqual(aVal, bVal)
+    }
+    return String(aVal) === String(bVal)
+  })
+}
+
+function isIncludedRoute (current, target) {
+  return (
+    current.path.replace(trailingSlashRE, '/').indexOf(
+      target.path.replace(trailingSlashRE, '/')
+    ) === 0 &&
+    (!target.hash || current.hash === target.hash) &&
+    queryIncludes(current.query, target.query)
+  )
+}
+
+function queryIncludes (current, target) {
+  for (var key in target) {
+    if (!(key in current)) {
+      return false
+    }
+  }
+  return true
+}
+
+/*  */
+
+function resolvePath (
+  relative,
+  base,
+  append
+) {
+  var firstChar = relative.charAt(0);
+  if (firstChar === '/') {
+    return relative
+  }
+
+  if (firstChar === '?' || firstChar === '#') {
+    return base + relative
+  }
+
+  var stack = base.split('/');
+
+  // remove trailing segment if:
+  // - not appending
+  // - appending to trailing slash (last segment is empty)
+  if (!append || !stack[stack.length - 1]) {
+    stack.pop();
+  }
+
+  // resolve relative path
+  var segments = relative.replace(/^\//, '').split('/');
+  for (var i = 0; i < segments.length; i++) {
+    var segment = segments[i];
+    if (segment === '..') {
+      stack.pop();
+    } else if (segment !== '.') {
+      stack.push(segment);
+    }
+  }
+
+  // ensure leading slash
+  if (stack[0] !== '') {
+    stack.unshift('');
+  }
+
+  return stack.join('/')
+}
+
+function parsePath (path) {
+  var hash = '';
+  var query = '';
+
+  var hashIndex = path.indexOf('#');
+  if (hashIndex >= 0) {
+    hash = path.slice(hashIndex);
+    path = path.slice(0, hashIndex);
+  }
+
+  var queryIndex = path.indexOf('?');
+  if (queryIndex >= 0) {
+    query = path.slice(queryIndex + 1);
+    path = path.slice(0, queryIndex);
+  }
+
+  return {
+    path: path,
+    query: query,
+    hash: hash
+  }
+}
+
+function cleanPath (path) {
+  return path.replace(/\/\//g, '/')
+}
+
+var isarray = Array.isArray || function (arr) {
+  return Object.prototype.toString.call(arr) == '[object Array]';
+};
+
+/**
+ * Expose `pathToRegexp`.
+ */
+var pathToRegexp_1 = pathToRegexp;
+var parse_1 = parse;
+var compile_1 = compile;
+var tokensToFunction_1 = tokensToFunction;
+var tokensToRegExp_1 = tokensToRegExp;
+
+/**
+ * The main path matching regexp utility.
+ *
+ * @type {RegExp}
+ */
+var PATH_REGEXP = new RegExp([
+  // Match escaped characters that would otherwise appear in future matches.
+  // This allows the user to escape special characters that won't transform.
+  '(\\\\.)',
+  // Match Express-style parameters and un-named parameters with a prefix
+  // and optional suffixes. Matches appear as:
+  //
+  // "/:test(\\d+)?" => ["/", "test", "\d+", undefined, "?", undefined]
+  // "/route(\\d+)"  => [undefined, undefined, undefined, "\d+", undefined, undefined]
+  // "/*"            => ["/", undefined, undefined, undefined, undefined, "*"]
+  '([\\/.])?(?:(?:\\:(\\w+)(?:\\(((?:\\\\.|[^\\\\()])+)\\))?|\\(((?:\\\\.|[^\\\\()])+)\\))([+*?])?|(\\*))'
+].join('|'), 'g');
+
+/**
+ * Parse a string for the raw tokens.
+ *
+ * @param  {string}  str
+ * @param  {Object=} options
+ * @return {!Array}
+ */
+function parse (str, options) {
+  var tokens = [];
+  var key = 0;
+  var index = 0;
+  var path = '';
+  var defaultDelimiter = options && options.delimiter || '/';
+  var res;
+
+  while ((res = PATH_REGEXP.exec(str)) != null) {
+    var m = res[0];
+    var escaped = res[1];
+    var offset = res.index;
+    path += str.slice(index, offset);
+    index = offset + m.length;
+
+    // Ignore already escaped sequences.
+    if (escaped) {
+      path += escaped[1];
+      continue
+    }
+
+    var next = str[index];
+    var prefix = res[2];
+    var name = res[3];
+    var capture = res[4];
+    var group = res[5];
+    var modifier = res[6];
+    var asterisk = res[7];
+
+    // Push the current path onto the tokens.
+    if (path) {
+      tokens.push(path);
+      path = '';
+    }
+
+    var partial = prefix != null && next != null && next !== prefix;
+    var repeat = modifier === '+' || modifier === '*';
+    var optional = modifier === '?' || modifier === '*';
+    var delimiter = res[2] || defaultDelimiter;
+    var pattern = capture || group;
+
+    tokens.push({
+      name: name || key++,
+      prefix: prefix || '',
+      delimiter: delimiter,
+      optional: optional,
+      repeat: repeat,
+      partial: partial,
+      asterisk: !!asterisk,
+      pattern: pattern ? escapeGroup(pattern) : (asterisk ? '.*' : '[^' + escapeString(delimiter) + ']+?')
+    });
+  }
+
+  // Match any characters still remaining.
+  if (index < str.length) {
+    path += str.substr(index);
+  }
+
+  // If the path exists, push it onto the end.
+  if (path) {
+    tokens.push(path);
+  }
+
+  return tokens
+}
+
+/**
+ * Compile a string to a template function for the path.
+ *
+ * @param  {string}             str
+ * @param  {Object=}            options
+ * @return {!function(Object=, Object=)}
+ */
+function compile (str, options) {
+  return tokensToFunction(parse(str, options), options)
+}
+
+/**
+ * Prettier encoding of URI path segments.
+ *
+ * @param  {string}
+ * @return {string}
+ */
+function encodeURIComponentPretty (str) {
+  return encodeURI(str).replace(/[\/?#]/g, function (c) {
+    return '%' + c.charCodeAt(0).toString(16).toUpperCase()
+  })
+}
+
+/**
+ * Encode the asterisk parameter. Similar to `pretty`, but allows slashes.
+ *
+ * @param  {string}
+ * @return {string}
+ */
+function encodeAsterisk (str) {
+  return encodeURI(str).replace(/[?#]/g, function (c) {
+    return '%' + c.charCodeAt(0).toString(16).toUpperCase()
+  })
+}
+
+/**
+ * Expose a method for transforming tokens into the path function.
+ */
+function tokensToFunction (tokens, options) {
+  // Compile all the tokens into regexps.
+  var matches = new Array(tokens.length);
+
+  // Compile all the patterns before compilation.
+  for (var i = 0; i < tokens.length; i++) {
+    if (typeof tokens[i] === 'object') {
+      matches[i] = new RegExp('^(?:' + tokens[i].pattern + ')$', flags(options));
+    }
+  }
+
+  return function (obj, opts) {
+    var path = '';
+    var data = obj || {};
+    var options = opts || {};
+    var encode = options.pretty ? encodeURIComponentPretty : encodeURIComponent;
+
+    for (var i = 0; i < tokens.length; i++) {
+      var token = tokens[i];
+
+      if (typeof token === 'string') {
+        path += token;
+
+        continue
+      }
+
+      var value = data[token.name];
+      var segment;
+
+      if (value == null) {
+        if (token.optional) {
+          // Prepend partial segment prefixes.
+          if (token.partial) {
+            path += token.prefix;
+          }
+
+          continue
+        } else {
+          throw new TypeError('Expected "' + token.name + '" to be defined')
+        }
+      }
+
+      if (isarray(value)) {
+        if (!token.repeat) {
+          throw new TypeError('Expected "' + token.name + '" to not repeat, but received `' + JSON.stringify(value) + '`')
+        }
+
+        if (value.length === 0) {
+          if (token.optional) {
+            continue
+          } else {
+            throw new TypeError('Expected "' + token.name + '" to not be empty')
+          }
+        }
+
+        for (var j = 0; j < value.length; j++) {
+          segment = encode(value[j]);
+
+          if (!matches[i].test(segment)) {
+            throw new TypeError('Expected all "' + token.name + '" to match "' + token.pattern + '", but received `' + JSON.stringify(segment) + '`')
+          }
+
+          path += (j === 0 ? token.prefix : token.delimiter) + segment;
+        }
+
+        continue
+      }
+
+      segment = token.asterisk ? encodeAsterisk(value) : encode(value);
+
+      if (!matches[i].test(segment)) {
+        throw new TypeError('Expected "' + token.name + '" to match "' + token.pattern + '", but received "' + segment + '"')
+      }
+
+      path += token.prefix + segment;
+    }
+
+    return path
+  }
+}
+
+/**
+ * Escape a regular expression string.
+ *
+ * @param  {string} str
+ * @return {string}
+ */
+function escapeString (str) {
+  return str.replace(/([.+*?=^!:${}()[\]|\/\\])/g, '\\$1')
+}
+
+/**
+ * Escape the capturing group by escaping special characters and meaning.
+ *
+ * @param  {string} group
+ * @return {string}
+ */
+function escapeGroup (group) {
+  return group.replace(/([=!:$\/()])/g, '\\$1')
+}
+
+/**
+ * Attach the keys as a property of the regexp.
+ *
+ * @param  {!RegExp} re
+ * @param  {Array}   keys
+ * @return {!RegExp}
+ */
+function attachKeys (re, keys) {
+  re.keys = keys;
+  return re
+}
+
+/**
+ * Get the flags for a regexp from the options.
+ *
+ * @param  {Object} options
+ * @return {string}
+ */
+function flags (options) {
+  return options && options.sensitive ? '' : 'i'
+}
+
+/**
+ * Pull out keys from a regexp.
+ *
+ * @param  {!RegExp} path
+ * @param  {!Array}  keys
+ * @return {!RegExp}
+ */
+function regexpToRegexp (path, keys) {
+  // Use a negative lookahead to match only capturing groups.
+  var groups = path.source.match(/\((?!\?)/g);
+
+  if (groups) {
+    for (var i = 0; i < groups.length; i++) {
+      keys.push({
+        name: i,
+        prefix: null,
+        delimiter: null,
+        optional: false,
+        repeat: false,
+        partial: false,
+        asterisk: false,
+        pattern: null
+      });
+    }
+  }
+
+  return attachKeys(path, keys)
+}
+
+/**
+ * Transform an array into a regexp.
+ *
+ * @param  {!Array}  path
+ * @param  {Array}   keys
+ * @param  {!Object} options
+ * @return {!RegExp}
+ */
+function arrayToRegexp (path, keys, options) {
+  var parts = [];
+
+  for (var i = 0; i < path.length; i++) {
+    parts.push(pathToRegexp(path[i], keys, options).source);
+  }
+
+  var regexp = new RegExp('(?:' + parts.join('|') + ')', flags(options));
+
+  return attachKeys(regexp, keys)
+}
+
+/**
+ * Create a path regexp from string input.
+ *
+ * @param  {string}  path
+ * @param  {!Array}  keys
+ * @param  {!Object} options
+ * @return {!RegExp}
+ */
+function stringToRegexp (path, keys, options) {
+  return tokensToRegExp(parse(path, options), keys, options)
+}
+
+/**
+ * Expose a function for taking tokens and returning a RegExp.
+ *
+ * @param  {!Array}          tokens
+ * @param  {(Array|Object)=} keys
+ * @param  {Object=}         options
+ * @return {!RegExp}
+ */
+function tokensToRegExp (tokens, keys, options) {
+  if (!isarray(keys)) {
+    options = /** @type {!Object} */ (keys || options);
+    keys = [];
+  }
+
+  options = options || {};
+
+  var strict = options.strict;
+  var end = options.end !== false;
+  var route = '';
+
+  // Iterate over the tokens and create our regexp string.
+  for (var i = 0; i < tokens.length; i++) {
+    var token = tokens[i];
+
+    if (typeof token === 'string') {
+      route += escapeString(token);
+    } else {
+      var prefix = escapeString(token.prefix);
+      var capture = '(?:' + token.pattern + ')';
+
+      keys.push(token);
+
+      if (token.repeat) {
+        capture += '(?:' + prefix + capture + ')*';
+      }
+
+      if (token.optional) {
+        if (!token.partial) {
+          capture = '(?:' + prefix + '(' + capture + '))?';
+        } else {
+          capture = prefix + '(' + capture + ')?';
+        }
+      } else {
+        capture = prefix + '(' + capture + ')';
+      }
+
+      route += capture;
+    }
+  }
+
+  var delimiter = escapeString(options.delimiter || '/');
+  var endsWithDelimiter = route.slice(-delimiter.length) === delimiter;
+
+  // In non-strict mode we allow a slash at the end of match. If the path to
+  // match already ends with a slash, we remove it for consistency. The slash
+  // is valid at the end of a path match, not in the middle. This is important
+  // in non-ending mode, where "/test/" shouldn't match "/test//route".
+  if (!strict) {
+    route = (endsWithDelimiter ? route.slice(0, -delimiter.length) : route) + '(?:' + delimiter + '(?=$))?';
+  }
+
+  if (end) {
+    route += '$';
+  } else {
+    // In non-ending mode, we need the capturing groups to match as much as
+    // possible by using a positive lookahead to the end or next path segment.
+    route += strict && endsWithDelimiter ? '' : '(?=' + delimiter + '|$)';
+  }
+
+  return attachKeys(new RegExp('^' + route, flags(options)), keys)
+}
+
+/**
+ * Normalize the given path string, returning a regular expression.
+ *
+ * An empty array can be passed in for the keys, which will hold the
+ * placeholder key descriptions. For example, using `/user/:id`, `keys` will
+ * contain `[{ name: 'id', delimiter: '/', optional: false, repeat: false }]`.
+ *
+ * @param  {(string|RegExp|Array)} path
+ * @param  {(Array|Object)=}       keys
+ * @param  {Object=}               options
+ * @return {!RegExp}
+ */
+function pathToRegexp (path, keys, options) {
+  if (!isarray(keys)) {
+    options = /** @type {!Object} */ (keys || options);
+    keys = [];
+  }
+
+  options = options || {};
+
+  if (path instanceof RegExp) {
+    return regexpToRegexp(path, /** @type {!Array} */ (keys))
+  }
+
+  if (isarray(path)) {
+    return arrayToRegexp(/** @type {!Array} */ (path), /** @type {!Array} */ (keys), options)
+  }
+
+  return stringToRegexp(/** @type {string} */ (path), /** @type {!Array} */ (keys), options)
+}
+pathToRegexp_1.parse = parse_1;
+pathToRegexp_1.compile = compile_1;
+pathToRegexp_1.tokensToFunction = tokensToFunction_1;
+pathToRegexp_1.tokensToRegExp = tokensToRegExp_1;
+
+/*  */
+
+// $flow-disable-line
+var regexpCompileCache = Object.create(null);
+
+function fillParams (
+  path,
+  params,
+  routeMsg
+) {
+  params = params || {};
+  try {
+    var filler =
+      regexpCompileCache[path] ||
+      (regexpCompileCache[path] = pathToRegexp_1.compile(path));
+
+    // Fix #2505 resolving asterisk routes { name: 'not-found', params: { pathMatch: '/not-found' }}
+    // and fix #3106 so that you can work with location descriptor object having params.pathMatch equal to empty string
+    if (typeof params.pathMatch === 'string') { params[0] = params.pathMatch; }
+
+    return filler(params, { pretty: true })
+  } catch (e) {
+    if (true) {
+      // Fix #3072 no warn if `pathMatch` is string
+      warn(typeof params.pathMatch === 'string', ("missing param for " + routeMsg + ": " + (e.message)));
+    }
+    return ''
+  } finally {
+    // delete the 0 if it was added
+    delete params[0];
+  }
+}
+
+/*  */
+
+function normalizeLocation (
+  raw,
+  current,
+  append,
+  router
+) {
+  var next = typeof raw === 'string' ? { path: raw } : raw;
+  // named target
+  if (next._normalized) {
+    return next
+  } else if (next.name) {
+    next = extend({}, raw);
+    var params = next.params;
+    if (params && typeof params === 'object') {
+      next.params = extend({}, params);
+    }
+    return next
+  }
+
+  // relative params
+  if (!next.path && next.params && current) {
+    next = extend({}, next);
+    next._normalized = true;
+    var params$1 = extend(extend({}, current.params), next.params);
+    if (current.name) {
+      next.name = current.name;
+      next.params = params$1;
+    } else if (current.matched.length) {
+      var rawPath = current.matched[current.matched.length - 1].path;
+      next.path = fillParams(rawPath, params$1, ("path " + (current.path)));
+    } else if (true) {
+      warn(false, "relative params navigation requires a current route.");
+    }
+    return next
+  }
+
+  var parsedPath = parsePath(next.path || '');
+  var basePath = (current && current.path) || '/';
+  var path = parsedPath.path
+    ? resolvePath(parsedPath.path, basePath, append || next.append)
+    : basePath;
+
+  var query = resolveQuery(
+    parsedPath.query,
+    next.query,
+    router && router.options.parseQuery
+  );
+
+  var hash = next.hash || parsedPath.hash;
+  if (hash && hash.charAt(0) !== '#') {
+    hash = "#" + hash;
+  }
+
+  return {
+    _normalized: true,
+    path: path,
+    query: query,
+    hash: hash
+  }
+}
+
+/*  */
+
+// work around weird flow bug
+var toTypes = [String, Object];
+var eventTypes = [String, Array];
+
+var noop = function () {};
+
+var Link = {
+  name: 'RouterLink',
+  props: {
+    to: {
+      type: toTypes,
+      required: true
+    },
+    tag: {
+      type: String,
+      default: 'a'
+    },
+    exact: Boolean,
+    append: Boolean,
+    replace: Boolean,
+    activeClass: String,
+    exactActiveClass: String,
+    ariaCurrentValue: {
+      type: String,
+      default: 'page'
+    },
+    event: {
+      type: eventTypes,
+      default: 'click'
+    }
+  },
+  render: function render (h) {
+    var this$1 = this;
+
+    var router = this.$router;
+    var current = this.$route;
+    var ref = router.resolve(
+      this.to,
+      current,
+      this.append
+    );
+    var location = ref.location;
+    var route = ref.route;
+    var href = ref.href;
+
+    var classes = {};
+    var globalActiveClass = router.options.linkActiveClass;
+    var globalExactActiveClass = router.options.linkExactActiveClass;
+    // Support global empty active class
+    var activeClassFallback =
+      globalActiveClass == null ? 'router-link-active' : globalActiveClass;
+    var exactActiveClassFallback =
+      globalExactActiveClass == null
+        ? 'router-link-exact-active'
+        : globalExactActiveClass;
+    var activeClass =
+      this.activeClass == null ? activeClassFallback : this.activeClass;
+    var exactActiveClass =
+      this.exactActiveClass == null
+        ? exactActiveClassFallback
+        : this.exactActiveClass;
+
+    var compareTarget = route.redirectedFrom
+      ? createRoute(null, normalizeLocation(route.redirectedFrom), null, router)
+      : route;
+
+    classes[exactActiveClass] = isSameRoute(current, compareTarget);
+    classes[activeClass] = this.exact
+      ? classes[exactActiveClass]
+      : isIncludedRoute(current, compareTarget);
+
+    var ariaCurrentValue = classes[exactActiveClass] ? this.ariaCurrentValue : null;
+
+    var handler = function (e) {
+      if (guardEvent(e)) {
+        if (this$1.replace) {
+          router.replace(location, noop);
+        } else {
+          router.push(location, noop);
+        }
+      }
+    };
+
+    var on = { click: guardEvent };
+    if (Array.isArray(this.event)) {
+      this.event.forEach(function (e) {
+        on[e] = handler;
+      });
+    } else {
+      on[this.event] = handler;
+    }
+
+    var data = { class: classes };
+
+    var scopedSlot =
+      !this.$scopedSlots.$hasNormal &&
+      this.$scopedSlots.default &&
+      this.$scopedSlots.default({
+        href: href,
+        route: route,
+        navigate: handler,
+        isActive: classes[activeClass],
+        isExactActive: classes[exactActiveClass]
+      });
+
+    if (scopedSlot) {
+      if (scopedSlot.length === 1) {
+        return scopedSlot[0]
+      } else if (scopedSlot.length > 1 || !scopedSlot.length) {
+        if (true) {
+          warn(
+            false,
+            ("RouterLink with to=\"" + (this.to) + "\" is trying to use a scoped slot but it didn't provide exactly one child. Wrapping the content with a span element.")
+          );
+        }
+        return scopedSlot.length === 0 ? h() : h('span', {}, scopedSlot)
+      }
+    }
+
+    if (this.tag === 'a') {
+      data.on = on;
+      data.attrs = { href: href, 'aria-current': ariaCurrentValue };
+    } else {
+      // find the first <a> child and apply listener and href
+      var a = findAnchor(this.$slots.default);
+      if (a) {
+        // in case the <a> is a static node
+        a.isStatic = false;
+        var aData = (a.data = extend({}, a.data));
+        aData.on = aData.on || {};
+        // transform existing events in both objects into arrays so we can push later
+        for (var event in aData.on) {
+          var handler$1 = aData.on[event];
+          if (event in on) {
+            aData.on[event] = Array.isArray(handler$1) ? handler$1 : [handler$1];
+          }
+        }
+        // append new listeners for router-link
+        for (var event$1 in on) {
+          if (event$1 in aData.on) {
+            // on[event] is always a function
+            aData.on[event$1].push(on[event$1]);
+          } else {
+            aData.on[event$1] = handler;
+          }
+        }
+
+        var aAttrs = (a.data.attrs = extend({}, a.data.attrs));
+        aAttrs.href = href;
+        aAttrs['aria-current'] = ariaCurrentValue;
+      } else {
+        // doesn't have <a> child, apply listener to self
+        data.on = on;
+      }
+    }
+
+    return h(this.tag, data, this.$slots.default)
+  }
+};
+
+function guardEvent (e) {
+  // don't redirect with control keys
+  if (e.metaKey || e.altKey || e.ctrlKey || e.shiftKey) { return }
+  // don't redirect when preventDefault called
+  if (e.defaultPrevented) { return }
+  // don't redirect on right click
+  if (e.button !== undefined && e.button !== 0) { return }
+  // don't redirect if `target="_blank"`
+  if (e.currentTarget && e.currentTarget.getAttribute) {
+    var target = e.currentTarget.getAttribute('target');
+    if (/\b_blank\b/i.test(target)) { return }
+  }
+  // this may be a Weex event which doesn't have this method
+  if (e.preventDefault) {
+    e.preventDefault();
+  }
+  return true
+}
+
+function findAnchor (children) {
+  if (children) {
+    var child;
+    for (var i = 0; i < children.length; i++) {
+      child = children[i];
+      if (child.tag === 'a') {
+        return child
+      }
+      if (child.children && (child = findAnchor(child.children))) {
+        return child
+      }
+    }
+  }
+}
+
+var _Vue;
+
+function install (Vue) {
+  if (install.installed && _Vue === Vue) { return }
+  install.installed = true;
+
+  _Vue = Vue;
+
+  var isDef = function (v) { return v !== undefined; };
+
+  var registerInstance = function (vm, callVal) {
+    var i = vm.$options._parentVnode;
+    if (isDef(i) && isDef(i = i.data) && isDef(i = i.registerRouteInstance)) {
+      i(vm, callVal);
+    }
+  };
+
+  Vue.mixin({
+    beforeCreate: function beforeCreate () {
+      if (isDef(this.$options.router)) {
+        this._routerRoot = this;
+        this._router = this.$options.router;
+        this._router.init(this);
+        Vue.util.defineReactive(this, '_route', this._router.history.current);
+      } else {
+        this._routerRoot = (this.$parent && this.$parent._routerRoot) || this;
+      }
+      registerInstance(this, this);
+    },
+    destroyed: function destroyed () {
+      registerInstance(this);
+    }
+  });
+
+  Object.defineProperty(Vue.prototype, '$router', {
+    get: function get () { return this._routerRoot._router }
+  });
+
+  Object.defineProperty(Vue.prototype, '$route', {
+    get: function get () { return this._routerRoot._route }
+  });
+
+  Vue.component('RouterView', View);
+  Vue.component('RouterLink', Link);
+
+  var strats = Vue.config.optionMergeStrategies;
+  // use the same hook merging strategy for route hooks
+  strats.beforeRouteEnter = strats.beforeRouteLeave = strats.beforeRouteUpdate = strats.created;
+}
+
+/*  */
+
+var inBrowser = typeof window !== 'undefined';
+
+/*  */
+
+function createRouteMap (
+  routes,
+  oldPathList,
+  oldPathMap,
+  oldNameMap
+) {
+  // the path list is used to control path matching priority
+  var pathList = oldPathList || [];
+  // $flow-disable-line
+  var pathMap = oldPathMap || Object.create(null);
+  // $flow-disable-line
+  var nameMap = oldNameMap || Object.create(null);
+
+  routes.forEach(function (route) {
+    addRouteRecord(pathList, pathMap, nameMap, route);
+  });
+
+  // ensure wildcard routes are always at the end
+  for (var i = 0, l = pathList.length; i < l; i++) {
+    if (pathList[i] === '*') {
+      pathList.push(pathList.splice(i, 1)[0]);
+      l--;
+      i--;
+    }
+  }
+
+  if (true) {
+    // warn if routes do not include leading slashes
+    var found = pathList
+    // check for missing leading slash
+      .filter(function (path) { return path && path.charAt(0) !== '*' && path.charAt(0) !== '/'; });
+
+    if (found.length > 0) {
+      var pathNames = found.map(function (path) { return ("- " + path); }).join('\n');
+      warn(false, ("Non-nested routes must include a leading slash character. Fix the following routes: \n" + pathNames));
+    }
+  }
+
+  return {
+    pathList: pathList,
+    pathMap: pathMap,
+    nameMap: nameMap
+  }
+}
+
+function addRouteRecord (
+  pathList,
+  pathMap,
+  nameMap,
+  route,
+  parent,
+  matchAs
+) {
+  var path = route.path;
+  var name = route.name;
+  if (true) {
+    assert(path != null, "\"path\" is required in a route configuration.");
+    assert(
+      typeof route.component !== 'string',
+      "route config \"component\" for path: " + (String(
+        path || name
+      )) + " cannot be a " + "string id. Use an actual component instead."
+    );
+  }
+
+  var pathToRegexpOptions =
+    route.pathToRegexpOptions || {};
+  var normalizedPath = normalizePath(path, parent, pathToRegexpOptions.strict);
+
+  if (typeof route.caseSensitive === 'boolean') {
+    pathToRegexpOptions.sensitive = route.caseSensitive;
+  }
+
+  var record = {
+    path: normalizedPath,
+    regex: compileRouteRegex(normalizedPath, pathToRegexpOptions),
+    components: route.components || { default: route.component },
+    instances: {},
+    name: name,
+    parent: parent,
+    matchAs: matchAs,
+    redirect: route.redirect,
+    beforeEnter: route.beforeEnter,
+    meta: route.meta || {},
+    props:
+      route.props == null
+        ? {}
+        : route.components
+          ? route.props
+          : { default: route.props }
+  };
+
+  if (route.children) {
+    // Warn if route is named, does not redirect and has a default child route.
+    // If users navigate to this route by name, the default child will
+    // not be rendered (GH Issue #629)
+    if (true) {
+      if (
+        route.name &&
+        !route.redirect &&
+        route.children.some(function (child) { return /^\/?$/.test(child.path); })
+      ) {
+        warn(
+          false,
+          "Named Route '" + (route.name) + "' has a default child route. " +
+            "When navigating to this named route (:to=\"{name: '" + (route.name) + "'\"), " +
+            "the default child route will not be rendered. Remove the name from " +
+            "this route and use the name of the default child route for named " +
+            "links instead."
+        );
+      }
+    }
+    route.children.forEach(function (child) {
+      var childMatchAs = matchAs
+        ? cleanPath((matchAs + "/" + (child.path)))
+        : undefined;
+      addRouteRecord(pathList, pathMap, nameMap, child, record, childMatchAs);
+    });
+  }
+
+  if (!pathMap[record.path]) {
+    pathList.push(record.path);
+    pathMap[record.path] = record;
+  }
+
+  if (route.alias !== undefined) {
+    var aliases = Array.isArray(route.alias) ? route.alias : [route.alias];
+    for (var i = 0; i < aliases.length; ++i) {
+      var alias = aliases[i];
+      if ( true && alias === path) {
+        warn(
+          false,
+          ("Found an alias with the same value as the path: \"" + path + "\". You have to remove that alias. It will be ignored in development.")
+        );
+        // skip in dev to make it work
+        continue
+      }
+
+      var aliasRoute = {
+        path: alias,
+        children: route.children
+      };
+      addRouteRecord(
+        pathList,
+        pathMap,
+        nameMap,
+        aliasRoute,
+        parent,
+        record.path || '/' // matchAs
+      );
+    }
+  }
+
+  if (name) {
+    if (!nameMap[name]) {
+      nameMap[name] = record;
+    } else if ( true && !matchAs) {
+      warn(
+        false,
+        "Duplicate named routes definition: " +
+          "{ name: \"" + name + "\", path: \"" + (record.path) + "\" }"
+      );
+    }
+  }
+}
+
+function compileRouteRegex (
+  path,
+  pathToRegexpOptions
+) {
+  var regex = pathToRegexp_1(path, [], pathToRegexpOptions);
+  if (true) {
+    var keys = Object.create(null);
+    regex.keys.forEach(function (key) {
+      warn(
+        !keys[key.name],
+        ("Duplicate param keys in route with path: \"" + path + "\"")
+      );
+      keys[key.name] = true;
+    });
+  }
+  return regex
+}
+
+function normalizePath (
+  path,
+  parent,
+  strict
+) {
+  if (!strict) { path = path.replace(/\/$/, ''); }
+  if (path[0] === '/') { return path }
+  if (parent == null) { return path }
+  return cleanPath(((parent.path) + "/" + path))
+}
+
+/*  */
+
+
+
+function createMatcher (
+  routes,
+  router
+) {
+  var ref = createRouteMap(routes);
+  var pathList = ref.pathList;
+  var pathMap = ref.pathMap;
+  var nameMap = ref.nameMap;
+
+  function addRoutes (routes) {
+    createRouteMap(routes, pathList, pathMap, nameMap);
+  }
+
+  function match (
+    raw,
+    currentRoute,
+    redirectedFrom
+  ) {
+    var location = normalizeLocation(raw, currentRoute, false, router);
+    var name = location.name;
+
+    if (name) {
+      var record = nameMap[name];
+      if (true) {
+        warn(record, ("Route with name '" + name + "' does not exist"));
+      }
+      if (!record) { return _createRoute(null, location) }
+      var paramNames = record.regex.keys
+        .filter(function (key) { return !key.optional; })
+        .map(function (key) { return key.name; });
+
+      if (typeof location.params !== 'object') {
+        location.params = {};
+      }
+
+      if (currentRoute && typeof currentRoute.params === 'object') {
+        for (var key in currentRoute.params) {
+          if (!(key in location.params) && paramNames.indexOf(key) > -1) {
+            location.params[key] = currentRoute.params[key];
+          }
+        }
+      }
+
+      location.path = fillParams(record.path, location.params, ("named route \"" + name + "\""));
+      return _createRoute(record, location, redirectedFrom)
+    } else if (location.path) {
+      location.params = {};
+      for (var i = 0; i < pathList.length; i++) {
+        var path = pathList[i];
+        var record$1 = pathMap[path];
+        if (matchRoute(record$1.regex, location.path, location.params)) {
+          return _createRoute(record$1, location, redirectedFrom)
+        }
+      }
+    }
+    // no match
+    return _createRoute(null, location)
+  }
+
+  function redirect (
+    record,
+    location
+  ) {
+    var originalRedirect = record.redirect;
+    var redirect = typeof originalRedirect === 'function'
+      ? originalRedirect(createRoute(record, location, null, router))
+      : originalRedirect;
+
+    if (typeof redirect === 'string') {
+      redirect = { path: redirect };
+    }
+
+    if (!redirect || typeof redirect !== 'object') {
+      if (true) {
+        warn(
+          false, ("invalid redirect option: " + (JSON.stringify(redirect)))
+        );
+      }
+      return _createRoute(null, location)
+    }
+
+    var re = redirect;
+    var name = re.name;
+    var path = re.path;
+    var query = location.query;
+    var hash = location.hash;
+    var params = location.params;
+    query = re.hasOwnProperty('query') ? re.query : query;
+    hash = re.hasOwnProperty('hash') ? re.hash : hash;
+    params = re.hasOwnProperty('params') ? re.params : params;
+
+    if (name) {
+      // resolved named direct
+      var targetRecord = nameMap[name];
+      if (true) {
+        assert(targetRecord, ("redirect failed: named route \"" + name + "\" not found."));
+      }
+      return match({
+        _normalized: true,
+        name: name,
+        query: query,
+        hash: hash,
+        params: params
+      }, undefined, location)
+    } else if (path) {
+      // 1. resolve relative redirect
+      var rawPath = resolveRecordPath(path, record);
+      // 2. resolve params
+      var resolvedPath = fillParams(rawPath, params, ("redirect route with path \"" + rawPath + "\""));
+      // 3. rematch with existing query and hash
+      return match({
+        _normalized: true,
+        path: resolvedPath,
+        query: query,
+        hash: hash
+      }, undefined, location)
+    } else {
+      if (true) {
+        warn(false, ("invalid redirect option: " + (JSON.stringify(redirect))));
+      }
+      return _createRoute(null, location)
+    }
+  }
+
+  function alias (
+    record,
+    location,
+    matchAs
+  ) {
+    var aliasedPath = fillParams(matchAs, location.params, ("aliased route with path \"" + matchAs + "\""));
+    var aliasedMatch = match({
+      _normalized: true,
+      path: aliasedPath
+    });
+    if (aliasedMatch) {
+      var matched = aliasedMatch.matched;
+      var aliasedRecord = matched[matched.length - 1];
+      location.params = aliasedMatch.params;
+      return _createRoute(aliasedRecord, location)
+    }
+    return _createRoute(null, location)
+  }
+
+  function _createRoute (
+    record,
+    location,
+    redirectedFrom
+  ) {
+    if (record && record.redirect) {
+      return redirect(record, redirectedFrom || location)
+    }
+    if (record && record.matchAs) {
+      return alias(record, location, record.matchAs)
+    }
+    return createRoute(record, location, redirectedFrom, router)
+  }
+
+  return {
+    match: match,
+    addRoutes: addRoutes
+  }
+}
+
+function matchRoute (
+  regex,
+  path,
+  params
+) {
+  var m = path.match(regex);
+
+  if (!m) {
+    return false
+  } else if (!params) {
+    return true
+  }
+
+  for (var i = 1, len = m.length; i < len; ++i) {
+    var key = regex.keys[i - 1];
+    var val = typeof m[i] === 'string' ? decodeURIComponent(m[i]) : m[i];
+    if (key) {
+      // Fix #1994: using * with props: true generates a param named 0
+      params[key.name || 'pathMatch'] = val;
+    }
+  }
+
+  return true
+}
+
+function resolveRecordPath (path, record) {
+  return resolvePath(path, record.parent ? record.parent.path : '/', true)
+}
+
+/*  */
+
+// use User Timing api (if present) for more accurate key precision
+var Time =
+  inBrowser && window.performance && window.performance.now
+    ? window.performance
+    : Date;
+
+function genStateKey () {
+  return Time.now().toFixed(3)
+}
+
+var _key = genStateKey();
+
+function getStateKey () {
+  return _key
+}
+
+function setStateKey (key) {
+  return (_key = key)
+}
+
+/*  */
+
+var positionStore = Object.create(null);
+
+function setupScroll () {
+  // Prevent browser scroll behavior on History popstate
+  if ('scrollRestoration' in window.history) {
+    window.history.scrollRestoration = 'manual';
+  }
+  // Fix for #1585 for Firefox
+  // Fix for #2195 Add optional third attribute to workaround a bug in safari https://bugs.webkit.org/show_bug.cgi?id=182678
+  // Fix for #2774 Support for apps loaded from Windows file shares not mapped to network drives: replaced location.origin with
+  // window.location.protocol + '//' + window.location.host
+  // location.host contains the port and location.hostname doesn't
+  var protocolAndPath = window.location.protocol + '//' + window.location.host;
+  var absolutePath = window.location.href.replace(protocolAndPath, '');
+  // preserve existing history state as it could be overriden by the user
+  var stateCopy = extend({}, window.history.state);
+  stateCopy.key = getStateKey();
+  window.history.replaceState(stateCopy, '', absolutePath);
+  window.addEventListener('popstate', handlePopState);
+  return function () {
+    window.removeEventListener('popstate', handlePopState);
+  }
+}
+
+function handleScroll (
+  router,
+  to,
+  from,
+  isPop
+) {
+  if (!router.app) {
+    return
+  }
+
+  var behavior = router.options.scrollBehavior;
+  if (!behavior) {
+    return
+  }
+
+  if (true) {
+    assert(typeof behavior === 'function', "scrollBehavior must be a function");
+  }
+
+  // wait until re-render finishes before scrolling
+  router.app.$nextTick(function () {
+    var position = getScrollPosition();
+    var shouldScroll = behavior.call(
+      router,
+      to,
+      from,
+      isPop ? position : null
+    );
+
+    if (!shouldScroll) {
+      return
+    }
+
+    if (typeof shouldScroll.then === 'function') {
+      shouldScroll
+        .then(function (shouldScroll) {
+          scrollToPosition((shouldScroll), position);
+        })
+        .catch(function (err) {
+          if (true) {
+            assert(false, err.toString());
+          }
+        });
+    } else {
+      scrollToPosition(shouldScroll, position);
+    }
+  });
+}
+
+function saveScrollPosition () {
+  var key = getStateKey();
+  if (key) {
+    positionStore[key] = {
+      x: window.pageXOffset,
+      y: window.pageYOffset
+    };
+  }
+}
+
+function handlePopState (e) {
+  saveScrollPosition();
+  if (e.state && e.state.key) {
+    setStateKey(e.state.key);
+  }
+}
+
+function getScrollPosition () {
+  var key = getStateKey();
+  if (key) {
+    return positionStore[key]
+  }
+}
+
+function getElementPosition (el, offset) {
+  var docEl = document.documentElement;
+  var docRect = docEl.getBoundingClientRect();
+  var elRect = el.getBoundingClientRect();
+  return {
+    x: elRect.left - docRect.left - offset.x,
+    y: elRect.top - docRect.top - offset.y
+  }
+}
+
+function isValidPosition (obj) {
+  return isNumber(obj.x) || isNumber(obj.y)
+}
+
+function normalizePosition (obj) {
+  return {
+    x: isNumber(obj.x) ? obj.x : window.pageXOffset,
+    y: isNumber(obj.y) ? obj.y : window.pageYOffset
+  }
+}
+
+function normalizeOffset (obj) {
+  return {
+    x: isNumber(obj.x) ? obj.x : 0,
+    y: isNumber(obj.y) ? obj.y : 0
+  }
+}
+
+function isNumber (v) {
+  return typeof v === 'number'
+}
+
+var hashStartsWithNumberRE = /^#\d/;
+
+function scrollToPosition (shouldScroll, position) {
+  var isObject = typeof shouldScroll === 'object';
+  if (isObject && typeof shouldScroll.selector === 'string') {
+    // getElementById would still fail if the selector contains a more complicated query like #main[data-attr]
+    // but at the same time, it doesn't make much sense to select an element with an id and an extra selector
+    var el = hashStartsWithNumberRE.test(shouldScroll.selector) // $flow-disable-line
+      ? document.getElementById(shouldScroll.selector.slice(1)) // $flow-disable-line
+      : document.querySelector(shouldScroll.selector);
+
+    if (el) {
+      var offset =
+        shouldScroll.offset && typeof shouldScroll.offset === 'object'
+          ? shouldScroll.offset
+          : {};
+      offset = normalizeOffset(offset);
+      position = getElementPosition(el, offset);
+    } else if (isValidPosition(shouldScroll)) {
+      position = normalizePosition(shouldScroll);
+    }
+  } else if (isObject && isValidPosition(shouldScroll)) {
+    position = normalizePosition(shouldScroll);
+  }
+
+  if (position) {
+    window.scrollTo(position.x, position.y);
+  }
+}
+
+/*  */
+
+var supportsPushState =
+  inBrowser &&
+  (function () {
+    var ua = window.navigator.userAgent;
+
+    if (
+      (ua.indexOf('Android 2.') !== -1 || ua.indexOf('Android 4.0') !== -1) &&
+      ua.indexOf('Mobile Safari') !== -1 &&
+      ua.indexOf('Chrome') === -1 &&
+      ua.indexOf('Windows Phone') === -1
+    ) {
+      return false
+    }
+
+    return window.history && typeof window.history.pushState === 'function'
+  })();
+
+function pushState (url, replace) {
+  saveScrollPosition();
+  // try...catch the pushState call to get around Safari
+  // DOM Exception 18 where it limits to 100 pushState calls
+  var history = window.history;
+  try {
+    if (replace) {
+      // preserve existing history state as it could be overriden by the user
+      var stateCopy = extend({}, history.state);
+      stateCopy.key = getStateKey();
+      history.replaceState(stateCopy, '', url);
+    } else {
+      history.pushState({ key: setStateKey(genStateKey()) }, '', url);
+    }
+  } catch (e) {
+    window.location[replace ? 'replace' : 'assign'](url);
+  }
+}
+
+function replaceState (url) {
+  pushState(url, true);
+}
+
+/*  */
+
+function runQueue (queue, fn, cb) {
+  var step = function (index) {
+    if (index >= queue.length) {
+      cb();
+    } else {
+      if (queue[index]) {
+        fn(queue[index], function () {
+          step(index + 1);
+        });
+      } else {
+        step(index + 1);
+      }
+    }
+  };
+  step(0);
+}
+
+var NavigationFailureType = {
+  redirected: 2,
+  aborted: 4,
+  cancelled: 8,
+  duplicated: 16
+};
+
+function createNavigationRedirectedError (from, to) {
+  return createRouterError(
+    from,
+    to,
+    NavigationFailureType.redirected,
+    ("Redirected when going from \"" + (from.fullPath) + "\" to \"" + (stringifyRoute(
+      to
+    )) + "\" via a navigation guard.")
+  )
+}
+
+function createNavigationDuplicatedError (from, to) {
+  var error = createRouterError(
+    from,
+    to,
+    NavigationFailureType.duplicated,
+    ("Avoided redundant navigation to current location: \"" + (from.fullPath) + "\".")
+  );
+  // backwards compatible with the first introduction of Errors
+  error.name = 'NavigationDuplicated';
+  return error
+}
+
+function createNavigationCancelledError (from, to) {
+  return createRouterError(
+    from,
+    to,
+    NavigationFailureType.cancelled,
+    ("Navigation cancelled from \"" + (from.fullPath) + "\" to \"" + (to.fullPath) + "\" with a new navigation.")
+  )
+}
+
+function createNavigationAbortedError (from, to) {
+  return createRouterError(
+    from,
+    to,
+    NavigationFailureType.aborted,
+    ("Navigation aborted from \"" + (from.fullPath) + "\" to \"" + (to.fullPath) + "\" via a navigation guard.")
+  )
+}
+
+function createRouterError (from, to, type, message) {
+  var error = new Error(message);
+  error._isRouter = true;
+  error.from = from;
+  error.to = to;
+  error.type = type;
+
+  return error
+}
+
+var propertiesToLog = ['params', 'query', 'hash'];
+
+function stringifyRoute (to) {
+  if (typeof to === 'string') { return to }
+  if ('path' in to) { return to.path }
+  var location = {};
+  propertiesToLog.forEach(function (key) {
+    if (key in to) { location[key] = to[key]; }
+  });
+  return JSON.stringify(location, null, 2)
+}
+
+function isError (err) {
+  return Object.prototype.toString.call(err).indexOf('Error') > -1
+}
+
+function isNavigationFailure (err, errorType) {
+  return (
+    isError(err) &&
+    err._isRouter &&
+    (errorType == null || err.type === errorType)
+  )
+}
+
+/*  */
+
+function resolveAsyncComponents (matched) {
+  return function (to, from, next) {
+    var hasAsync = false;
+    var pending = 0;
+    var error = null;
+
+    flatMapComponents(matched, function (def, _, match, key) {
+      // if it's a function and doesn't have cid attached,
+      // assume it's an async component resolve function.
+      // we are not using Vue's default async resolving mechanism because
+      // we want to halt the navigation until the incoming component has been
+      // resolved.
+      if (typeof def === 'function' && def.cid === undefined) {
+        hasAsync = true;
+        pending++;
+
+        var resolve = once(function (resolvedDef) {
+          if (isESModule(resolvedDef)) {
+            resolvedDef = resolvedDef.default;
+          }
+          // save resolved on async factory in case it's used elsewhere
+          def.resolved = typeof resolvedDef === 'function'
+            ? resolvedDef
+            : _Vue.extend(resolvedDef);
+          match.components[key] = resolvedDef;
+          pending--;
+          if (pending <= 0) {
+            next();
+          }
+        });
+
+        var reject = once(function (reason) {
+          var msg = "Failed to resolve async component " + key + ": " + reason;
+           true && warn(false, msg);
+          if (!error) {
+            error = isError(reason)
+              ? reason
+              : new Error(msg);
+            next(error);
+          }
+        });
+
+        var res;
+        try {
+          res = def(resolve, reject);
+        } catch (e) {
+          reject(e);
+        }
+        if (res) {
+          if (typeof res.then === 'function') {
+            res.then(resolve, reject);
+          } else {
+            // new syntax in Vue 2.3
+            var comp = res.component;
+            if (comp && typeof comp.then === 'function') {
+              comp.then(resolve, reject);
+            }
+          }
+        }
+      }
+    });
+
+    if (!hasAsync) { next(); }
+  }
+}
+
+function flatMapComponents (
+  matched,
+  fn
+) {
+  return flatten(matched.map(function (m) {
+    return Object.keys(m.components).map(function (key) { return fn(
+      m.components[key],
+      m.instances[key],
+      m, key
+    ); })
+  }))
+}
+
+function flatten (arr) {
+  return Array.prototype.concat.apply([], arr)
+}
+
+var hasSymbol =
+  typeof Symbol === 'function' &&
+  typeof Symbol.toStringTag === 'symbol';
+
+function isESModule (obj) {
+  return obj.__esModule || (hasSymbol && obj[Symbol.toStringTag] === 'Module')
+}
+
+// in Webpack 2, require.ensure now also returns a Promise
+// so the resolve/reject functions may get called an extra time
+// if the user uses an arrow function shorthand that happens to
+// return that Promise.
+function once (fn) {
+  var called = false;
+  return function () {
+    var args = [], len = arguments.length;
+    while ( len-- ) args[ len ] = arguments[ len ];
+
+    if (called) { return }
+    called = true;
+    return fn.apply(this, args)
+  }
+}
+
+/*  */
+
+var History = function History (router, base) {
+  this.router = router;
+  this.base = normalizeBase(base);
+  // start with a route object that stands for "nowhere"
+  this.current = START;
+  this.pending = null;
+  this.ready = false;
+  this.readyCbs = [];
+  this.readyErrorCbs = [];
+  this.errorCbs = [];
+  this.listeners = [];
+};
+
+History.prototype.listen = function listen (cb) {
+  this.cb = cb;
+};
+
+History.prototype.onReady = function onReady (cb, errorCb) {
+  if (this.ready) {
+    cb();
+  } else {
+    this.readyCbs.push(cb);
+    if (errorCb) {
+      this.readyErrorCbs.push(errorCb);
+    }
+  }
+};
+
+History.prototype.onError = function onError (errorCb) {
+  this.errorCbs.push(errorCb);
+};
+
+History.prototype.transitionTo = function transitionTo (
+  location,
+  onComplete,
+  onAbort
+) {
+    var this$1 = this;
+
+  var route;
+  // catch redirect option https://github.com/vuejs/vue-router/issues/3201
+  try {
+    route = this.router.match(location, this.current);
+  } catch (e) {
+    this.errorCbs.forEach(function (cb) {
+      cb(e);
+    });
+    // Exception should still be thrown
+    throw e
+  }
+  this.confirmTransition(
+    route,
+    function () {
+      var prev = this$1.current;
+      this$1.updateRoute(route);
+      onComplete && onComplete(route);
+      this$1.ensureURL();
+      this$1.router.afterHooks.forEach(function (hook) {
+        hook && hook(route, prev);
+      });
+
+      // fire ready cbs once
+      if (!this$1.ready) {
+        this$1.ready = true;
+        this$1.readyCbs.forEach(function (cb) {
+          cb(route);
+        });
+      }
+    },
+    function (err) {
+      if (onAbort) {
+        onAbort(err);
+      }
+      if (err && !this$1.ready) {
+        this$1.ready = true;
+        // Initial redirection should still trigger the onReady onSuccess
+        // https://github.com/vuejs/vue-router/issues/3225
+        if (!isNavigationFailure(err, NavigationFailureType.redirected)) {
+          this$1.readyErrorCbs.forEach(function (cb) {
+            cb(err);
+          });
+        } else {
+          this$1.readyCbs.forEach(function (cb) {
+            cb(route);
+          });
+        }
+      }
+    }
+  );
+};
+
+History.prototype.confirmTransition = function confirmTransition (route, onComplete, onAbort) {
+    var this$1 = this;
+
+  var current = this.current;
+  var abort = function (err) {
+    // changed after adding errors with
+    // https://github.com/vuejs/vue-router/pull/3047 before that change,
+    // redirect and aborted navigation would produce an err == null
+    if (!isNavigationFailure(err) && isError(err)) {
+      if (this$1.errorCbs.length) {
+        this$1.errorCbs.forEach(function (cb) {
+          cb(err);
+        });
+      } else {
+        warn(false, 'uncaught error during route navigation:');
+        console.error(err);
+      }
+    }
+    onAbort && onAbort(err);
+  };
+  var lastRouteIndex = route.matched.length - 1;
+  var lastCurrentIndex = current.matched.length - 1;
+  if (
+    isSameRoute(route, current) &&
+    // in the case the route map has been dynamically appended to
+    lastRouteIndex === lastCurrentIndex &&
+    route.matched[lastRouteIndex] === current.matched[lastCurrentIndex]
+  ) {
+    this.ensureURL();
+    return abort(createNavigationDuplicatedError(current, route))
+  }
+
+  var ref = resolveQueue(
+    this.current.matched,
+    route.matched
+  );
+    var updated = ref.updated;
+    var deactivated = ref.deactivated;
+    var activated = ref.activated;
+
+  var queue = [].concat(
+    // in-component leave guards
+    extractLeaveGuards(deactivated),
+    // global before hooks
+    this.router.beforeHooks,
+    // in-component update hooks
+    extractUpdateHooks(updated),
+    // in-config enter guards
+    activated.map(function (m) { return m.beforeEnter; }),
+    // async components
+    resolveAsyncComponents(activated)
+  );
+
+  this.pending = route;
+  var iterator = function (hook, next) {
+    if (this$1.pending !== route) {
+      return abort(createNavigationCancelledError(current, route))
+    }
+    try {
+      hook(route, current, function (to) {
+        if (to === false) {
+          // next(false) -> abort navigation, ensure current URL
+          this$1.ensureURL(true);
+          abort(createNavigationAbortedError(current, route));
+        } else if (isError(to)) {
+          this$1.ensureURL(true);
+          abort(to);
+        } else if (
+          typeof to === 'string' ||
+          (typeof to === 'object' &&
+            (typeof to.path === 'string' || typeof to.name === 'string'))
+        ) {
+          // next('/') or next({ path: '/' }) -> redirect
+          abort(createNavigationRedirectedError(current, route));
+          if (typeof to === 'object' && to.replace) {
+            this$1.replace(to);
+          } else {
+            this$1.push(to);
+          }
+        } else {
+          // confirm transition and pass on the value
+          next(to);
+        }
+      });
+    } catch (e) {
+      abort(e);
+    }
+  };
+
+  runQueue(queue, iterator, function () {
+    var postEnterCbs = [];
+    var isValid = function () { return this$1.current === route; };
+    // wait until async components are resolved before
+    // extracting in-component enter guards
+    var enterGuards = extractEnterGuards(activated, postEnterCbs, isValid);
+    var queue = enterGuards.concat(this$1.router.resolveHooks);
+    runQueue(queue, iterator, function () {
+      if (this$1.pending !== route) {
+        return abort(createNavigationCancelledError(current, route))
+      }
+      this$1.pending = null;
+      onComplete(route);
+      if (this$1.router.app) {
+        this$1.router.app.$nextTick(function () {
+          postEnterCbs.forEach(function (cb) {
+            cb();
+          });
+        });
+      }
+    });
+  });
+};
+
+History.prototype.updateRoute = function updateRoute (route) {
+  this.current = route;
+  this.cb && this.cb(route);
+};
+
+History.prototype.setupListeners = function setupListeners () {
+  // Default implementation is empty
+};
+
+History.prototype.teardownListeners = function teardownListeners () {
+  this.listeners.forEach(function (cleanupListener) {
+    cleanupListener();
+  });
+  this.listeners = [];
+};
+
+function normalizeBase (base) {
+  if (!base) {
+    if (inBrowser) {
+      // respect <base> tag
+      var baseEl = document.querySelector('base');
+      base = (baseEl && baseEl.getAttribute('href')) || '/';
+      // strip full URL origin
+      base = base.replace(/^https?:\/\/[^\/]+/, '');
+    } else {
+      base = '/';
+    }
+  }
+  // make sure there's the starting slash
+  if (base.charAt(0) !== '/') {
+    base = '/' + base;
+  }
+  // remove trailing slash
+  return base.replace(/\/$/, '')
+}
+
+function resolveQueue (
+  current,
+  next
+) {
+  var i;
+  var max = Math.max(current.length, next.length);
+  for (i = 0; i < max; i++) {
+    if (current[i] !== next[i]) {
+      break
+    }
+  }
+  return {
+    updated: next.slice(0, i),
+    activated: next.slice(i),
+    deactivated: current.slice(i)
+  }
+}
+
+function extractGuards (
+  records,
+  name,
+  bind,
+  reverse
+) {
+  var guards = flatMapComponents(records, function (def, instance, match, key) {
+    var guard = extractGuard(def, name);
+    if (guard) {
+      return Array.isArray(guard)
+        ? guard.map(function (guard) { return bind(guard, instance, match, key); })
+        : bind(guard, instance, match, key)
+    }
+  });
+  return flatten(reverse ? guards.reverse() : guards)
+}
+
+function extractGuard (
+  def,
+  key
+) {
+  if (typeof def !== 'function') {
+    // extend now so that global mixins are applied.
+    def = _Vue.extend(def);
+  }
+  return def.options[key]
+}
+
+function extractLeaveGuards (deactivated) {
+  return extractGuards(deactivated, 'beforeRouteLeave', bindGuard, true)
+}
+
+function extractUpdateHooks (updated) {
+  return extractGuards(updated, 'beforeRouteUpdate', bindGuard)
+}
+
+function bindGuard (guard, instance) {
+  if (instance) {
+    return function boundRouteGuard () {
+      return guard.apply(instance, arguments)
+    }
+  }
+}
+
+function extractEnterGuards (
+  activated,
+  cbs,
+  isValid
+) {
+  return extractGuards(
+    activated,
+    'beforeRouteEnter',
+    function (guard, _, match, key) {
+      return bindEnterGuard(guard, match, key, cbs, isValid)
+    }
+  )
+}
+
+function bindEnterGuard (
+  guard,
+  match,
+  key,
+  cbs,
+  isValid
+) {
+  return function routeEnterGuard (to, from, next) {
+    return guard(to, from, function (cb) {
+      if (typeof cb === 'function') {
+        cbs.push(function () {
+          // #750
+          // if a router-view is wrapped with an out-in transition,
+          // the instance may not have been registered at this time.
+          // we will need to poll for registration until current route
+          // is no longer valid.
+          poll(cb, match.instances, key, isValid);
+        });
+      }
+      next(cb);
+    })
+  }
+}
+
+function poll (
+  cb, // somehow flow cannot infer this is a function
+  instances,
+  key,
+  isValid
+) {
+  if (
+    instances[key] &&
+    !instances[key]._isBeingDestroyed // do not reuse being destroyed instance
+  ) {
+    cb(instances[key]);
+  } else if (isValid()) {
+    setTimeout(function () {
+      poll(cb, instances, key, isValid);
+    }, 16);
+  }
+}
+
+/*  */
+
+var HTML5History = /*@__PURE__*/(function (History) {
+  function HTML5History (router, base) {
+    History.call(this, router, base);
+
+    this._startLocation = getLocation(this.base);
+  }
+
+  if ( History ) HTML5History.__proto__ = History;
+  HTML5History.prototype = Object.create( History && History.prototype );
+  HTML5History.prototype.constructor = HTML5History;
+
+  HTML5History.prototype.setupListeners = function setupListeners () {
+    var this$1 = this;
+
+    if (this.listeners.length > 0) {
+      return
+    }
+
+    var router = this.router;
+    var expectScroll = router.options.scrollBehavior;
+    var supportsScroll = supportsPushState && expectScroll;
+
+    if (supportsScroll) {
+      this.listeners.push(setupScroll());
+    }
+
+    var handleRoutingEvent = function () {
+      var current = this$1.current;
+
+      // Avoiding first `popstate` event dispatched in some browsers but first
+      // history route not updated since async guard at the same time.
+      var location = getLocation(this$1.base);
+      if (this$1.current === START && location === this$1._startLocation) {
+        return
+      }
+
+      this$1.transitionTo(location, function (route) {
+        if (supportsScroll) {
+          handleScroll(router, route, current, true);
+        }
+      });
+    };
+    window.addEventListener('popstate', handleRoutingEvent);
+    this.listeners.push(function () {
+      window.removeEventListener('popstate', handleRoutingEvent);
+    });
+  };
+
+  HTML5History.prototype.go = function go (n) {
+    window.history.go(n);
+  };
+
+  HTML5History.prototype.push = function push (location, onComplete, onAbort) {
+    var this$1 = this;
+
+    var ref = this;
+    var fromRoute = ref.current;
+    this.transitionTo(location, function (route) {
+      pushState(cleanPath(this$1.base + route.fullPath));
+      handleScroll(this$1.router, route, fromRoute, false);
+      onComplete && onComplete(route);
+    }, onAbort);
+  };
+
+  HTML5History.prototype.replace = function replace (location, onComplete, onAbort) {
+    var this$1 = this;
+
+    var ref = this;
+    var fromRoute = ref.current;
+    this.transitionTo(location, function (route) {
+      replaceState(cleanPath(this$1.base + route.fullPath));
+      handleScroll(this$1.router, route, fromRoute, false);
+      onComplete && onComplete(route);
+    }, onAbort);
+  };
+
+  HTML5History.prototype.ensureURL = function ensureURL (push) {
+    if (getLocation(this.base) !== this.current.fullPath) {
+      var current = cleanPath(this.base + this.current.fullPath);
+      push ? pushState(current) : replaceState(current);
+    }
+  };
+
+  HTML5History.prototype.getCurrentLocation = function getCurrentLocation () {
+    return getLocation(this.base)
+  };
+
+  return HTML5History;
+}(History));
+
+function getLocation (base) {
+  var path = decodeURI(window.location.pathname);
+  if (base && path.toLowerCase().indexOf(base.toLowerCase()) === 0) {
+    path = path.slice(base.length);
+  }
+  return (path || '/') + window.location.search + window.location.hash
+}
+
+/*  */
+
+var HashHistory = /*@__PURE__*/(function (History) {
+  function HashHistory (router, base, fallback) {
+    History.call(this, router, base);
+    // check history fallback deeplinking
+    if (fallback && checkFallback(this.base)) {
+      return
+    }
+    ensureSlash();
+  }
+
+  if ( History ) HashHistory.__proto__ = History;
+  HashHistory.prototype = Object.create( History && History.prototype );
+  HashHistory.prototype.constructor = HashHistory;
+
+  // this is delayed until the app mounts
+  // to avoid the hashchange listener being fired too early
+  HashHistory.prototype.setupListeners = function setupListeners () {
+    var this$1 = this;
+
+    if (this.listeners.length > 0) {
+      return
+    }
+
+    var router = this.router;
+    var expectScroll = router.options.scrollBehavior;
+    var supportsScroll = supportsPushState && expectScroll;
+
+    if (supportsScroll) {
+      this.listeners.push(setupScroll());
+    }
+
+    var handleRoutingEvent = function () {
+      var current = this$1.current;
+      if (!ensureSlash()) {
+        return
+      }
+      this$1.transitionTo(getHash(), function (route) {
+        if (supportsScroll) {
+          handleScroll(this$1.router, route, current, true);
+        }
+        if (!supportsPushState) {
+          replaceHash(route.fullPath);
+        }
+      });
+    };
+    var eventType = supportsPushState ? 'popstate' : 'hashchange';
+    window.addEventListener(
+      eventType,
+      handleRoutingEvent
+    );
+    this.listeners.push(function () {
+      window.removeEventListener(eventType, handleRoutingEvent);
+    });
+  };
+
+  HashHistory.prototype.push = function push (location, onComplete, onAbort) {
+    var this$1 = this;
+
+    var ref = this;
+    var fromRoute = ref.current;
+    this.transitionTo(
+      location,
+      function (route) {
+        pushHash(route.fullPath);
+        handleScroll(this$1.router, route, fromRoute, false);
+        onComplete && onComplete(route);
+      },
+      onAbort
+    );
+  };
+
+  HashHistory.prototype.replace = function replace (location, onComplete, onAbort) {
+    var this$1 = this;
+
+    var ref = this;
+    var fromRoute = ref.current;
+    this.transitionTo(
+      location,
+      function (route) {
+        replaceHash(route.fullPath);
+        handleScroll(this$1.router, route, fromRoute, false);
+        onComplete && onComplete(route);
+      },
+      onAbort
+    );
+  };
+
+  HashHistory.prototype.go = function go (n) {
+    window.history.go(n);
+  };
+
+  HashHistory.prototype.ensureURL = function ensureURL (push) {
+    var current = this.current.fullPath;
+    if (getHash() !== current) {
+      push ? pushHash(current) : replaceHash(current);
+    }
+  };
+
+  HashHistory.prototype.getCurrentLocation = function getCurrentLocation () {
+    return getHash()
+  };
+
+  return HashHistory;
+}(History));
+
+function checkFallback (base) {
+  var location = getLocation(base);
+  if (!/^\/#/.test(location)) {
+    window.location.replace(cleanPath(base + '/#' + location));
+    return true
+  }
+}
+
+function ensureSlash () {
+  var path = getHash();
+  if (path.charAt(0) === '/') {
+    return true
+  }
+  replaceHash('/' + path);
+  return false
+}
+
+function getHash () {
+  // We can't use window.location.hash here because it's not
+  // consistent across browsers - Firefox will pre-decode it!
+  var href = window.location.href;
+  var index = href.indexOf('#');
+  // empty path
+  if (index < 0) { return '' }
+
+  href = href.slice(index + 1);
+  // decode the hash but not the search or hash
+  // as search(query) is already decoded
+  // https://github.com/vuejs/vue-router/issues/2708
+  var searchIndex = href.indexOf('?');
+  if (searchIndex < 0) {
+    var hashIndex = href.indexOf('#');
+    if (hashIndex > -1) {
+      href = decodeURI(href.slice(0, hashIndex)) + href.slice(hashIndex);
+    } else { href = decodeURI(href); }
+  } else {
+    href = decodeURI(href.slice(0, searchIndex)) + href.slice(searchIndex);
+  }
+
+  return href
+}
+
+function getUrl (path) {
+  var href = window.location.href;
+  var i = href.indexOf('#');
+  var base = i >= 0 ? href.slice(0, i) : href;
+  return (base + "#" + path)
+}
+
+function pushHash (path) {
+  if (supportsPushState) {
+    pushState(getUrl(path));
+  } else {
+    window.location.hash = path;
+  }
+}
+
+function replaceHash (path) {
+  if (supportsPushState) {
+    replaceState(getUrl(path));
+  } else {
+    window.location.replace(getUrl(path));
+  }
+}
+
+/*  */
+
+var AbstractHistory = /*@__PURE__*/(function (History) {
+  function AbstractHistory (router, base) {
+    History.call(this, router, base);
+    this.stack = [];
+    this.index = -1;
+  }
+
+  if ( History ) AbstractHistory.__proto__ = History;
+  AbstractHistory.prototype = Object.create( History && History.prototype );
+  AbstractHistory.prototype.constructor = AbstractHistory;
+
+  AbstractHistory.prototype.push = function push (location, onComplete, onAbort) {
+    var this$1 = this;
+
+    this.transitionTo(
+      location,
+      function (route) {
+        this$1.stack = this$1.stack.slice(0, this$1.index + 1).concat(route);
+        this$1.index++;
+        onComplete && onComplete(route);
+      },
+      onAbort
+    );
+  };
+
+  AbstractHistory.prototype.replace = function replace (location, onComplete, onAbort) {
+    var this$1 = this;
+
+    this.transitionTo(
+      location,
+      function (route) {
+        this$1.stack = this$1.stack.slice(0, this$1.index).concat(route);
+        onComplete && onComplete(route);
+      },
+      onAbort
+    );
+  };
+
+  AbstractHistory.prototype.go = function go (n) {
+    var this$1 = this;
+
+    var targetIndex = this.index + n;
+    if (targetIndex < 0 || targetIndex >= this.stack.length) {
+      return
+    }
+    var route = this.stack[targetIndex];
+    this.confirmTransition(
+      route,
+      function () {
+        this$1.index = targetIndex;
+        this$1.updateRoute(route);
+      },
+      function (err) {
+        if (isNavigationFailure(err, NavigationFailureType.duplicated)) {
+          this$1.index = targetIndex;
+        }
+      }
+    );
+  };
+
+  AbstractHistory.prototype.getCurrentLocation = function getCurrentLocation () {
+    var current = this.stack[this.stack.length - 1];
+    return current ? current.fullPath : '/'
+  };
+
+  AbstractHistory.prototype.ensureURL = function ensureURL () {
+    // noop
+  };
+
+  return AbstractHistory;
+}(History));
+
+/*  */
+
+var VueRouter = function VueRouter (options) {
+  if ( options === void 0 ) options = {};
+
+  this.app = null;
+  this.apps = [];
+  this.options = options;
+  this.beforeHooks = [];
+  this.resolveHooks = [];
+  this.afterHooks = [];
+  this.matcher = createMatcher(options.routes || [], this);
+
+  var mode = options.mode || 'hash';
+  this.fallback =
+    mode === 'history' && !supportsPushState && options.fallback !== false;
+  if (this.fallback) {
+    mode = 'hash';
+  }
+  if (!inBrowser) {
+    mode = 'abstract';
+  }
+  this.mode = mode;
+
+  switch (mode) {
+    case 'history':
+      this.history = new HTML5History(this, options.base);
+      break
+    case 'hash':
+      this.history = new HashHistory(this, options.base, this.fallback);
+      break
+    case 'abstract':
+      this.history = new AbstractHistory(this, options.base);
+      break
+    default:
+      if (true) {
+        assert(false, ("invalid mode: " + mode));
+      }
+  }
+};
+
+var prototypeAccessors = { currentRoute: { configurable: true } };
+
+VueRouter.prototype.match = function match (raw, current, redirectedFrom) {
+  return this.matcher.match(raw, current, redirectedFrom)
+};
+
+prototypeAccessors.currentRoute.get = function () {
+  return this.history && this.history.current
+};
+
+VueRouter.prototype.init = function init (app /* Vue component instance */) {
+    var this$1 = this;
+
+   true &&
+    assert(
+      install.installed,
+      "not installed. Make sure to call `Vue.use(VueRouter)` " +
+        "before creating root instance."
+    );
+
+  this.apps.push(app);
+
+  // set up app destroyed handler
+  // https://github.com/vuejs/vue-router/issues/2639
+  app.$once('hook:destroyed', function () {
+    // clean out app from this.apps array once destroyed
+    var index = this$1.apps.indexOf(app);
+    if (index > -1) { this$1.apps.splice(index, 1); }
+    // ensure we still have a main app or null if no apps
+    // we do not release the router so it can be reused
+    if (this$1.app === app) { this$1.app = this$1.apps[0] || null; }
+
+    if (!this$1.app) {
+      // clean up event listeners
+      // https://github.com/vuejs/vue-router/issues/2341
+      this$1.history.teardownListeners();
+    }
+  });
+
+  // main app previously initialized
+  // return as we don't need to set up new history listener
+  if (this.app) {
+    return
+  }
+
+  this.app = app;
+
+  var history = this.history;
+
+  if (history instanceof HTML5History || history instanceof HashHistory) {
+    var handleInitialScroll = function (routeOrError) {
+      var from = history.current;
+      var expectScroll = this$1.options.scrollBehavior;
+      var supportsScroll = supportsPushState && expectScroll;
+
+      if (supportsScroll && 'fullPath' in routeOrError) {
+        handleScroll(this$1, routeOrError, from, false);
+      }
+    };
+    var setupListeners = function (routeOrError) {
+      history.setupListeners();
+      handleInitialScroll(routeOrError);
+    };
+    history.transitionTo(
+      history.getCurrentLocation(),
+      setupListeners,
+      setupListeners
+    );
+  }
+
+  history.listen(function (route) {
+    this$1.apps.forEach(function (app) {
+      app._route = route;
+    });
+  });
+};
+
+VueRouter.prototype.beforeEach = function beforeEach (fn) {
+  return registerHook(this.beforeHooks, fn)
+};
+
+VueRouter.prototype.beforeResolve = function beforeResolve (fn) {
+  return registerHook(this.resolveHooks, fn)
+};
+
+VueRouter.prototype.afterEach = function afterEach (fn) {
+  return registerHook(this.afterHooks, fn)
+};
+
+VueRouter.prototype.onReady = function onReady (cb, errorCb) {
+  this.history.onReady(cb, errorCb);
+};
+
+VueRouter.prototype.onError = function onError (errorCb) {
+  this.history.onError(errorCb);
+};
+
+VueRouter.prototype.push = function push (location, onComplete, onAbort) {
+    var this$1 = this;
+
+  // $flow-disable-line
+  if (!onComplete && !onAbort && typeof Promise !== 'undefined') {
+    return new Promise(function (resolve, reject) {
+      this$1.history.push(location, resolve, reject);
+    })
+  } else {
+    this.history.push(location, onComplete, onAbort);
+  }
+};
+
+VueRouter.prototype.replace = function replace (location, onComplete, onAbort) {
+    var this$1 = this;
+
+  // $flow-disable-line
+  if (!onComplete && !onAbort && typeof Promise !== 'undefined') {
+    return new Promise(function (resolve, reject) {
+      this$1.history.replace(location, resolve, reject);
+    })
+  } else {
+    this.history.replace(location, onComplete, onAbort);
+  }
+};
+
+VueRouter.prototype.go = function go (n) {
+  this.history.go(n);
+};
+
+VueRouter.prototype.back = function back () {
+  this.go(-1);
+};
+
+VueRouter.prototype.forward = function forward () {
+  this.go(1);
+};
+
+VueRouter.prototype.getMatchedComponents = function getMatchedComponents (to) {
+  var route = to
+    ? to.matched
+      ? to
+      : this.resolve(to).route
+    : this.currentRoute;
+  if (!route) {
+    return []
+  }
+  return [].concat.apply(
+    [],
+    route.matched.map(function (m) {
+      return Object.keys(m.components).map(function (key) {
+        return m.components[key]
+      })
+    })
+  )
+};
+
+VueRouter.prototype.resolve = function resolve (
+  to,
+  current,
+  append
+) {
+  current = current || this.history.current;
+  var location = normalizeLocation(to, current, append, this);
+  var route = this.match(location, current);
+  var fullPath = route.redirectedFrom || route.fullPath;
+  var base = this.history.base;
+  var href = createHref(base, fullPath, this.mode);
+  return {
+    location: location,
+    route: route,
+    href: href,
+    // for backwards compat
+    normalizedTo: location,
+    resolved: route
+  }
+};
+
+VueRouter.prototype.addRoutes = function addRoutes (routes) {
+  this.matcher.addRoutes(routes);
+  if (this.history.current !== START) {
+    this.history.transitionTo(this.history.getCurrentLocation());
+  }
+};
+
+Object.defineProperties( VueRouter.prototype, prototypeAccessors );
+
+function registerHook (list, fn) {
+  list.push(fn);
+  return function () {
+    var i = list.indexOf(fn);
+    if (i > -1) { list.splice(i, 1); }
+  }
+}
+
+function createHref (base, fullPath, mode) {
+  var path = mode === 'hash' ? '#' + fullPath : fullPath;
+  return base ? cleanPath(base + '/' + path) : path
+}
+
+VueRouter.install = install;
+VueRouter.version = '3.4.3';
+VueRouter.isNavigationFailure = isNavigationFailure;
+VueRouter.NavigationFailureType = NavigationFailureType;
+
+if (inBrowser && window.Vue) {
+  window.Vue.use(VueRouter);
+}
+
+/* harmony default export */ __webpack_exports__["default"] = (VueRouter);
 
 
 /***/ }),
@@ -94235,6 +98405,144 @@ module.exports = function(module) {
 
 /***/ }),
 
+/***/ "./resources/js/admin/Dashboard.vue":
+/*!******************************************!*\
+  !*** ./resources/js/admin/Dashboard.vue ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Dashboard_vue_vue_type_template_id_af0944b4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Dashboard.vue?vue&type=template&id=af0944b4& */ "./resources/js/admin/Dashboard.vue?vue&type=template&id=af0944b4&");
+/* harmony import */ var _Dashboard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Dashboard.vue?vue&type=script&lang=js& */ "./resources/js/admin/Dashboard.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Dashboard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Dashboard_vue_vue_type_template_id_af0944b4___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Dashboard_vue_vue_type_template_id_af0944b4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/admin/Dashboard.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/admin/Dashboard.vue?vue&type=script&lang=js&":
+/*!*******************************************************************!*\
+  !*** ./resources/js/admin/Dashboard.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Dashboard.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/Dashboard.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/admin/Dashboard.vue?vue&type=template&id=af0944b4&":
+/*!*************************************************************************!*\
+  !*** ./resources/js/admin/Dashboard.vue?vue&type=template&id=af0944b4& ***!
+  \*************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_template_id_af0944b4___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Dashboard.vue?vue&type=template&id=af0944b4& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/Dashboard.vue?vue&type=template&id=af0944b4&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_template_id_af0944b4___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Dashboard_vue_vue_type_template_id_af0944b4___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/admin/Restaurants.vue":
+/*!********************************************!*\
+  !*** ./resources/js/admin/Restaurants.vue ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Restaurants_vue_vue_type_template_id_37102f30___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Restaurants.vue?vue&type=template&id=37102f30& */ "./resources/js/admin/Restaurants.vue?vue&type=template&id=37102f30&");
+/* harmony import */ var _Restaurants_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Restaurants.vue?vue&type=script&lang=js& */ "./resources/js/admin/Restaurants.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Restaurants_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Restaurants_vue_vue_type_template_id_37102f30___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Restaurants_vue_vue_type_template_id_37102f30___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/admin/Restaurants.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/admin/Restaurants.vue?vue&type=script&lang=js&":
+/*!*********************************************************************!*\
+  !*** ./resources/js/admin/Restaurants.vue?vue&type=script&lang=js& ***!
+  \*********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Restaurants_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Restaurants.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/Restaurants.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Restaurants_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/admin/Restaurants.vue?vue&type=template&id=37102f30&":
+/*!***************************************************************************!*\
+  !*** ./resources/js/admin/Restaurants.vue?vue&type=template&id=37102f30& ***!
+  \***************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Restaurants_vue_vue_type_template_id_37102f30___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Restaurants.vue?vue&type=template&id=37102f30& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/admin/Restaurants.vue?vue&type=template&id=37102f30&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Restaurants_vue_vue_type_template_id_37102f30___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Restaurants_vue_vue_type_template_id_37102f30___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/app.js":
 /*!*****************************!*\
   !*** ./resources/js/app.js ***!
@@ -94244,7 +98552,8 @@ module.exports = function(module) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _vuetify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./vuetify */ "./resources/js/vuetify/index.js");
+/* harmony import */ var _router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./router */ "./resources/js/router.js");
+/* harmony import */ var _vuetify__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./vuetify */ "./resources/js/vuetify/index.js");
 /**
  * First we will load all of this project's JavaScript dependencies which
  * includes Vue and other libraries. It is a great starting point when
@@ -94253,6 +98562,7 @@ __webpack_require__.r(__webpack_exports__);
 __webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
 
 window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+
 /**
  * The following block of code may be used to automatically register your
  * Vue components. It will recursively scan this directory for the Vue
@@ -94263,7 +98573,12 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
-Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
+Vue.component("example-component", __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
+Vue.component("admin", __webpack_require__(/*! ./components/Admin.vue */ "./resources/js/components/Admin.vue")["default"]);
+Vue.component("popup", __webpack_require__(/*! ./pages/Popup.vue */ "./resources/js/pages/Popup.vue")["default"]);
+Vue.component("navigation", __webpack_require__(/*! ./pages/Navigation.vue */ "./resources/js/pages/Navigation.vue")["default"]); // Vue.component("dashboard", require("./components/Dashboard.vue").default);
+// Vue.component("restaurant-menus", require("./components/RestaurantMenus.vue").default);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -94273,8 +98588,9 @@ Vue.component('example-component', __webpack_require__(/*! ./components/ExampleC
  // import App from './App.vue'
 
 var app = new Vue({
-  vuetify: _vuetify__WEBPACK_IMPORTED_MODULE_0__["default"],
-  el: '#app'
+  el: "#app",
+  vuetify: _vuetify__WEBPACK_IMPORTED_MODULE_1__["default"],
+  router: _router__WEBPACK_IMPORTED_MODULE_0__["default"]
 });
 
 /***/ }),
@@ -94334,6 +98650,75 @@ if (token) {
 //     cluster: process.env.MIX_PUSHER_APP_CLUSTER,
 //     encrypted: true
 // });
+
+/***/ }),
+
+/***/ "./resources/js/components/Admin.vue":
+/*!*******************************************!*\
+  !*** ./resources/js/components/Admin.vue ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Admin_vue_vue_type_template_id_58b78718___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Admin.vue?vue&type=template&id=58b78718& */ "./resources/js/components/Admin.vue?vue&type=template&id=58b78718&");
+/* harmony import */ var _Admin_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Admin.vue?vue&type=script&lang=js& */ "./resources/js/components/Admin.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Admin_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Admin_vue_vue_type_template_id_58b78718___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Admin_vue_vue_type_template_id_58b78718___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Admin.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Admin.vue?vue&type=script&lang=js&":
+/*!********************************************************************!*\
+  !*** ./resources/js/components/Admin.vue?vue&type=script&lang=js& ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Admin_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Admin.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Admin.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Admin_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Admin.vue?vue&type=template&id=58b78718&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/components/Admin.vue?vue&type=template&id=58b78718& ***!
+  \**************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Admin_vue_vue_type_template_id_58b78718___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Admin.vue?vue&type=template&id=58b78718& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Admin.vue?vue&type=template&id=58b78718&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Admin_vue_vue_type_template_id_58b78718___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Admin_vue_vue_type_template_id_58b78718___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
 
 /***/ }),
 
@@ -94406,6 +98791,239 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/pages/Navigation.vue":
+/*!*******************************************!*\
+  !*** ./resources/js/pages/Navigation.vue ***!
+  \*******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Navigation_vue_vue_type_template_id_3250b25d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Navigation.vue?vue&type=template&id=3250b25d& */ "./resources/js/pages/Navigation.vue?vue&type=template&id=3250b25d&");
+/* harmony import */ var _Navigation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Navigation.vue?vue&type=script&lang=js& */ "./resources/js/pages/Navigation.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Navigation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Navigation_vue_vue_type_template_id_3250b25d___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Navigation_vue_vue_type_template_id_3250b25d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/pages/Navigation.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/pages/Navigation.vue?vue&type=script&lang=js&":
+/*!********************************************************************!*\
+  !*** ./resources/js/pages/Navigation.vue?vue&type=script&lang=js& ***!
+  \********************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Navigation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Navigation.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Navigation.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Navigation_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/pages/Navigation.vue?vue&type=template&id=3250b25d&":
+/*!**************************************************************************!*\
+  !*** ./resources/js/pages/Navigation.vue?vue&type=template&id=3250b25d& ***!
+  \**************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Navigation_vue_vue_type_template_id_3250b25d___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Navigation.vue?vue&type=template&id=3250b25d& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Navigation.vue?vue&type=template&id=3250b25d&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Navigation_vue_vue_type_template_id_3250b25d___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Navigation_vue_vue_type_template_id_3250b25d___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/pages/Popup.vue":
+/*!**************************************!*\
+  !*** ./resources/js/pages/Popup.vue ***!
+  \**************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Popup_vue_vue_type_template_id_7d2b02f3___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Popup.vue?vue&type=template&id=7d2b02f3& */ "./resources/js/pages/Popup.vue?vue&type=template&id=7d2b02f3&");
+/* harmony import */ var _Popup_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Popup.vue?vue&type=script&lang=js& */ "./resources/js/pages/Popup.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
+  _Popup_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Popup_vue_vue_type_template_id_7d2b02f3___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Popup_vue_vue_type_template_id_7d2b02f3___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/pages/Popup.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/pages/Popup.vue?vue&type=script&lang=js&":
+/*!***************************************************************!*\
+  !*** ./resources/js/pages/Popup.vue?vue&type=script&lang=js& ***!
+  \***************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Popup_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Popup.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Popup.vue?vue&type=script&lang=js&");
+/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Popup_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
+
+/***/ }),
+
+/***/ "./resources/js/pages/Popup.vue?vue&type=template&id=7d2b02f3&":
+/*!*********************************************************************!*\
+  !*** ./resources/js/pages/Popup.vue?vue&type=template&id=7d2b02f3& ***!
+  \*********************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Popup_vue_vue_type_template_id_7d2b02f3___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Popup.vue?vue&type=template&id=7d2b02f3& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/pages/Popup.vue?vue&type=template&id=7d2b02f3&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Popup_vue_vue_type_template_id_7d2b02f3___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Popup_vue_vue_type_template_id_7d2b02f3___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/router.js":
+/*!********************************!*\
+  !*** ./resources/js/router.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var vue_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue-router */ "./node_modules/vue-router/dist/vue-router.esm.js");
+/* harmony import */ var _admin_Dashboard__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./admin/Dashboard */ "./resources/js/admin/Dashboard.vue");
+/* harmony import */ var _admin_Restaurants__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./admin/Restaurants */ "./resources/js/admin/Restaurants.vue");
+/* harmony import */ var _user_RestaurantMenus__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./user/RestaurantMenus */ "./resources/js/user/RestaurantMenus.vue");
+
+
+vue__WEBPACK_IMPORTED_MODULE_0___default.a.use(vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]);
+
+
+ // import dashboard from './components/Dashboard';
+
+var routes = [{
+  path: '/admin/dashboard',
+  component: _admin_Dashboard__WEBPACK_IMPORTED_MODULE_2__["default"],
+  name: 'dashboard'
+}, {
+  path: '/admin/restaurants',
+  component: _admin_Restaurants__WEBPACK_IMPORTED_MODULE_3__["default"],
+  name: 'restaurants'
+}, {
+  path: '/user/menus',
+  component: _user_RestaurantMenus__WEBPACK_IMPORTED_MODULE_4__["default"],
+  name: 'menus'
+}];
+/* harmony default export */ __webpack_exports__["default"] = (new vue_router__WEBPACK_IMPORTED_MODULE_1__["default"]({
+  mode: 'history',
+  routes: routes
+}));
+
+/***/ }),
+
+/***/ "./resources/js/user/RestaurantMenus.vue":
+/*!***********************************************!*\
+  !*** ./resources/js/user/RestaurantMenus.vue ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _RestaurantMenus_vue_vue_type_template_id_4b247351___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./RestaurantMenus.vue?vue&type=template&id=4b247351& */ "./resources/js/user/RestaurantMenus.vue?vue&type=template&id=4b247351&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+var script = {}
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_1__["default"])(
+  script,
+  _RestaurantMenus_vue_vue_type_template_id_4b247351___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _RestaurantMenus_vue_vue_type_template_id_4b247351___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/user/RestaurantMenus.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/user/RestaurantMenus.vue?vue&type=template&id=4b247351&":
+/*!******************************************************************************!*\
+  !*** ./resources/js/user/RestaurantMenus.vue?vue&type=template&id=4b247351& ***!
+  \******************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_RestaurantMenus_vue_vue_type_template_id_4b247351___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./RestaurantMenus.vue?vue&type=template&id=4b247351& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/user/RestaurantMenus.vue?vue&type=template&id=4b247351&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_RestaurantMenus_vue_vue_type_template_id_4b247351___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_RestaurantMenus_vue_vue_type_template_id_4b247351___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
 /***/ "./resources/js/vuetify/index.js":
 /*!***************************************!*\
   !*** ./resources/js/vuetify/index.js ***!
@@ -94415,14 +99033,16 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _mdi_font_css_materialdesignicons_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @mdi/font/css/materialdesignicons.css */ "./node_modules/@mdi/font/css/materialdesignicons.css");
-/* harmony import */ var _mdi_font_css_materialdesignicons_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_mdi_font_css_materialdesignicons_css__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
-/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var vuetify__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vuetify */ "./node_modules/vuetify/dist/vuetify.js");
-/* harmony import */ var vuetify__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vuetify__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var vuetify_dist_vuetify_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vuetify/dist/vuetify.min.css */ "./node_modules/vuetify/dist/vuetify.min.css");
-/* harmony import */ var vuetify_dist_vuetify_min_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(vuetify_dist_vuetify_min_css__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var material_design_icons_iconfont_dist_material_design_icons_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! material-design-icons-iconfont/dist/material-design-icons.css */ "./node_modules/material-design-icons-iconfont/dist/material-design-icons.css");
+/* harmony import */ var material_design_icons_iconfont_dist_material_design_icons_css__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(material_design_icons_iconfont_dist_material_design_icons_css__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _mdi_font_css_materialdesignicons_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @mdi/font/css/materialdesignicons.css */ "./node_modules/@mdi/font/css/materialdesignicons.css");
+/* harmony import */ var _mdi_font_css_materialdesignicons_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_mdi_font_css_materialdesignicons_css__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.js");
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var vuetify__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vuetify */ "./node_modules/vuetify/dist/vuetify.js");
+/* harmony import */ var vuetify__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(vuetify__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var vuetify_dist_vuetify_min_css__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! vuetify/dist/vuetify.min.css */ "./node_modules/vuetify/dist/vuetify.min.css");
+/* harmony import */ var vuetify_dist_vuetify_min_css__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(vuetify_dist_vuetify_min_css__WEBPACK_IMPORTED_MODULE_4__);
 // src/plugins/vuetify.js
 // import "material-design-icons-iconfont/dist/material-design-icons.css"; // Ensure you are using css-loader
 // import Vue from "vue";
@@ -94436,14 +99056,16 @@ __webpack_require__.r(__webpack_exports__);
 // });
  // Ensure you are using css-loader
 
+ // Ensure you are using css-loader
 
 
 
-vue__WEBPACK_IMPORTED_MODULE_1___default.a.use(vuetify__WEBPACK_IMPORTED_MODULE_2___default.a);
+
+vue__WEBPACK_IMPORTED_MODULE_2___default.a.use(vuetify__WEBPACK_IMPORTED_MODULE_3___default.a);
 var opts = {};
-/* harmony default export */ __webpack_exports__["default"] = (new vuetify__WEBPACK_IMPORTED_MODULE_2___default.a(opts, {
+/* harmony default export */ __webpack_exports__["default"] = (new vuetify__WEBPACK_IMPORTED_MODULE_3___default.a(opts, {
   icons: {
-    iconfont: 'mdi' // default - only for display purposes
+    iconfont: 'md' // default - only for display purposes
 
   }
 }));

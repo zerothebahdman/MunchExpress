@@ -12,17 +12,18 @@
 //         iconfont: "md"
 //     }
 // });
-import '@mdi/font/css/materialdesignicons.css' // Ensure you are using css-loader
-import Vue from 'vue'
-import Vuetify from 'vuetify'
-import 'vuetify/dist/vuetify.min.css'
+import 'material-design-icons-iconfont/dist/material-design-icons.css' // Ensure you are using css-loader
+import '@mdi/font/css/materialdesignicons.css'; // Ensure you are using css-loader
+import Vue from 'vue';
+import Vuetify from 'vuetify';
+import 'vuetify/dist/vuetify.min.css';
 
-Vue.use(Vuetify)
+Vue.use(Vuetify);
 
-const opts = {}
+const opts = {};
 
 export default new Vuetify(opts, {
     icons: {
-        iconfont: 'mdi', // default - only for display purposes
+        iconfont: 'md', // default - only for display purposes
     },
-})
+});

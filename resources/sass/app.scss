@@ -6,4 +6,19 @@
 
 // Bootstrap
 @import "~bootstrap/scss/bootstrap";
-// no@import "~@mdi/font/css/materialdesignicons.min.css";
+@import "~@mdi/font/css/materialdesignicons.min.css";
+
+
+.v-list-item--active {
+    background-color: #1976d2 !important;
+    color: #fff !important;
+    border-radius: .5rem;
+    -webkit-border-radius: .5rem;
+    -moz-border-radius: .5rem;
+    -ms-border-radius: .5rem;
+    -o-border-radius: .5rem;
+}
+
+.v-list-item--link:hover {
+    text-decoration: none;
+}
