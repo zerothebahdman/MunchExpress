@@ -30,7 +30,6 @@ Vue.component("navigation", require("./pages/Navigation.vue").default);
 // Vue.component("dashboard", require("./components/Dashboard.vue").default);
 // Vue.component("restaurant-menus", require("./components/RestaurantMenus.vue").default);
 
-
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
@@ -44,5 +43,5 @@ import vuetify from "./vuetify";
 const app = new Vue({
     el: "#app",
     vuetify,
-    router,
+    router
 });

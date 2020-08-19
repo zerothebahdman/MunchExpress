@@ -8,17 +8,17 @@
 @import "~bootstrap/scss/bootstrap";
 @import "~@mdi/font/css/materialdesignicons.min.css";
 
-
-.v-list-item--active {
-    background-color: #1976d2 !important;
+a.v-list-item--active {
+    background-color: #1976d2bd !important;
     color: #fff !important;
-    border-radius: .5rem;
-    -webkit-border-radius: .5rem;
-    -moz-border-radius: .5rem;
-    -ms-border-radius: .5rem;
-    -o-border-radius: .5rem;
+    border-left: thick solid rgb(241, 15, 91);
+    border-radius: 0px 50px 50px 0px;
+    -webkit-border-radius: 0px 50px 50px 0px;
+    -moz-border-radius: 0px 50px 50px 0px;
+    -ms-border-radius: 0px 50px 50px 0px;
+    -o-border-radius: 0px 50px 50px 0px;
 }
 
-.v-list-item--link:hover {
+a.v-list-item--link:hover {
     text-decoration: none;
 }

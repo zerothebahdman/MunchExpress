@@ -29,7 +29,9 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "vee-validate": "^3.3.9",
         "vue-router": "^3.4.3",
+        "vuelidate": "^0.7.5",
         "vuetify": "^2.3.8",
         "vuetify-loader": "^1.6.0"
     }

@@ -1,8 +1,14 @@
 <template>
     <v-row justify="center">
-        <v-dialog v-model="dialog" persistent max-width="600px">
+        <v-dialog v-model="dialog" persistent max-width="500px">
             <template v-slot:activator="{ on, attrs }">
-                <v-btn color="primary" dark v-bind="attrs" v-on="on">
+                <v-btn
+                    color="primary"
+                    dark
+                    v-bind="attrs"
+                    v-on="on"
+                    class="mb-2"
+                >
                     <span><v-icon>add</v-icon></span>
                     <span>Add Restaurant Owner</span>
                 </v-btn>
