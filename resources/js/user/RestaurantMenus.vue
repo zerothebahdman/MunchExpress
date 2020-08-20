@@ -62,7 +62,7 @@
                   <v-divider></v-divider>
 
                   <v-card-text>
-                    <h6 class="font-weight-bold">Menu Description:</h6>I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
+                    <h6 class="font-weight-bold">Menu Description:</h6>Banga or ofe akwu is a flavorful Nigerian soup made with palm fruit, beef or dried fish, vegetables, and seasonings such as salt and chili pepper. The soup is traditionally paired with various fufu dishes. The name of the dish is derived from two words: ofe, meaning soup or stew, and akwu, meaning palm fruit.
                   </v-card-text>
                 </div>
               </v-expand-transition>
