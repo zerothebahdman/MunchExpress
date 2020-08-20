@@ -18,7 +18,7 @@ let routes = [{
         name: 'restaurants'
     },
     {
-        path: '/user/menus',
+        path: '/admin/menus',
         component: menus,
         name: 'menus'
     },

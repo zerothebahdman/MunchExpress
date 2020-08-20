@@ -10919,3 +10919,17 @@ a.v-list-item--link:hover {
   text-decoration: none;
 }
 
+@media (max-width: 768px) {
+  .restaurant,
+  .restaurant-menus {
+    margin-left: 0rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .restaurant,
+  .restaurant-menus {
+    margin-left: 2rem;
+  }
+}
+

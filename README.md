@@ -9,7 +9,7 @@
 
 ## About The Application
 
-So this is a Restaurant Management Application built with Laravel and Vue js(I used Vuetify as the UI component).
+So this is a Restaurant Management Application built with Laravel and Vue js (I used Vuetify as the UI component library).
 So basically what this does is it helps a Restaurant keep track of thier company, how di they do this? well and admin logs in to create an account for other restaurant workers after the admin has done this the restaurant workers are able to add restaurant menus to the application. I implemented roles and permissions which gives restaurant workers limited access to some sensitive areas in the application.
 When Menus are Created by the restaurant worker it displays on the home page, these menus are iterated from the database it keeps track of the quantity of that menu left in stock and displays it on the workers dashboard, when out of stock the system notifies the worker that, that particular menu is temporarily out of stock.
 

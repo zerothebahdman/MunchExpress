@@ -1,29 +1,84 @@
 <template>
-    <v-card class="mx-auto" max-width="400">
-        <v-img
-            class="white--text align-end"
-            height="200px"
-            src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-        >
-            <v-card-title>Top 10 Australian beaches</v-card-title>
-        </v-img>
+  <div class="restaurant-menus">
+    <v-card class="ma-5" flat>
+      <v-container>
+        <v-row>
+          <v-col cols="12" sm="12" md="6">
+            <v-card>
+              <v-img src="../img/gbegiri.jpg" height="250px" class="white--text align-end">
+                <v-card-title>GBEGIRI + AMALA</v-card-title>
+              </v-img>
 
-        <v-card-subtitle class="pb-0">Number 10</v-card-subtitle>
+              <v-card-title>GBEGIRI + AMALA</v-card-title>
 
-        <v-card-text class="text--primary">
-            <div>Whitehaven Beach</div>
+              <v-card-subtitle class="font-weight-bold">Price: &#8358; 3500</v-card-subtitle>
 
-            <div>Whitsunday Island, Whitsunday Islands</div>
-        </v-card-text>
+              <v-card-actions>
+                <v-btn color="purple" text>Edit</v-btn>
+                <v-btn text color="red">Delete</v-btn>
 
-        <v-card-actions>
-            <v-btn color="orange" text>
-                Share
-            </v-btn>
+                <v-spacer></v-spacer>
+                <v-btn @click="display = !display" flat text>
+                  Description
+                  <v-icon>{{ display ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+                </v-btn>
+              </v-card-actions>
 
-            <v-btn color="orange" text>
-                Explore
-            </v-btn>
-        </v-card-actions>
+              <v-expand-transition>
+                <div v-show="display">
+                  <v-divider></v-divider>
+
+                  <v-card-text>
+                    <h6 class="font-weight-bold">Menu Description:</h6>Gbegiri is a traditional Nigerian bean soup consisting of honey beans (also called brown beans), smoked or fresh fish, ground crayfish, palm oil, stock, irú (locust beans), salt, and pepper. The beans are soaked, peeled, and mashed to a smooth paste, which is then combined with the other ingredients and cooked until the mixture reaches a slightly thickened consistency.
+                  </v-card-text>
+                </div>
+              </v-expand-transition>
+            </v-card>
+          </v-col>
+
+          <v-col cols="12" sm="12" md="6">
+            <v-card>
+              <v-img src="../img/bangasoup.jpg" height="250px" class="white--text align-end">
+                <v-card-title>BANGA SOUP + FUFU</v-card-title>
+              </v-img>
+
+              <v-card-title>Vegetable Soup + FUFU</v-card-title>
+
+              <v-card-subtitle class="font-weight-bold">Price: &#8358; 3000</v-card-subtitle>
+
+              <v-card-actions>
+                <v-btn color="purple" text>Edit</v-btn>
+                <v-btn text color="red">Delete</v-btn>
+
+                <v-spacer></v-spacer>
+                <v-btn @click="show = !show" flat text>
+                  Description
+                  <v-icon>{{ show ? 'mdi-chevron-up' : 'mdi-chevron-down' }}</v-icon>
+                </v-btn>
+              </v-card-actions>
+
+              <v-expand-transition>
+                <div v-show="show">
+                  <v-divider></v-divider>
+
+                  <v-card-text>
+                    <h6 class="font-weight-bold">Menu Description:</h6>I'm a thing. But, like most politicians, he promised more than he could deliver. You won't have time for sleeping, soldier, not with all the bed making you'll be doing. Then we'll go with that data file! Hey, you add a one and two zeros to that or we walk! You're going to do his laundry? I've got to find a way to escape.
+                  </v-card-text>
+                </div>
+              </v-expand-transition>
+            </v-card>
+          </v-col>
+        </v-row>
+      </v-container>
     </v-card>
+  </div>
 </template>
+
+<script>
+export default {
+  data: () => ({
+    show: false,
+    display: false,
+  }),
+};
+</script>

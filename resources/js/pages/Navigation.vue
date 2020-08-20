@@ -4,9 +4,37 @@
             v-model="primaryDrawer.model"
             :clipped="primaryDrawer.clipped"
             app
+            dark
+            src="../img/4884.jpg"
             overflow
             style="width: 17.5rem;"
         >
+            <v-list-item class="px-2 mt-4">
+                <span>
+                    <v-list-item-avatar size="70">
+                        <v-img
+                            src="https://img.icons8.com/plasticine/200/000000/user-male.png"
+                            style="border: thin solid #fff"
+                        ></v-img>
+                    </v-list-item-avatar>
+                </span>
+                <span>
+                    <v-list-item-content>
+                        <v-list-item-title class="title"
+                            >Admin</v-list-item-title
+                        >
+                        <v-list-item-subtitle
+                            >admin@me.com</v-list-item-subtitle
+                        >
+                    </v-list-item-content>
+                </span>
+            </v-list-item>
+
+            <!-- <v-list-item link>
+
+            </v-list-item> -->
+
+            <v-divider></v-divider>
             <v-list class="mr-3">
                 <v-list-item
                     link
@@ -46,8 +74,8 @@
             </v-list>
         </v-navigation-drawer>
 
-        <v-app-bar :clipped-left="primaryDrawer.clipped" app flat>
-            <v-toolbar flat class="transparent">
+        <v-app-bar :clipped-left="primaryDrawer.clipped" app flat class="nav">
+            <v-toolbar flat>
                 <v-app-bar-nav-icon
                     v-if="primaryDrawer.type !== 'permanent'"
                     @click.stop="primaryDrawer.model = !primaryDrawer.model"
@@ -95,7 +123,7 @@ export default {
             {
                 icon: "mdi-food",
                 name: "Restuarant Menus",
-                route: "/user/menus"
+                route: "/admin/menus"
             }
         ],
         primaryDrawer: {
@@ -112,3 +140,9 @@ export default {
     })
 };
 </script>
+
+<style>
+.nav {
+    background: #fff !important;
+}
+</style>
